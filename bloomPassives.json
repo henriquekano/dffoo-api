@@ -1,0 +1,3746 @@
+{
+  "mog": {
+    "bloomStone": {
+      "id": 160,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 6041,
+        "name": {
+          "en": "Boost All Growth",
+          "gl": "",
+          "jp": "ブーストオールグロース"
+        },
+        "desc": {
+          "en": "",
+          "gl": "",
+          "jp": "「ブーストオール」の使用回数＋1\\n\\n「ブーストオール」の効果を\\n2ACTION期間延長"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "aranea": {
+    "bloomStone": {
+      "id": 149,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 3976,
+        "name": {
+          "en": "Set Overclock Growth",
+          "gl": "Set Overclock Growth",
+          "jp": "セットオーバーブーストグロース"
+        },
+        "desc": {
+          "en": "[Set Overclock] use +1",
+          "gl": "Set Overclock use +1",
+          "jp": "「セットオーバーブースト」の使用回数＋1"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "ceodore": {
+    "bloomStone": {
+      "id": 159,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 5646,
+        "name": {
+          "en": "HP Heal Advance All Growth",
+          "gl": "",
+          "jp": "HPヒールアドバンスオールグロース"
+        },
+        "desc": {
+          "en": "[HP Heal Advance All] use +2",
+          "gl": "",
+          "jp": "「HPヒールアドバンスオール」の使用回数＋2"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "guy": {
+    "bloomStone": {
+      "id": 16,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 5422,
+        "name": {
+          "en": "Weak Damage Up All Growth",
+          "gl": "",
+          "jp": "ウィークダメージアップオールグロース"
+        },
+        "desc": {
+          "en": "[Weak Damage Up All] use +1\\n\\n[Weak Damage Up All] effects duration +2",
+          "gl": "",
+          "jp": "「ウィークダメージアップオール」の使用回数＋1\\n\\n「ウィークダメージアップオール」の効果を\\n2ACTION期間延長"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "xande": {
+    "bloomStone": {
+      "id": 158,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 5377,
+        "name": {
+          "en": "Weak Damage Up Growth",
+          "gl": "",
+          "jp": "ウィークダメージアップグロース"
+        },
+        "desc": {
+          "en": "[Weak Damage Up] use +1\\n\\n[Weak Damage Up] effects duration +2",
+          "gl": "",
+          "jp": "「ウィークダメージアップ」の使用回数＋1\\n\\n「ウィークダメージアップ」の効果を\\n2ACTION期間延長"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "rude": {
+    "bloomStone": {
+      "id": 157,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 4791,
+        "name": {
+          "en": "Resist Boost All Growth",
+          "gl": "",
+          "jp": "レジストブーストオールグロース"
+        },
+        "desc": {
+          "en": "[Resist Boost All] use +1\\n\\n[Resist Boost All] effects duration +2",
+          "gl": "",
+          "jp": "「レジストブーストオール」の使用回数＋1\\n\\n「レジストブーストオール」の効果を\\n2ACTION期間延長"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "reno": {
+    "bloomStone": {
+      "id": 156,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 4777,
+        "name": {
+          "en": "Debuff Act Long Slash Growth",
+          "gl": "",
+          "jp": "デバフアクトロングクラッシュグロース"
+        },
+        "desc": {
+          "en": "[Debuff Act Long Slash] use +1\\n\\n[Debuff Act Long Slash] effects duration +2",
+          "gl": "",
+          "jp": "「デバフアクトロングクラッシュ」の使用回数＋1\\n\\n「デバフアクトロングクラッシュ」の効果を\\n2ACTION期間延長"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "gladiolus": {
+    "bloomStone": {
+      "id": 153,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 4407,
+        "name": {
+          "en": "HP Heal & Boost All Growth",
+          "gl": "",
+          "jp": "HPヒール＆ブーストオールグロース"
+        },
+        "desc": {
+          "en": "[HP Heal & Boost All] use +2",
+          "gl": "",
+          "jp": "「HPヒール＆ブーストオール」の使用回数＋2"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "kurasame": {
+    "bloomStone": {
+      "id": 155,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 5077,
+        "name": {
+          "en": "BRV Up Blizzard Slash Growth",
+          "gl": "",
+          "jp": "BRVアップブリザドスラッシュグロース"
+        },
+        "desc": {
+          "en": "BRV Up Blizzard Slash use +2",
+          "gl": "",
+          "jp": "「BRVアップブリザドスラッシュ」の使用回数＋2"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "strago": {
+    "bloomStone": {
+      "id": 131,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 4757,
+        "name": {
+          "en": "Set Soul of Thamasa Attack Up Growth",
+          "gl": "",
+          "jp": "セットソウルオブサマサアタックアップグロース"
+        },
+        "desc": {
+          "en": "[Set Soul of Thamasa Attack Up] use +2\\n\\nWhen using [Set Soul of Thamasa Attack Up]\\n• Extends duration of [Soul of Thamasa] by 1 turn",
+          "gl": "",
+          "jp": "「セットソウルオブサマサアタックアップ」の使用回数＋2\\n\\n「セットソウルオブサマサアタックアップ」使用時\\n「ソウルオブサマサ」の1ACTION期間延長"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "edward": {
+    "bloomStone": {
+      "id": 151,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 4373,
+        "name": {
+          "en": "BRV Heal All Buff Long Growth",
+          "gl": "",
+          "jp": "BRVヒールオールバフロンググロース"
+        },
+        "desc": {
+          "en": "[BRV Heal All Buff Long] use +2",
+          "gl": "",
+          "jp": "「BRVヒールオールバフロング」の使用回数＋2"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "ardyn": {
+    "bloomStone": {
+      "id": 150,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 4036,
+        "name": {
+          "en": "Break Reset Slash Growth",
+          "gl": "Break Reset Slash Growth",
+          "jp": "ブレイクリセットスラッシュグロース"
+        },
+        "desc": {
+          "en": "[Break Reset Slash] use +2",
+          "gl": "Break Reset Slash use +2",
+          "jp": "「ブレイクリセットスラッシュ」の使用回数＋2"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "nine": {
+    "bloomStone": {
+      "id": 143,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 4051,
+        "name": {
+          "en": "Boost Thrust Growth",
+          "gl": "Boost Thrust Growth",
+          "jp": "ブーストスラストグロース"
+        },
+        "desc": {
+          "en": "[Boost Thrust] use +2",
+          "gl": "Boost Thrust use +2",
+          "jp": "「ブーストスラスト」の使用回数＋2"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "gabranth": {
+    "bloomStone": {
+      "id": 148,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 4020,
+        "name": {
+          "en": "Protect All Growth",
+          "gl": "Protect All Growth",
+          "jp": "プロテクトオールグロース"
+        },
+        "desc": {
+          "en": "[Protect All] use +1\\n\\nWhen using [Protect All]\\n• HP damage reduction effect +20%",
+          "gl": "Protect All use +1\\n\\nWhen using Protect All:\\n • Slightly reduces HP damage taken",
+          "jp": "「プロテクトオール」の使用回数＋1\\n\\n「プロテクトオール」使用時\\n受けるHPダメージを軽減する効果小アップ"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "desch": {
+    "bloomStone": {
+      "id": 147,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 3943,
+        "name": {
+          "en": "HP Heal Advance Growth",
+          "gl": "HP Heal Advance All Growth",
+          "jp": "HPヒールアドバンスオールグロース"
+        },
+        "desc": {
+          "en": "[HP Heal Advance] use +2",
+          "gl": "All HP Heal Advance use +2",
+          "jp": "「HPヒールアドバンスオール」の使用回数＋2"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "amidatelion": {
+    "bloomStone": {
+      "id": 146,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 3583,
+        "name": {
+          "en": "Ability Recovery BRV Regen All Growth",
+          "gl": "Ability Recovery BRV Regen Growth",
+          "jp": "アビリティリカバリーBRVリジェネオールグロース"
+        },
+        "desc": {
+          "en": "When using [Ability Recovery BRV Regen All]\\n• Party-wide [BRV Regen] effect duration +4",
+          "gl": "When using Ability Recovery BRV Regen All:\\n • Party's BRV Regen duration +4",
+          "jp": "「アビリティリカバリーBRVリジェネオール」の\\n味方全員への「BRVリジェネ」効果を4ACTION期間延長"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "trey": {
+    "bloomStone": {
+      "id": 145,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 3548,
+        "name": {
+          "en": "Ability Recovery Attack Up Growth",
+          "gl": "Ability Recovery Attack Up Growth",
+          "jp": "アビリティリカバリーアタックアップグロース"
+        },
+        "desc": {
+          "en": "Extends duration of [Ability Recovery Attack Up] effects by 4 turns",
+          "gl": "Ability Recovery Attack Up's ATK Up duration +4",
+          "jp": "「アビリティリカバリーアタックアップ」の\\n自身の攻撃力アップの効果を4ACTION期間延長"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "ealdnarche": {
+    "bloomStone": {
+      "id": 144,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 3293,
+        "name": {
+          "en": "Debuff Turn Long Throw Growth",
+          "gl": "Debuff Act Longer Throw Growth",
+          "jp": "デバフアクトロングスローグロース"
+        },
+        "desc": {
+          "en": "[Debuff Turn Long Throw] use +1\\n\\n[Debuff Turn Long Throw] effects duration +2",
+          "gl": "Debuff Act Longer Throw use +1\\n\\nDebuff Act Longer Throw duration +2",
+          "jp": "「デバフアクトロングスロー」の使用回数＋1\\n\\n「デバフアクトロングスロー」の効果を\\n2ACTION期間延長"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "cloud_of_darkness": {
+    "bloomStone": {
+      "id": 142,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 3057,
+        "name": {
+          "en": "Break Reset Burst Growth",
+          "gl": "Break Reset Burst Growth",
+          "jp": "ブレイクリセットバーストグロース"
+        },
+        "desc": {
+          "en": "「Break Reset Burst」 use +2",
+          "gl": "Break Reset Burst use +2",
+          "jp": "「ブレイクリセットバースト」の使用回数＋2"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "keiss": {
+    "bloomStone": {
+      "id": 140,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 3023,
+        "name": {
+          "en": "Hero Support Recovery Attack All Growth",
+          "gl": "Hero Support Recovery Attack All Growth",
+          "jp": "ヒーローサポートリカバリーアタックオールグロース"
+        },
+        "desc": {
+          "en": "[Hero Support Recovery Attack All] use +2",
+          "gl": "Hero Support Recovery Attack All use +2",
+          "jp": "「ヒーローサポートリカバリーアタックオール」の使用回数＋2"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "arciela": {
+    "bloomStone": {
+      "id": 141,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 2619,
+        "name": {
+          "en": "Ability Recovery Attack All Growth",
+          "gl": "Ability Recovery Attack All Growth",
+          "jp": "アビリティリカバリーアタックオールグロース"
+        },
+        "desc": {
+          "en": "When using [Ability Recovery Attack All]\\n• [ATK Up] effect duration +4",
+          "gl": "When using Ability Recovery All Attack:\\n • Party's ATK Up duration +4",
+          "jp": "「アビリティリカバリーアタックオール」使用時\\n味方全員の攻撃力アップの効果を4ACTION期間延長"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "jack": {
+    "bloomStone": {
+      "id": 136,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 2569,
+        "name": {
+          "en": "Critical Power Boost Growth",
+          "gl": "Critical Power Boost Growth",
+          "jp": "クリティカルパワーブーストグロース"
+        },
+        "desc": {
+          "en": "[Critical Power Boost] use +1\\n\\n[Critical Power Boost] effects duration +2",
+          "gl": "Critical Power Boost use +1\\n\\nCritical Power Boost duration +2",
+          "jp": "「クリティカルパワーブースト」の使用回数＋1\\n\\n「クリティカルパワーブースト」の効果を\\n2ACTION期間延長"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "caius": {
+    "bloomStone": {
+      "id": 137,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 2513,
+        "name": {
+          "en": "Set Doom Crush Growth",
+          "gl": "Set Doom Crush Growth",
+          "jp": "セット死の宣告クラッシュグロース"
+        },
+        "desc": {
+          "en": "[Set Doom Crush] use +1\\n\\nWhen using [Set Doom Crush]\\n• [ATK Up] effect duration +2",
+          "gl": "Set Doom Crush use +1\\n\\nWhen using Set Doom Crush:\\n • Adds 2 turns to slight ATK boost effect",
+          "jp": "「セット死の宣告クラッシュ」の使用回数＋1\\n\\n「セット死の宣告クラッシュ」使用時\\n自身の攻撃力小アップの効果を2ACTION追加"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "exdeath": {
+    "bloomStone": {
+      "id": 135,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 2456,
+        "name": {
+          "en": "Attack Boost Up Growth",
+          "gl": "Attack Boost Up Growth",
+          "jp": "アタックブーストアップグロース"
+        },
+        "desc": {
+          "en": "[Attack Boost Up] use +1\\n[Attack Boost Up] effects duration +2",
+          "gl": "Attack Boost Up use +1\\n\\nAttack Boost Up effect duration +2",
+          "jp": "「アタックブーストアップ」の使用回数＋1\\n\\n「アタックブーストアップ」の効果を\\n2ACTION期間延長"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "leo": {
+    "bloomStone": {
+      "id": 134,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 2431,
+        "name": {
+          "en": "Set Breakthrough Point Boost All Growth",
+          "gl": "Set Precision Strike Boost All Growth",
+          "jp": "セット一点突破ブーストオールグロース"
+        },
+        "desc": {
+          "en": "「Set Breakthrough Point Boost All」 use +2",
+          "gl": "Set Precision Strike Boost All use +2",
+          "jp": "「セット一点突破ブーストオール」の使用回数＋2"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "beatrix": {
+    "bloomStone": {
+      "id": 114,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 1546,
+        "name": {
+          "en": "HP Heal Attack All Growth",
+          "gl": "HP Heal Attack All Growth",
+          "jp": "HPヒールアタックオールグロース"
+        },
+        "desc": {
+          "en": "[HP Heal Attack All] use +1\\n\\nWhen using [HP Heal Attack All]\\n• Increases HP recovered by 10%",
+          "gl": "HP Heal Attack All use +1\\n\\nWhen using HP Heal Attack All:\\n • Slightly increased party HP recovery",
+          "jp": "「HPヒールアタックオール」の使用回数＋1\\n\\n「HPヒールアタックオール」使用時\\n味方全員へのHP回復量小アップ"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "ciaran": {
+    "bloomStone": {
+      "id": 123,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 2352,
+        "name": {
+          "en": "Set Drop of Myrrh Growth",
+          "gl": "Set Drop of Myrrh Growth",
+          "jp": "セットミルラの雫グロース"
+        },
+        "desc": {
+          "en": "「Set Drop of Myrrh」 use +1\\nAcquires 1 additional 「Drop of Myrrh」 (max 5)",
+          "gl": "Set Drop of Myrrh use +1\\n\\nWhen using Set Drop of Myrrh:\\n • Special effect Drop of Myrrh granted +1",
+          "jp": "「セットミルラの雫」の使用回数＋1\\n\\n「セットミルラの雫」の\\n特殊効果「ミルラの雫」加算量＋1"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "kamlanaut": {
+    "bloomStone": {
+      "id": 132,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 2297,
+        "name": {
+          "en": "Set Desire of Provenance Attack Up Growth",
+          "gl": "Set Desire of Provenance Attack Up Growth",
+          "jp": "セット創世の本懐アタックアップグロース"
+        },
+        "desc": {
+          "en": "「Set Desire of Provenance Attack Up」 use +1\\nDuration of 「Set Desire of Provenance Attack Up」 effects +2 turns",
+          "gl": "Set Desire of Provenance Attack Up use +1\\n\\nSet Desire of Provenance Attack Up effect duration +2",
+          "jp": "「セット創世の本懐アタックアップ」の使用回数＋1\\n\\n「セット創世の本懐アタックアップ」の効果を\\n2ACTION期間延長"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "gau": {
+    "bloomStone": {
+      "id": 122,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 2251,
+        "name": {
+          "en": "Stone Enchant Growth",
+          "gl": "Stone Enchant Growth",
+          "jp": "ストーンエンチャントグロース"
+        },
+        "desc": {
+          "en": "「Earth Enchant」 use +2",
+          "gl": "Stone Enchant use +2",
+          "jp": "「ストーンエンチャント」の使用回数＋2"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "ignis": {
+    "bloomStone": {
+      "id": 127,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 2238,
+        "name": {
+          "en": "Boost All Growth",
+          "gl": "Boost All Growth",
+          "jp": "ブーストオールグロース"
+        },
+        "desc": {
+          "en": "[Boost All] use +1\\n\\n[Boost All] effect duration +2",
+          "gl": "Boost All use +1\\n\\nBoost All effect duration +2",
+          "jp": "「ブーストオール」の使用回数＋1\\n\\n「ブーストオール」の効果を\\n2ACTION期間延長"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "eight": {
+    "bloomStone": {
+      "id": 128,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 2200,
+        "name": {
+          "en": "BRV Up Buff Longer Growth",
+          "gl": "BRV Up Buff Longer Growth",
+          "jp": "BRVアップバフロンググロース"
+        },
+        "desc": {
+          "en": "「BRV Up Buff Long」 use +2",
+          "gl": "BRV Up Buff Longer use +2",
+          "jp": "「BRVアップバフロング」の使用回数＋2"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "the_emperor": {
+    "bloomStone": {
+      "id": 124,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 2125,
+        "name": {
+          "en": "Debuff Attack Up Growth",
+          "gl": "Debuff Attack Up Growth",
+          "jp": "デバフアタックアップグロース"
+        },
+        "desc": {
+          "en": "[Debuff Attack Up] use +1\\n[Debuff Attack Up] effect duration +2",
+          "gl": "Debuff Attack Up use +1\\n\\nDebuff Attack Up effect duration +2",
+          "jp": "「デバフアタックアップ」の使用回数＋1\\n\\n「デバフアタックアップ」の効果を\\n2ACTION期間延長"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "kimahri": {
+    "bloomStone": {
+      "id": 121,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 2085,
+        "name": {
+          "en": "All Attack Guard Up Growth",
+          "gl": "All Attack Guard Up Growth",
+          "jp": "アタックガードアップオールグロース"
+        },
+        "desc": {
+          "en": "「Attack Guard Up All」 use +1\\nDuration of 「Attack Guard Up All」 effects +2 turns",
+          "gl": "All Attack Guard Up use +1\\n\\nAll Attack Guard Up effect duration +2",
+          "jp": "「アタックガードアップオール」の使用回数＋1\\n\\n「アタックガードアップオール」の効果を\\n2ACTION期間延長"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "basch": {
+    "bloomStone": {
+      "id": 41,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 2029,
+        "name": {
+          "en": "HP Heal Attack Up Growth",
+          "gl": "HP Heal Attack Up Growth",
+          "jp": "HPヒールアタックアップグロース"
+        },
+        "desc": {
+          "en": "「HP Heal Attack Up」 use +2",
+          "gl": "HP Heal Attack Up use +2",
+          "jp": "「HPヒールアタックアップ」の使用回数＋2"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "lyse": {
+    "bloomStone": {
+      "id": 117,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 1570,
+        "name": {
+          "en": "Fists of Fire Longer Attack Growth",
+          "gl": "Fists of Fire Longer Attack Growth",
+          "jp": "紅蓮の構えロングアタックグロース"
+        },
+        "desc": {
+          "en": "「Fists of Fire Long Attack」 use +1\\nDuration of 「Fists of Fire Long」 effects +2 turns",
+          "gl": "Fists of Fire Longer Attack use +1\\n\\nFists of Fire Longer Attack effect duration +2",
+          "jp": "「紅蓮の構えロングアタック」の使用回数＋1\\n\\n「紅蓮の構えロングアタック」の効果を\\n2ACTION期間延長"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "machina": {
+    "bloomStone": {
+      "id": 78,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 1989,
+        "name": {
+          "en": "Awakening Longer Growth",
+          "gl": "Awakening Longer Growth",
+          "jp": "アサルトモードロンググロース"
+        },
+        "desc": {
+          "en": "「Awakening Long」 use +1\\n「Awakening」 duration extension effect +2 turns",
+          "gl": "Awakening Longer use +1\\n\\nWhen using Awakening Longer:\\n • Active Awakening buff duration +2",
+          "jp": "「アサルトモードロング」の使用回数＋1\\n\\n「アサルトモードロング」使用時\\n自身に付与されている\\n強化効果「アサルトモード」の\\n2ACTION期間延長"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "ultimecia": {
+    "bloomStone": {
+      "id": 118,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 1578,
+        "name": {
+          "en": "Set BRV Regen Growth",
+          "gl": "Set BRV Regen Growth",
+          "jp": "セットBRVリジェネグロース"
+        },
+        "desc": {
+          "en": "[Set BRV Regen] use +1\\n\\n[Set BRV Regen] effects duration +2",
+          "gl": "Set BRV Regen use +1\\n\\nSet BRV Regen effect duration +2",
+          "jp": "「セットBRVリジェネ」の使用回数＋1\\n\\n「セットBRVリジェネ」の効果を\\n2ACTION期間延長"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "garland": {
+    "bloomStone": {
+      "id": 119,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 1870,
+        "name": {
+          "en": "Set Soul of Conflict BRV Up Growth",
+          "gl": "Set Soul of Conflict BRV Up Growth",
+          "jp": "セット闘争の魂BRVアップグロース"
+        },
+        "desc": {
+          "en": "「Set Soul of Conflict BRV Up」 use +1\\nDuration of 「Set Soul of Conflict BRV Up」 effects +1 turn",
+          "gl": "Set Soul of Conflict BRV Up use +1\\n\\nWhen using Set Soul of Conflict BRV Up:\\n • Soul of Conflict duration +1",
+          "jp": "「セット闘争の魂BRVアップ」の\\n使用回数＋1\\n\\n「セット闘争の魂BRVアップ」使用時\\n「闘争の魂」の1ACTION期間延長"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "sherlotta": {
+    "bloomStone": {
+      "id": 115,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 1554,
+        "name": {
+          "en": "All BRV Rejuvenate Growth",
+          "gl": "All BRV Rejuvenate Growth",
+          "jp": "BRVヒールオールグロース"
+        },
+        "desc": {
+          "en": "「BRV Heal All」 use +1\\n\\nWhen using 「BRV Heal All」:\\n- Slightly raises BRV gain based on Max BRV",
+          "gl": "All BRV Rejuvenate use +1\\n\\nWhen using All BRV Rejuvenate:\\n • Slight boost to BRV granted based on own MAX BRV",
+          "jp": "「BRVヒールオール」の使用回数＋1\\n\\n「BRVヒールオール」使用時\\n自身の最大BRVに依存した\\nBRV加算量小アップ"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "aphmau": {
+    "bloomStone": {
+      "id": 93,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 1763,
+        "name": {
+          "en": "Puppeteer Buff Long Growth",
+          "gl": "Puppeteer Buff Longer Growth",
+          "jp": "傀儡師バフロンググロース"
+        },
+        "desc": {
+          "en": "[Puppeteer Buff Long] use +1\\n\\n[Mnejing's Tactics], [Ovjang's Tactics] duration +1\\n[Automaton], [Optimization], [Fine-Tuning] duration +1",
+          "gl": "Puppeteer Buff Longer use +1\\n\\nWhen using Puppeteer Buff Longer:\\n • Extends active Mnejing's Tactics, Ovjang's Tactics 1 turn\\n • Extends allies' active Automaton, Fine-Tuning, Optimization 1 turn",
+          "jp": "「傀儡師バフロング」の使用回数＋1\\n\\n「傀儡師バフロング」使用時\\n・自身に付与されている\\n　「メネジンの戦法」「アヴゼンの戦法」の\\n　1ACTION期間延長\\n・自身以外の味方全員に付与されている\\n　「オートマトン」「微調整」「最適化」の\\n　1ACTION期間延長"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "noel": {
+    "bloomStone": {
+      "id": 113,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 1723,
+        "name": {
+          "en": "Shaving Slash Growth",
+          "gl": "Shaving Slash Growth",
+          "jp": "シェイブスラッシュグロース"
+        },
+        "desc": {
+          "en": "[Shaving Slash] use +1\\n\\n[Shaving Slash] effects duration +2",
+          "gl": "Shaving Slash use +1\\n\\nShaving Slash effect duration +2",
+          "jp": "「シェイブスラッシュ」の使用回数＋1\\n\\n「シェイブスラッシュ」の効果を\\n2ACTION期間延長"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "alphinaud": {
+    "bloomStone": {
+      "id": 112,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 1711,
+        "name": {
+          "en": "All BRV Regen Growth",
+          "gl": "All BRV Regen Growth",
+          "jp": "BRVリジェネオールグロース"
+        },
+        "desc": {
+          "en": "「BRV Regen All」 use +1\\nDuration of 「BRV Regen All」 effects +2 turns",
+          "gl": "All BRV Regen use +1\\n\\nAll BRV Regen effect duration +2",
+          "jp": "「BRVリジェネオール」の使用回数＋1\\n\\n「BRVリジェネオール」の効果を\\n2ACTION期間延長"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "prompto": {
+    "bloomStone": {
+      "id": 111,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 1644,
+        "name": {
+          "en": "Attack Speed Up Growth",
+          "gl": "Attack Speed Growth",
+          "jp": "アタックスピードグロース"
+        },
+        "desc": {
+          "en": "[Attack Speed Up] use +1\\n\\n[Attack Speed Up] effects duration +2",
+          "gl": "Attack Speed use +1\\n\\nAttack Speed effect duration +2",
+          "jp": "「アタックスピード」の使用回数＋1\\n\\n「アタックスピード」の効果を\\n2ACTION期間延長"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "cinque": {
+    "bloomStone": {
+      "id": 108,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 1603,
+        "name": {
+          "en": "Set Stun BRV Up Growth",
+          "gl": "Set Stun BRV Up Growth",
+          "jp": "セットスタンBRVアップグロース"
+        },
+        "desc": {
+          "en": "[Set Stun BRV Up] use +1\\n\\nWhen using [Set Stun BRV Up]\\n• [Stun] level +1",
+          "gl": "Set Stun BRV Up use +1\\n\\nWhen using Set Stun BRV Up:\\n • Inflicted Stun level +1",
+          "jp": "「セットスタンBRVアップ」の使用回数＋1\\n\\n「セットスタンBRVアップ」の\\n「スタン」の付与段階＋1"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "paine": {
+    "bloomStone": {
+      "id": 107,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 1592,
+        "name": {
+          "en": "Debuff Attack Advance Growth",
+          "gl": "Debuff Attack Advance Growth",
+          "jp": "デバフアタックアドバンスグロース"
+        },
+        "desc": {
+          "en": "Increases the max uses of Debuff Attack Advance by 1.\\nExtends the duration of its effects by 1 turn.",
+          "gl": "Debuff Attack Advance use +1\\n\\nDebuff Attack Advance effect duration +1",
+          "jp": "「デバフアタックアドバンス」の使用回数＋1\\n\\n「デバフアタックアドバンス」の効果を\\n1ACTION期間延長"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "porom": {
+    "bloomStone": {
+      "id": 106,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 1538,
+        "name": {
+          "en": "HP Heal Attack All Growth",
+          "gl": "HP Heal Attack All Growth",
+          "jp": "HPヒールアタックオールグロース"
+        },
+        "desc": {
+          "en": "「HP Heal Attack All」 use +2",
+          "gl": "HP Heal Attack All use +2",
+          "jp": "「HPヒールアタックオール」の使用回数＋2"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "fran": {
+    "bloomStone": {
+      "id": 105,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 2435,
+        "name": {
+          "en": "Whip Kick Recovery Growth ",
+          "gl": "Whip Kick Recovery Growth",
+          "jp": "強甲破点蹴リカバリーグロース"
+        },
+        "desc": {
+          "en": "「Whip Kick Recovery」 use +2",
+          "gl": "Whip Kick Recovery use +2",
+          "jp": "「強甲破点蹴リカバリー」の使用回数＋2"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "vayne": {
+    "bloomStone": {
+      "id": 104,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 2388,
+        "name": {
+          "en": "Buff Keep Savate Growth",
+          "gl": "Buff Keep Savate Growth",
+          "jp": "バフキープソバットグロース"
+        },
+        "desc": {
+          "en": "「Buff Keep Savate」 use +2",
+          "gl": "Buff Keep Savate use +2",
+          "jp": "「バフキープソバット」の使用回数＋2"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "freya": {
+    "bloomStone": {
+      "id": 103,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 2058,
+        "name": {
+          "en": "All HP Heal Advance Growth",
+          "gl": "All HP Heal Advance Growth",
+          "jp": "HPヒールアドバンスオールグロース"
+        },
+        "desc": {
+          "en": "「HP Heal Advance All」 use +2",
+          "gl": "All HP Heal Advance use +2",
+          "jp": "「HPヒールアドバンスオール」の使用回数＋2"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "lann&reynn": {
+    "bloomStone": {
+      "id": 97,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 2333,
+        "name": {
+          "en": "Set Mirage SL Growth",
+          "gl": "Set Mirage SL Growth",
+          "jp": "セットミラージュSLグロース"
+        },
+        "desc": {
+          "en": "「Set Mirage SL」 use +1\\nDuration of 「Set Mirage SL」 effects +2 turns",
+          "gl": "Set Mirage SL use +1\\n\\nWhen using Set Mirage SL:\\n • ATK boost effect duration +2",
+          "jp": "「セットミラージュSL」の使用回数＋1\\n\\n「セットミラージュSL」使用時\\n自身の攻撃力アップの効果を\\n2ACTION期間延長"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "lulu": {
+    "bloomStone": {
+      "id": 102,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 2258,
+        "name": {
+          "en": "Weak Damage Up All Growth",
+          "gl": "All Weak Damage Up Growth",
+          "jp": "ウィークダメージアップオールグロース"
+        },
+        "desc": {
+          "en": "「Weak Damage Up All」 use +1\\nDuration of 「Weak Damage Up All」 effects +2 turns",
+          "gl": "All Weak Damage Up use +1\\n\\nAll Weak Damage Up effect duration +2",
+          "jp": "「ウィークダメージアップオール」の使用回数＋1\\n\\n「ウィークダメージアップオール」の効果を\\n2ACTION期間延長"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "rinoa": {
+    "bloomStone": {
+      "id": 101,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 2219,
+        "name": {
+          "en": "Initial Attack Growth",
+          "gl": "Initial Attack Growth",
+          "jp": "ベースアタックグロース"
+        },
+        "desc": {
+          "en": "「Base Attack」 use +1\\nDuration of 「Base Attack」 effects +2 turns",
+          "gl": "Initial Attack use +1\\n\\nInitial Attack effect duration +2",
+          "jp": "「ベースアタック」の使用回数＋1\\n\\n「ベースアタック」の効果を\\n2ACTION期間延長"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "golbez": {
+    "bloomStone": {
+      "id": 100,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 2181,
+        "name": {
+          "en": "Dark Enchant Growth",
+          "gl": "Dark Enchant Growth",
+          "jp": "ダークエンチャントグロース"
+        },
+        "desc": {
+          "en": "「Dark Enchant」 use +1\\nDuration of 「Dark Enchant」 effects +2 turns",
+          "gl": "Dark Enchant use +1\\n\\nDark Enchant effect duration +2",
+          "jp": "「ダークエンチャント」の使用回数＋1\\n\\n「ダークエンチャント」の効果を\\n2ACTION期間延長"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "rosa": {
+    "bloomStone": {
+      "id": 98,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 2105,
+        "name": {
+          "en": "All Attack Growth",
+          "gl": "All Attack Growth",
+          "jp": "アタックオールグロース"
+        },
+        "desc": {
+          "en": "「Attack All」 use +1\\nDuration of 「Attack All」 effects +2 turns",
+          "gl": "All Attack use +1\\n\\nAll Attack effect duration +2",
+          "jp": "「アタックオール」の使用回数＋1\\n\\n「アタックオール」の効果を\\n2ACTION期間延長"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "cecil_paladin": {
+    "bloomStone": {
+      "id": 33,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 2389,
+        "name": {
+          "en": "Light Enchant All Growth",
+          "gl": "Light Enchant All Growth",
+          "jp": "ライトエンチャントオールグロース"
+        },
+        "desc": {
+          "en": "[Light Enchant All] use +1\\n\\n[Light Enchant All] effects duration +2",
+          "gl": "Light Enchant All use +1\\n\\nLight Enchant All effect duration +2",
+          "jp": "「ライトエンチャントオール」の使用回数＋1\\n\\n「ライトエンチャントオール」の効果を\\n2ACTION期間延長"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "barret": {
+    "bloomStone": {
+      "id": 96,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 2068,
+        "name": {
+          "en": "All Physical Attack Growth",
+          "gl": "All Physical Attack Growth",
+          "jp": "フィジクスアタックオールグロース"
+        },
+        "desc": {
+          "en": "「Physical Attack All」 use +1\\nDuration of 「Physical Attack All」 effects +2 turns",
+          "gl": "All Physical Attack use +1\\n\\nAll Physical Attack effect duration +2",
+          "jp": "「フィジクスアタックオール」の使用回数＋1\\n\\n「フィジクスアタックオール」の効果を\\n2ACTION期間延長"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "locke": {
+    "bloomStone": {
+      "id": 95,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 1741,
+        "name": {
+          "en": "Steal Item Growth",
+          "gl": "Steal Item Growth",
+          "jp": "アイテムスティールグロース"
+        },
+        "desc": {
+          "en": "「Item Steal」 use +1\\nDuration of buffs granted by 「Item Steal」 +2 turns",
+          "gl": "Steal Item use +1\\n\\nSteal Item effects granted duration +2",
+          "jp": "「アイテムスティール」の使用回数＋1\\n\\n「アイテムスティール」の付与する\\n強化効果の期間を2ACTION延長"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "agrias": {
+    "bloomStone": {
+      "id": 91,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 1945,
+        "name": {
+          "en": "Debuff Success Attack Up Growth",
+          "gl": "Debuff Success Attack Up Growth",
+          "jp": "デバフサクセスアタックアップグロース"
+        },
+        "desc": {
+          "en": "[Debuff Success Attack Up] use +1",
+          "gl": "Debuff Success Attack Up use +1",
+          "jp": "「デバフサクセスアタックアップ」の使用回数＋1"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "deuce": {
+    "bloomStone": {
+      "id": 85,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 1902,
+        "name": {
+          "en": "All Magic Attack Growth",
+          "gl": "All Magic Attack Growth",
+          "jp": "マジックアタックオールグロース"
+        },
+        "desc": {
+          "en": "「Magic Attack All」 use +1\\nDuration of 「Magic Attack All」 effects +2 turns",
+          "gl": "All Magic Attack use +1\\n\\nAll Magic Attack effect duration +2",
+          "jp": "「マジックアタックオール」の使用回数＋1\\n\\n「マジックアタックオール」の効果を\\n2ACTION期間延長"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "seven": {
+    "bloomStone": {
+      "id": 92,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 1629,
+        "name": {
+          "en": "Debuff Attack Up Growth",
+          "gl": "Debuff Attack Up Growth",
+          "jp": "デバフアタックアップグロース"
+        },
+        "desc": {
+          "en": "「Debuff Attack Up」 use +1\\nDuration of 「Debuff Attack Up」 effects +2 turns",
+          "gl": "Debuff Attack Up use +1\\n\\nDebuff Attack Up effect duration +2",
+          "jp": "「デバフアタックアップ」の使用回数＋1\\n\\n「デバフアタックアップ」の効果を\\n2ACTION期間延長"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "fang": {
+    "bloomStone": {
+      "id": 94,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 1857,
+        "name": {
+          "en": "All HP Damage Up Growth",
+          "gl": "All HP Damage Up Growth",
+          "jp": "HPダメージアップオールグロース"
+        },
+        "desc": {
+          "en": "「HP Damage Up All」 use +2",
+          "gl": "All HP Damage Up use +2",
+          "jp": "「HPダメージアップオール」の\\n使用回数＋2"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "leonhart": {
+    "bloomStone": {
+      "id": 89,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 1773,
+        "name": {
+          "en": "Dark Enchant Growth",
+          "gl": "Dark Enchant Growth",
+          "jp": "ダークエンチャントグロース"
+        },
+        "desc": {
+          "en": "[Dark Enchant] use +1\\n\\n[Dark Enchant] effects duration +2",
+          "gl": "Dark Enchant use +1\\n\\nDark Enchant effect duration +2",
+          "jp": "「ダークエンチャント」の使用回数＋1\\n\\n「ダークエンチャント」の効果を\\n2ACTION期間延長"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "relm": {
+    "bloomStone": {
+      "id": 88,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 1755,
+        "name": {
+          "en": "Sketch Longer Growth",
+          "gl": "Sketch Longer Growth",
+          "jp": "スケッチロンググロース"
+        },
+        "desc": {
+          "en": "[Sketch Long] use +1\\n\\nWhen using [Sketch Long]\\n• [Sap], [Sketch] duration +1",
+          "gl": "Sketch Longer use +1\\n\\nWhen using Sketch Longer:\\n • Sap duration +1\\n • Sketch debuff duration +1",
+          "jp": "「スケッチロング」の使用回数＋1\\n\\n「スケッチロング」使用時\\n・「スリップ」の1ACTION期間延長\\n・弱体効果「スケッチ」の1ACTION期間延長"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "gilgamesh": {
+    "bloomStone": {
+      "id": 90,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 1660,
+        "name": {
+          "en": "Advance Up Growth",
+          "gl": "Advance Up Growth",
+          "jp": "アドバンスアップグロース"
+        },
+        "desc": {
+          "en": "「Advance Up」 use +1\\nDuration of 「Advance Up」 effects +2 turns",
+          "gl": "Advance Up use +1\\n\\nAdvance Up effect duration +2",
+          "jp": "「アドバンスアップ」の使用回数＋1\\n\\n「アドバンスアップ」の効果を\\n2ACTION期間延長"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "cait_sith": {
+    "bloomStone": {
+      "id": 86,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 2041,
+        "name": {
+          "en": "All BRV Rejuvenate Advance Growth",
+          "gl": "All BRV Rejuvenate Advance Growth",
+          "jp": "BRVヒールアドバンスオールグロース"
+        },
+        "desc": {
+          "en": "「BRV Heal Advance All」 use +1\\nDuration of 「BRV Heal Advance All」 effects +2 turns",
+          "gl": "All BRV Rejuvenate Advance use +1\\n\\nAll BRV Rejuvenate Advance effect duration +2",
+          "jp": "「BRVヒールアドバンスオール」の使用回数＋1\\n\\n「BRVヒールアドバンスオール」の効果を\\n2ACTION期間延長"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "selphie": {
+    "bloomStone": {
+      "id": 87,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 1608,
+        "name": {
+          "en": "Ability Recovery Growth",
+          "gl": "Ability Recovery Growth",
+          "jp": "アビリティリカバリーグロース"
+        },
+        "desc": {
+          "en": "When using [Ability Recovery]\\n• Increases party's BRV by 30% of Max BRV\\n• Recovers party's HP by 30% of individual Max HP",
+          "gl": "When using Ability Recovery:\\n • Grants party BRV based on own MAX BRV\\n • Slightly restores party's HP",
+          "jp": "「アビリティリカバリー」使用時\\n以下の効果が追加\\n・味方全員に自身の最大BRVに\\n　依存した量のBRVを加算\\n・味方全員のHP小回復"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "noctis": {
+    "bloomStone": {
+      "id": 83,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 1490,
+        "name": {
+          "en": "Set Warp Advance Growth",
+          "gl": "Set Warp Advance Growth",
+          "jp": "セットシフトアドバンスグロース"
+        },
+        "desc": {
+          "en": "[Set Warp Advance] use +1\\n\\n[Set Warp Advance] effect duration +2",
+          "gl": "Set Warp Advance use +1\\n\\nSet Warp Advance increased stolen BRV limit duration +2",
+          "jp": "「セットシフトアドバンス」の使用回数＋1\\n\\n「セットシフトアドバンス」の自身の奪ったBRVを\\n自身の最大BRVを超えて加算する\\n上限アップ効果の2ACTION期間延長"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "alisaie": {
+    "bloomStone": {
+      "id": 84,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 1604,
+        "name": {
+          "en": "Attack Advance Growth",
+          "gl": "Attack Advance Growth",
+          "jp": "アタックアドバンスグロース"
+        },
+        "desc": {
+          "en": "Increases the max uses of Attack Advance by 1.\\nExtends the duration of its effects by 2 turns.",
+          "gl": "Attack Advance use +1\\n\\nAttack Advance effect duration +2",
+          "jp": "「アタックアドバンス」の使用回数＋1\\n\\n「アタックアドバンス」の効果を\\n2ACTION期間延長"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "rydia": {
+    "bloomStone": {
+      "id": 82,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 1929,
+        "name": {
+          "en": "All Weak Damage Up Growth",
+          "gl": "All Weak Damage Up Growth",
+          "jp": "ウィークダメージアップオールグロース"
+        },
+        "desc": {
+          "en": "「Weak Damage Up All」 use +1\\nDuration of 「Weak Damage Up All」 effects +2 turns",
+          "gl": "All Weak Damage Up use +1\\n\\nAll Weak Damage Up effect duration +2",
+          "jp": "「ウィークダメージアップオール」の使用回数＋1\\n\\n「ウィークダメージアップオール」の効果を\\n2ACTION期間延長"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "zack": {
+    "bloomStone": {
+      "id": 53,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 1628,
+        "name": {
+          "en": "Initial Advance Growth",
+          "gl": "Initial Advance Growth",
+          "jp": "ベースアドバンスグロース"
+        },
+        "desc": {
+          "en": "「Base Advance」 use +1\\nDuration of 「Base Advance」 effects +2 turns",
+          "gl": "Initial Advance use +1\\n\\nInitial Advance effect duration +2",
+          "jp": "「ベースアドバンス」の使用回数＋1\\n\\n「ベースアドバンス」の効果を\\n2ACTION期間延長"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "yuri": {
+    "bloomStone": {
+      "id": 81,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 2280,
+        "name": {
+          "en": "Initial Boost Growth",
+          "gl": "Initial Boost Growth",
+          "jp": "ベースブーストグロース"
+        },
+        "desc": {
+          "en": "「Base Boost」 use +1\\nDuration of 「Base Boost」 effects +2 turns",
+          "gl": "Initial Boost use +1\\n\\nInitial Boost effect duration +2",
+          "jp": "「ベースブースト」の使用回数＋1\\n\\n「ベースブースト」の効果を\\n2ACTION期間延長"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "lilisette": {
+    "bloomStone": {
+      "id": 80,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 1914,
+        "name": {
+          "en": "All Boost Up Growth",
+          "gl": "All Boost Up Growth",
+          "jp": "ブーストアップオールグロース"
+        },
+        "desc": {
+          "en": "「Boost Up All」 use +1\\nDuration of 「Boost Up All」 effects +2 turns",
+          "gl": "All Boost Up use +1\\n\\nAll Boost Up effect duration +2",
+          "jp": "「ブーストアップオール」の使用回数＋1\\n\\n「ブーストアップオール」の効果を\\n2ACTION期間延長"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "jecht": {
+    "bloomStone": {
+      "id": 79,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 2163,
+        "name": {
+          "en": "Jecht Slash Recovery Growth",
+          "gl": "Jecht Slash Recovery Growth",
+          "jp": "ジェクトスラッシュリカバリーグロース"
+        },
+        "desc": {
+          "en": "「Jecht Slash Recovery」 use +2",
+          "gl": "Jecht Slash Recovery use +2",
+          "jp": "「ジェクトスラッシュリカバリー」の使用回数＋2"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "cid": {
+    "bloomStone": {
+      "id": 77,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 2376,
+        "name": {
+          "en": "Wind Enchant Attack Up Growth",
+          "gl": "Aero Enchant Attack Up Growth",
+          "jp": "エアロエンチャントアタックアップグロース"
+        },
+        "desc": {
+          "en": "「Wind Enchant Attack Up」 use +2",
+          "gl": "Aero Enchant Attack Up use +2",
+          "jp": "「エアロエンチャントアタックアップ」の使用回数＋2"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "sephiroth": {
+    "bloomStone": {
+      "id": 39,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 2160,
+        "name": {
+          "en": "Attack Boost Up Growth",
+          "gl": "Attack Boost Up Growth",
+          "jp": "アタックブーストアップグロース"
+        },
+        "desc": {
+          "en": "「Attack Boost Up」 use +1\\nDuration of 「Attack Boost Up」 effects +2 turns",
+          "gl": "Attack Boost Up use +1\\n\\nAttack Boost Up effect duration +2",
+          "jp": "「アタックブーストアップ」の使用回数＋1\\n\\n「アタックブーストアップ」の効果を\\n2ACTION期間延長"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "lenna": {
+    "bloomStone": {
+      "id": 76,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 1926,
+        "name": {
+          "en": "All BRV Rejuvenate Boost Growth",
+          "gl": "All BRV Rejuvenate Boost Growth",
+          "jp": "BRVヒールブーストオールグロース"
+        },
+        "desc": {
+          "en": "「BRV Heal Boost All」 use +1\\nDuration of 「BRV Heal Boost All」 effects +2 turns",
+          "gl": "All BRV Rejuvenate Boost use +1\\n\\nAll BRV Rejuvenate Boost effect duration +2",
+          "jp": "「BRVヒールブーストオール」の使用回数＋1\\n\\n「BRVヒールブーストオール」の効果を\\n2ACTION期間延長"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "kefka": {
+    "bloomStone": {
+      "id": 63,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 2277,
+        "name": {
+          "en": "Multi-Debuff Damage Up Growth",
+          "gl": "Multi-Debuff Damage Up Growth",
+          "jp": "マルチデバフダメージアップグロース"
+        },
+        "desc": {
+          "en": "「Multi Debuff Damage Up」 use +1\\nDuration of 「Multi Debuff Damage Up」 effects +2 turns",
+          "gl": "Multi-Debuff Damage Up use +1\\n\\nMulti-Debuff Damage Up effect duration +2",
+          "jp": "「マルチデバフダメージアップ」の使用回数＋1\\n\\n「マルチデバフダメージアップ」の効果を\\n2ACTION期間延長"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "seifer": {
+    "bloomStone": {
+      "id": 23,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 1840,
+        "name": {
+          "en": "Set Defense Down Growth",
+          "gl": "Set Defense Down Growth",
+          "jp": "セットディフェンスダウングロース"
+        },
+        "desc": {
+          "en": "「Set Defense Down」 use +1\\nDuration of 「Set Defense Down」 effects +2 turns",
+          "gl": "Set Defense Down use +1\\n\\nSet Defense Down effect duration +2",
+          "jp": "「セットディフェンスダウン」の使用回数＋1\\n\\n「セットディフェンスダウン」の効果を\\n2ACTION期間延長"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "fujin": {
+    "bloomStone": {
+      "id": 24,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 2055,
+        "name": {
+          "en": "All Delay Attack Slow Growth",
+          "gl": "Delay Attack All Throw Growth",
+          "jp": "ディレイアタックオールスローグロース"
+        },
+        "desc": {
+          "en": "「Delay Attack All Throw」 use +1\\nDuration of 「Delay Attack All Throw」 effects +2 turns",
+          "gl": "Delay Attack All Throw use +1\\n\\nDelay Attack All Throw effect duration +2",
+          "jp": "「ディレイアタックオールスロー」の使用回数＋1\\n\\n「ディレイアタックオールスロー」の効果を\\n2ACTION期間延長"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "raijin": {
+    "bloomStone": {
+      "id": 25,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 2274,
+        "name": {
+          "en": "All Physical Attack Thunder Smash Growth",
+          "gl": "Physical Attack All Thunder Crush Growth",
+          "jp": "フィジクスアタックオールサンダークラッシュグロース"
+        },
+        "desc": {
+          "en": "「Physical Attacks All Thunder Smash」 use +1\\nDuration of 「Physical Attacks All Thunder Smash」 effects +2 turns",
+          "gl": "Physical Attack All Thunder Crush use +1\\n\\nPhysical Attack All Thunder Crush effect duration +2",
+          "jp": "「フィジクスアタックオールサンダークラッシュ」の使用回数＋1\\n\\n「フィジクスアタックオールサンダークラッシュ」の効果を\\n2ACTION期間延長"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "quistis": {
+    "bloomStone": {
+      "id": 74,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 2373,
+        "name": {
+          "en": "Ability Recovery Growth",
+          "gl": "Ability Recovery Growth",
+          "jp": "アビリティリカバリーグロース"
+        },
+        "desc": {
+          "en": "When using 「Ability Recovery」, adds the following effect:\\n- Slightly raises party Max BRV overflow limit for 6 turns",
+          "gl": "When using Ability Recovery:\\n • Adds 6 turns to slight party stolen BRV limit boost effect",
+          "jp": "「アビリティリカバリー」使用時\\n味方全員の奪ったBRVを\\n最大BRVを超えて加算する上限小アップの\\n効果を6ACTION追加"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "kuja": {
+    "bloomStone": {
+      "id": 45,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 1917,
+        "name": {
+          "en": "Ability Recovery Attack Up Growth",
+          "gl": "Ability Recovery Attack Up Growth",
+          "jp": "アビリティリカバリーアタックアップグロース"
+        },
+        "desc": {
+          "en": "When using [Ability Recovery Attack Up]\\n• [ATK Up] effect +15%",
+          "gl": "When using Ability Recovery Attack Up:\\n • Slight raised ATK boost",
+          "jp": "「アビリティリカバリーアタックアップ」使用時\\n自身の攻撃力アップの効果小アップ"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "palom": {
+    "bloomStone": {
+      "id": 65,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 1920,
+        "name": {
+          "en": "Blizzard Burst Growth",
+          "gl": "Blizzard Burst Growth",
+          "jp": "ブリザドバーストグロース"
+        },
+        "desc": {
+          "en": "「Blizzard Burst」 use +1\\nDuration of 「Blizzard Burst」 effects +1 turn",
+          "gl": "Blizzard Burst use +1\\n\\nBlizzard Burst effect duration +1",
+          "jp": "「ブリザドバースト」の使用回数＋1\\n\\n「ブリザドバースト」の効果を\\n1ACTION期間延長"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "maria": {
+    "bloomStone": {
+      "id": 73,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 2157,
+        "name": {
+          "en": "HP Heal Attack All Growth",
+          "gl": "HP Heal Attack All Growth",
+          "jp": "HPヒールアタックオールグロース"
+        },
+        "desc": {
+          "en": "[HP Heal Attack All] use +2",
+          "gl": "HP Heal Attack All use +2",
+          "jp": "「HPヒールアタックオール」の使用回数＋2"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "kain": {
+    "bloomStone": {
+      "id": 64,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 2370,
+        "name": {
+          "en": "BRV Up Thrust Growth",
+          "gl": "BRV Up Thrust Growth",
+          "jp": "BRVアップスラストグロース"
+        },
+        "desc": {
+          "en": "「BRV Up Thrust」 use +1\\n\\nWhen using 「BRV Up Thrust」:\\n- Duration of 「Attack Up」 effect +2 turns",
+          "gl": "BRV Up Thrust use +1\\n\\nWhen using BRV Up Thrust:\\n • Adds 2 turns to slight ATK boost effect",
+          "jp": "「BRVアップスラスト」の使用回数＋1\\n\\n「BRVアップスラスト」使用時\\n自身の攻撃力小アップの効果を2ACTION追加"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "celes": {
+    "bloomStone": {
+      "id": 72,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 2004,
+        "name": {
+          "en": "Set Lock All Growth",
+          "gl": "Set Lock All Growth",
+          "jp": "セットターゲット固定オールグロース"
+        },
+        "desc": {
+          "en": "[Set Target Lock All] use +1\\n[Lock] duration +2",
+          "gl": "Set Lock All use +1\\n\\nWhen using Set Lock All:\\n • Lock duration +2",
+          "jp": "「セットターゲット固定オール」の使用回数＋1\\n\\n「セットターゲット固定オール」使用時\\n「ターゲット固定」の2ACTION期間延長"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "edgar": {
+    "bloomStone": {
+      "id": 69,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 2332,
+        "name": {
+          "en": "Debuff Attack Up Growth",
+          "gl": "Debuff Attack Up Growth",
+          "jp": "デバフアタックアップグロース"
+        },
+        "desc": {
+          "en": "「Debuff Attack Up」 use +1\\nDuration of 「Debuff Attack Up」 effects +2 turns",
+          "gl": "Debuff Attack Up use +1\\n\\nDebuff Attack Up effect duration +2",
+          "jp": "「デバフアタックアップ」の使用回数＋1\\n\\n「デバフアタックアップ」の効果を\\n2ACTION期間延長"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "irvine": {
+    "bloomStone": {
+      "id": 71,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 2216,
+        "name": {
+          "en": "Debuff Act Longer Shot Growth",
+          "gl": "Debuff Act Longer Shot Growth",
+          "jp": "デバフアクトロングショットグロース"
+        },
+        "desc": {
+          "en": "「Debuff Turn Long Shot」 use +1\\nDuration of 「Debuff Turn Long Shot」 effects +2 turns",
+          "gl": "Debuff Act Longer Shot use +1\\n\\nDebuff Act Longer Shot effect duration +2",
+          "jp": "「デバフアクトロングショット」の使用回数＋1\\n\\n「デバフアクトロングショット」の効果を\\n2ACTION期間延長"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "serah": {
+    "bloomStone": {
+      "id": 70,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 1740,
+        "name": {
+          "en": "All Advance Growth",
+          "gl": "All Advance Growth",
+          "jp": "アドバンスオールグロース"
+        },
+        "desc": {
+          "en": "「Advance All」 use +1\\nDuration of 「Advance All」 effects +2 turns",
+          "gl": "All Advance use +1\\n\\nAll Advance effect duration +2",
+          "jp": "「アドバンスオール」の使用回数＋1\\n\\n「アドバンスオール」の効果を\\n2ACTION期間延長"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "auron": {
+    "bloomStone": {
+      "id": 129,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 2154,
+        "name": {
+          "en": "Weak Damage Up Crush Growth",
+          "gl": "Weak Damage Up Crush Growth",
+          "jp": "ウィークダメージアップクラッシュグロース"
+        },
+        "desc": {
+          "en": "「Weak Damage Up Crush」 use +2",
+          "gl": "Weak Damage Up Crush use +2",
+          "jp": "「ウィークダメージアップクラッシュ」の使用回数＋2"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "garnet": {
+    "bloomStone": {
+      "id": 68,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 1837,
+        "name": {
+          "en": "BRV Regen Boost All Growth",
+          "gl": "All BRV Regen Boost Growth",
+          "jp": "BRVリジェネブーストオールグロース"
+        },
+        "desc": {
+          "en": "[BRV Regen Boost All] use +1\\n\\n[BRV Regen Boost All] effects duration +2",
+          "gl": "All BRV Regen Boost use +1\\n\\nAll BRV Regen Boost effect duration +2",
+          "jp": "「BRVリジェネブーストオール」の\\n使用回数＋1\\n\\n「BRVリジェネブーストオール」の効果を\\n2ACTION期間延長"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "lion": {
+    "bloomStone": {
+      "id": 66,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 1776,
+        "name": {
+          "en": "Sneak Thrust Growth",
+          "gl": "Sneak Thrust Growth",
+          "jp": "スニークスラストグロース"
+        },
+        "desc": {
+          "en": "「Sneak Thrust」 use +1\\nDuration of 「Sneak Thrust」 effects +1 turn",
+          "gl": "Sneak Thrust use +1\\n\\nSneak Thrust effect duration +1",
+          "jp": "「スニークスラスト」の使用回数＋1\\n\\n「スニークスラスト」の効果を\\n1ACTION期間延長"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "aerith": {
+    "bloomStone": {
+      "id": 59,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 1739,
+        "name": {
+          "en": "BRV Regen Attack All Growth",
+          "gl": "All BRV Regen Attack Growth",
+          "jp": "BRVリジェネアタックオールグロース"
+        },
+        "desc": {
+          "en": "[BRV Regen Attack All] use +1\\n\\n[BRV Regen Attack All] effects duration +2",
+          "gl": "All BRV Regen Attack use +1\\n\\nAll BRV Regen Attack effect duration +2",
+          "jp": "「BRVリジェネアタックオール」の\\n使用回数＋1\\n\\n「BRVリジェネアタックオール」の効果を\\n2ACTION期間延長"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "ashe": {
+    "bloomStone": {
+      "id": 56,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 2271,
+        "name": {
+          "en": "All Attack Growth",
+          "gl": "All Attack Growth",
+          "jp": "アタックオールグロース"
+        },
+        "desc": {
+          "en": "「Attack All」 use +1\\nDuration of 「Attack All」 effects +2 turns",
+          "gl": "All Attack use +1\\n\\nAll Attack effect duration +2",
+          "jp": "「アタックオール」の使用回数＋1\\n\\n「アタックオール」の効果を\\n2ACTION期間延長"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "cater": {
+    "bloomStone": {
+      "id": 60,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 1474,
+        "name": {
+          "en": "Blizzard Shot Growth",
+          "gl": "Blizzard Shot Growth",
+          "jp": "ブリザドショットグロース"
+        },
+        "desc": {
+          "en": "「Blizzard Shot」 use +1\\nDuration of 「Blizzard Shot」 effects +2 turns",
+          "gl": "Blizzard Shot use +1\\n\\nBlizzard Shot effect duration +2",
+          "jp": "「ブリザドショット」の使用回数＋1\\n\\n「ブリザドショット」の効果を\\n2ACTION期間延長"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "lightning": {
+    "bloomStone": {
+      "id": 139,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 2485,
+        "name": {
+          "en": "Break Reset Slash Growth",
+          "gl": "Break Reset Slash Growth",
+          "jp": "ブレイクリセットスラッシュグロース"
+        },
+        "desc": {
+          "en": "[Break Reset Slash] use +2",
+          "gl": "Break Reset Slash use +2",
+          "jp": "「ブレイクリセットスラッシュ」の使用回数＋2"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "papalymo": {
+    "bloomStone": {
+      "id": 57,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 2367,
+        "name": {
+          "en": "Boost Up Growth",
+          "gl": "Boost Up Growth",
+          "jp": "ブーストアップグロース"
+        },
+        "desc": {
+          "en": "「Boost Up」 use +1\\nDuration of 「Boost Up」 effects +2 turns",
+          "gl": "Boost Up use +1\\n\\nBoost Up effect duration +2",
+          "jp": "「ブーストアップ」の使用回数＋1\\n\\n「ブーストアップ」の効果を\\n2ACTION期間延長"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "cyan": {
+    "bloomStone": {
+      "id": 58,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 2486,
+        "name": {
+          "en": "Guard Penetrate Crush Advance Growth",
+          "gl": "Guard Penetration Crush Advance Growth",
+          "jp": "ガードペネトレイトクラッシュアドバンスグロース"
+        },
+        "desc": {
+          "en": "「Guard Penetrate Crush Advance」 use +2",
+          "gl": "Guard Penetration Crush Advance use +2",
+          "jp": "「ガードペネトレイトクラッシュアドバンス」の使用回数＋2"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "snow": {
+    "bloomStone": {
+      "id": 133,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 2362,
+        "name": {
+          "en": "HP Regen Attack Up All Growth",
+          "gl": "All HP Regen Attack Up Growth",
+          "jp": "HPリジェネアタックアップオールグロース"
+        },
+        "desc": {
+          "en": "「HP Regen Attack Up All」 use +1\\nDuration of 「HP Regen Attack Up All」 effects +2 turns",
+          "gl": "All HP Regen Attack Up use +1\\n\\nAll HP Regen Attack Up effect duration +2",
+          "jp": "「HPリジェネアタックアップオール」の使用回数＋1\\n\\n「HPリジェネアタックアップオール」の効果を\\n2ACTION期間延長"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "thancred": {
+    "bloomStone": {
+      "id": 55,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 2052,
+        "name": {
+          "en": "Slash Set Poison All Growth",
+          "gl": "Slash Set Poison All Growth",
+          "jp": "スラッシュセット毒オールグロース"
+        },
+        "desc": {
+          "en": "「Slash Set Poison All」 use +2",
+          "gl": "Slash Set Poison All use +2",
+          "jp": "「スラッシュセット毒オール」の使用回数＋2"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "krile": {
+    "bloomStone": {
+      "id": 54,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 1885,
+        "name": {
+          "en": "Advance All Growth",
+          "gl": "All Advance Growth",
+          "jp": "アドバンスオールグロース"
+        },
+        "desc": {
+          "en": "[Advance All] use +1\\n\\n[Advance All] effect duration +2",
+          "gl": "All Advance use +1\\n\\nAll Advance effect duration +2",
+          "jp": "「アドバンスオール」の使用回数＋1\\n\\n「アドバンスオール」の効果を\\n2ACTION期間延長"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "sabin": {
+    "bloomStone": {
+      "id": 61,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 2110,
+        "name": {
+          "en": "Set Battle Spirit Unleashed Growth",
+          "gl": "Set Battle Spirit Unleashed Growth",
+          "jp": "セット闘魂解放グロース"
+        },
+        "desc": {
+          "en": "「Set Powers Unleashed」 use +1\\nGrants +2 stacks of 「Powers Unleashed」",
+          "gl": "Set Battle Spirit Unleashed use +1\\n\\nWhen using Set Battle Spirit Unleashed:\\n • Granted Battle Spirit Unleashed level +2",
+          "jp": "「セット闘魂解放」の使用回数＋1\\n\\n「セット闘魂解放」の\\n「闘魂解放」の付与段階＋2"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "seymour": {
+    "bloomStone": {
+      "id": 29,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 2359,
+        "name": {
+          "en": "Set Sap Burst Growth",
+          "gl": "Set Sap Burst Growth",
+          "jp": "セットスリップバーストグロース"
+        },
+        "desc": {
+          "en": "「Set Sap Burst」 use +1\\n\\nWhen using 「Set Sap Burst」:\\n- Duration of 「Sap」 effect +2 turns",
+          "gl": "Set Sap Burst use +1\\n\\nWhen using Set Sap Burst:\\n • Sap duration +2",
+          "jp": "「セットスリップバースト」の\\n使用回数＋1\\n\\n「セットスリップバースト」使用時\\n「スリップ」の2ACTION期間延長"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "ace": {
+    "bloomStone": {
+      "id": 62,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 1738,
+        "name": {
+          "en": "Attack Up Growth",
+          "gl": "Attack Up Growth",
+          "jp": "アタックアップグロース"
+        },
+        "desc": {
+          "en": "「Attack Up」 use +1\\nDuration of 「Attack Up」 effects +2 turns",
+          "gl": "Attack Up use +1\\n\\nAttack Up effect duration +2",
+          "jp": "「アタックアップ」の使用回数＋1\\n\\n「アタックアップ」の効果を\\n2ACTION期間延長"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "vincent": {
+    "bloomStone": {
+      "id": 52,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 1828,
+        "name": {
+          "en": "Debuff Act Longer Growth",
+          "gl": "Debuff Act Longer Growth",
+          "jp": "デバフアクトロンググロース"
+        },
+        "desc": {
+          "en": "「Debuff Turn Long」 use +1\\nDuration of 「Debuff Turn Long」 effects +2 turns",
+          "gl": "Debuff Act Longer use +1\\n\\nDebuff Act Longer effect duration +2",
+          "jp": "「デバフアクトロング」の使用回数＋1\\n\\n「デバフアクトロング」の効果を\\n2ACTION期間延長"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "layle": {
+    "bloomStone": {
+      "id": 51,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 2166,
+        "name": {
+          "en": "All BRV Rejuvenate Growth",
+          "gl": "All BRV Rejuvenate Growth",
+          "jp": "BRVヒールオールグロース"
+        },
+        "desc": {
+          "en": "「BRV Heal All」 use +1\\n\\nWhen using 「BRV Heal All」:\\n- Slightly raises the BRV gain based on Max BRV",
+          "gl": "All BRV Rejuvenate use +1\\n\\nWhen using All BRV Rejuvenate:\\n • Slight boost to BRV granted based on own MAX BRV",
+          "jp": "「BRVヒールオール」の使用回数＋1\\n\\n「BRVヒールオール」使用時\\n自身の最大BRVに依存した\\nBRV加算量小アップ"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "zell": {
+    "bloomStone": {
+      "id": 50,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 1878,
+        "name": {
+          "en": "Set Duel Blow Growth",
+          "gl": "Set Duel Blow Growth",
+          "jp": "セットデュエルブローグロース"
+        },
+        "desc": {
+          "en": "「Set Duel Long」 use +1\\nDuration of 「Max BRV Overflow」 effect +2 turns",
+          "gl": "Set Duel Blow use +1\\n\\nWhen using Set Duel Blow:\\n • Increased stolen BRV limit effect duration +2",
+          "jp": "「セットデュエルブロー」の使用回数＋1\\n\\n「セットデュエルブロー」の\\n自身の奪ったBRVを\\n最大BRVを超えて加算する上限アップの\\n効果を2ACTION期間延長"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "ramza": {
+    "bloomStone": {
+      "id": 46,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 1627,
+        "name": {
+          "en": "Attack Up Growth",
+          "gl": "Attack Up Growth",
+          "jp": "アタックアップグロース"
+        },
+        "desc": {
+          "en": "[Attack Up] use +1\\n\\n[Attack Up] effect duration +2",
+          "gl": "Attack Up use +1\\n\\nAttack Up effect duration +2",
+          "jp": "「アタックアップ」の使用回数＋1\\n\\n「アタックアップ」の効果を\\n2ACTION期間延長"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "faris": {
+    "bloomStone": {
+      "id": 49,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 1626,
+        "name": {
+          "en": "Debuff Attack Up Growth",
+          "gl": "Debuff Attack Up Growth",
+          "jp": "デバフアタックアップグロース"
+        },
+        "desc": {
+          "en": "「Debuff Attack Up」 use +1\\nDuration of 「Debuff Attack Up」 effects +2 turns",
+          "gl": "Debuff Attack Up use +1\\n\\nDebuff Attack Up effect duration +2",
+          "jp": "「デバフアタックアップ」の使用回数＋1\\n\\n「デバフアタックアップ」の効果を\\n2ACTION期間延長"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "prishe": {
+    "bloomStone": {
+      "id": 47,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 2268,
+        "name": {
+          "en": "Attack Boost Up Growth",
+          "gl": "Attack Boost Up Growth",
+          "jp": "アタックブーストアップグロース"
+        },
+        "desc": {
+          "en": "「Attack Boost Up」 use +1\\nDuration of 「Attack Boost Up」 effects +2 turns",
+          "gl": "Attack Boost Up use +1\\n\\nAttack Boost Up effect duration +2",
+          "jp": "「アタックブーストアップ」の使用回数＋1\\n\\n「アタックブーストアップ」の効果を\\n2ACTION期間延長"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "tidus": {
+    "bloomStone": {
+      "id": 36,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 1888,
+        "name": {
+          "en": "Buff Longer Slash Growth",
+          "gl": "Buff Longer Slash Growth",
+          "jp": "バフロングスラッシュグロース"
+        },
+        "desc": {
+          "en": "「Buff Long Slash」 use +2",
+          "gl": "Buff Longer Slash use +2",
+          "jp": "「バフロングスラッシュ」の使用回数＋2"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "eiko": {
+    "bloomStone": {
+      "id": 43,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 2151,
+        "name": {
+          "en": "Ability Recovery All Attack Growth",
+          "gl": "Ability Recovery All Attack Growth",
+          "jp": "アビリティリカバリーアタックオールグロース"
+        },
+        "desc": {
+          "en": "When using 「Ability Recovery Attack All」:\\n- Duration of 「Attack Up」 effect +2 turns",
+          "gl": "Party ATK Up effect from Ability Recovery All Attack duration +2",
+          "jp": "「アビリティリカバリーアタックオール」の\\n味方全員の攻撃力アップの効果を2ACTION期間延長"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "balthier": {
+    "bloomStone": {
+      "id": 38,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 2044,
+        "name": {
+          "en": "Steal BRV Attack Up Growth",
+          "gl": "Steal BRV Attack Up Growth",
+          "jp": "BRVスティールアタックアップグロース"
+        },
+        "desc": {
+          "en": "「BRV Steal Attack Up」 use +1\\nDuration of 「BRV Steal Attack Up」 effects by 2 turns",
+          "gl": "Steal BRV Attack Up use +1\\n\\nSteal BRV Attack Up effect duration +2",
+          "jp": "「BRVスティールアタックアップ」の使用回数＋1\\n\\n「BRVスティールアタックアップ」の効果を\\n2ACTION期間延長"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "shantotto": {
+    "bloomStone": {
+      "id": 37,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 1476,
+        "name": {
+          "en": "Weak Damage Up Growth",
+          "gl": "Weak Damage Up Growth",
+          "jp": "ウィークダメージアップグロース"
+        },
+        "desc": {
+          "en": "「Weak Damage Up」 use +1\\nDuration of 「Weak Damage Up」 effects +2 turns",
+          "gl": "Weak Damage Up use +1\\n\\nWeak Damage Up effect duration +2",
+          "jp": "「ウィークダメージアップ」の使用回数＋1\\n\\n「ウィークダメージアップ」の効果を\\n2ACTION期間延長"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "galuf": {
+    "bloomStone": {
+      "id": 48,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 2432,
+        "name": {
+          "en": "Ability Recovery Advance All Growth",
+          "gl": "Ability Recovery Advance All Growth",
+          "jp": "アビリティリカバリーアドバンスオールグロース"
+        },
+        "desc": {
+          "en": "When using 「Ability Recovery Advance All」:\\n- Marginally raises party Max BRV overflow limit\\n\\nDuration of 「Ability Recovery Advance All」 effects +4 turns",
+          "gl": "When using Ability Recovery Advance All:\\n • Marginal boost to amount party's stolen BRV may exceed MAX BRV duration +4",
+          "jp": "「アビリティリカバリーアドバンスオール」の\\n味方全員の奪ったBRVを\\n最大BRVを超えて加算する上限アップの効果を\\n極小アップと4ACTION期間延長"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "wakka": {
+    "bloomStone": {
+      "id": 42,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 2487,
+        "name": {
+          "en": "Attack All Growth",
+          "gl": "All Attack Growth",
+          "jp": "アタックオールグロース"
+        },
+        "desc": {
+          "en": "[Attack All] use +1\\n\\n[Attack All] effects duration +2",
+          "gl": "All Attack use +1\\n\\nAll Attack duration +2",
+          "jp": "「アタックオール」の使用回数＋1\\n\\n「アタックオール」の効果を\\n2ACTION期間延長"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "setzer": {
+    "bloomStone": {
+      "id": 40,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 1632,
+        "name": {
+          "en": "All Boost Up Growth",
+          "gl": "All Boost Up Growth",
+          "jp": "ブーストアップオールグロース"
+        },
+        "desc": {
+          "en": "「Boost Up All」 use +1\\nDuration of 「Boost Up All」 effects +2 turns",
+          "gl": "All Boost Up use +1\\n\\nAll Boost Up effect duration +2",
+          "jp": "「ブーストアップオール」の使用回数＋1\\n\\n「ブーストアップオール」の効果を\\n2ACTION期間延長"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "vanille": {
+    "bloomStone": {
+      "id": 44,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 2136,
+        "name": {
+          "en": "All Attack Growth",
+          "gl": "All Attack Growth",
+          "jp": "アタックオールグロース"
+        },
+        "desc": {
+          "en": "「Attack All」 use +1\\nDuration of 「Attack All」 effects +2 turns",
+          "gl": "All Attack use +1\\n\\nAll Attack effect duration +2",
+          "jp": "「アタックオール」の使用回数＋1\\n\\n「アタックオール」の効果を\\n2ACTION期間延長"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "squall": {
+    "bloomStone": {
+      "id": 35,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 1932,
+        "name": {
+          "en": "Ability Recovery Attack Up Growth",
+          "gl": "Ability Recovery Attack Up Growth",
+          "jp": "アビリティリカバリーアタックアップグロース"
+        },
+        "desc": {
+          "en": "When using [Ability Recovery Attack Up]\\n• [ATK Up] effect duration +4",
+          "gl": "When using Ability Recovery Attack Up:\\n • ATK boost effect duration +4",
+          "jp": "「アビリティリカバリーアタックアップ」の\\n自身の攻撃力アップの効果を4ACTION期間延長"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "shadow": {
+    "bloomStone": {
+      "id": 32,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 2483,
+        "name": {
+          "en": "Set Evasion Up Growth",
+          "gl": "Set Evasion Up Growth",
+          "jp": "セット回避率アップグロース"
+        },
+        "desc": {
+          "en": "「Set Evasion Up」 use +2",
+          "gl": "Set Evasion Up use +2",
+          "jp": "「セット回避率アップ」の使用回数＋2"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "steiner": {
+    "bloomStone": {
+      "id": 30,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 2397,
+        "name": {
+          "en": "Boost All Growth",
+          "gl": "All Boost Growth",
+          "jp": "ブーストオールグロース"
+        },
+        "desc": {
+          "en": "「Boost All」 use +1\\nDuration of 「Boost All」 effects +2 turns",
+          "gl": "Boost All use +1\\n\\nBoost All effect duration +2",
+          "jp": "「ブーストオール」の使用回数＋1\\n\\n「ブーストオール」の効果を\\n2ACTION期間延長"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "laguna": {
+    "bloomStone": {
+      "id": 12,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 1475,
+        "name": {
+          "en": "Debuff Damage Up Growth",
+          "gl": "Debuff Damage Up Growth",
+          "jp": "デバフダメージアップグロース"
+        },
+        "desc": {
+          "en": "Increases the max uses of Debuff Damage Up by 1.\\nExtends the duration of its effects by 2 turns.",
+          "gl": "Debuff Damage Up use +1\\n\\nDebuff Damage Up effect duration +2",
+          "jp": "「デバフダメージアップ」の使用回数＋1\\n\\n「デバフダメージアップ」の効果を\\n2ACTION期間延長"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "firion": {
+    "bloomStone": {
+      "id": 126,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 2098,
+        "name": {
+          "en": "HP Drain Advance Thrust Growth",
+          "gl": "HP Drain Advance Thrust Growth",
+          "jp": "HPドレインアドバンススラストグロース"
+        },
+        "desc": {
+          "en": "[HP Drain Advance Thurst] use +1\\n\\n[HP Drain Advance Thurst] effects duration +2",
+          "gl": "HP Drain Advance Thrust use +1\\n\\nHP Drain Advance Thrust effect duration +2",
+          "jp": "「HPドレインアドバンススラスト」の使用回数＋1\\n\\n「HPドレインアドバンススラスト」の効果を\\n2ACTION期間延長"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "onion_knight": {
+    "bloomStone": {
+      "id": 27,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 2265,
+        "name": {
+          "en": "Blizzard Enchant All Growth",
+          "gl": "Blizzard Enchant All Growth",
+          "jp": "ブリザドエンチャントオールグロース"
+        },
+        "desc": {
+          "en": "[Blizzard Enchant All] use +1\\n\\n[Blizzard Enchant All] effects duration +2",
+          "gl": "Blizzard Enchant All use +1\\n\\nBlizzard Enchant All effect duration +2",
+          "jp": "「ブリザドエンチャントオール」の使用回数＋1\\n\\n「ブリザドエンチャントオール」の効果を\\n2ACTION期間延長"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "yang": {
+    "bloomStone": {
+      "id": 18,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 1831,
+        "name": {
+          "en": "Kick Recovery Growth",
+          "gl": "Kick Recovery Growth",
+          "jp": "けりリカバリーグロース"
+        },
+        "desc": {
+          "en": "「Kick Recovery」 use +2",
+          "gl": "Kick Recovery use +2",
+          "jp": "「けりリカバリー」の使用回数＋2"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "terra": {
+    "bloomStone": {
+      "id": 26,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 1625,
+        "name": {
+          "en": "Set Magic Boost Growth",
+          "gl": "Set Magic Boost Growth",
+          "jp": "セット魔導ブーストグロース"
+        },
+        "desc": {
+          "en": "「Set Magic Boost」 use +1\\nGrants +2 stacks of 「Magic」",
+          "gl": "Set Magic Boost use +1\\n\\nWhen using Set Magic Boost:\\n • Magic granted +2",
+          "jp": "「セット魔導ブースト」の使用回数＋1\\n\\n「セット魔導ブースト」の\\n特殊効果「魔導」加算量＋2"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "penelo": {
+    "bloomStone": {
+      "id": 28,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 2311,
+        "name": {
+          "en": "Ability Recovery Boost All Growth",
+          "gl": "Ability Recovery Boost All Growth",
+          "jp": "アビリティリカバリーブーストオールグロース"
+        },
+        "desc": {
+          "en": "[Ability Recovery Boost All] effect duration +1",
+          "gl": "Ability Recovery Boost All effect duration +2",
+          "jp": "「アビリティリカバリーブーストオール」の効果を\\n2ACTION期間延長"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "bartz": {
+    "bloomStone": {
+      "id": 20,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 2145,
+        "name": {
+          "en": "All Boost Growth",
+          "gl": "All Boost Growth",
+          "jp": "ブーストオールグロース"
+        },
+        "desc": {
+          "en": "「Boost All」 use +1\\nDuration of 「Boost All」 effects +2 turns",
+          "gl": "All Boost use +1\\n\\nAll Boost effect duration +2",
+          "jp": "「ブーストオール」の使用回数＋1\\n\\n「ブーストオール」の効果を\\n2ACTION期間延長"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "king": {
+    "bloomStone": {
+      "id": 22,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 2188,
+        "name": {
+          "en": "BRV Up Attack Up Growth",
+          "gl": "BRV Up Attack Up Growth",
+          "jp": "BRVアップアタックアップグロース"
+        },
+        "desc": {
+          "en": "「BRV Up Attack Up」 use +1\\nDuration of 「BRV Up Attack Up」 effects +2 turns",
+          "gl": "BRV Up Attack Up use +1\\n\\nBRV Up Attack Up effect duration +2",
+          "jp": "「BRVアップアタックアップ」の使用回数＋1\\n\\n「BRVアップアタックアップ」の効果を\\n2ACTION期間延長"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "edge": {
+    "bloomStone": {
+      "id": 21,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 2304,
+        "name": {
+          "en": "Thunder Burst Growth",
+          "gl": "Thunderburst Growth",
+          "jp": "サンダーバーストグロース"
+        },
+        "desc": {
+          "en": "「Thunder Burst」 use +1\\nDuration of 「Thunder Burst」 effects +1 turn",
+          "gl": "Thunderburst use +1\\n\\nThunderburst effect duration +1",
+          "jp": "「サンダーバースト」の使用回数＋1\\n\\n「サンダーバースト」の効果を\\n1ACTION期間延長"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "yuna": {
+    "bloomStone": {
+      "id": 110,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 1624,
+        "name": {
+          "en": "Initial Attack Growth",
+          "gl": "Initial Attack Growth",
+          "jp": "ベースアタックグロース"
+        },
+        "desc": {
+          "en": "「Base Attack」 use +1\\nDuration of 「Base Attack」 effects +2 turns",
+          "gl": "Initial Attack use +1\\n\\nInitial Attack effect duration +2",
+          "jp": "「ベースアタック」の使用回数＋1\\n\\n「ベースアタック」の効果を\\n2ACTION期間延長"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "yuffie": {
+    "bloomStone": {
+      "id": 31,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 2148,
+        "name": {
+          "en": "All BRV Copy Growth",
+          "gl": "All BRV Copy Growth",
+          "jp": "BRVコピーオールグロース"
+        },
+        "desc": {
+          "en": "「BRV Copy All」 use +2",
+          "gl": "All BRV Copy use +2",
+          "jp": "「BRVコピーオール」の使用回数＋2"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "vaan": {
+    "bloomStone": {
+      "id": 19,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 2032,
+        "name": {
+          "en": "BRV Up Attack Up Growth",
+          "gl": "BRV Up Attack Up Growth",
+          "jp": "BRVアップアタックアップグロース"
+        },
+        "desc": {
+          "en": "[BRV Up Attack Up] use +2",
+          "gl": "BRV Up Attack Up use +2",
+          "jp": "「BRVアップアタックアップ」の使用回数＋2"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "yda": {
+    "bloomStone": {
+      "id": 17,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 1473,
+        "name": {
+          "en": "Attack Up Growth",
+          "gl": "Attack Up Growth",
+          "jp": "アタックアップグロース"
+        },
+        "desc": {
+          "en": "[Attack Up] use +1\\n\\n[Attack Up] effects duration +1",
+          "gl": "Attack Up use +1\\n\\nAttack Up effect duration +1",
+          "jp": "「アタックアップ」の使用回数＋1\\n\\n「アタックアップ」の効果を\\n1ACTION期間延長"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "cecil": {
+    "bloomStone": {
+      "id": 34,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 1834,
+        "name": {
+          "en": "Danger Crush Growth",
+          "gl": "Danger Crush Growth",
+          "jp": "デンジャークラッシュグロース"
+        },
+        "desc": {
+          "en": "[Danger Crush] use +1\\n\\nWhen using [Danger Crush]\\n• Additional Effect: [ATK Up] effect +20%; duration +2",
+          "gl": "Danger Crush use +1\\n\\nWhen using Danger Crush:\\n • Adds 2 turns to slight ATK boost effect",
+          "jp": "「デンジャークラッシュ」の使用回数＋1\\n\\n「デンジャークラッシュ」使用時\\n自身の攻撃力小アップの効果を2ACTION追加"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "zidane": {
+    "bloomStone": {
+      "id": 15,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 1923,
+        "name": {
+          "en": "BRV Up Advance Growth",
+          "gl": "BRV Up Advance Growth",
+          "jp": "BRVアップアドバンスグロース"
+        },
+        "desc": {
+          "en": "「BRV Up Advance」 use +2",
+          "gl": "BRV Up Advance use +2",
+          "jp": "「BRVアップアドバンス」の使用回数＋2"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "yshtola": {
+    "bloomStone": {
+      "id": 11,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 2006,
+        "name": {
+          "en": "BRV Rejuvenate Growth",
+          "gl": "BRV Rejuvenate Growth",
+          "jp": "BRVヒールグロース"
+        },
+        "desc": {
+          "en": "「BRV Heal」 use +2",
+          "gl": "BRV Rejuvenate use +2",
+          "jp": "「BRVヒール」の使用回数＋2"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "hope": {
+    "bloomStone": {
+      "id": 138,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 2484,
+        "name": {
+          "en": "Protect All Growth",
+          "gl": "Protect All Growth",
+          "jp": "プロテクトオールグロース"
+        },
+        "desc": {
+          "en": "[Protect All] use +1\\n\\n[HP Damage Resist] effect +20%",
+          "gl": "Protect All use +1\\n\\nWhen using Protect All:\\n • Slightly reduces HP damage taken",
+          "jp": "「プロテクトオール」の使用回数＋1\\n\\n「プロテクトオール」使用時\\n受けるHPダメージを軽減する効果小アップ"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "cloud": {
+    "bloomStone": {
+      "id": 120,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 1825,
+        "name": {
+          "en": "Critical Crush Growth",
+          "gl": "Critical Crush Growth",
+          "jp": "クリティカルクラッシュグロース"
+        },
+        "desc": {
+          "en": "[Critical Crush] use +1\\n[Critical Crush] effects duration +2",
+          "gl": "Critical Crush use +1\\n\\nCritical Crush effect duration +2",
+          "jp": "「クリティカルクラッシュ」の使用回数＋1\\n\\n「クリティカルクラッシュ」の効果を\\n2ACTION期間延長"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "tifa": {
+    "bloomStone": {
+      "id": 125,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 2063,
+        "name": {
+          "en": "Beat Rush Recovery Attack Up Growth",
+          "gl": "Beat Rush Recovery Attack Up Growth",
+          "jp": "掌打ラッシュリカバリーアタックアップグロース"
+        },
+        "desc": {
+          "en": "「Beat Rush Recovery Attack Up」 use +2",
+          "gl": "Beat Rush Recovery Attack Up use +2",
+          "jp": "「掌打ラッシュリカバリーアタックアップ」の使用回数＋2"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "sazh": {
+    "bloomStone": {
+      "id": 14,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 1472,
+        "name": {
+          "en": "All Advance Growth",
+          "gl": "All Advance Growth",
+          "jp": "アドバンスオールグロース"
+        },
+        "desc": {
+          "en": "Increases the max uses of Advance All by 1.\\nExtends the duration of its effects by 2 turns.",
+          "gl": "All Advance use +1\\n\\nAll Advance effect duration +2",
+          "jp": "「アドバンスオール」の使用回数＋1\\n\\n「アドバンスオール」の効果を\\n2ACTION期間延長"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "rem": {
+    "bloomStone": {
+      "id": 13,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 1992,
+        "name": {
+          "en": "Swap BRV All Growth",
+          "gl": "All Swap BRV Growth",
+          "jp": "BRVコンバートオールグロース"
+        },
+        "desc": {
+          "en": "[Swap BRV All] use +1\\n\\nWhen using [Swap BRV All]\\n• Increases BRV gain based on current HP by 50%",
+          "gl": "All Swap BRV use +1\\n\\nWhen using All Swap BRV:\\nModerate boost to BRV granted based on own current HP",
+          "jp": "「BRVコンバートオール」の使用回数＋1\\n\\n「BRVコンバートオール」使用時\\n自身の現在HPに依存した\\nBRV加算量中アップ"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "vivi": {
+    "bloomStone": {
+      "id": 7,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 2049,
+        "name": {
+          "en": "Fire Enchant Growth",
+          "gl": "Fire Enchant Growth",
+          "jp": "ファイアエンチャントグロース"
+        },
+        "desc": {
+          "en": "「Fire Enchant」 use +2",
+          "gl": "Fire Enchant use +2",
+          "jp": "「ファイアエンチャント」の使用回数＋2"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  },
+  "warrior_of_light": {
+    "bloomStone": {
+      "id": 10,
+      "name": {
+        "en": "Bloom Stone",
+        "gl": "Bloom Stone",
+        "jp": "ブルームストーン"
+      },
+      "passive": {
+        "id": 1443,
+        "name": {
+          "en": "All Resist Up Growth",
+          "gl": "Resist All Growth",
+          "jp": "レジストオールグロース"
+        },
+        "desc": {
+          "en": "[Resist Up All] use +1\\nEffects duration +2",
+          "gl": "Resist All use +1\\n\\nResist All effect duration +2",
+          "jp": "「レジストオール」の使用回数＋1\\n\\n「レジストオール」の効果を\\n2ACTION期間延長"
+        },
+        "meta": {
+          "cp": 20
+        }
+      }
+    }
+  }
+}

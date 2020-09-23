@@ -1,0 +1,4130 @@
+{
+  "mog": {
+    "id": 272,
+    "category": "D",
+    "passive": {
+      "id": 6042,
+      "name": {
+        "en": "Buff Success Raging Boost All",
+        "gl": "",
+        "jp": "バフサクセスレイジングブーストオール"
+      },
+      "desc": {
+        "en": "After granting a buff\\n• Raises party's Max BRV by 1% up to 5 times\\n* Only once per turn\\n* Same Spheres do not stack",
+        "gl": "",
+        "jp": "自身が対象に強化効果を付与した後\\n味方全員の最大BRVが最大5回まで1％アップ\\n1回の行動での効果アップは1回のみ\\n※同一スフィアの効果は重複しない"
+      }
+    }
+  },
+  "aranea": {
+    "id": 154,
+    "category": "A",
+    "passive": {
+      "id": 3964,
+      "name": {
+        "en": "Break Raging Base Boost Up",
+        "gl": "Break Raging Initial Boost",
+        "jp": "ブレイクレイジングベースブーストアップ"
+      },
+      "desc": {
+        "en": "When breaking target:\\n• Raises Initial BRV and Max BRV by 2% up to 5 times\\n* Only once per turn\\n* Same Spheres do not stack",
+        "gl": "Raises INT BRV, MAX BRV by 2% when inflicting Break up to 5 times, once per turn\\n*Does not stack with same sphere",
+        "jp": "自身が対象をブレイク時\\n自身の初期BRVと最大BRVが最大5回まで2％アップ\\n1回の行動での効果アップは1回のみ\\n※同一スフィアの効果は重複しない"
+      }
+    }
+  },
+  "ceodore": {
+    "id": 251,
+    "category": "C",
+    "passive": {
+      "id": 5647,
+      "name": {
+        "en": "Break Hit HP Heal All",
+        "gl": "",
+        "jp": "ブレイクヒットHPヒールオール"
+      },
+      "desc": {
+        "en": "When inflicting break/attacking broken target:\\n• Recovers party's HP by 5% of individual MAX HP\\n* Only once per turn",
+        "gl": "",
+        "jp": "自身が対象をブレイク時 ブレイク中攻撃時\\n味方全員のHPをそれぞれの最大HPの5％分回復\\n1回の行動での効果発動は1回のみ"
+      }
+    }
+  },
+  "guy": {
+    "id": 239,
+    "category": "B",
+    "passive": {
+      "id": 5423,
+      "name": {
+        "en": "HP Damage Raging Boost Up",
+        "gl": "",
+        "jp": "HPダメージレイジングブーストアップ"
+      },
+      "desc": {
+        "en": "After taking an HP attack\\n• Raises own Max BRV by 3% up to 5 times\\n* Only once per turn\\n* Same Spheres do not stack",
+        "gl": "",
+        "jp": "自身がHPダメージを受けた時\\n自身の最大BRVが最大5回まで3％アップ\\n1回の行動での効果アップは1回のみ\\n※同一スフィアの効果は重複しない"
+      }
+    }
+  },
+  "xande": {
+    "id": 232,
+    "category": "A",
+    "passive": {
+      "id": 5378,
+      "name": {
+        "en": "Weak Power Boost Up Short",
+        "gl": "",
+        "jp": "ウィークパワーブーストアップショート"
+      },
+      "desc": {
+        "en": "When attacking target's weakness\\n• Increases BRV damage dealt by 5%\\n• Raises own Max BRV by 5% for 3 turns",
+        "gl": "",
+        "jp": "自身が対象の弱点をついた時\\n自身の与えるBRVダメージが5％アップし\\n3ACTION自身の最大BRVが5％アップ"
+      }
+    }
+  },
+  "rude": {
+    "id": 218,
+    "category": "C",
+    "passive": {
+      "id": 4789,
+      "name": {
+        "en": "HP Heal Boost All Short",
+        "gl": "",
+        "jp": "HPヒールブーストオールショート"
+      },
+      "desc": {
+        "en": "When own HP is restored:\\n• Raises party's Max BRV by 10% for 3 turns",
+        "gl": "",
+        "jp": "自身のHPが回復した時\\n味方全員に3ACTION以下の効果が発動\\n最大BRVが10％アップ"
+      }
+    }
+  },
+  "reno": {
+    "id": 216,
+    "category": "E",
+    "passive": {
+      "id": 4775,
+      "name": {
+        "en": "Break Physical Attack Down All",
+        "gl": "",
+        "jp": "ブレイクフィジクスアタックダウンオール"
+      },
+      "desc": {
+        "en": "When breaking target:\\n- Reduces all enemies' Physical Attack by 15% for 3 turns\\n※Same Sphere effects do not stack",
+        "gl": "",
+        "jp": "自身が対象をブレイク後\\n自身に3ACTION以下の効果が発動\\n敵全体の物理攻撃力が15％ダウン\\n※同一スフィアの効果は重複しない"
+      }
+    }
+  },
+  "gladiolus": {
+    "id": 194,
+    "category": "B",
+    "passive": {
+      "id": 4405,
+      "name": {
+        "en": "HP Damage Raging Attack All",
+        "gl": "",
+        "jp": "HPダメージレイジングアタックオール"
+      },
+      "desc": {
+        "en": "After taking an HP attack\\n• Raises party's Attack by 2% up to 5 times",
+        "gl": "",
+        "jp": "自身がHPダメージを受けた時\\n味方全員の攻撃力が最大5回まで2％アップ\\n1回の行動での効果アップは1回のみ\\n※同一スフィアの効果は重複しない"
+      }
+    }
+  },
+  "kurasame": {
+    "id": 222,
+    "category": "E",
+    "passive": {
+      "id": 5078,
+      "name": {
+        "en": "Weak Speed Down",
+        "gl": "",
+        "jp": "ウィークスピードダウン"
+      },
+      "desc": {
+        "en": "When hitting target's weakness:\\n- Inflicts 「20% Speed Down」 for 3 turns",
+        "gl": "",
+        "jp": "自身が対象の弱点をついた時\\nターゲットに3ACTION弱体効果「素早さ20％ダウン」付与"
+      }
+    }
+  },
+  "strago": {
+    "id": 212,
+    "category": "A",
+    "passive": {
+      "id": 4755,
+      "name": {
+        "en": "Critical Attack Advance Long",
+        "gl": "",
+        "jp": "クリティカルアタックアップアドバンスロング"
+      },
+      "desc": {
+        "en": "When dealing a critical hit:\\n- Raises Attack by 5% for 6 turns\\n- Raises stolen BRV overflow limit by 5% for 6 turns",
+        "gl": "",
+        "jp": "自身が対象にクリティカルヒット発生時\\n6ACTION自身の攻撃力と奪ったBRVを\\n最大BRVを超えて加算する上限が5％アップ"
+      }
+    }
+  },
+  "edward": {
+    "id": 190,
+    "category": "D",
+    "passive": {
+      "id": 4371,
+      "name": {
+        "en": "Buff Success Base Boost All Short",
+        "gl": "",
+        "jp": "バフサクセスベースブーストオールショート"
+      },
+      "desc": {
+        "en": "After granting a buff:\\n- Raises party's Initial BRV and Max BRV by 5% for 3 turns\\n※Same Spheres do not stack",
+        "gl": "",
+        "jp": "自身が対象に強化効果を付与した後\\n味方全員に3ACTION以下の効果が発動\\n初期BRVと最大BRVが5％アップ\\n※同一スフィアの効果は重複しない"
+      }
+    }
+  },
+  "ardyn": {
+    "id": 156,
+    "category": "A",
+    "passive": {
+      "id": 4035,
+      "name": {
+        "en": "Break Raging Attack Boost Up",
+        "gl": "Break Raging Attack Boost Up",
+        "jp": "ブレイクレイジングアタックブーストアップ"
+      },
+      "desc": {
+        "en": "When breaking target:\\n• Raises Max BRV and Attack by 2% up to 5 times\\n* Only once per turn\\n* Same Spheres do not stack",
+        "gl": "When inflicting Break:\\n • Raises MAX BRV, ATK by 2% up to 5 times, once per turn\\n*Does not stack with same sphere",
+        "jp": "自身が対象をブレイク時\\n自身の最大BRVと攻撃力が最大5回まで2％アップ\\n1回の行動での効果アップは1回のみ\\n※同一スフィアの効果は重複しない"
+      }
+    },
+    "refined": {
+      "id": 205,
+      "category": "A",
+      "passive": {
+        "id": 4730,
+        "name": {
+          "en": "Break Raging Attack Boost Up (RF)",
+          "gl": "",
+          "jp": "ブレイクレイジングアタックブーストアップ【精錬】"
+        },
+        "desc": {
+          "en": "When breaking target:\\n- Raises Max BRV and Attack by 2% up to 2 times\\n※Only once per turn\\n※Same Spheres do not stack",
+          "gl": "",
+          "jp": "自身が対象をブレイク時\\n自身の最大BRVと攻撃力が最大2回まで2％アップ\\n1回の行動での効果アップは1回のみ\\n※同一スフィアの効果は重複しない"
+        }
+      },
+      "source": {
+        "short": "raid1",
+        "event": "Act 2 Chapter 11 Part 1 (Raid)"
+      }
+    }
+  },
+  "nine": {
+    "id": 157,
+    "category": "C",
+    "passive": {
+      "id": 4050,
+      "name": {
+        "en": "Break Hit HP Heal",
+        "gl": "Break Hit HP Heal",
+        "jp": "ブレイクヒットHPヒール"
+      },
+      "desc": {
+        "en": "When breaking target or attacking a broken target:\\n• Restores HP by 10% of Max HP",
+        "gl": "When inflicting Break or attacking target afflicted with Break:\\n • Restores own HP by 10% of MAX, once per turn",
+        "jp": "自身が対象をブレイク時 ブレイク中攻撃時\\n自身のHPを最大HPの10％分回復\\n1回の行動での効果発動は1回のみ"
+      }
+    }
+  },
+  "gabranth": {
+    "id": 140,
+    "category": "B",
+    "passive": {
+      "id": 4019,
+      "name": {
+        "en": "Critical Resist All Short",
+        "gl": "Critical Resist All Shorter",
+        "jp": "クリティカルレジストオールショート"
+      },
+      "desc": {
+        "en": "When dealing a critical hit\\n• Lowers party's BRV damage taken by 10% for 3 turns",
+        "gl": "After dealing critical hit:\\n • Reduces party's BRV damage taken by 10% for 3 turns",
+        "jp": "自身が対象にクリティカルヒット発生後\\n味方全員に3ACTION以下の効果が発動\\n受けるBRVダメージを10％軽減"
+      }
+    },
+    "refined": {
+      "id": 168,
+      "category": "B",
+      "passive": {
+        "id": 4062,
+        "name": {
+          "en": "Critical Resist All Short (RF)",
+          "gl": "Critical Resist All Shorter (RF)",
+          "jp": "クリティカルレジストオールショート【精錬】"
+        },
+        "desc": {
+          "en": "When dealing a critical hit:\\n- Reduces party's BRV damage taken by 4% for 3 turns",
+          "gl": "After dealing critical hit:\\n • Reduces party's BRV damage taken by 4% for 3 turns",
+          "jp": "自身が対象にクリティカルヒット発生後\\n味方全員に3ACTION以下の効果が発動\\n受けるBRVダメージを4％軽減"
+        }
+      },
+      "source": {
+        "short": "story1",
+        "event": "Act 2 Chapter 10 (Co-op)"
+      }
+    }
+  },
+  "desch": {
+    "id": 139,
+    "category": "D",
+    "passive": {
+      "id": 3942,
+      "name": {
+        "en": "Buff Success Raging Attack All",
+        "gl": "Buff Success Raging Attack All",
+        "jp": "バフサクセスレイジングアタックオール"
+      },
+      "desc": {
+        "en": "After granting a buff:\\n- Raises party's Attack by 1% up to 5 times\\n※Only once per turn\\n※Same Spheres do not stack",
+        "gl": "After granting buff:\\n • Raises party's ATK by 1% up to 5 times, once per turn\\n*Does not stack with same sphere",
+        "jp": "自身が対象に強化効果を付与した後\\n味方全員の攻撃力が最大5回まで1％アップ\\n1回の行動での効果アップは1回のみ\\n※同一スフィアの効果は重複しない"
+      }
+    }
+  },
+  "amidatelion": {
+    "id": 138,
+    "category": "E",
+    "passive": {
+      "id": 3581,
+      "name": {
+        "en": "Debuff Success BRV Regen Short",
+        "gl": "Debuff Success BRV Regen Shorter",
+        "jp": "デバフサクセスBRVリジェネショート"
+      },
+      "desc": {
+        "en": "After inflicting a debuff, grants the following effect for 3 turns\\n• Raises party member's BRV by 10% of their Initial BRV at the start of their turn\\n* Same Spheres do not stack",
+        "gl": "When inflicting debuff on target:\\n • Grants party member BRV based on 10% of individual INT BRV at start of party member's turn for 3 turns\\n*Does not stack with same sphere",
+        "jp": "自身が対象に弱体効果を付与した時\\n自身に3ACTION以下の効果が発動\\n味方の行動開始時に\\nそれぞれの初期BRVの10％分BRVを加算\\n※同一スフィアの効果は重複しない"
+      }
+    }
+  },
+  "trey": {
+    "id": 150,
+    "category": "A",
+    "passive": {
+      "id": 3536,
+      "name": {
+        "en": "Break Attack Boost Up Long",
+        "gl": "Break Attack Boost Up Longer",
+        "jp": "ブレイクアタックブーストアップロング"
+      },
+      "desc": {
+        "en": "When breaking target:\\n- Raises Max BRV and Attack by 5% for 6 turns",
+        "gl": "When inflicting Break:\\n • Raises MAX BRV, ATK by 5% for 6 turns",
+        "jp": "自身が対象をブレイク時\\n6ACTION自身の最大BRVと攻撃力が5％アップ"
+      }
+    }
+  },
+  "ealdnarche": {
+    "id": 141,
+    "category": "E",
+    "passive": {
+      "id": 3292,
+      "name": {
+        "en": "Debuff Success Raging Boost Up",
+        "gl": "Debuff Success Raging Boost Up",
+        "jp": "デバフサクセスレイジングブーストアップ"
+      },
+      "desc": {
+        "en": "After inflicting a debuff:\\n• Raises Max BRV by 3% up to 5 times\\n* Only once per turn\\n* Same Spheres do not stack",
+        "gl": "When inflicting debuff on target:\\n • Boosts MAX BRV by 3% up to 5 times, once per turn\\n*Does not stack with same sphere",
+        "jp": "自身が対象に弱体効果を付与した時\\n自身の最大BRVが最大5回まで3％アップ\\n1回の行動での効果アップは1回のみ\\n※同一スフィアの効果は重複しない"
+      }
+    }
+  },
+  "cloud_of_darkness": {
+    "id": 135,
+    "category": "A",
+    "passive": {
+      "id": 3056,
+      "name": {
+        "en": "Break Hit Raging Magic Attack Up",
+        "gl": "Break Hit Raging Magic Attack Up",
+        "jp": "ブレイクヒットレイジングマジックアタックアップ"
+      },
+      "desc": {
+        "en": "When breaking target or attacking a broken target:\\n- Raises Magical Attack by 3% up to 5 times\\n※Only once per turn\\n※Same Spheres do not stack",
+        "gl": "When inflicting Break or attacking target afflicted with Break:\\n • Raises MAG ATK by 3% up to 5 times, once per turn\\n*Does not stack with same sphere",
+        "jp": "自身が対象をブレイク時 ブレイク中攻撃時\\n自身の魔法攻撃力が最大5回まで3％アップ\\n1回の行動での効果アップは1回のみ\\n※同一スフィアの効果は重複しない"
+      }
+    }
+  },
+  "keiss": {
+    "id": 133,
+    "category": "A",
+    "passive": {
+      "id": 3022,
+      "name": {
+        "en": "Link Attack Up Long",
+        "gl": "Link Attack Up Longer",
+        "jp": "リンクアタックアップロング"
+      },
+      "desc": {
+        "en": "After joining a Chase sequence:\\n• Raises Attack by 10% for 8 turns",
+        "gl": "After joining in chain attack: \\n • Raises ATK by 10% for 8 turns",
+        "jp": "追撃参加後\\n8ACTION自身の攻撃力が10％アップ"
+      }
+    }
+  },
+  "arciela": {
+    "id": 124,
+    "category": "C",
+    "passive": {
+      "id": 2618,
+      "name": {
+        "en": "Break Hit BRV Regen Short",
+        "gl": "Break Hit BRV Regen Shorter",
+        "jp": "ブレイクヒットBRVリジェネショート"
+      },
+      "desc": {
+        "en": "When breaking target or attacking a broken target, 3 turns party-wide effect\\n• Increases own BRV by 10% of own Initial BRV at start of turn\\n* Same Spheres do not stack",
+        "gl": "After inflicting Break or attacking target afflicted with Break:\\n • Grants party member BRV based on 10% of individual INT BRV at start of party member's turn for 3 turns\\n*Does not stack with same sphere",
+        "jp": "自身が対象をブレイク時 ブレイク中攻撃時\\n自身に3ACTION以下の効果が発動\\n味方の行動開始時に\\nそれぞれの初期BRVの10％分BRVを加算\\n※同一スフィアの効果は重複しない"
+      }
+    }
+  },
+  "jack": {
+    "id": 123,
+    "category": "A",
+    "passive": {
+      "id": 2568,
+      "name": {
+        "en": "Critical Attack Short Power",
+        "gl": "Mighty Critical Attack Up Shorter",
+        "jp": "クリティカルアタックアップショートパワー"
+      },
+      "desc": {
+        "en": "When dealing critical hit:\\n• Raises BRV damage dealt by 5%\\n• Raises Attack by 5% for 3 turns",
+        "gl": "When dealing critical hit:\\n • Raises BRV damage by 5%, ATK by 5% for 3 turns",
+        "jp": "自身が対象にクリティカルヒット発生時\\n自身の与えるBRVダメージが5％アップし\\n3ACTION自身の攻撃力が5％アップ"
+      }
+    }
+  },
+  "caius": {
+    "id": 116,
+    "category": "A",
+    "passive": {
+      "id": 2511,
+      "name": {
+        "en": "Full HP Base Attack Up",
+        "gl": "Full HP Initial Attack Up",
+        "jp": "フルHPベースアタックアップ"
+      },
+      "desc": {
+        "en": "When HP is MAX:\\n• Raises Initial BRV, Attack by 5%",
+        "gl": "Raises INT BRV, ATK by 5% while HP is MAX",
+        "jp": "自身のHPがMAXの時\\n自身の初期BRVと攻撃力が5％アップ"
+      }
+    }
+  },
+  "exdeath": {
+    "id": 104,
+    "category": "A",
+    "passive": {
+      "id": 2453,
+      "name": {
+        "en": "Debuff Attack Up",
+        "gl": "Debuff Attack Up",
+        "jp": "デバフアタックアップ"
+      },
+      "desc": {
+        "en": "While enemy is debuffed:\\n• Raises Attack by 10%",
+        "gl": "While enemy is debuffed:\\n • Raises ATK by 10%",
+        "jp": "弱体効果が付与された敵がいる時\\n自身の攻撃力が10％アップ"
+      }
+    }
+  },
+  "leo": {
+    "id": 106,
+    "category": "A",
+    "passive": {
+      "id": 2429,
+      "name": {
+        "en": "Single Power",
+        "gl": "Single Power",
+        "jp": "シングルパワー"
+      },
+      "desc": {
+        "en": "Raises single-target BRV damage dealt by 10%",
+        "gl": "When attacking single target:\\n • Increases BRV damage dealt by 10%",
+        "jp": "攻撃対象が単体の時\\n自身の与えるBRVダメージが10％アップ"
+      }
+    }
+  },
+  "beatrix": {
+    "id": 101,
+    "category": "D",
+    "passive": {
+      "id": 2403,
+      "name": {
+        "en": "Critical Boost All Long",
+        "gl": "Critical Boost All Longer",
+        "jp": "クリティカルブーストオールロング"
+      },
+      "desc": {
+        "en": "When dealing a critical hit:\\n- Raises party's Max BRV by 5% for 6 turns",
+        "gl": "After dealing critical hit:\\n • Raises party's MAX BRV by 5% for 6 turns",
+        "jp": "自身が対象にクリティカルヒット発生後\\n味方全員に6ACTION以下の効果が発動\\n最大BRVが5％アップ"
+      }
+    }
+  },
+  "ciaran": {
+    "id": 96,
+    "category": "A",
+    "passive": {
+      "id": 2353,
+      "name": {
+        "en": "Break Hit Advance Long",
+        "gl": "Break Hit Advance Longer",
+        "jp": "ブレイクヒットアドバンスロング"
+      },
+      "desc": {
+        "en": "When breaking target or attacking a broken target:\\n- Raises the Max BRV overflow limit for stolen BRV by 10% for 6 turns",
+        "gl": "Raises amount stolen BRV may exceed MAX BRV by 10% for 6 turns when inflicting Break or attacking target afflicted with Break",
+        "jp": "自身が対象をブレイク時 ブレイク中攻撃時\\n6ACTION自身の奪ったBRVを\\n最大BRVを超えて加算する上限が10％アップ"
+      }
+    }
+  },
+  "kamlanaut": {
+    "id": 86,
+    "category": "E",
+    "passive": {
+      "id": 2298,
+      "name": {
+        "en": "Full HP Break Hit Attack Down",
+        "gl": "Full HP Break Hit Attack Down",
+        "jp": "フルHPブレイクヒットアタックダウン"
+      },
+      "desc": {
+        "en": "When HP is max and breaking target or attacking a broken target:\\n- Inflicts 「30% Attack Down」 for 6 turns",
+        "gl": "Inflicts ATK Down 30% for 6 turns when inflicting Break or attacking target afflicted with Break while HP at MAX",
+        "jp": "自身のHPがMAXで 対象をブレイク時 ブレイク中攻撃時\\nターゲットに6ACTION弱体効果「攻撃力30％ダウン」付与"
+      }
+    },
+    "refined": {
+      "id": 266,
+      "category": "E",
+      "passive": {
+        "id": 5941,
+        "name": {
+          "en": "Full HP Break Hit Attack Down (RF)",
+          "gl": "",
+          "jp": "フルHPブレイクヒットアタックダウン【精錬】"
+        },
+        "desc": {
+          "en": "When HP is max and breaking target or attacking a broken target:\\n- Inflicts [12% Attack Down] for 6 turns",
+          "gl": "",
+          "jp": "自身のHPがMAXで 対象をブレイク時 ブレイク中攻撃時\\nターゲットに6ACTION弱体効果「攻撃力12％ダウン」付与"
+        }
+      },
+      "source": {
+        "short": "raid5",
+        "event": "Hell Wyrm Raid"
+      }
+    }
+  },
+  "gau": {
+    "id": 73,
+    "category": "A",
+    "passive": {
+      "id": 2252,
+      "name": {
+        "en": "Full HP Power",
+        "gl": "Full HP Power",
+        "jp": "フルHPパワー"
+      },
+      "desc": {
+        "en": "When HP is max:\\n- Raises BRV damage dealt by 10%",
+        "gl": "Increases BRV damage dealt by 10% while HP is MAX",
+        "jp": "自身のHPがMAXの時\\n自身の与えるBRVダメージが10％アップ"
+      }
+    },
+    "refined": {
+      "id": 261,
+      "category": "A",
+      "passive": {
+        "id": 5875,
+        "name": {
+          "en": "Full HP Power (RF)",
+          "gl": "",
+          "jp": "フルHPパワー【精錬】"
+        },
+        "desc": {
+          "en": "When HP is max:\\n- Raises BRV damage dealt by 4%",
+          "gl": "",
+          "jp": "自身のHPがMAXの時\\n自身の与えるBRVダメージが4％アップ"
+        }
+      },
+      "source": {
+        "short": "story2",
+        "event": "Act 3 Chapter 1 Part 1 (Co-op)"
+      }
+    }
+  },
+  "ignis": {
+    "id": 75,
+    "category": "D",
+    "passive": {
+      "id": 2234,
+      "name": {
+        "en": "Buff Success Boost All Long",
+        "gl": "Buff Success Boost All Longer",
+        "jp": "バフサクセスブーストオールロング"
+      },
+      "desc": {
+        "en": "After granting a buff:\\n• Raises party's Max BRV by 5% for 6 turns",
+        "gl": "After granting buff:\\n • Raises party's MAX BRV by 5% for 6 turns",
+        "jp": "自身が対象に強化効果を付与した後\\n味方全員に6ACTION以下の効果が発動\\n最大BRVが5％アップ"
+      }
+    },
+    "refined": {
+      "id": 246,
+      "category": "D",
+      "passive": {
+        "id": 5431,
+        "name": {
+          "en": "Buff Success Boost All Long (RF)",
+          "gl": "",
+          "jp": "バフサクセスブーストオールロング【精錬】"
+        },
+        "desc": {
+          "en": "After granting a buff:\\n- Raises party's Max BRV by 2% for 6 turns",
+          "gl": "",
+          "jp": "自身が対象に強化効果を付与した後\\n味方全員に6ACTION以下の効果が発動\\n最大BRVが2％アップ"
+        }
+      },
+      "source": {
+        "short": "heretic2",
+        "event": "嘲笑う悪魔 (Heretic)"
+      }
+    }
+  },
+  "eight": {
+    "id": 79,
+    "category": "A",
+    "passive": {
+      "id": 2222,
+      "name": {
+        "en": "Evasion Attack Up Short",
+        "gl": "Evasion Attack Up Shorter",
+        "jp": "エヴァージョンアタックアップショート"
+      },
+      "desc": {
+        "en": "When evading an enemy attack:\\n- Raises Attack by 20% for 3 turns\\n※Same Spheres do not stack",
+        "gl": "Raises own ATK by 20% for 3 turns when evading enemy attack\\n*Does not stack with same sphere",
+        "jp": "自身が敵の攻撃を回避した時\\n3ACTION自身の攻撃力が20％アップ\\n※同一スフィアの効果は重複しない"
+      }
+    }
+  },
+  "the_emperor": {
+    "id": 64,
+    "category": "E",
+    "passive": {
+      "id": 2127,
+      "name": {
+        "en": "Debuff Success Attack Up Long",
+        "gl": "Debuff Success Attack Up Longer",
+        "jp": "デバフサクセスアタックアップロング"
+      },
+      "desc": {
+        "en": "After inflicting a debuff:\\n• Raises Attack by 10% for 6 turns",
+        "gl": "Raises own ATK by 10% for 6 turns when inflicting debuff on target",
+        "jp": "自身が対象に弱体効果を付与した時\\n6ACTION自身の攻撃力が10％アップ"
+      }
+    },
+    "refined": {
+      "id": 179,
+      "category": "E",
+      "passive": {
+        "id": 4073,
+        "name": {
+          "en": "Debuff Success Attack Up Long (RF)",
+          "gl": "",
+          "jp": "デバフサクセスアタックアップロング【精錬】"
+        },
+        "desc": {
+          "en": "After inflicting a debuff:\\n• Raises Attack by 4% for 6 turns",
+          "gl": "",
+          "jp": "自身が対象に弱体効果を付与した時\\n6ACTION自身の攻撃力が4％アップ"
+        }
+      },
+      "source": {
+        "short": "woi4",
+        "event": "Divine Ramuh"
+      }
+    }
+  },
+  "kimahri": {
+    "id": 61,
+    "category": "B",
+    "passive": {
+      "id": 2072,
+      "name": {
+        "en": "Resist HP Up",
+        "gl": "Protect Up",
+        "jp": "プロテクトアップ"
+      },
+      "desc": {
+        "en": "Lowers HP damage taken by 10%",
+        "gl": "Reduces own HP damage taken by 10%",
+        "jp": "自身が受けるHPダメージを10％軽減"
+      }
+    }
+  },
+  "basch": {
+    "id": 55,
+    "category": "B",
+    "passive": {
+      "id": 2033,
+      "name": {
+        "en": "HP Damage Attack Up Short",
+        "gl": "HP Damage Attack Up Shorter",
+        "jp": "HPダメージアタックアップショート"
+      },
+      "desc": {
+        "en": "After taking an HP attack:\\n- Raises Attack by 20% for 3 turns",
+        "gl": "Boosts ATK by 20% for 3 turns after taking HP damage",
+        "jp": "自身がHPダメージを受けた時\\n3ACTION自身の攻撃力を20％アップ"
+      }
+    },
+    "refined": {
+      "id": 275,
+      "category": "B",
+      "passive": {
+        "id": 6101,
+        "name": {
+          "en": "HP Damage Attack Up Short (RF)",
+          "gl": "",
+          "jp": "HPダメージアタックアップショート【精錬】"
+        },
+        "desc": {
+          "en": "After taking an HP attack:\\n- Raises Attack by 8% for 3 turns",
+          "gl": "",
+          "jp": "自身がHPダメージを受けた時\\n3ACTION自身の攻撃力を8％アップ"
+        }
+      },
+      "source": {
+        "short": "story3",
+        "event": "Act 3 Chapter 2 Part 1 (Co-op)"
+      }
+    }
+  },
+  "lyse": {
+    "id": 52,
+    "category": "D",
+    "passive": {
+      "id": 2013,
+      "name": {
+        "en": "Break Hit Attack All Long",
+        "gl": "All Break Hit Attack Longer",
+        "jp": "ブレイクヒットアタックオールロング"
+      },
+      "desc": {
+        "en": "When breaking target or attacking a broken target:\\n- Raises party's Attack by 5% for 6 turns",
+        "gl": "After inflicting Break or attacking target afflicted with Break:\\n • Raises party's ATK by 5% for 6 turns",
+        "jp": "自身が対象をブレイク時 ブレイク中攻撃後\\n味方全員に6ACTION以下の効果が発動\\n攻撃力が5％アップ"
+      }
+    },
+    "refined": {
+      "id": 211,
+      "category": "D",
+      "passive": {
+        "id": 4742,
+        "name": {
+          "en": "Break Hit Attack All Long (RF)",
+          "gl": "",
+          "jp": "ブレイクヒットアタックオールロング【精錬】"
+        },
+        "desc": {
+          "en": "When breaking target or attacking a broken target:\\n- Raises party's Attack by 2% for 6 turns",
+          "gl": "",
+          "jp": "自身が対象をブレイク時 ブレイク中攻撃後\\n味方全員に6ACTION以下の効果が発動\\n攻撃力が2％アップ"
+        }
+      },
+      "source": {
+        "short": "heretic1",
+        "event": "魔に捧ぐ祈祷 (Heretic)"
+      }
+    }
+  },
+  "machina": {
+    "id": 50,
+    "category": "A",
+    "passive": {
+      "id": 1993,
+      "name": {
+        "en": "Break Hit Base Attack Up Short",
+        "gl": "Break Hit Initial Attack Up Shorter",
+        "jp": "ブレイクヒットベースアタックアップショート"
+      },
+      "desc": {
+        "en": "When breaking target or attacking a broken target:\\n- Raises Initial BRV and Attack by 10% for 3 turns",
+        "gl": "Raises INT BRV, ATK by 10% for 3 turns when inflicting Break or attacking target afflicted with Break",
+        "jp": "自身が対象をブレイク時 ブレイク中攻撃時\\n3ACTION自身の初期BRVと攻撃力が10％アップ"
+      }
+    },
+    "refined": {
+      "id": 257,
+      "category": "A",
+      "passive": {
+        "id": 5664,
+        "name": {
+          "en": "Break Hit Base Attack Up Short (RF)",
+          "gl": "",
+          "jp": "ブレイクヒットベースアタックショート【精錬】"
+        },
+        "desc": {
+          "en": "When breaking target or attacking a broken target:\\n- Raises Initial BRV and Attack by 4% for 3 turns",
+          "gl": "",
+          "jp": "自身が対象をブレイク時 ブレイク中攻撃時\\n3ACTION自身の初期BRVと攻撃力が4％アップ"
+        }
+      },
+      "source": {
+        "short": "woi3",
+        "event": "Divine Diabolos"
+      }
+    }
+  },
+  "ultimecia": {
+    "id": 35,
+    "category": "E",
+    "passive": {
+      "id": 1821,
+      "name": {
+        "en": "Full HP Critical Guard Down",
+        "gl": "Full HP Critical Guard Down",
+        "jp": "フルHPクリティカルガードダウン"
+      },
+      "desc": {
+        "en": "When HP is max and a critical hit occurs:\\n• Inflicts [30% Defense Down] for 6 turns\\n* Same Spheres do not stack",
+        "gl": "Inflicts DEF Down 30% for 6 turns when dealing critical hit while HP at MAX",
+        "jp": "自身のHPがMAXで クリティカルヒット発生時\\nターゲットに6ACTION弱体効果「防御力30％ダウン」付与"
+      }
+    },
+    "refined": {
+      "id": 259,
+      "category": "E",
+      "passive": {
+        "id": 5855,
+        "name": {
+          "en": "Full HP Critical Guard Down (RF)",
+          "gl": "",
+          "jp": "フルHPクリティカルガードダウン【精錬】"
+        },
+        "desc": {
+          "en": "When HP is max and a critical hit occurs:\\n• Inflicts [12% Defense Down] for 6 turns",
+          "gl": "",
+          "jp": "自身のHPがMAXで クリティカルヒット発生時\\nターゲットに6ACTION弱体効果「防御力12％ダウン」付与"
+        }
+      },
+      "source": {
+        "short": "heretic3",
+        "event": "機空兵迎撃作戦 (Heretic)"
+      }
+    }
+  },
+  "garland": {
+    "id": 29,
+    "category": "A",
+    "passive": {
+      "id": 1797,
+      "name": {
+        "en": "Break Hit Raging Attack Up",
+        "gl": "Break Hit Raging Attack Up",
+        "jp": "ブレイクヒットレイジングアタックアップ"
+      },
+      "desc": {
+        "en": "When breaking target or attacking a broken target:\\n- Raises Attack by 2% up to 5 times",
+        "gl": "Raises ATK by 2% when inflicting Break or attacking target afflicted with Break up to 5 times, once per turn",
+        "jp": "自身が対象をブレイク時 ブレイク中攻撃時\\n自身の攻撃力が最大5回まで2％アップ\\n1回の行動での効果アップは1回のみ"
+      }
+    },
+    "refined": {
+      "id": 276,
+      "category": "A",
+      "passive": {
+        "id": 6120,
+        "name": {
+          "en": "Break Hit Raging Attack Up (RF)",
+          "gl": "",
+          "jp": "ブレイクヒットレイジングアタックアップ【精錬】"
+        },
+        "desc": {
+          "en": "When inflicting Break or attacking target afflicted with Break:\\n• Raises Attack by 2% up to 2 times (once per turn)",
+          "gl": "",
+          "jp": "自身が対象をブレイク時 ブレイク中攻撃時\\n自身の攻撃力が最大2回まで2％アップ\\n1回の行動での効果アップは1回のみ"
+        }
+      },
+      "source": {
+        "short": "raid6",
+        "event": "Kaiser Behemoth Raid"
+      }
+    }
+  },
+  "sherlotta": {
+    "id": 146,
+    "category": "C",
+    "passive": {
+      "id": 3531,
+      "name": {
+        "en": "Buff Success BRV Regen Short",
+        "gl": "Buff Success BRV Regen Shorter",
+        "jp": "バフサクセスBRVリジェネショート"
+      },
+      "desc": {
+        "en": "After granting a buff, triggers the following effect for 3 turns:\\n- Raises party's member's BRV by 10% of their Initial BRV at the start of their turn\\n※Same Spheres do not stack",
+        "gl": "After granting buff:\\n • Grants party member BRV based on 10% of individual INT BRV at start of party member's turn for 3 turns\\n*Does not stack with same sphere",
+        "jp": "自身が対象に強化効果を付与した時\\n自身に3ACTION以下の効果が発動\\n味方の行動開始時に\\nそれぞれの初期BRVの10％分BRVを加算\\n※同一スフィアの効果は重複しない"
+      }
+    }
+  },
+  "aphmau": {
+    "id": 137,
+    "category": "D",
+    "passive": {
+      "id": 3077,
+      "name": {
+        "en": "Buff Success Base All Long",
+        "gl": "Buff Success Initial All Longer",
+        "jp": "バフサクセスベースオールロング"
+      },
+      "desc": {
+        "en": "After granting a buff:\\n• Raises party's Initial BRV by 10% for 6 turns",
+        "gl": "After granting buff:\\n • Raises party's INT BRV by 10% for 6 turns",
+        "jp": "自身が対象に強化効果を付与した後\\n味方全員に6ACTION以下の効果が発動\\n初期BRVが10％アップ"
+      }
+    }
+  },
+  "noel": {
+    "id": 117,
+    "category": "A",
+    "passive": {
+      "id": 2512,
+      "name": {
+        "en": "Breaking Attack Up Short",
+        "gl": "Breaking Attack Up Shorter",
+        "jp": "ブレイキングアタックアップショート"
+      },
+      "desc": {
+        "en": "When attacking a broken target\\n• Raises Attack by 15% for 3 turns\\n* Same Spheres do not stack",
+        "gl": "When attacking target afflicted with Break:\\n • Raises ATK by 15% for 3 turns\\n*Does not stack with same sphere",
+        "jp": "自身がブレイク中の対象攻撃時\\n3ACTION自身の攻撃力が15％アップ\\n※同一スフィアの効果は重複しない"
+      }
+    }
+  },
+  "alphinaud": {
+    "id": 131,
+    "category": "C",
+    "passive": {
+      "id": 3006,
+      "name": {
+        "en": "Buff Success Base Attack All Short",
+        "gl": "Buff Success Initial Attack All Shorter",
+        "jp": "バフサクセスベースアタックオールショート"
+      },
+      "desc": {
+        "en": "After granting a buff:\\n- Raises party's Initial BRV and Attack by 5% for 3 turns",
+        "gl": "After granting buff:\\n • Raises party's INT BRV, ATK by 5% for 3 turns",
+        "jp": "自身が対象に強化効果を付与した時\\n味方全員に3ACTION以下の効果が発動\\n初期BRVと攻撃力が5％アップ"
+      }
+    },
+    "refined": {
+      "id": 206,
+      "category": "C",
+      "passive": {
+        "id": 4731,
+        "name": {
+          "en": "Buff Success Base Attack All Short (RF)",
+          "gl": "",
+          "jp": "バフサクセスベースアタックオールショート【精錬】"
+        },
+        "desc": {
+          "en": "After granting a buff:\\n- Raises party's Initial BRV and Attack by 2% for 3 turns",
+          "gl": "",
+          "jp": "自身が対象に強化効果を付与した時\\n味方全員に3ACTION以下の効果が発動\\n初期BRVと攻撃力が2％アップ"
+        }
+      },
+      "source": {
+        "short": "raid1",
+        "event": "Act 2 Chapter 11 Part 1 (Raid)"
+      }
+    }
+  },
+  "prompto": {
+    "id": 127,
+    "category": "A",
+    "passive": {
+      "id": 2591,
+      "name": {
+        "en": "Critical Attack Boost Up Long",
+        "gl": "Critical Attack Boost Up Longer",
+        "jp": "クリティカルアタックブーストアップロング"
+      },
+      "desc": {
+        "en": "When dealing a critical hit:\\n• Raises Max BRV, Attack by 5% for 6 turns",
+        "gl": "When dealing critical hit:\\n • Raises MAX BRV, ATK by 5% for 6 turns",
+        "jp": "自身が対象にクリティカルヒット発生時\\n6ACTION自身の最大BRVと攻撃力が5％アップ"
+      }
+    }
+  },
+  "cinque": {
+    "id": 119,
+    "category": "A",
+    "passive": {
+      "id": 2519,
+      "name": {
+        "en": "Break BRV Gain",
+        "gl": "Bravery Break",
+        "jp": "ブレイクBRVゲイン"
+      },
+      "desc": {
+        "en": "When breaking target\\n• Increases BRV by 10% of Max BRV\\n* Only once per turn\\n* Same Spheres do not stack",
+        "gl": "When inflicting Break:\\n • Increases BRV by 10% of MAX BRV once per turn\\n*Does not stack with same sphere",
+        "jp": "自身が対象ブレイク時\\n自身に自身の最大BRVの10％分のBRVを加算\\n1回の行動での効果発動は1回のみ\\n※同一スフィアの効果は重複しない"
+      }
+    },
+    "refined": {
+      "id": 166,
+      "category": "A",
+      "passive": {
+        "id": 4060,
+        "name": {
+          "en": "Break BRV Gain (RF)",
+          "gl": "",
+          "jp": "ブレイクBRVゲイン【精錬】"
+        },
+        "desc": {
+          "en": "When breaking target:\\n- Raises BRV by 4% Max BRV\\n※Only once per turn\\n※Same Spheres do not stack",
+          "gl": "",
+          "jp": "自身が対象ブレイク時\\n自身に自身の最大BRVの4％分のBRVを加算\\n1回の行動での効果発動は1回のみ\\n※同一スフィアの効果は重複しない"
+        }
+      },
+      "source": {
+        "short": "raid2",
+        "event": "Act 2 Chapter 11 Part 2 (Raid)"
+      }
+    }
+  },
+  "paine": {
+    "id": 38,
+    "category": "E",
+    "passive": {
+      "id": 3894,
+      "name": {
+        "en": "Weak Attack Up Down All",
+        "gl": "Weak Attack Up Down All",
+        "jp": "ウィークアタックアップダウンオール"
+      },
+      "desc": {
+        "en": "When hitting target's weakness:\\n- Raises party's Attack by 5% for 3 turns\\n- Lowers enemy Attack by 10%\\n※Same Spheres do not stack",
+        "gl": "Raises party's ATK by 5%, lowers all enemies' ATK by 10% for 3 turns when attacking target's weakness\\n*Does not stack with same sphere",
+        "jp": "自身が対象の弱点をついた時\\n3ACTION味方全員の攻撃力が5％アップし\\n敵全体の攻撃力が10％ダウン\\n※同一スフィアの効果は重複しない"
+      }
+    },
+    "refined": {
+      "id": 184,
+      "category": "E",
+      "passive": {
+        "id": 4078,
+        "name": {
+          "en": "Weak Attack Up Down All (RF)",
+          "gl": "",
+          "jp": "ウィークアタックアップダウンオール【精錬】"
+        },
+        "desc": {
+          "en": "When hitting target's weakness:\\n- Raises party's Attack by 2% for 3 turns\\n- Lowers enemy Attack by 4%\\n* Same Spheres do not stack",
+          "gl": "",
+          "jp": "自身が対象の弱点をついた時\\n3ACTION味方全員の攻撃力が2％アップし\\n敵全体の攻撃力が4％ダウン\\n※同一スフィアの効果は重複しない"
+        }
+      },
+      "source": {
+        "short": "woi3",
+        "event": "Divine Diabolos"
+      }
+    }
+  },
+  "porom": {
+    "id": 115,
+    "category": "C",
+    "passive": {
+      "id": 2462,
+      "name": {
+        "en": "Buff Success HP Regen Long",
+        "gl": "Buff Success HP Regen Longer",
+        "jp": "バフサクセスHPリジェネロング"
+      },
+      "desc": {
+        "en": "After granting a buff:\\n- Restores party HP at 3% of Max HP per turn for 6 turns\\n※Same Spheres do not stack",
+        "gl": "After granting buff:\\n • Restores 3% of individual MAX HP at start of ally's turn for 6 turns \\n*Does not stack with same sphere",
+        "jp": "自身が対象に強化効果を付与した時\\n自身に6ACTION以下の効果が発動\\n味方の行動開始時に\\nそれぞれの最大HPの3％分HPを回復させる\\n※同一スフィアの効果は重複しない"
+      }
+    },
+    "refined": {
+      "id": 230,
+      "category": "C",
+      "passive": {
+        "id": 5101,
+        "name": {
+          "en": "Buff Success HP Regen Long (RF)",
+          "gl": "",
+          "jp": "バフサクセスHPリジェネロング【精錬】"
+        },
+        "desc": {
+          "en": "After granting a buff:\\n- Restores party HP at 1% of Max HP per turn for 6 turns\\n※Same Spheres do not stack",
+          "gl": "",
+          "jp": "自身が対象に強化効果を付与した時\\n自身に6ACTION以下の効果が発動\\n味方の行動開始時に\\nそれぞれの最大HPの1％分HPを回復させる\\n※同一スフィアの効果は重複しない"
+        }
+      },
+      "source": {
+        "short": "woi2|story3",
+        "event": "Bahamut Ultimate|Act 3 Chapter 2 Part 1 (Co-op)"
+      }
+    }
+  },
+  "fran": {
+    "id": 102,
+    "category": "E",
+    "passive": {
+      "id": 2436,
+      "name": {
+        "en": "Full HP Break Hit Boost Down",
+        "gl": "Full HP Break Hit Boost Down",
+        "jp": "フルHPブレイクヒットブーストダウン"
+      },
+      "desc": {
+        "en": "When HP is max and breaking target/attacking a broken target:\\n- Inflicts 「30% Max BRV Down」 for 6 turns",
+        "gl": "Inflicts MAX BRV Down 30% for 6 turns when inflicting Break or attacking target afflicted with Break while HP at MAX",
+        "jp": "自身のHPがMAXで 対象をブレイク時 ブレイク中攻撃時\\nターゲットに6ACTION弱体効果「最大BRV30％ダウン」付与"
+      }
+    },
+    "refined": {
+      "id": 199,
+      "category": "E",
+      "passive": {
+        "id": 4393,
+        "name": {
+          "en": "Full HP Break Hit Boost Down (RF)",
+          "gl": "Full HP Break Hit Boost Down (RF)",
+          "jp": "フルHPブレイクヒットブーストダウン【精錬】"
+        },
+        "desc": {
+          "en": "When HP is max and breaking target/attacking a broken target:\\n- Inflicts 「12% Max BRV Down」 for 6 turns",
+          "gl": "While HP is MAX when inflicting Break or attacking target afflicted with Break:\\n • Target: 6 turns MAX BRV 12% Down",
+          "jp": "自身のHPがMAXで 対象をブレイク時 ブレイク中攻撃時\\nターゲットに6ACTION弱体効果「最大BRV12％ダウン」付与"
+        }
+      },
+      "source": {
+        "short": "woi1",
+        "event": "Odin Ultimate"
+      }
+    }
+  },
+  "vayne": {
+    "id": 99,
+    "category": "A",
+    "passive": {
+      "id": 2386,
+      "name": {
+        "en": "Broken Power",
+        "gl": "Broken Power",
+        "jp": "ブレイキングパワー"
+      },
+      "desc": {
+        "en": "When attacking a broken target:\\n- Raises BRV damage dealt by 10%",
+        "gl": "When attacking target afflicted with Break:\\n • Increases BRV damage dealt by 10%",
+        "jp": "自身がブレイク中の対象攻撃時\\n与えるBRVダメージを10％アップ"
+      }
+    },
+    "refined": {
+      "id": 163,
+      "category": "A",
+      "passive": {
+        "id": 4057,
+        "name": {
+          "en": "Broken Power (RF)",
+          "gl": "",
+          "jp": "ブレイキングパワー【精錬】"
+        },
+        "desc": {
+          "en": "When attacking a broken target:\\n- Raises BRV damage dealt by 4%",
+          "gl": "",
+          "jp": "自身がブレイク中の対象攻撃時\\n与えるBRVダメージを4％アップ"
+        }
+      },
+      "source": {
+        "short": "story3",
+        "event": "Act 3 Chapter 2 Part 1 (Co-op)"
+      }
+    }
+  },
+  "freya": {
+    "id": 126,
+    "category": "D",
+    "passive": {
+      "id": 2590,
+      "name": {
+        "en": "HP Up All",
+        "gl": "HP Up All",
+        "jp": "HPアップオール"
+      },
+      "desc": {
+        "en": "Raises party's Max HP by 10%\\n※Same Spheres do not stack",
+        "gl": "Boosts party's MAX HP by 10%\\n*Does not stack with same sphere",
+        "jp": "味方全員の最大HPを10％アップ\\n※同一スフィアの効果は重複しない"
+      }
+    },
+    "refined": {
+      "id": 210,
+      "category": "D",
+      "passive": {
+        "id": 4741,
+        "name": {
+          "en": "HP Up All (RF)",
+          "gl": "",
+          "jp": "HPアップオール【精錬】"
+        },
+        "desc": {
+          "en": "Raises party's Max HP by 4%\\n※Same Spheres do not stack",
+          "gl": "",
+          "jp": "味方全員の最大HPを4％アップ\\n※同一スフィアの効果は重複しない"
+        }
+      },
+      "source": {
+        "short": "heretic1|woi3|raid6",
+        "event": "魔に捧ぐ祈祷 (Heretic)|Divine Diabolos|Kaiser Behemoth Raid"
+      }
+    }
+  },
+  "lann&reynn": {
+    "id": 90,
+    "category": "A",
+    "passive": {
+      "id": 2331,
+      "name": {
+        "en": "All Range Critical Boost Up Long",
+        "gl": "All Range Critical Boost Up Longer",
+        "jp": "オールレンジクリティカルブーストアップロング"
+      },
+      "desc": {
+        "en": "When dealing a critical hit with an AoE BRV Attack:\\n- Raises Max BRV by 10% for 6 turns",
+        "gl": "Raises MAX BRV by 10% for 6 turns when dealing critical hit with group BRV attack",
+        "jp": "自身が全体BRV攻撃で対象にクリティカルヒット発生時\\n6ACTION自身の最大BRVが10％アップ"
+      }
+    }
+  },
+  "lulu": {
+    "id": 83,
+    "category": "A",
+    "passive": {
+      "id": 2255,
+      "name": {
+        "en": "Weak Base Boost Up Short",
+        "gl": "Weak Initial Boost Up Shorter",
+        "jp": "ウィークベースブーストアップショート"
+      },
+      "desc": {
+        "en": "When hitting target's weakness:\\n- Raises Initial BRV and Max BRV by 10% for 3 turns",
+        "gl": "Raises own INT BRV, MAX BRV by 10% for 3 turns when attacking target's weakness",
+        "jp": "自身が対象の弱点をついた時\\n3ACTION自身の初期BRVと最大BRVが10％アップ"
+      }
+    },
+    "refined": {
+      "id": 229,
+      "category": "A",
+      "passive": {
+        "id": 5100,
+        "name": {
+          "en": "Weak Base Boost Up Short (RF)",
+          "gl": "",
+          "jp": "ウィークベースブーストアップショート【精錬】"
+        },
+        "desc": {
+          "en": "When hitting target's weakness:\\n- Raises Initial BRV and Max BRV by 4% for 3 turns",
+          "gl": "",
+          "jp": "自身が対象の弱点をついた時\\n3ACTION自身の初期BRVと最大BRVが4％アップ"
+        }
+      },
+      "source": {
+        "short": "woi2|woi4",
+        "event": "Bahamut Ultimate|Divine Ramuh"
+      }
+    }
+  },
+  "rinoa": {
+    "id": 77,
+    "category": "A",
+    "passive": {
+      "id": 2239,
+      "name": {
+        "en": "Danger Attack Boost Up",
+        "gl": "Low HP Attack Boost Up",
+        "jp": "デンジャーアタックブーストアップ"
+      },
+      "desc": {
+        "en": "When HP is lower or equal to 80% Max HP:\\n- Raises Max BRV and Attack by 10%",
+        "gl": "Raises MAX BRV, ATK by 10% while HP less than 80% of MAX",
+        "jp": "自身のHPが最大HPの80％未満の時\\n自身の最大BRVと攻撃力が10％アップ"
+      }
+    },
+    "refined": {
+      "id": 204,
+      "category": "A",
+      "passive": {
+        "id": 4729,
+        "name": {
+          "en": "Danger Attack Boost Up (RF)",
+          "gl": "",
+          "jp": "デンジャーアタックブーストアップ【精錬】"
+        },
+        "desc": {
+          "en": "When HP is lower or equal to 80% Max HP:\\n- Raises Max BRV and Attack by 4%",
+          "gl": "",
+          "jp": "自身のHPが最大HPの80％未満の時\\n自身の最大BRVと攻撃力が4％アップ"
+        }
+      },
+      "source": {
+        "short": "raid1",
+        "event": "Act 2 Chapter 11 Part 1 (Raid)"
+      }
+    }
+  },
+  "golbez": {
+    "id": 71,
+    "category": "A",
+    "passive": {
+      "id": 2175,
+      "name": {
+        "en": "Weak Raging Attack Up",
+        "gl": "Weak Raging Attack Up",
+        "jp": "ウィークレイジングアタックアップ"
+      },
+      "desc": {
+        "en": "When attacking target's weakness:\\n- Raises Attack by 2% up to 5 times\\n* Only once per turn",
+        "gl": "Raises own ATK by 2% when attacking target's weakness up to 5 times, once per turn",
+        "jp": "自身が対象の弱点をついた時\\n自身の攻撃力が最大5回まで2％アップ\\n1回の行動での効果アップは1回のみ"
+      }
+    },
+    "refined": {
+      "id": 254,
+      "category": "A",
+      "passive": {
+        "id": 5652,
+        "name": {
+          "en": "Weak Raging Attack Up (RF)",
+          "gl": "",
+          "jp": "ウィークレイジングアタックアップ【精錬】"
+        },
+        "desc": {
+          "en": "When attacking target's weakness:\\n- Raises Attack by 2% up to 2 times\\n* Only once per turn",
+          "gl": "",
+          "jp": "自身が対象の弱点をついた時\\n自身の攻撃力が最大2回まで2％アップ\\n1回の行動での効果アップは1回のみ"
+        }
+      },
+      "source": {
+        "short": "md1",
+        "event": "魔城攻略戦線 (Mission Dungeon)"
+      }
+    }
+  },
+  "rosa": {
+    "id": 62,
+    "category": "C",
+    "passive": {
+      "id": 2111,
+      "name": {
+        "en": "Break Hit HP Regen Long",
+        "gl": "Break Hit HP Regen Longer",
+        "jp": "ブレイクヒットHPリジェネロング"
+      },
+      "desc": {
+        "en": "When breaking target or attacking a broken target:\\n- Restores party HP at 3% of Max HP per turn for 6 turns\\n※Same Spheres do not stack",
+        "gl": "After inflicting Break or attacking target afflicted with Break:\\n • Restores 3% of individual MAX HP at start of ally's turn for 6 turns\\n*Does not stack with same sphere",
+        "jp": "自身が対象をブレイク時 ブレイク中攻撃後\\n自身に6ACTION以下の効果が発動\\n味方の行動開始時に\\nそれぞれの最大HPの3％分HPを回復させる\\n※同一スフィアの効果は重複しない"
+      }
+    }
+  },
+  "cecil_paladin": {
+    "id": 108,
+    "category": "C",
+    "passive": {
+      "id": 2387,
+      "name": {
+        "en": "Full HP Break Hit BRV Gain All",
+        "gl": "Full HP Break Hit All Bravery",
+        "jp": "フルHPブレイクヒットBRVゲインオール"
+      },
+      "desc": {
+        "en": "When HP is MAX and breaking target or attacking a broken target:\\n• Increases party's BRV by 5% of individual Max BRV\\n* Only once per turn",
+        "gl": "When inflicting Break or attacking target afflicted with Break while HP at MAX:\\n • Grants party 5% of individual MAX BRV once per turn",
+        "jp": "自身のHPがMAXで 対象をブレイク時 ブレイク中攻撃時\\n味方全員にそれぞれの最大BRVの5％分のBRVを加算\\n1回の行動での効果発動は1回のみ"
+      }
+    },
+    "refined": {
+      "id": 173,
+      "category": "C",
+      "passive": {
+        "id": 4067,
+        "name": {
+          "en": "Full HP Break Hit BRV Gain All (RF)",
+          "gl": "Bravery Full HP Break Hit All (RF)",
+          "jp": "フルHPブレイクヒットBRVゲインオール【精錬】"
+        },
+        "desc": {
+          "en": "When HP is max and breaking target or attacking a broken target:\\n- Raises each party member's BRV by 2% of their Max BRV\\n※Only once per turn",
+          "gl": "While HP is MAX when inflicting Break or attacking target afflicted with Break:\\n • Grants party BRV based on 2% of individual MAX BRV, once per turn",
+          "jp": "自身のHPがMAXで　対象をブレイク時 ブレイク中攻撃時\\n味方全員にそれぞれの最大BRVの2％分のBRVを加算\\n1回の行動での効果発動は1回のみ"
+        }
+      },
+      "source": {
+        "short": "woi1|raid5",
+        "event": "Odin Ultimate|Hell Wyrm Raid"
+      }
+    }
+  },
+  "barret": {
+    "id": 58,
+    "category": "D",
+    "passive": {
+      "id": 2069,
+      "name": {
+        "en": "Break Hit Boost All Long",
+        "gl": "All Break Hit Boost Longer",
+        "jp": "ブレイクヒットブーストオールロング"
+      },
+      "desc": {
+        "en": "When breaking target or attacking a broken target:\\n- Raises party's Max BRV by 5% for 6 turns",
+        "gl": "After inflicting Break or attacking target afflicted with Break:\\n • Raises party's MAX BRV by 5% for 6 turns",
+        "jp": "自身が対象をブレイク時 ブレイク中攻撃後\\n味方全員に6ACTION以下の効果が発動\\n最大BRVが5％アップ"
+      }
+    },
+    "refined": {
+      "id": 264,
+      "category": "D",
+      "passive": {
+        "id": 5939,
+        "name": {
+          "en": "Break Hit Boost All Long (RF)",
+          "gl": "",
+          "jp": "ブレイクヒットブーストオールロング【精錬】"
+        },
+        "desc": {
+          "en": "When breaking target or attacking a broken target:\\n- Raises party's Max BRV by 2% for 6 turns",
+          "gl": "",
+          "jp": "自身が対象をブレイク時 ブレイク中攻撃後\\n味方全員に6ACTION以下の効果が発動\\n最大BRVが2％アップ"
+        }
+      },
+      "source": {
+        "short": "raid5",
+        "event": "Hell Wyrm Raid"
+      }
+    }
+  },
+  "locke": {
+    "id": 51,
+    "category": "A",
+    "passive": {
+      "id": 2015,
+      "name": {
+        "en": "Sneak Attack Up Long",
+        "gl": "Sneak Attack Up Longer",
+        "jp": "スニークアタックアップロング"
+      },
+      "desc": {
+        "en": "When attacking an enemy not targeting self:\\n- Raises Attack by 10% for 6 turns",
+        "gl": "Raises ATK by 10% for 6 turns when attacking enemy not targeting self",
+        "jp": "自身が自身を狙っていないターゲットを攻撃時\\n6ACTION自身の攻撃力が10％アップ"
+      }
+    },
+    "refined": {
+      "id": 159,
+      "category": "A",
+      "passive": {
+        "id": 4053,
+        "name": {
+          "en": "Sneak Attack Up Long (RF)",
+          "gl": "Sneak Attack Up Longer (RF)",
+          "jp": "スニークアタックアップロング【精錬】"
+        },
+        "desc": {
+          "en": "When attacking an enemy not targeting self:\\n- Raises Attack by 4% for 6 turns",
+          "gl": "When attacking enemy not targeting self:\\n • Raises own ATK by 4% for 6 turns",
+          "jp": "自身が自身を狙っていないターゲットを攻撃時\\n6ACTION自身の攻撃力が4％アップ"
+        }
+      },
+      "source": {
+        "short": "story1",
+        "event": "Act 2 Chapter 10 (Co-op)"
+      }
+    }
+  },
+  "agrias": {
+    "id": 47,
+    "category": "A",
+    "passive": {
+      "id": 1798,
+      "name": {
+        "en": "Full HP Boost Up",
+        "gl": "Full HP Boost Up",
+        "jp": "フルHPブーストアップ"
+      },
+      "desc": {
+        "en": "When HP is MAX\\n• Raises Max BRV by 10%",
+        "gl": "Raises MAX BRV by 10% while HP is MAX",
+        "jp": "自身のHPがMAXの時\\n自身の最大BRVが10％アップ"
+      }
+    },
+    "refined": {
+      "id": 226,
+      "category": "A",
+      "passive": {
+        "id": 5095,
+        "name": {
+          "en": "Full HP Boost Up (RF)",
+          "gl": "",
+          "jp": "フルHPブーストアップ【精錬】"
+        },
+        "desc": {
+          "en": "When HP is MAX\\n• Raises Max BRV by 4%",
+          "gl": "",
+          "jp": "自身のHPがMAXの時\\n自身の最大BRVが4％アップ"
+        }
+      },
+      "source": {
+        "short": "raid2|raid6",
+        "event": "Act 2 Chapter 11 Part 2 (Raid)|Kaiser Behemoth Raid"
+      }
+    }
+  },
+  "deuce": {
+    "id": 33,
+    "category": "D",
+    "passive": {
+      "id": 1813,
+      "name": {
+        "en": "Buff Attack Up All 3",
+        "gl": "All Buff Attack Up 3",
+        "jp": "バフアタックアップオール3"
+      },
+      "desc": {
+        "en": "When 3 or more buffs are active:\\n- Raises party's Attack by 5%",
+        "gl": "Raises party's ATK by 5% with 3 or more active buffs",
+        "jp": "自身の強化効果の数が合計3個以上の時\\n味方全員の攻撃力が5％アップ"
+      }
+    }
+  },
+  "seven": {
+    "id": 72,
+    "category": "A",
+    "passive": {
+      "id": 2176,
+      "name": {
+        "en": "Weak Power",
+        "gl": "Weak Power",
+        "jp": "ウィークパワー"
+      },
+      "desc": {
+        "en": "When hitting target's weakness:\\n- Raises BRV damage dealt by 10%",
+        "gl": "Increases BRV damage dealt by 10% when attacking target's weakness",
+        "jp": "自身が対象の弱点をついた時\\n自身の与えるBRVダメージが10％アップ"
+      }
+    },
+    "refined": {
+      "id": 198,
+      "category": "A",
+      "passive": {
+        "id": 4392,
+        "name": {
+          "en": "Weak Power (RF)",
+          "gl": "Mighty Weak (RF)",
+          "jp": "ウィークパワー【精錬】"
+        },
+        "desc": {
+          "en": "When hitting target's weakness:\\n- Raises BRV damage dealt by 4%",
+          "gl": "When attacking target's weakness:\\n • Raises BRV damage dealt by 4%",
+          "jp": "自身が対象の弱点をついた時\\n自身の与えるBRVダメージが4％アップ"
+        }
+      },
+      "source": {
+        "short": "woi1|raid6",
+        "event": "Odin Ultimate|Kaiser Behemoth Raid"
+      }
+    }
+  },
+  "fang": {
+    "id": 27,
+    "category": "A",
+    "passive": {
+      "id": 1799,
+      "name": {
+        "en": "Break Hit Attack Up Long",
+        "gl": "Break Hit Attack Up Longer",
+        "jp": "ブレイクヒットアタックアップロング"
+      },
+      "desc": {
+        "en": "When breaking target or attacking a broken target:\\n- Raises Attack by 10% for 6 turns",
+        "gl": "Raises ATK by 10% for 6 turns when inflicting Break or attacking target afflicted with Break",
+        "jp": "自身が対象をブレイク時 ブレイク中攻撃時\\n6ACTION自身の攻撃力が10％アップ"
+      }
+    },
+    "refined": {
+      "id": 197,
+      "category": "A",
+      "passive": {
+        "id": 4391,
+        "name": {
+          "en": "Break Hit Attack Long (RF)",
+          "gl": "Break Hit Attack Up Longer (RF)",
+          "jp": "ブレイクヒットアタックアップロング【精錬】"
+        },
+        "desc": {
+          "en": "When breaking target or attacking a broken target:\\n- Raises Attack by 4% for 6 turns",
+          "gl": "When inflicting Break or attacking target afflicted with Break:\\n • Raises own ATK by 4% for 6 turns",
+          "jp": "自身が対象をブレイク時 ブレイク中攻撃時\\n6ACTION自身の攻撃力が4％アップ"
+        }
+      },
+      "source": {
+        "short": "woi1|raid5",
+        "event": "Odin Ultimate|Hell Wyrm Raid"
+      }
+    }
+  },
+  "leonhart": {
+    "id": 186,
+    "category": "C",
+    "passive": {
+      "id": 4355,
+      "name": {
+        "en": "Over HP BRV Gain",
+        "gl": "Bravery Over HP Heal",
+        "jp": "オーバーHPヒールBRVゲイン"
+      },
+      "desc": {
+        "en": "When HP recovered exceeds MAX HP:\\n• 100% of excess is converted to BRV (limit 60% of INT BRV)",
+        "gl": "HP recovered in excess of MAX HP added to BRV; limit: 60% of INT BRV",
+        "jp": "自身の最大HPを超えてHPが回復した時\\n超えたHP分 自身のBRVをアップ\\nBRVアップの上限は 自身の初期BRV60％分"
+      }
+    }
+  },
+  "relm": {
+    "id": 152,
+    "category": "E",
+    "passive": {
+      "id": 3582,
+      "name": {
+        "en": "Weak Guard Down",
+        "gl": "",
+        "jp": "ウィークガードダウン"
+      },
+      "desc": {
+        "en": "When hitting target's weakness:\\n• Target: 3 turns 30% [DEF Down]",
+        "gl": "",
+        "jp": "自身が対象の弱点をついた時\\nターゲットに3ACTION弱体効果「防御力30％ダウン」付与"
+      }
+    }
+  },
+  "gilgamesh": {
+    "id": 105,
+    "category": "A",
+    "passive": {
+      "id": 2454,
+      "name": {
+        "en": "Break Attack Boost Up Short",
+        "gl": "Break Attack Boost Up Shorter",
+        "jp": "ブレイクアタックブーストアップショート"
+      },
+      "desc": {
+        "en": "When breaking target:\\n- Raises Attack and Max BRV by 10% for 3 turns\\n※Same Spheres do not stack",
+        "gl": "When inflicting Break:\\n • Raises MAX BRV, ATK by 10% for 3 turns\\n*Does not stack with same sphere",
+        "jp": "自身が対象をブレイク時\\n3ACTION自身の最大BRVと攻撃力が10％アップ\\n※同一スフィアの効果は重複しない"
+      }
+    }
+  },
+  "cait_sith": {
+    "id": 56,
+    "category": "D",
+    "passive": {
+      "id": 2045,
+      "name": {
+        "en": "Buff Boost All 3",
+        "gl": "All Buff Boost 3",
+        "jp": "バフブーストオール3"
+      },
+      "desc": {
+        "en": "When 3 or more buffs are active:\\n- Raises party's Max BRV by 5%",
+        "gl": "Raises party's MAX BRV by 5% with 3 or more active buffs",
+        "jp": "自身の強化効果の数が合計3個以上の時\\n味方全員の最大BRVが5％アップ"
+      }
+    }
+  },
+  "selphie": {
+    "id": 109,
+    "category": "C",
+    "passive": {
+      "id": 2408,
+      "name": {
+        "en": "HP Heal Base Boost All Short",
+        "gl": "HP Heal All Initial Boost Shorter",
+        "jp": "HPヒールベースブーストオールショート"
+      },
+      "desc": {
+        "en": "When own HP is restored\\n• Raises party's Initial BRV, Max BRV by 5% for 3 turns",
+        "gl": "After recovering HP:\\n • Raises party's INT BRV, MAX BRV by 5% for 3 turns",
+        "jp": "自身のHPが回復した後\\n味方全員に3ACTION以下の効果が発動\\n初期BRVと最大BRVが5％アップ"
+      }
+    },
+    "refined": {
+      "id": 267,
+      "category": "C",
+      "passive": {
+        "id": 5995,
+        "name": {
+          "en": "HP Heal Base Boost All Short (RF)",
+          "gl": "",
+          "jp": "HPヒールベースブーストオールショート【精錬】"
+        },
+        "desc": {
+          "en": "When own HP is restored\\n• Raises party's Initial BRV, Max BRV by 2% for 3 turns",
+          "gl": "",
+          "jp": "自身のHPが回復した後\\n味方全員に3ACTION以下の効果が発動\\n初期BRVと最大BRVが2％アップ"
+        }
+      },
+      "source": {
+        "short": "woi4",
+        "event": "Divine Ramuh"
+      }
+    }
+  },
+  "noctis": {
+    "id": 76,
+    "category": "A",
+    "passive": {
+      "id": 2407,
+      "name": {
+        "en": "Smash Attack Up Long",
+        "gl": "Smash Attack Up Longer",
+        "jp": "スマッシュアタックアップロング"
+      },
+      "desc": {
+        "en": "After initiating a Chase Sequence:\\n• Raises Attack by 10% for 8 turns",
+        "gl": "Raises ATK by 10% for 8 turns when inflicting Knock Back",
+        "jp": "自身が対象を吹きとばした時\\n8ACTION自身の攻撃力が10％アップ"
+      }
+    },
+    "refined": {
+      "id": 196,
+      "category": "A",
+      "passive": {
+        "id": 4390,
+        "name": {
+          "en": "Smash Attack Long (RF)",
+          "gl": "Smash Attack Up Longer (RF)",
+          "jp": "スマッシュアタックアップロング【精錬】"
+        },
+        "desc": {
+          "en": "After initiating a Chase Sequence:\\n- Raises Attack by 4% for 8 turns",
+          "gl": "When inflicting Knock Back:\\n • Raises ATK by 4% for 8 turns",
+          "jp": "自身が対象を吹きとばした時\\n8ACTION自身の攻撃力が4％アップ"
+        }
+      },
+      "source": {
+        "short": "woi1",
+        "event": "Odin Ultimate"
+      }
+    }
+  },
+  "alisaie": {
+    "id": 153,
+    "category": "A",
+    "passive": {
+      "id": 3893,
+      "name": {
+        "en": "Critical Magic Attack Up Long",
+        "gl": "Critical Magic Attack Up Longer",
+        "jp": "クリティカルマジックアタックアップロング"
+      },
+      "desc": {
+        "en": "When dealing a critical hit:\\n- Raises magic Attack by 15% for 6 turns\\n※Same Spheres do not stack",
+        "gl": "Raises MAG ATK by 15% for 6 turns when dealing critical hit\\n*Does not stack with same sphere",
+        "jp": "自身が対象にクリティカルヒット発生時\\n6ACTION自身の魔法攻撃力が15％アップ\\n※同一スフィアの効果は重複しない"
+      }
+    },
+    "refined": {
+      "id": 263,
+      "category": "A",
+      "passive": {
+        "id": 5877,
+        "name": {
+          "en": "Critical Magic Attack Up Long (RF)",
+          "gl": "",
+          "jp": "クリティカルマジックアタックアップロング【精錬】"
+        },
+        "desc": {
+          "en": "When dealing a critical hit:\\n- Raises magic Attack by 6% for 6 turns\\n* Same Spheres do not stack",
+          "gl": "",
+          "jp": "自身が対象にクリティカルヒット発生時\\n6ACTION自身の魔法攻撃力が6％アップ\\n※同一スフィアの効果は重複しない"
+        }
+      },
+      "source": {
+        "short": "story2",
+        "event": "Act 3 Chapter 1 Part 1 (Co-op)"
+      }
+    }
+  },
+  "rydia": {
+    "id": 147,
+    "category": "A",
+    "passive": {
+      "id": 3530,
+      "name": {
+        "en": "Weak Power Attack Up Short",
+        "gl": "Mighty Weak Attack Up Shorter",
+        "jp": "ウィークパワーアタックアップショート"
+      },
+      "desc": {
+        "en": "When hitting target's weakness:\\n- Raises BRV damage dealt by 5%\\n- Raises Attack by 5% for 3 turns",
+        "gl": "When attacking target's weakness:\\n • Raises BRV damage by 5%\\n • Raises ATK by 5% for 3 turns",
+        "jp": "自身が対象の弱点をついた時\\n自身の与えるBRVダメージが5％アップし\\n3ACTION自身の攻撃力が5％アップ"
+      }
+    },
+    "refined": {
+      "id": 227,
+      "category": "A",
+      "passive": {
+        "id": 5098,
+        "name": {
+          "en": "Weak Power Attack Short (RF)",
+          "gl": "",
+          "jp": "ウィークパワーアタックアップショート【精錬】"
+        },
+        "desc": {
+          "en": "When hitting target's weakness:\\n- Raises BRV damage dealt by 2%\\n- Raises Attack by 2% for 3 turns",
+          "gl": "",
+          "jp": "自身が対象の弱点をついた時\\n自身の与えるBRVダメージが2％アップし\\n3ACTION自身の攻撃力が2％アップ"
+        }
+      },
+      "source": {
+        "short": "woi2|story3",
+        "event": "Bahamut Ultimate|Act 3 Chapter 2 Part 1 (Co-op)"
+      }
+    }
+  },
+  "zack": {
+    "id": 81,
+    "category": "B",
+    "passive": {
+      "id": 2235,
+      "name": {
+        "en": "Target Attack BRV Up",
+        "gl": "Target Attack BRV Up",
+        "jp": "ターゲットアタックBRVアップ"
+      },
+      "desc": {
+        "en": "After attacking an enemy targeting self:\\n- Raises BRV by 40% of Initial BRV\\n※Only once per turn",
+        "gl": "After attacking target targeting self:\\n • Increases BRV by 40% of INT BRV once per turn",
+        "jp": "自身を狙っているターゲットを攻撃した後\\n自身に自身の初期BRVの40％分のBRVを加算\\n1回の行動での効果発動は1回のみ"
+      }
+    },
+    "refined": {
+      "id": 238,
+      "category": "B",
+      "passive": {
+        "id": 5396,
+        "name": {
+          "en": "Target Attack BRV Up (RF)",
+          "gl": "",
+          "jp": "ターゲットアタックBRVアップ【精錬】"
+        },
+        "desc": {
+          "en": "After attacking an enemy targeting self:\\n- Raises BRV by 16% of Initial BRV\\n※Only once per turn",
+          "gl": "",
+          "jp": "自身を狙っているターゲットを攻撃した後\\n自身に自身の初期BRVの16％分のBRVを加算\\n1回の行動での効果発動は1回のみ"
+        }
+      },
+      "source": {
+        "short": "raid3",
+        "event": "Tyrant Raid"
+      }
+    }
+  },
+  "yuri": {
+    "id": 85,
+    "category": "A",
+    "passive": {
+      "id": 2281,
+      "name": {
+        "en": "Full HP Attack Boost Up",
+        "gl": "Full HP Attack Boost Up",
+        "jp": "フルHPアタックブーストアップ"
+      },
+      "desc": {
+        "en": "When HP is max:\\n- Raises Max BRV and Attack by 5%",
+        "gl": "Raises own MAX BRV, ATK by 5% while HP is MAX",
+        "jp": "自身のHPがMAXの時\\n自身の最大BRVと攻撃力が5％アップ"
+      }
+    },
+    "refined": {
+      "id": 250,
+      "category": "A",
+      "passive": {
+        "id": 5631,
+        "name": {
+          "en": "Full HP Attack Boost Up (RF)",
+          "gl": "",
+          "jp": "フルHPアタックブーストアップ【精錬】"
+        },
+        "desc": {
+          "en": "When HP is max:\\n- Raises Max BRV and Attack by 2%",
+          "gl": "",
+          "jp": "自身のHPがMAXの時\\n自身の最大BRVと攻撃力が2％アップ"
+        }
+      },
+      "source": {
+        "short": "raid4",
+        "event": "Guard Scorpion Raid"
+      }
+    }
+  },
+  "lilisette": {
+    "id": 46,
+    "category": "C",
+    "passive": {
+      "id": 1811,
+      "name": {
+        "en": "Debuff BRV Gain All",
+        "gl": "All Debuff Success Bravery",
+        "jp": "デバフサクセスBRVゲインオール"
+      },
+      "desc": {
+        "en": "After inflicting a debuff:\\n- Raises each party member's BRV by 5% of their Max BRV\\n※Only once per turn",
+        "gl": "Grants party 5% of individual MAX BRV when inflicting debuff on target once per turn",
+        "jp": "自身が対象に弱体効果を付与した時\\n味方全員にそれぞれの最大BRVの5％分のBRVを加算\\n1回の行動での効果発動は1回のみ"
+      }
+    },
+    "refined": {
+      "id": 171,
+      "category": "C",
+      "passive": {
+        "id": 4065,
+        "name": {
+          "en": "Debuff BRV Gain All (RF)",
+          "gl": "",
+          "jp": "デバフサクセスBRVゲインオール【精錬】"
+        },
+        "desc": {
+          "en": "After inflicting a debuff:\\n- Raises each party member's BRV by 2% of their Max BRV\\n※Only once per turn",
+          "gl": "",
+          "jp": "自身が対象に弱体効果を付与した時\\n味方全員にそれぞれの最大BRVの2％分のBRVを加算\\n1回の行動での効果発動は1回のみ"
+        }
+      },
+      "source": {
+        "short": "raid1|heretic4",
+        "event": "Act 2 Chapter 11 Part 1 (Raid)|恐怖の機械触手 (Heretic)"
+      }
+    }
+  },
+  "jecht": {
+    "id": 82,
+    "category": "A",
+    "passive": {
+      "id": 2254,
+      "name": {
+        "en": "Critical Base Attack Up Short",
+        "gl": "Critical Initial Attack Up Shorter",
+        "jp": "クリティカルベースアタックアップショート"
+      },
+      "desc": {
+        "en": "When dealing a critical hit:\\n- Raises Initial BRV and Attack by 10% for 3 turns",
+        "gl": "Raises INT BRV, ATK by 10% for 3 turns when dealing critical hit",
+        "jp": "自身が対象にクリティカルヒット発生時\\n3ACTION自身の初期BRVと攻撃力が10％アップ"
+      }
+    },
+    "refined": {
+      "id": 242,
+      "category": "A",
+      "passive": {
+        "id": 5427,
+        "name": {
+          "en": "Critical Base Attack Short (RF)",
+          "gl": "",
+          "jp": "クリティカルベースアタックアップショート【精錬】"
+        },
+        "desc": {
+          "en": "When dealing a critical hit:\\n- Raises Initial BRV and Attack by 4% for 3 turns",
+          "gl": "",
+          "jp": "自身が対象にクリティカルヒット発生時\\n3ACTION自身の初期BRVと攻撃力が4％アップ"
+        }
+      },
+      "source": {
+        "short": "heretic2|raid5",
+        "event": "嘲笑う悪魔 (Heretic)|Hell Wyrm Raid"
+      }
+    }
+  },
+  "cid": {
+    "id": 155,
+    "category": "A",
+    "passive": {
+      "id": 4023,
+      "name": {
+        "en": "Full HP Boost Power",
+        "gl": "Mighty Full HP Boost Up",
+        "jp": "フルHPブーストアップパワー"
+      },
+      "desc": {
+        "en": "When HP is Max:\\n- Raises Max BRV by 5%\\n- Raises BRV damage dealt by 5%",
+        "gl": "While HP is MAX:\\n • Raises MAX BRV by 5%\\n • Increases BRV damage dealt by 5%",
+        "jp": "自身のHPがMAXの時\\n自身の最大BRVが5％アップし\\n自身の与えるBRVダメージが5％アップ"
+      }
+    }
+  },
+  "sephiroth": {
+    "id": 70,
+    "category": "A",
+    "passive": {
+      "id": 2174,
+      "name": {
+        "en": "Last Boost Attack Up",
+        "gl": "Last Boost Attack Up",
+        "jp": "ラストブーストアタックアップ"
+      },
+      "desc": {
+        "en": "If HP is at least 50% when the final battle starts\\n- Raises Max BRV and Attack by 10%\\n※Same Spheres do not stack",
+        "gl": "Raises own MAX BRV, ATK by 10% if HP at least 50% of MAX at start of last wave\\n*Does not stack with same sphere",
+        "jp": "最終バトル開始時に自身のHPが最大HPの50％以上の時\\n自身の最大BRVと攻撃力が10％アップ\\n※同一スフィアの効果は重複しない"
+      }
+    },
+    "refined": {
+      "id": 241,
+      "category": "A",
+      "passive": {
+        "id": 5426,
+        "name": {
+          "en": "Last Boost Attack Up (RF)",
+          "gl": "",
+          "jp": "ラストブーストアタックアップ【精錬】"
+        },
+        "desc": {
+          "en": "If HP is at least 50% when the final battle starts\\n- Raises Max BRV and Attack by 4%\\n※Same Spheres do not stack",
+          "gl": "",
+          "jp": "最終バトル開始時に自身のHPが最大HPの50％以上の時\\n自身の最大BRVと攻撃力が4％アップ\\n※同一スフィアの効果は重複しない"
+        }
+      },
+      "source": {
+        "short": "heretic2",
+        "event": "嘲笑う悪魔 (Heretic)"
+      }
+    }
+  },
+  "lenna": {
+    "id": 122,
+    "category": "C",
+    "passive": {
+      "id": 2537,
+      "name": {
+        "en": "HP Heal Base All Short",
+        "gl": "HP Heal All Initial Shorter",
+        "jp": "HPヒールベースオールショート"
+      },
+      "desc": {
+        "en": "When own HP is restored:\\n- Raises party's Initial BRV by 10% for 3 turns",
+        "gl": "Boosts party's INT BRV by 10% for 3 turns when recovering own HP",
+        "jp": "自身のHPが回復した時\\n味方全員に3ACTION以下の効果が発動\\n初期BRVが10％アップ"
+      }
+    },
+    "refined": {
+      "id": 174,
+      "category": "C",
+      "passive": {
+        "id": 4068,
+        "name": {
+          "en": "HP Heal Base All Short (RF)",
+          "gl": "HP Heal Initial All Shorter (RF)",
+          "jp": "HPヒールベースオールショート【精錬】"
+        },
+        "desc": {
+          "en": "When own HP is restored:\\n- Raises party's Initial BRV by 4% for 3 turns",
+          "gl": "When recovering own HP:\\n • Raises party's INT BRV by 4% for 3 turns",
+          "jp": "自身のHPが回復した時\\n味方全員に3ACTION以下の効果が発動\\n初期BRVが4％アップ"
+        }
+      },
+      "source": {
+        "short": "story1|md1|raid6",
+        "event": "Act 2 Chapter 10 (Co-op)|魔城攻略戦線 (Mission Dungeon)|Kaiser Behemoth Raid"
+      }
+    }
+  },
+  "kefka": {
+    "id": 134,
+    "category": "E",
+    "passive": {
+      "id": 3055,
+      "name": {
+        "en": "Debuff Success Magic Attack Up Long",
+        "gl": "Debuff Success Magic Attack Up Longer",
+        "jp": "デバフサクセスマジックアタックアップロング"
+      },
+      "desc": {
+        "en": "After inflicting a debuff:\\n- Raises Magical Attack by 15% for 6 turns\\n※Same Spheres do not stack",
+        "gl": "When inflicting debuff on target:\\n• Raises own MAG ATK by 15% for 6 turns\\n*Does not stack with same sphere",
+        "jp": "自身が対象に弱体効果を付与した時\\n6ACTION自身の魔法攻撃力が15％アップ\\n※同一スフィアの効果は重複しない"
+      }
+    },
+    "refined": {
+      "id": 208,
+      "category": "E",
+      "passive": {
+        "id": 4739,
+        "name": {
+          "en": "Debuff Success Magic Attack Long (RF)",
+          "gl": "",
+          "jp": "デバフサクセスマジックアタックアップロング【精錬】"
+        },
+        "desc": {
+          "en": "After inflicting a debuff:\\n- Raises Magical Attack by 6% for 6 turns\\n※Same Spheres do not stack",
+          "gl": "",
+          "jp": "自身が対象に弱体効果を付与した時\\n6ACTION自身の魔法攻撃力が6％アップ\\n※同一スフィアの効果は重複しない"
+        }
+      },
+      "source": {
+        "short": "heretic1",
+        "event": "魔に捧ぐ祈祷 (Heretic)"
+      }
+    }
+  },
+  "seifer": {
+    "id": 121,
+    "category": "A",
+    "passive": {
+      "id": 2536,
+      "name": {
+        "en": "All Range Critical Attack Up Long",
+        "gl": "All Range Critical Attack Up Longer",
+        "jp": "オールレンジクリティカルアタックアップロング"
+      },
+      "desc": {
+        "en": "When dealing a critical hit with an AoE BRV Attack:\\n- Raises Attack by 10% for 6 turns",
+        "gl": "When dealing critical hit to target with group BRV attack:\\n • Raises ATK by 10% for 6 turns",
+        "jp": "自身が全体BRV攻撃で対象にクリティカルヒット発生時\\n6ACTION自身の攻撃力が10％アップ"
+      }
+    }
+  },
+  "fujin": {
+    "id": 129,
+    "category": "E",
+    "passive": {
+      "id": 2626,
+      "name": {
+        "en": "Full HP Critical Speed Down All",
+        "gl": "Full HP Critical Speed Down All",
+        "jp": "フルHPクリティカルスピードダウンオール"
+      },
+      "desc": {
+        "en": "When HP is MAX and dealing critical hit:\\n- Lowers all targets' Speed by 10% for 6 turns\\n* Same Spheres do not stack",
+        "gl": "When dealing critical hit while HP at MAX:\\n • Reduces all enemies' SPD by 10% for 6 turns\\n*Does not stack with same sphere",
+        "jp": "自身のHPがMAXで クリティカルヒット発生後\\n6ACTION敵全体の素早さが10％ダウン\\n※同一スフィアの効果は重複しない"
+      }
+    },
+    "refined": {
+      "id": 255,
+      "category": "E",
+      "passive": {
+        "id": 5653,
+        "name": {
+          "en": "Full HP Critical Speed Down All (RF)",
+          "gl": "",
+          "jp": "フルHPクリティカルスピードダウンオール【精錬】"
+        },
+        "desc": {
+          "en": "When HP is MAX and dealing critical hit:\\n- Lowers all targets' Speed by 4% for 6 turns\\n* Same Spheres do not stack",
+          "gl": "",
+          "jp": "自身のHPがMAXで クリティカルヒット発生後\\n6ACTION敵全体の素早さが4％ダウン\\n※同一スフィアの効果は重複しない"
+        }
+      },
+      "source": {
+        "short": "md1|heretic4",
+        "event": "魔城攻略戦線 (Mission Dungeon)|恐怖の機械触手 (Heretic)"
+      }
+    }
+  },
+  "raijin": {
+    "id": 145,
+    "category": "A",
+    "passive": {
+      "id": 3527,
+      "name": {
+        "en": "Break Hit Physical Attack Up Long",
+        "gl": "Break Hit Physical Attack Up Longer",
+        "jp": "ブレイクヒットフィジクスアタックアップロング"
+      },
+      "desc": {
+        "en": "When breaking target or attacking a broken target:\\n- Raises Physical Attack by 15% for 6 turns\\n※Same Spheres do not stack",
+        "gl": "When inflicting Break or attacking target afflicted with Break:\\n • Raises PHY ATK by 15% for 6 turns\\n*Does not stack with same sphere",
+        "jp": "自身が対象をブレイク時 ブレイク中攻撃時\\n6ACTION自身の物理攻撃力が15％アップ\\n※同一スフィアの効果は重複しない"
+      }
+    },
+    "refined": {
+      "id": 237,
+      "category": "A",
+      "passive": {
+        "id": 5394,
+        "name": {
+          "en": "Break Hit Physical Attack Long (RF)",
+          "gl": "",
+          "jp": "ブレイクヒットフィジクスアタックアップロング【精錬】"
+        },
+        "desc": {
+          "en": "When breaking target or attacking a broken target:\\n- Raises Physical Attack by 6% for 6 turns\\n※Same Spheres do not stack",
+          "gl": "",
+          "jp": "自身が対象をブレイク時 ブレイク中攻撃時\\n6ACTION自身の物理攻撃力が6％アップ\\n※同一スフィアの効果は重複しない"
+        }
+      },
+      "source": {
+        "short": "raid3",
+        "event": "Tyrant Raid"
+      }
+    }
+  },
+  "quistis": {
+    "id": 149,
+    "category": "E",
+    "passive": {
+      "id": 3535,
+      "name": {
+        "en": "Debuff Success Boost All Long",
+        "gl": "Debuff Success Boost All Longer",
+        "jp": "デバフサクセスブーストオールロング"
+      },
+      "desc": {
+        "en": "After inflicting a debuff:\\n- Raises party's Max BRV by 5% for 6 turns\\n※Same Spheres do not stack",
+        "gl": "When inflicting debuff on target:\\n • Raises party's MAX BRV by 5% for 6 turns",
+        "jp": "自身が対象に弱体効果を付与した時\\n6ACTION味方全員の最大BRVが5％アップ"
+      }
+    }
+  },
+  "kuja": {
+    "id": 45,
+    "category": "A",
+    "passive": {
+      "id": 1803,
+      "name": {
+        "en": "All Range Power",
+        "gl": "Mighty All Range",
+        "jp": "オールレンジパワー"
+      },
+      "desc": {
+        "en": "Increases BRV damage dealt by 10% when using AoE BRV attacks",
+        "gl": "Increases BRV damage dealt with group BRV attacks by 10%",
+        "jp": "自身が全体BRV攻撃で与える\\nBRVダメージを10％アップ"
+      }
+    },
+    "refined": {
+      "id": 228,
+      "category": "A",
+      "passive": {
+        "id": 5099,
+        "name": {
+          "en": "All Range Power (RF)",
+          "gl": "",
+          "jp": "オールレンジパワー【精錬】"
+        },
+        "desc": {
+          "en": "Increases BRV damage dealt by 4% when using AoE BRV attacks",
+          "gl": "",
+          "jp": "自身が全体BRV攻撃で与える\\nBRVダメージを4％アップ"
+        }
+      },
+      "source": {
+        "short": "woi2|heretic4",
+        "event": "Bahamut Ultimate|恐怖の機械触手 (Heretic)"
+      }
+    }
+  },
+  "palom": {
+    "id": 202,
+    "category": "A",
+    "passive": {
+      "id": 4724,
+      "name": {
+        "en": "Weak Boost Up Long",
+        "gl": "",
+        "jp": "ウィークブーストアップロング"
+      },
+      "desc": {
+        "en": "When hitting target's Weakness:\\nRaises Max BRV by 10% for 6 turns",
+        "gl": "",
+        "jp": "自身が対象の弱点をついた時\\n6ACTION自身の最大BRVが10％アップ"
+      }
+    },
+    "refined": {
+      "id": 203,
+      "category": "A",
+      "passive": {
+        "id": 4725,
+        "name": {
+          "en": "Weak Boost Up Long (RF)",
+          "gl": "",
+          "jp": "ウィークブーストアップロング【精錬】"
+        },
+        "desc": {
+          "en": "When hitting target's Weakness:\\nRaises Max BRV by 4% for 6 turns",
+          "gl": "",
+          "jp": "自身が対象の弱点をついた時\\n6ACTION自身の最大BRVが4％アップ"
+        }
+      },
+      "source": {
+        "short": "heretic3",
+        "event": "機空兵迎撃作戦 (Heretic)"
+      }
+    }
+  },
+  "maria": {
+    "id": 200,
+    "category": "C",
+    "passive": {
+      "id": 4412,
+      "name": {
+        "en": "HP Heal Base Attack All Short",
+        "gl": "HP Heal Initial Attack All Shorter",
+        "jp": "HPヒールベースアタックオールショート"
+      },
+      "desc": {
+        "en": "When own HP is recovered:\\n• Raises party's Initial BRV, Attack by 5% for 3 turns",
+        "gl": "After recovering HP:\\n • Raises party's INT BRV, ATK by 5% for 3 turns",
+        "jp": "自身のHPが回復した後\\n味方全員に3ACTION以下の効果が発動\\n初期BRVと攻撃力が5％アップ"
+      }
+    },
+    "refined": {
+      "id": 201,
+      "category": "C",
+      "passive": {
+        "id": 4413,
+        "name": {
+          "en": "HP Heal Base Attack All Short (RF)",
+          "gl": "",
+          "jp": "HPヒールベースアタックオールショート【精錬】"
+        },
+        "desc": {
+          "en": "When own HP is restored:\\n- Raises party's Initial BRV and Attack by 2% for 3 turns",
+          "gl": "",
+          "jp": "自身のHPが回復した後\\n味方全員に3ACTION以下の効果が発動\\n初期BRVと攻撃力が2％アップ"
+        }
+      },
+      "source": {
+        "short": "raid1|woi3",
+        "event": "Act 2 Chapter 11 Part 1 (Raid)|Divine Diabolos"
+      }
+    }
+  },
+  "kain": {
+    "id": 192,
+    "category": "A",
+    "passive": {
+      "id": 4388,
+      "name": {
+        "en": "Break Hit Long Range Attack Up Long",
+        "gl": "Break Hit Ranged Attack Up Longer",
+        "jp": "ブレイクヒットLレンジアタックアップロング"
+      },
+      "desc": {
+        "en": "When breaking target or attacking a broken target:\\n- Raises ranged Attack by 15% for 6 turns\\n※Same Spheres do not stack",
+        "gl": "When inflicting Break or attacking target afflicted with Break:\\n • Raises own ranged ATK by 15% for 6 turns\\n*Does not stack with same sphere",
+        "jp": "自身が対象をブレイク時 ブレイク中攻撃時\\n6ACTION自身の遠距離物理攻撃力が15％アップ\\n※同一スフィアの効果は重複しない"
+      }
+    },
+    "refined": {
+      "id": 193,
+      "category": "A",
+      "passive": {
+        "id": 4389,
+        "name": {
+          "en": "Break Hit Long Range Attack Long (RF)",
+          "gl": "",
+          "jp": "ブレイクヒットLレンジアタックアップロング【精錬】"
+        },
+        "desc": {
+          "en": "When breaking target or attacking a broken target:\\n- Raises ranged Attack by 6% for 6 turns\\n※Same Spheres do not stack",
+          "gl": "",
+          "jp": "自身が対象をブレイク時 ブレイク中攻撃時\\n6ACTION自身の遠距離物理攻撃力が6％アップ\\n※同一スフィアの効果は重複しない"
+        }
+      },
+      "source": {
+        "short": "raid1",
+        "event": "Act 2 Chapter 11 Part 1 (Raid)"
+      }
+    }
+  },
+  "celes": {
+    "id": 54,
+    "category": "B",
+    "passive": {
+      "id": 2014,
+      "name": {
+        "en": "Ability BRV Gain",
+        "gl": "Bravery Ability",
+        "jp": "アビリティBRVゲイン"
+      },
+      "desc": {
+        "en": "After using an ability\\n• Increases BRV by 40% of Initial BRV\\n* Only once per turn\\n* Enhanced BRV/HP Attacks are included",
+        "gl": "Increases BRV by 40% of INT BRV after using ability, once per turn\\n*Also applies to abilities changed from BRV Attack, HP Attack",
+        "jp": "自身がアビリティを使用後\\n自身に自身の初期BRVの40％分のBRVを加算\\n1回の行動での効果発動は1回のみ\\n※通常「BRV攻撃」通常「HP攻撃」が変化した\\n　アビリティ使用時も含む"
+      }
+    },
+    "refined": {
+      "id": 167,
+      "category": "B",
+      "passive": {
+        "id": 4061,
+        "name": {
+          "en": "Ability BRV Gain (RF)",
+          "gl": "",
+          "jp": "アビリティBRVゲイン【精錬】"
+        },
+        "desc": {
+          "en": "After using an ability:\\n- Raises BRV by 16% of Initial BRV\\n※Only once per turn\\n※Enhanced BRV/HP Attacks are included",
+          "gl": "",
+          "jp": "自身がアビリティを使用後\\n自身に自身の初期BRVの16％分のBRVを加算\\n1回の行動での効果発動は1回のみ\\n※通常「BRV攻撃」通常「HP攻撃」が変化した\\n　アビリティ使用時も含む"
+        }
+      },
+      "source": {
+        "short": "raid4|woi4",
+        "event": "Guard Scorpion Raid|Divine Ramuh"
+      }
+    }
+  },
+  "edgar": {
+    "id": 89,
+    "category": "A",
+    "passive": {
+      "id": 2330,
+      "name": {
+        "en": "Debuff Power",
+        "gl": "Debuff Power",
+        "jp": "デバフパワー"
+      },
+      "desc": {
+        "en": "When an enemy is debuffed:\\n- Raises BRV damage dealt by 10%",
+        "gl": "Increases BRV damage dealt by 10% while an enemy is debuffed",
+        "jp": "弱体効果が付与された敵がいる時\\n自身の与えるBRVダメージが10％アップ"
+      }
+    }
+  },
+  "irvine": {
+    "id": 78,
+    "category": "E",
+    "passive": {
+      "id": 2240,
+      "name": {
+        "en": "Debuff Success Long Range Attack Up Long",
+        "gl": "Debuff Success Ranged Attack Up Longer",
+        "jp": "デバフサクセスLレンジアタックアップロング"
+      },
+      "desc": {
+        "en": "After inflicting a debuff:\\n- Raises ranged Attack by 15% for 6 turns\\n※Same Spheres do not stack",
+        "gl": "Raises own ranged ATK by 15% for 6 turns when inflicting debuff on target\\n*Does not stack with same sphere",
+        "jp": "自身が対象に弱体効果を付与した時\\n6ACTION自身の遠距離物理攻撃力が15％アップ\\n※同一スフィアの効果は重複しない"
+      }
+    },
+    "refined": {
+      "id": 181,
+      "category": "E",
+      "passive": {
+        "id": 4075,
+        "name": {
+          "en": "Debuff Success Long Range Attack Long (RF)",
+          "gl": "Debuff Success Ranged Attack Up Longer (RF)",
+          "jp": "デバフサクセスLレンジアタックアップロング【精錬】"
+        },
+        "desc": {
+          "en": "After inflicting a debuff:\\n- Raises ranged Attack by 6% for 6 turns\\n※Same Spheres do not stack",
+          "gl": "When inflicting debuff on target:\\n • Raises own ranged ATK by 6% for 6 turns\\n*Does not stack with same sphere",
+          "jp": "自身が対象に弱体効果を付与した時\\n6ACTION自身の遠距離物理攻撃力が6％アップ\\n※同一スフィアの効果は重複しない"
+        }
+      },
+      "source": {
+        "short": "woi1|md1",
+        "event": "Odin Ultimate|魔城攻略戦線 (Mission Dungeon)"
+      }
+    }
+  },
+  "serah": {
+    "id": 41,
+    "category": "E",
+    "passive": {
+      "id": 2128,
+      "name": {
+        "en": "Debuff Success Boost Up Long",
+        "gl": "Debuff Success Boost Up Longer",
+        "jp": "デバフサクセスブーストアップロング"
+      },
+      "desc": {
+        "en": "After inflicting a debuff:\\n- Raises Max BRV by 10% for 6 turns",
+        "gl": "Raises own MAX BRV by 10% for 6 turns when inflicting debuff on target",
+        "jp": "自身が対象に弱体効果を付与した時\\n6ACTION自身の最大BRVが10％アップ"
+      }
+    }
+  },
+  "auron": {
+    "id": 151,
+    "category": "E",
+    "passive": {
+      "id": 3569,
+      "name": {
+        "en": "Debuff Success Short Range Attack Up Long",
+        "gl": "Debuff Success Melee Attack Up Longer",
+        "jp": "デバフサクセスSレンジアタックアップロング"
+      },
+      "desc": {
+        "en": "After inflicting a debuff:\\n- Raises melee Attack by 15% for 6 turns\\n※Same Spheres do not stack",
+        "gl": "When inflicting debuff on target:\\n • Raises melee ATK by 15% for 6 turns\\n*Does not stack with same sphere",
+        "jp": "自身が対象に弱体効果を付与した時\\n6ACTION自身の近距離物理攻撃力が15％アップ\\n※同一スフィアの効果は重複しない"
+      }
+    }
+  },
+  "garnet": {
+    "id": 142,
+    "category": "C",
+    "passive": {
+      "id": 3291,
+      "name": {
+        "en": "HP Heal Attack Up Long",
+        "gl": "HP Heal Attack Up Longer",
+        "jp": "HPヒールアタックアップロング"
+      },
+      "desc": {
+        "en": "When own HP is restored:\\n• Raises Attack by 10% for 6 turns",
+        "gl": "Boosts ATK by 10% for 6 turns when recovering own HP",
+        "jp": "自身のHPが回復した時\\n6ACTION自身の攻撃力が10％アップ"
+      }
+    },
+    "refined": {
+      "id": 231,
+      "category": "C",
+      "passive": {
+        "id": 5102,
+        "name": {
+          "en": "HP Heal Attack Long (RF)",
+          "gl": "",
+          "jp": "HPヒールアタックアップロング【精錬】"
+        },
+        "desc": {
+          "en": "When own HP is restored:\\n- Raises Attack by 6% for 6 turns",
+          "gl": "",
+          "jp": "自身のHPが回復した時\\n6ACTION自身の攻撃力が4％アップ"
+        }
+      },
+      "source": {
+        "short": "woi2",
+        "event": "Bahamut Ultimate"
+      }
+    }
+  },
+  "lion": {
+    "id": 136,
+    "category": "A",
+    "passive": {
+      "id": 3076,
+      "name": {
+        "en": "Sneak Raging Attack Up",
+        "gl": "Sneak Raging Attack Up",
+        "jp": "スニークレイジングアタックアップ"
+      },
+      "desc": {
+        "en": "When attacking an enemy not targeting self:\\n- Raises Attack by 3% up to 5 times\\n※Only once per turn\\n※Same Spheres will not stack",
+        "gl": "When attacking enemy not targeting self:\\n • Boosts own ATK by 3% up to 5 times, once per turn\\n*Does not stack with same sphere",
+        "jp": "自身が自身を狙っていないターゲットを攻撃時\\n自身の攻撃力が最大5回まで3％アップ\\n1回の行動での効果アップは1回のみ\\n※同一スフィアの効果は重複しない"
+      }
+    }
+  },
+  "aerith": {
+    "id": 120,
+    "category": "A",
+    "passive": {
+      "id": 2517,
+      "name": {
+        "en": "HP Magic Attack Up",
+        "gl": "HP Magic Attack Up",
+        "jp": "HPマジックアタックアップ"
+      },
+      "desc": {
+        "en": "When HP is at least 80% of MAX\\n• Raises Magical Attack by 15%\\n* Same Spheres do not stack",
+        "gl": "Raises MAG ATK by 15% while HP is at least 80% of MAX\\n*Does not stack with same sphere",
+        "jp": "自身のHPが最大HPの80％以上の時\\n自身の魔法攻撃力が15％アップ\\n※同一スフィアの効果は重複しない"
+      }
+    },
+    "refined": {
+      "id": 209,
+      "category": "A",
+      "passive": {
+        "id": 4740,
+        "name": {
+          "en": "HP Magic Attack Up (RF)",
+          "gl": "",
+          "jp": "HPマジックアタックアップ【精錬】"
+        },
+        "desc": {
+          "en": "When HP is at least 80% of MAX\\n• Raises Magical Attack by 6%\\n* Same Spheres do not stack",
+          "gl": "",
+          "jp": "自身のHPが最大HPの80％以上の時\\n自身の魔法攻撃力が6％アップ\\n※同一スフィアの効果は重複しない"
+        }
+      },
+      "source": {
+        "short": "heretic1",
+        "event": "魔に捧ぐ祈祷 (Heretic)"
+      }
+    }
+  },
+  "ashe": {
+    "id": 103,
+    "category": "D",
+    "passive": {
+      "id": 2437,
+      "name": {
+        "en": "Buff Success Attack All Long",
+        "gl": "Buff Success Attack All Longer",
+        "jp": "バフサクセスアタックオールロング"
+      },
+      "desc": {
+        "en": "After granting a buff:\\n- Raises party's Attack by 5% for 6 turns",
+        "gl": "After granting buff:\\n • Raises party's ATK by 5% for 6 turns",
+        "jp": "自身が対象に強化効果を付与した後\\n味方全員に6ACTION以下の効果が発動\\n攻撃力が5％アップ"
+      }
+    }
+  },
+  "cater": {
+    "id": 143,
+    "category": "A",
+    "passive": {
+      "id": 3323,
+      "name": {
+        "en": "Evasion Base Attack Up Short",
+        "gl": "Evasion Initial Attack Up Shorter",
+        "jp": "エヴァージョンベースアタックアップショート"
+      },
+      "desc": {
+        "en": "After evading an attack:\\n- Raises Initial BRV and Attack by 10% for 3 turns",
+        "gl": "Boosts INT BRV, ATK by 10% for 3 turns when evading enemy attack",
+        "jp": "自身が敵の攻撃を回避した時\\n3ACTION自身の初期BRVと攻撃力が10％アップ"
+      }
+    },
+    "refined": {
+      "id": 262,
+      "category": "A",
+      "passive": {
+        "id": 5876,
+        "name": {
+          "en": "Evasion Base Attack Up Short (RF)",
+          "gl": "",
+          "jp": "エヴァージョンベースアタックアップショート【精錬】"
+        },
+        "desc": {
+          "en": "After evading an attack:\\n- Raises Initial BRV and Attack by 4% for 3 turns",
+          "gl": "",
+          "jp": "自身が敵の攻撃を回避した時\\n3ACTION自身の初期BRVと攻撃力が4％アップ"
+        }
+      },
+      "source": {
+        "short": "story2",
+        "event": "Act 3 Chapter 1 Part 1 (Co-op)"
+      }
+    }
+  },
+  "lightning": {
+    "id": 113,
+    "category": "A",
+    "passive": {
+      "id": 2482,
+      "name": {
+        "en": "Break Raging Base Attack Up",
+        "gl": "Break Raging Initial Attack Up",
+        "jp": "ブレイクレイジングベースアタックアップ"
+      },
+      "desc": {
+        "en": "When breaking target:\\n• Raises Initial BRV and Attack by 2% up to 5 times\\n* Only once per turn\\n* Same Spheres do not stack",
+        "gl": "When inflicting Break:\\n • Raises INT BRV, ATK by 2% up to 5 times, once per turn\\n*Does not stack with same sphere",
+        "jp": "自身が対象をブレイク時\\n自身の初期BRVと攻撃力が最大5回まで2％アップ\\n1回の行動での効果アップは1回のみ\\n※同一スフィアの効果は重複しない"
+      }
+    },
+    "refined": {
+      "id": 234,
+      "category": "A",
+      "passive": {
+        "id": 5391,
+        "name": {
+          "en": "Break Raging Base Attack (RF)",
+          "gl": "",
+          "jp": "ブレイクレイジングベースアタックアップ【精錬】"
+        },
+        "desc": {
+          "en": "When breaking target:\\n- Raises Initial BRV and Attack by 2% up to 2 times\\n※Only once per turn\\n※Same Spheres do not stack",
+          "gl": "",
+          "jp": "自身が対象をブレイク時\\n自身の初期BRVと攻撃力が最大2回まで2％アップ\\n1回の行動での効果アップは1回のみ\\n※同一スフィアの効果は重複しない"
+        }
+      },
+      "source": {
+        "short": "raid3",
+        "event": "Tyrant Raid"
+      }
+    }
+  },
+  "papalymo": {
+    "id": 97,
+    "category": "A",
+    "passive": {
+      "id": 2377,
+      "name": {
+        "en": "Break Hit Magic Attack Up Long",
+        "gl": "Break Hit Magic Attack Up Longer",
+        "jp": "ブレイクヒットマジックアタックアップロング"
+      },
+      "desc": {
+        "en": "When breaking target or attacking a broken target:\\n- Raises Magic Attack by 15% for 6 turns\\n※Same Spheres do not stack",
+        "gl": "Raises own MAG ATK by 15% for 6 turns when inflicting Break or attacking target afflicted with Break\\n*Does not stack with same sphere",
+        "jp": "自身が対象をブレイク時 ブレイク中攻撃時\\n6ACTION自身の魔法攻撃力が15％アップ\\n※同一スフィアの効果は重複しない"
+      }
+    },
+    "refined": {
+      "id": 162,
+      "category": "A",
+      "passive": {
+        "id": 4056,
+        "name": {
+          "en": "Break Hit Magic Attack Long (RF)",
+          "gl": "",
+          "jp": "ブレイクヒットマジックアタックアップロング【精錬】"
+        },
+        "desc": {
+          "en": "When breaking target or attacking a broken target:\\n- Raises Magic Attack by 6% for 6 turns\\n※Same Spheres do not stack",
+          "gl": "",
+          "jp": "自身が対象をブレイク時 ブレイク中攻撃時\\n6ACTION自身の魔法攻撃力が6％アップ\\n※同一スフィアの効果は重複しない"
+        }
+      },
+      "source": {
+        "short": "woi2|heretic3",
+        "event": "Bahamut Ultimate|機空兵迎撃作戦 (Heretic)"
+      }
+    }
+  },
+  "cyan": {
+    "id": 128,
+    "category": "A",
+    "passive": {
+      "id": 2625,
+      "name": {
+        "en": "Break Hit Attack Advance Long",
+        "gl": "Break Hit Attack Up Advance Longer",
+        "jp": "ブレイクヒットアタックアップアドバンスロング"
+      },
+      "desc": {
+        "en": "When breaking target or attacking a broken target:\\n- Raises Attack and Max BRV overflow limit of stolen BRV by 5% for 6 turns",
+        "gl": "After inflicting Break or attacking target afflicted with Break:\\n • Raises ATK, BRV that may exceed MAX BRV by 5% for 6 turns",
+        "jp": "自身が対象をブレイク時 ブレイク中攻撃時\\n6ACTION自身の攻撃力と奪ったBRVを\\n最大BRVを超えて加算する上限が5％アップ"
+      }
+    },
+    "refined": {
+      "id": 258,
+      "category": "A",
+      "passive": {
+        "id": 5854,
+        "name": {
+          "en": "Break Hit Attack Advance Long (RF)",
+          "gl": "",
+          "jp": "ブレイクヒットアタックアップアドバンスロング【精錬】"
+        },
+        "desc": {
+          "en": "When breaking target or attacking a broken target:\\n• Raises Attack and Max BRV overflow limit of stolen BRV by 2% for 6 turns",
+          "gl": "",
+          "jp": "自身が対象をブレイク時 ブレイク中攻撃時\\n6ACTION自身の攻撃力と奪ったBRVを\\n最大BRVを超えて加算する上限が2％アップ"
+        }
+      },
+      "source": {
+        "short": "heretic3",
+        "event": "機空兵迎撃作戦 (Heretic)"
+      }
+    }
+  },
+  "snow": {
+    "id": 118,
+    "category": "B",
+    "passive": {
+      "id": 2518,
+      "name": {
+        "en": "Target Attack Up",
+        "gl": "Target Attack Up",
+        "jp": "ターゲットアタックアップ"
+      },
+      "desc": {
+        "en": "When attacking an enemy targeting self:\\n- Raises Attack by 10%",
+        "gl": "Raises ATK by 10% while targeted by enemies",
+        "jp": "自身を狙っている敵がいる時\\n自身の攻撃力が10％アップ"
+      }
+    },
+    "refined": {
+      "id": 244,
+      "category": "B",
+      "passive": {
+        "id": 5429,
+        "name": {
+          "en": "Target Attack Up (RF)",
+          "gl": "",
+          "jp": "ターゲットアタックアップ【精錬】"
+        },
+        "desc": {
+          "en": "When attacking an enemy targeting self:\\n- Raises Attack by 4%",
+          "gl": "",
+          "jp": "自身を狙っている敵がいる時\\n自身の攻撃力が4％アップ"
+        }
+      },
+      "source": {
+        "short": "heretic2|story2",
+        "event": "嘲笑う悪魔 (Heretic)|Act 3 Chapter 1 Part 1 (Co-op)"
+      }
+    }
+  },
+  "thancred": {
+    "id": 214,
+    "category": "E",
+    "passive": {
+      "id": 4760,
+      "name": {
+        "en": "Weak Poison All",
+        "gl": "",
+        "jp": "ウィークポイズンオール"
+      },
+      "desc": {
+        "en": "After hitting target's weakness:\\n- For 6 turns, reduces all enemies' BRV at start of their turns by 30% of their Initial BRV\\n※Same Sphere do not stack",
+        "gl": "",
+        "jp": "自身が対象の弱点をついた後\\n自身に3ACTION以下の効果が発動\\n敵の行動開始時に\\nそれぞれの初期BRVの30％分BRVを減少させる\\n※同一スフィアの効果は重複しない"
+      }
+    },
+    "refined": {
+      "id": 215,
+      "category": "E",
+      "passive": {
+        "id": 4762,
+        "name": {
+          "en": "Weak Poison All (RF)",
+          "gl": "",
+          "jp": "ウィークポイズンオール【精錬】"
+        },
+        "desc": {
+          "en": "After hitting target's weakness:\\n- For 6 turns, reduces all enemies' BRV at start of their turns by 12% of their Initial BRV\\n※Same Sphere do not stack",
+          "gl": "",
+          "jp": "自身が対象の弱点をついた後\\n自身に3ACTION以下の効果が発動\\n敵の行動開始時に\\nそれぞれの初期BRVの12％分BRVを減少させる\\n※同一スフィアの効果は重複しない"
+        }
+      },
+      "source": {
+        "short": "raid2|heretic3",
+        "event": "Act 2 Chapter 11 Part 2 (Raid)|機空兵迎撃作戦 (Heretic)"
+      }
+    }
+  },
+  "krile": {
+    "id": 31,
+    "category": "C",
+    "passive": {
+      "id": 1810,
+      "name": {
+        "en": "Break Hit BRV Gain All",
+        "gl": "All Bravery Break Hit",
+        "jp": "ブレイクヒットBRVゲインオール"
+      },
+      "desc": {
+        "en": "When breaking target or attacking a broken target:\\n• Raises each party member's BRV by 20% of their Initial BRV\\n* Only once per turn",
+        "gl": "Grants party 20% of individual INT BRV when inflicting Break or attacking target afflicted with Break once per turn",
+        "jp": "自身が対象をブレイク時 ブレイク中攻撃時\\n味方全員にそれぞれの初期BRVの20％分のBRVを加算\\n1回の行動での効果発動は1回のみ"
+      }
+    }
+  },
+  "sabin": {
+    "id": 63,
+    "category": "A",
+    "passive": {
+      "id": 2112,
+      "name": {
+        "en": "Critical Boost Up Long",
+        "gl": "Critical Boost Up Longer",
+        "jp": "クリティカルブーストアップロング"
+      },
+      "desc": {
+        "en": "When dealing a critical hit:\\n- Raises Max BRV by 10% for 6 turns",
+        "gl": "Raises MAX BRV by 10% for 6 turns when dealing critical hit",
+        "jp": "自身が対象にクリティカルヒット発生時\\n6ACTION自身の最大BRVが10％アップ"
+      }
+    },
+    "refined": {
+      "id": 271,
+      "category": "A",
+      "passive": {
+        "id": 6029,
+        "name": {
+          "en": "Critical Boost Up Long (RF)",
+          "gl": "",
+          "jp": "クリティカルブーストアップロング【精錬】"
+        },
+        "desc": {
+          "en": "When dealing a critical hit:\\n- Raises Max BRV by 4% for 6 turns",
+          "gl": "",
+          "jp": "自身が対象にクリティカルヒット発生時\\n6ACTION自身の最大BRVが4％アップ"
+        }
+      },
+      "source": {
+        "short": "heretic4",
+        "event": "恐怖の機械触手 (Heretic)"
+      }
+    }
+  },
+  "seymour": {
+    "id": 98,
+    "category": "E",
+    "passive": {
+      "id": 2378,
+      "name": {
+        "en": "Debuff Success Raging Attack Up",
+        "gl": "Debuff Success Raging Attack Up",
+        "jp": "デバフサクセスレイジングアタックアップ"
+      },
+      "desc": {
+        "en": "After inflicting a debuff:\\n- Raises Attack by 3% up to 5 times\\n※Same Spheres do not stack\\n※Only once per turn",
+        "gl": "Raises own ATK by 3% when inflicting debuff on target up to 5 times, once per turn\\n*Does not stack with same sphere",
+        "jp": "自身が対象に弱体効果を付与した時\\n自身の攻撃力が最大5回まで3％アップ\\n1回の行動での効果アップは1回のみ\\n※同一スフィアの効果は重複しない"
+      }
+    },
+    "refined": {
+      "id": 182,
+      "category": "E",
+      "passive": {
+        "id": 4076,
+        "name": {
+          "en": "Debuff Success Raging Attack (RF)",
+          "gl": "",
+          "jp": "デバフサクセスレイジングアタックアップ【精錬】"
+        },
+        "desc": {
+          "en": "After inflicting a debuff:\\n- Raises Attack by 3% up to 2 times\\n※Same Spheres do not stack\\n※Only once per turn",
+          "gl": "",
+          "jp": "自身が対象に弱体効果を付与した時\\n自身の攻撃力が最大2回まで3％アップ\\n1回の行動での効果アップは1回のみ\\n※同一スフィアの効果は重複しない"
+        }
+      },
+      "source": {
+        "short": "heretic1",
+        "event": "魔に捧ぐ祈祷 (Heretic)"
+      }
+    }
+  },
+  "ace": {
+    "id": 34,
+    "category": "A",
+    "passive": {
+      "id": 1800,
+      "name": {
+        "en": "Break Hit Boost Up Long",
+        "gl": "Break Hit Boost Up Longer",
+        "jp": "ブレイクヒットブーストアップロング"
+      },
+      "desc": {
+        "en": "When breaking target or attacking a broken target:\\n- Raises Max BRV by 10% for 6 turns",
+        "gl": "Raises MAX BRV by 10% for 6 turns when inflicting Break or attacking target afflicted with Break",
+        "jp": "自身が対象をブレイク時 ブレイク中攻撃時\\n6ACTION自身の最大BRVが10％アップ"
+      }
+    }
+  },
+  "vincent": {
+    "id": 25,
+    "category": "E",
+    "passive": {
+      "id": 1818,
+      "name": {
+        "en": "Full HP Critical Attack Down",
+        "gl": "Full HP Critical Attack Down",
+        "jp": "フルHPクリティカルアタックダウン"
+      },
+      "desc": {
+        "en": "When HP is max and a critical hit occurs:\\n- Inflicts 「30% Attack Down」 for 6 turns\\n※Same Spheres do not stack",
+        "gl": "Inflicts ATK Down 30% for 6 turns when dealing critical hit while HP at MAX",
+        "jp": "自身のHPがMAXで クリティカルヒット発生時\\nターゲットに6ACTION弱体効果「攻撃力30％ダウン」付与"
+      }
+    },
+    "refined": {
+      "id": 177,
+      "category": "E",
+      "passive": {
+        "id": 5395,
+        "name": {
+          "en": "Full HP Critical Attack Down (RF)",
+          "gl": "",
+          "jp": "フルHPクリティカルアタックダウン【精錬】"
+        },
+        "desc": {
+          "en": "When HP is max and a critical hit occurs:\\n- Inflicts 「12% Attack Down」 for 6 turns\\n※Same Spheres do not stack",
+          "gl": "",
+          "jp": "自身のHPがMAXで クリティカルヒット発生時\\nターゲットに6ACTION弱体効果「攻撃力12％ダウン」付与"
+        }
+      },
+      "source": {
+        "short": "raid3",
+        "event": "Tyrant Raid"
+      }
+    }
+  },
+  "layle": {
+    "id": 43,
+    "category": "A",
+    "passive": {
+      "id": 2354,
+      "name": {
+        "en": "Smash Boost Up Long",
+        "gl": "Smash Boost Up Longer",
+        "jp": "スマッシュブーストアップロング"
+      },
+      "desc": {
+        "en": "After initiating a Chase Sequence:\\n- Raises Max BRV by 10% for 8 turns",
+        "gl": "Raises MAX BRV by 10% for 8 turns when inflicting Knock Back",
+        "jp": "自身が対象を吹きとばした時 \\n8ACTION自身の最大BRVが10％アップ"
+      }
+    }
+  },
+  "zell": {
+    "id": 32,
+    "category": "A",
+    "passive": {
+      "id": 1801,
+      "name": {
+        "en": "Weak Attack Up Long",
+        "gl": "Weak Attack Up Longer",
+        "jp": "ウィークアタックアップロング"
+      },
+      "desc": {
+        "en": "When hitting target's weakness:\\n- Raises Attack by 10% for 6 turns",
+        "gl": "Raises own ATK by 10% for 6 turns when attacking target's weakness",
+        "jp": "自身が対象の弱点をついた時\\n6ACTION自身の攻撃力が10％アップ"
+      }
+    }
+  },
+  "ramza": {
+    "id": 42,
+    "category": "D",
+    "passive": {
+      "id": 2567,
+      "name": {
+        "en": "Buff Base Boost All 3",
+        "gl": "Buffed Initial Boost All 3",
+        "jp": "バフベースブーストオール3"
+      },
+      "desc": {
+        "en": "When 3 or more buffs are active:\\n• Raises party's Initial BRV, Max BRV by 5%",
+        "gl": "With 3 or more buffs:\\n • Raises party's INT BRV, MAX BRV by 5%",
+        "jp": "自身の強化効果の数が合計3個以上の時\\n味方全員の初期BRVと最大BRVを5％アップ"
+      }
+    },
+    "refined": {
+      "id": 256,
+      "category": "D",
+      "passive": {
+        "id": 5663,
+        "name": {
+          "en": "Buff Base Boost All 3 (RF)",
+          "gl": "",
+          "jp": "バフベースブーストオール3【精錬】"
+        },
+        "desc": {
+          "en": "When 3 or more buffs are active:\\n• Raises party's Initial BRV, Max BRV by 2%",
+          "gl": "",
+          "jp": "自身の強化効果の数が合計3個以上の時\\n味方全員の初期BRVと最大BRVを2％アップ"
+        }
+      },
+      "source": {
+        "short": "woi3",
+        "event": "Divine Diabolos"
+      }
+    }
+  },
+  "faris": {
+    "id": 48,
+    "category": "E",
+    "passive": {
+      "id": 1819,
+      "name": {
+        "en": "Full HP Critical Poison All",
+        "gl": "Full HP Critical Poison All",
+        "jp": "フルHPクリティカルポイズンオール"
+      },
+      "desc": {
+        "en": "When HP is max and a critical hit occurs:\\n- Lowers enemy BRV by 30% of their Initial BRV at start of their turn for 6 turns\\n* Same Spheres do not stack",
+        "gl": "Grants effect for 6 turns that reduces enemy's BRV by 30% of individual INT BRV at start of enemy's turn when dealing critical hit while HP at MAX\\n*Does not stack with same sphere",
+        "jp": "自身のHPがMAXで クリティカルヒット発生後\\n自身に6ACTION以下の効果が発動\\n敵の行動開始時に\\nそれぞれの初期BRVの30％分BRVを減少させる\\n※同一スフィアの効果は重複しない"
+      }
+    },
+    "refined": {
+      "id": 178,
+      "category": "E",
+      "passive": {
+        "id": 4072,
+        "name": {
+          "en": "Full HP Critical Poison All (RF)",
+          "gl": "",
+          "jp": "フルHPクリティカルポイズンオール【精錬】"
+        },
+        "desc": {
+          "en": "When HP is MAX and dealing critical hit:\\n- Lowers enemy BRV by 12% of their Initial BRV at start of their turn for 6 turns\\n* Same Spheres do not stack",
+          "gl": "",
+          "jp": "自身のHPがMAXで クリティカルヒット発生後\\n自身に6ACTION以下の効果が発動\\n敵の行動開始時に\\nそれぞれの初期BRVの12％分BRVを減少させる\\n※同一スフィアの効果は重複しない"
+        }
+      },
+      "source": {
+        "short": "md1",
+        "event": "魔城攻略戦線 (Mission Dungeon)"
+      }
+    }
+  },
+  "prishe": {
+    "id": 125,
+    "category": "A",
+    "passive": {
+      "id": 2617,
+      "name": {
+        "en": "Weak Attack Boost Up Short",
+        "gl": "Weak Attack Boost Up Shorter",
+        "jp": "ウィークアタックブーストアップショート"
+      },
+      "desc": {
+        "en": "When hitting target's weakness:\\n- Raises Max BRV and Attack by 10% for 3 turns\\n※Same Spheres do not stack",
+        "gl": "Boosts MAX BRV, ATK by 10% for 3 turns when attacking target's weakness\\n*Does not stack with same sphere",
+        "jp": "自身が対象の弱点をついた時\\n3ACTION自身の最大BRVと攻撃力が10％アップ\\n※同一スフィアの効果は重複しない"
+      }
+    }
+  },
+  "tidus": {
+    "id": 28,
+    "category": "E",
+    "passive": {
+      "id": 1820,
+      "name": {
+        "en": "Full HP Break Hit Speed Down",
+        "gl": "Full HP Break Hit Speed Down",
+        "jp": "フルHPブレイクヒットスピードダウン"
+      },
+      "desc": {
+        "en": "When HP is max and breaking a target/attacking a broken target:\\n- Inflicts 「20% Speed Down」 for 6 turns\\n※Same Spheres do not stack",
+        "gl": "Inflicts SPD Down 20% for 6 turns when inflicting Break or attacking target afflicted with Break while HP at MAX",
+        "jp": "自身のHPがMAXで 対象をブレイク時 ブレイク中攻撃時\\nターゲットに6ACTION弱体効果「素早さ20％ダウン」付与"
+      }
+    }
+  },
+  "eiko": {
+    "id": 69,
+    "category": "C",
+    "passive": {
+      "id": 2173,
+      "name": {
+        "en": "Buff Success HP Heal",
+        "gl": "Buff Success HP Heal",
+        "jp": "バフサクセスHPヒール"
+      },
+      "desc": {
+        "en": "After granting a buff:\\n- Restores 10% of Max HP\\n※Only once per turn",
+        "gl": "Restores own HP by 10% of MAX when granting buff to target once per turn",
+        "jp": "自身が対象に強化効果を付与した時\\n自身のHPを最大HPの10％分回復\\n1回の行動での効果発動は1回のみ"
+      }
+    },
+    "refined": {
+      "id": 268,
+      "category": "C",
+      "passive": {
+        "id": 5996,
+        "name": {
+          "en": "Buff Success HP Heal (RF)",
+          "gl": "",
+          "jp": "バフサクセスHPヒール【精錬】"
+        },
+        "desc": {
+          "en": "After granting a buff:\\n- Restores 4% of Max HP\\n※Only once per turn",
+          "gl": "",
+          "jp": "自身が対象に強化効果を付与した時\\n自身のHPを最大HPの4％分回復\\n1回の行動での効果発動は1回のみ"
+        }
+      },
+      "source": {
+        "short": "woi4",
+        "event": "Divine Ramuh"
+      }
+    }
+  },
+  "balthier": {
+    "id": 57,
+    "category": "A",
+    "passive": {
+      "id": 2046,
+      "name": {
+        "en": "All Break Bonus Up",
+        "gl": "All Break Bonus Up",
+        "jp": "オールブレイクボーナスアップ"
+      },
+      "desc": {
+        "en": "After a party member breaks an enemy:\\n- Raises own Break Bonus gain by 50%",
+        "gl": "Raises own Break Bonus by 50% when party inflicts Break",
+        "jp": "味方全員が対象をブレイクした時\\n自身に入るブレイクボーナスを50％アップ"
+      }
+    },
+    "refined": {
+      "id": 160,
+      "category": "A",
+      "passive": {
+        "id": 4054,
+        "name": {
+          "en": "All Break Bonus Up (RF)",
+          "gl": "All Break Bonus Up (RF)",
+          "jp": "オールブレイクボーナスアップ【精錬】"
+        },
+        "desc": {
+          "en": "After a party member breaks an enemy:\\n- Raises own Break Bonus gain by 20%",
+          "gl": "When party inflicts Break:\\n • Raises own Break Bonus by 20%",
+          "jp": "味方全員が対象をブレイクした時\\n自身に入るブレイクボーナスを20％アップ"
+        }
+      },
+      "source": {
+        "short": "story1|heretic4",
+        "event": "Act 2 Chapter 10 (Co-op)|恐怖の機械触手 (Heretic)"
+      }
+    }
+  },
+  "shantotto": {
+    "id": 39,
+    "category": "A",
+    "passive": {
+      "id": 2283,
+      "name": {
+        "en": "Break Hit Base Boost Up Short",
+        "gl": "Break Hit Initial Boost Up Shorter",
+        "jp": "ブレイクヒットベースブーストアップショート"
+      },
+      "desc": {
+        "en": "When breaking target or attacking a broken target:\\n- Raises Initial BRV and Max BRV by 10% for 3 turns",
+        "gl": "Raises own INT BRV, MAX BRV by 10% for 3 turns when inflicting Break or attacking target afflicted with Break",
+        "jp": "自身が対象をブレイク時 ブレイク中攻撃時\\n3ACTION自身の初期BRVと最大BRVが10％アップ"
+      }
+    }
+  },
+  "galuf": {
+    "id": 107,
+    "category": "B",
+    "passive": {
+      "id": 2430,
+      "name": {
+        "en": "Evasion Attack Up Long",
+        "gl": "Evasion Attack Up Longer",
+        "jp": "エヴァージョンアタックアップロング"
+      },
+      "desc": {
+        "en": "After evading an attack:\\n- Raises Attack by 10% for 6 turns",
+        "gl": "When dodging attack:\\n • Raises ATK by 10% for 6 turns",
+        "jp": "自身が攻撃回避時\\n6ACTION自身の攻撃力が10％アップ"
+      }
+    },
+    "refined": {
+      "id": 243,
+      "category": "B",
+      "passive": {
+        "id": 5428,
+        "name": {
+          "en": "Evasion Attack Up Long (RF)",
+          "gl": "",
+          "jp": "エヴァージョンアタックアップロング【精錬】"
+        },
+        "desc": {
+          "en": "After evading an attack:\\n- Raises Attack by 4% for 6 turns",
+          "gl": "",
+          "jp": "自身が攻撃回避時\\n6ACTION自身の攻撃力が4％アップ"
+        }
+      },
+      "source": {
+        "short": "heretic2",
+        "event": "嘲笑う悪魔 (Heretic)"
+      }
+    }
+  },
+  "wakka": {
+    "id": 111,
+    "category": "D",
+    "passive": {
+      "id": 2516,
+      "name": {
+        "en": "Buff Attack Boost All 5",
+        "gl": "All Buffed Attack Boost 5",
+        "jp": "バフアタックブーストオール5"
+      },
+      "desc": {
+        "en": "When 5 or more buffs are active:\\n• Raises party's Attack and Max BRV by 5%\\n* Same spheres do not stack",
+        "gl": "With 5 or more buffs:\\n • Raises party's MAX BRV, ATK by 5%\\n*Does not stack with same sphere",
+        "jp": "自身の強化効果の数が合計5個以上の時\\n味方全員の最大BRVと攻撃力を5％アップ\\n※同一スフィアの効果は重複しない"
+      }
+    },
+    "refined": {
+      "id": 176,
+      "category": "D",
+      "passive": {
+        "id": 4070,
+        "name": {
+          "en": "Buff Attack Boost All 5 (RF)",
+          "gl": "Buff Attack Boost All 5 (RF)",
+          "jp": "バフアタックブーストオール5【精錬】"
+        },
+        "desc": {
+          "en": "When 5 or more buffs are active:\\n- Raises party's Attack and Max BRV by 2%\\n※Same spheres do not stack",
+          "gl": "With 5 or more buffs:\\n • Raises party's MAX BRV, ATK by 2%\\n*Does not stack with same sphere",
+          "jp": "自身の強化効果の数が合計5個以上の時\\n味方全員の最大BRVと攻撃力を2％アップ\\n※同一スフィアの効果は重複しない"
+        }
+      },
+      "source": {
+        "short": "story1|raid4",
+        "event": "Act 2 Chapter 10 (Co-op)|Guard Scorpion Raid"
+      }
+    }
+  },
+  "setzer": {
+    "id": 66,
+    "category": "E",
+    "passive": {
+      "id": 2130,
+      "name": {
+        "en": "Full HP Critical Speed Down",
+        "gl": "Full HP Critical Speed Down",
+        "jp": "フルHPクリティカルスピードダウン"
+      },
+      "desc": {
+        "en": "When HP is max and a critical hit occurs:\\n- Inflicts 「20% Speed Down」 for 6 turns",
+        "gl": "Inflicts SPD Down 20% for 6 turns when dealing critical hit while HP at MAX",
+        "jp": "自身のHPがMAXで クリティカルヒット発生時\\nターゲットに6ACTION弱体効果「素早さ20％ダウン」付与"
+      }
+    },
+    "refined": {
+      "id": 248,
+      "category": "E",
+      "passive": {
+        "id": 5629,
+        "name": {
+          "en": "Full HP Critical Speed Down (RF)",
+          "gl": "",
+          "jp": "フルHPクリティカルスピードダウン【精錬】"
+        },
+        "desc": {
+          "en": "When HP is max and a critical hit occurs:\\n- Inflicts 「8% Speed Down」 for 6 turns",
+          "gl": "",
+          "jp": "自身のHPがMAXで クリティカルヒット発生時\\nターゲットに6ACTION弱体効果「素早さ8％ダウン」付与"
+        }
+      },
+      "source": {
+        "short": "raid4",
+        "event": "Guard Scorpion Raid"
+      }
+    }
+  },
+  "vanille": {
+    "id": 65,
+    "category": "E",
+    "passive": {
+      "id": 2129,
+      "name": {
+        "en": "Break Buff Erase",
+        "gl": "Break Buff Erase",
+        "jp": "ブレイクバフイレース"
+      },
+      "desc": {
+        "en": "When breaking target:\\n- Removes 1 buff from target\\n* When using an AoE ability to break target, removes 1 buff from all targets",
+        "gl": "Removes 1 buff from target when inflicting Break",
+        "jp": "自身が対象をブレイク時\\n対象の強化効果を1個解除する"
+      }
+    },
+    "refined": {
+      "id": 180,
+      "category": "E",
+      "passive": {
+        "id": 4074,
+        "name": {
+          "en": "Break Buff Erase (RF)",
+          "gl": "",
+          "jp": "ブレイクバフイレース【精錬】"
+        },
+        "desc": {
+          "en": "When breaking target:\\n• 40% chance to remove 1 buff from target\\n* When using an AoE ability to break target, may affect all targets",
+          "gl": "",
+          "jp": "自身が対象をブレイク時\\n対象の強化効果を中確率で1個解除する"
+        }
+      },
+      "source": {
+        "short": "story3",
+        "event": "Act 3 Chapter 2 Part 1 (Co-op)"
+      }
+    }
+  },
+  "squall": {
+    "id": 36,
+    "category": "A",
+    "passive": {
+      "id": 1796,
+      "name": {
+        "en": "Break Hit Raging Boost Up",
+        "gl": "Break Hit Raging Boost Up",
+        "jp": "ブレイクヒットレイジングブーストアップ"
+      },
+      "desc": {
+        "en": "When breaking target or attacking a broken target\\n• Raises Max BRV by 2% up to 5 times",
+        "gl": "Raises MAX BRV by 2% when inflicting Break or attacking target afflicted with Break up to 5 times, once per turn",
+        "jp": "自身が対象をブレイク時 ブレイク中攻撃時\\n自身の最大BRVが最大5回まで2％アップ\\n1回の行動での効果アップは1回のみ"
+      }
+    }
+  },
+  "shadow": {
+    "id": 110,
+    "category": "A",
+    "passive": {
+      "id": 2480,
+      "name": {
+        "en": "Single Critical Attack Up Long",
+        "gl": "Single Critical Attack Up Longer",
+        "jp": "シングルクリティカルアタックアップロング"
+      },
+      "desc": {
+        "en": "When dealing a critical hit to a single target:\\n- Raises Attack by 10% for 6 turns",
+        "gl": "Raises ATK by 10% for 6 turns when dealing critical hit to single target",
+        "jp": "攻撃対象が単体で対象にクリティカルヒット発生時\\n6ACTION自身の攻撃力が10％アップ"
+      }
+    },
+    "refined": {
+      "id": 207,
+      "category": "A",
+      "passive": {
+        "id": 4738,
+        "name": {
+          "en": "Single Critical Attack Long (RF)",
+          "gl": "",
+          "jp": "シングルクリティカルアタックアップロング【精錬】"
+        },
+        "desc": {
+          "en": "When dealing a critical hit to a single target:\\n- Raises Attack by 4% for 6 turns",
+          "gl": "",
+          "jp": "攻撃対象が単体で対象にクリティカルヒット発生時\\n6ACTION自身の攻撃力が4％アップ"
+        }
+      },
+      "source": {
+        "short": "heretic1",
+        "event": "魔に捧ぐ祈祷 (Heretic)"
+      }
+    }
+  },
+  "steiner": {
+    "id": 100,
+    "category": "A",
+    "passive": {
+      "id": 2398,
+      "name": {
+        "en": "Critical Raging Boost Up",
+        "gl": "Critical Raging Boost Up",
+        "jp": "クリティカルレイジングブーストアップ"
+      },
+      "desc": {
+        "en": "When dealing a critical hit:\\n- Raises Max BRV by 2% up to 5 times\\n※Only once per turn",
+        "gl": "When dealing critical hit:\\n • Raises MAX BRV by 2% up to 5 times, once per turn",
+        "jp": "自身が対象にクリティカルヒット発生時\\n自身の最大BRVが最大5回まで2％アップ\\n1回の行動での効果アップは1回のみ"
+      }
+    }
+  },
+  "laguna": {
+    "id": 220,
+    "category": "E",
+    "passive": {
+      "id": 4794,
+      "name": {
+        "en": "All Range Critical Boost Down",
+        "gl": "",
+        "jp": "オールレンジクリティカルブーストダウンオール"
+      },
+      "desc": {
+        "en": "When dealing a critical hit with an AoE BRV attack:\\n- Inflicts 「30% Max BRV Down」 to all targets for 3 turns",
+        "gl": "",
+        "jp": "自身が全体BRV攻撃で対象にクリティカルヒット発生時\\n敵全体に3ACTION弱体効果「最大BRV30％ダウン」付与"
+      }
+    },
+    "refined": {
+      "id": 221,
+      "category": "E",
+      "passive": {
+        "id": 4795,
+        "name": {
+          "en": "All Range Critical Boost Down (RF)",
+          "gl": "",
+          "jp": "オールレンジクリティカルブーストダウンオール【精錬】"
+        },
+        "desc": {
+          "en": "When dealing a critical hit with an AoE BRV attack:\\n- Inflicts 「12% Max BRV Down」 to all targets for 3 turns",
+          "gl": "",
+          "jp": "自身が全体BRV攻撃で対象にクリティカルヒット発生時\\n敵全体に3ACTION弱体効果「最大BRV12％ダウン」付与"
+        }
+      },
+      "source": {
+        "short": "raid2|raid5",
+        "event": "Act 2 Chapter 11 Part 2 (Raid)|Hell Wyrm Raid"
+      }
+    }
+  },
+  "firion": {
+    "id": 37,
+    "category": "A",
+    "passive": {
+      "id": 2126,
+      "name": {
+        "en": "HP Heal Boost Up Long",
+        "gl": "HP Heal Boost Up Longer",
+        "jp": "HPヒールブーストアップロング"
+      },
+      "desc": {
+        "en": "When own HP is restored:\\n• Raises Max BRV by 10% for 6 turns",
+        "gl": "Raises own MAX BRV by 10% for 6 turns when recovering own HP",
+        "jp": "自身のHPが回復した時\\n6ACTION自身の最大BRVが10％アップ"
+      }
+    },
+    "refined": {
+      "id": 253,
+      "category": "A",
+      "passive": {
+        "id": 5651,
+        "name": {
+          "en": "HP Heal Boost Up Long (RF)",
+          "gl": "",
+          "jp": "HPヒールブーストロング【精錬】"
+        },
+        "desc": {
+          "en": "When own HP is restored:\\n• Raises Max BRV by 4% for 6 turns",
+          "gl": "",
+          "jp": "自身のHPが回復した時\\n6ACTION自身の最大BRVが4％アップ"
+        }
+      },
+      "source": {
+        "short": "md1",
+        "event": "魔城攻略戦線 (Mission Dungeon)"
+      }
+    }
+  },
+  "onion_knight": {
+    "id": 84,
+    "category": "A",
+    "passive": {
+      "id": 2282,
+      "name": {
+        "en": "Critical Raging Attack Up",
+        "gl": "Critical Raging Attack Up",
+        "jp": "クリティカルレイジングアタックアップ"
+      },
+      "desc": {
+        "en": "When dealing a critical hit:\\n• Raises Attack by 2% up to 5 times\\n* Once per turn",
+        "gl": "Raises ATK by 2% when dealing critical hit up to 5 times, once per turn",
+        "jp": "自身が対象にクリティカルヒット発生時\\n自身の攻撃力が最大5回まで2％アップ\\n1回の行動での効果アップは1回のみ"
+      }
+    },
+    "refined": {
+      "id": 260,
+      "category": "A",
+      "passive": {
+        "id": 5874,
+        "name": {
+          "en": "Critical Raging Attack Up (RF)",
+          "gl": "",
+          "jp": "クリティカルレイジングアタックアップ【精錬】"
+        },
+        "desc": {
+          "en": "When dealing a critical hit:\\n- Raises Attack by 2% up to 2 times",
+          "gl": "",
+          "jp": "自身が対象にクリティカルヒット発生時\\n自身の攻撃力が最大2回まで2％アップ\\n1回の行動での効果アップは1回のみ"
+        }
+      },
+      "source": {
+        "short": "story2",
+        "event": "Act 3 Chapter 1 Part 1 (Co-op)"
+      }
+    }
+  },
+  "yang": {
+    "id": 114,
+    "category": "A",
+    "passive": {
+      "id": 2461,
+      "name": {
+        "en": "Critical Attack Boost Up Short",
+        "gl": "Critical Attack Boost Up Shorter",
+        "jp": "クリティカルアタックブーストアップショート"
+      },
+      "desc": {
+        "en": "When dealing a critical hit:\\n- Raises Max BRV and Attack by 10% for 3 turns\\n※Same Spheres do not stack",
+        "gl": "When dealing critical hit:\\n • Raises MAX BRV and ATK by 10% for 3 turns \\n*Does not stack with same sphere",
+        "jp": "自身が対象にクリティカルヒット発生時\\n3ACTION自身の最大BRVと攻撃力が10％アップ\\n※同一スフィアの効果は重複しない"
+      }
+    }
+  },
+  "terra": {
+    "id": 74,
+    "category": "A",
+    "passive": {
+      "id": 2253,
+      "name": {
+        "en": "Critical Base Boost Up Short",
+        "gl": "Critical Initial Boost Up Shorter",
+        "jp": "クリティカルベースブーストアップショート"
+      },
+      "desc": {
+        "en": "When dealing a critical hit:\\n- Raises Initial BRV and Max BRV by 10% for 3 turns",
+        "gl": "Raises INT BRV, MAX BRV by 10% for 3 turns when dealing critical hit",
+        "jp": "自身が対象にクリティカルヒット発生時\\n3ACTION自身の初期BRVと最大BRVが10％アップ"
+      }
+    },
+    "refined": {
+      "id": 274,
+      "category": "A",
+      "passive": {
+        "id": 6100,
+        "name": {
+          "en": "Critical Base Boost Up Short (RF)",
+          "gl": "",
+          "jp": "クリティカルベースブーストショート【精錬】"
+        },
+        "desc": {
+          "en": "When dealing a critical hit:\\n• Raises Initial BRV and Max BRV by 4% for 3 turns",
+          "gl": "",
+          "jp": "自身が対象にクリティカルヒット発生時\\n3ACTION自身の初期BRVと最大BRVが4％アップ"
+        }
+      },
+      "source": {
+        "short": "story3",
+        "event": "Act 3 Chapter 2 Part 1 (Co-op)"
+      }
+    }
+  },
+  "penelo": {
+    "id": 87,
+    "category": "C",
+    "passive": {
+      "id": 2320,
+      "name": {
+        "en": "Buff Success BRV Gain All",
+        "gl": "All Buff Success Bravery",
+        "jp": "バフサクセスBRVゲインオール"
+      },
+      "desc": {
+        "en": "After granting a buff:\\n• Restores party's BRV by 20% of individual Initial BRV\\n* Only once per turn",
+        "gl": "Grants party 20% of individual INT BRV when granting buff to target once per turn",
+        "jp": "自身が対象に強化効果を付与した時\\n味方全員にそれぞれの初期BRVの20％分のBRVを加算\\n1回の行動での効果発動は1回のみ"
+      }
+    },
+    "refined": {
+      "id": 236,
+      "category": "C",
+      "passive": {
+        "id": 5393,
+        "name": {
+          "en": "Buff Success BRV Gain All (RF)",
+          "gl": "",
+          "jp": "バフサクセスBRVゲインオール【精錬】"
+        },
+        "desc": {
+          "en": "After granting a buff:\\n• Restores party's BRV by 8% of individual Initial BRV\\n* Only once per turn",
+          "gl": "",
+          "jp": "自身が対象に強化効果を付与した時\\n味方全員にそれぞれの初期BRVの8％分のBRVを加算\\n1回の行動での効果発動は1回のみ"
+        }
+      },
+      "source": {
+        "short": "raid3|heretic3",
+        "event": "Tyrant Raid|機空兵迎撃作戦 (Heretic)"
+      }
+    }
+  },
+  "bartz": {
+    "id": 68,
+    "category": "A",
+    "passive": {
+      "id": 2171,
+      "name": {
+        "en": "Break Boost Up Short",
+        "gl": "Break Boost Up Shorter",
+        "jp": "ブレイクブーストアップショート"
+      },
+      "desc": {
+        "en": "When breaking target:\\n- Raises Max BRV by 20% for 3 turns\\n※Same Spheres do not stack",
+        "gl": "Raises own MAX BRV by 20% for 3 turns when inflicting Break\\n*Does not stack with same sphere",
+        "jp": "自身が対象をブレイク時\\n3ACTION自身の最大BRVが20％アップ\\n※同一スフィアの効果は重複しない"
+      }
+    }
+  },
+  "king": {
+    "id": 80,
+    "category": "A",
+    "passive": {
+      "id": 2223,
+      "name": {
+        "en": "Break Attack Up Short",
+        "gl": "Break Attack Up Shorter",
+        "jp": "ブレイクアタックアップショート"
+      },
+      "desc": {
+        "en": "When breaking target:\\n- Raises Attack by 20% for 3 turns\\n※Same Spheres do not stack",
+        "gl": "Raises ATK by 20% for 3 turns when inflicting Break\\n*Does not stack with same sphere",
+        "jp": "自身が対象をブレイク時\\n3ACTION自身の攻撃力が20％アップ\\n※同一スフィアの効果は重複しない"
+      }
+    }
+  },
+  "edge": {
+    "id": 88,
+    "category": "B",
+    "passive": {
+      "id": 2321,
+      "name": {
+        "en": "Evasion BRV Gain",
+        "gl": "Bravery Evasion",
+        "jp": "エヴァージョンBRVゲイン"
+      },
+      "desc": {
+        "en": "After evading an attack:\\n- Raises BRV by 40% of Initial BRV",
+        "gl": "Increases BRV by 40% of INT BRV when dodging attack",
+        "jp": "自身が攻撃回避時\\n自身に自身の初期BRVの40％分のBRVを加算"
+      }
+    },
+    "refined": {
+      "id": 235,
+      "category": "B",
+      "passive": {
+        "id": 5392,
+        "name": {
+          "en": "Evasion BRV Gain (RF)",
+          "gl": "",
+          "jp": "エヴァージョンBRVゲイン【精錬】"
+        },
+        "desc": {
+          "en": "After evading an attack:\\n- Raises BRV by 16% of Initial BRV",
+          "gl": "",
+          "jp": "自身が攻撃回避時\\n自身に自身の初期BRVの16％分のBRVを加算"
+        }
+      },
+      "source": {
+        "short": "raid3",
+        "event": "Tyrant Raid"
+      }
+    }
+  },
+  "yuna": {
+    "id": 60,
+    "category": "C",
+    "passive": {
+      "id": 2071,
+      "name": {
+        "en": "HP Heal BRV Gain All",
+        "gl": "All Bravery HP Heal",
+        "jp": "HPヒールBRVゲインオール"
+      },
+      "desc": {
+        "en": "When own HP is restored:\\n- Raises each party member's BRV by 20% of their Initial BRV\\n※Only once per turn",
+        "gl": "Grants party 20% of individual INT BRV when recovering own HP once per turn",
+        "jp": "自身のHPが回復した時\\n味方全員にそれぞれの初期BRVの20％分のBRVを加算\\n1回の行動での効果発動は1回のみ"
+      }
+    }
+  },
+  "yuffie": {
+    "id": 67,
+    "category": "E",
+    "passive": {
+      "id": 2172,
+      "name": {
+        "en": "Debuff Success Attack Boost Up Short",
+        "gl": "Debuff Success Attack Boost Up Shorter",
+        "jp": "デバフサクセスアタックブーストアップショート"
+      },
+      "desc": {
+        "en": "After inflicting a debuff:\\n- Raises Max BRV and Attack by 10% for 3 turns",
+        "gl": "Raises own MAX BRV, ATK by 10% for 3 turns when inflicting debuff on target",
+        "jp": "自身が対象に弱体効果を付与した時\\n3ACTION自身の最大BRVと攻撃力が10％アップ"
+      }
+    },
+    "refined": {
+      "id": 269,
+      "category": "E",
+      "passive": {
+        "id": 5997,
+        "name": {
+          "en": "Debuff Success Attack Boost Up Short (RF)",
+          "gl": "",
+          "jp": "デバフサクセスアタックブーストアップショート【精錬】"
+        },
+        "desc": {
+          "en": "After inflicting a debuff:\\n- Raises Max BRV and Attack by 4% for 3 turns",
+          "gl": "",
+          "jp": "自身が対象に弱体効果を付与した時\\n3ACTION自身の最大BRVと攻撃力が4％アップ"
+        }
+      },
+      "source": {
+        "short": "woi4",
+        "event": "Divine Ramuh"
+      }
+    }
+  },
+  "vaan": {
+    "id": 40,
+    "category": "A",
+    "passive": {
+      "id": 2034,
+      "name": {
+        "en": "Full HP Attack Up",
+        "gl": "Full HP Attack Up",
+        "jp": "フルHPアタックアップ"
+      },
+      "desc": {
+        "en": "When HP is MAX:\\n• Raises Attack by 10%",
+        "gl": "Raises ATK by 10% while HP is MAX",
+        "jp": "自身のHPがMAXの時\\n自身の攻撃力が10％アップ"
+      }
+    },
+    "refined": {
+      "id": 161,
+      "category": "A",
+      "passive": {
+        "id": 4055,
+        "name": {
+          "en": "Full HP Attack (RF)",
+          "gl": "Full HP Attack Up (RF)",
+          "jp": "フルHPアタックアップ【精錬】"
+        },
+        "desc": {
+          "en": "When HP is MAX:\\n- Raises Attack by 4%",
+          "gl": "While HP is MAX:\\n • Raises ATK by 4%",
+          "jp": "自身のHPがMAXの時\\n自身の攻撃力が4％アップ"
+        }
+      },
+      "source": {
+        "short": "story1",
+        "event": "Act 2 Chapter 10 (Co-op)"
+      }
+    }
+  },
+  "yda": {
+    "id": 130,
+    "category": "A",
+    "passive": {
+      "id": 3005,
+      "name": {
+        "en": "Sneak Power",
+        "gl": "Mighty Sneak",
+        "jp": "スニークパワー"
+      },
+      "desc": {
+        "en": "When attacking an enemy not targeting self\\n• Increases BRV damage dealt by 10%",
+        "gl": "Increases BRV damage dealt by 10% when attacking enemy not targeting self",
+        "jp": "自身が自身を狙っていないターゲットを攻撃時\\n与えるBRVダメージが10％アップ"
+      }
+    },
+    "refined": {
+      "id": 225,
+      "category": "A",
+      "passive": {
+        "id": 5094,
+        "name": {
+          "en": "Sneak Power (RF)",
+          "gl": "",
+          "jp": "スニークパワー【精錬】"
+        },
+        "desc": {
+          "en": "When attacking an enemy not targeting self\\n- Increases BRV damage dealt by 4%",
+          "gl": "",
+          "jp": "自身が自身を狙っていないターゲットを攻撃時\\n与えるBRVダメージが4％アップ"
+        }
+      },
+      "source": {
+        "short": "raid2|woi3|raid6",
+        "event": "Act 2 Chapter 11 Part 2 (Raid)|Divine Diabolos|Kaiser Behemoth Raid"
+      }
+    }
+  },
+  "cecil": {
+    "id": 148,
+    "category": "A",
+    "passive": {
+      "id": 3532,
+      "name": {
+        "en": "Danger Base Attack Up",
+        "gl": "Low HP Initial Attack Up",
+        "jp": "デンジャーベースアタックアップ"
+      },
+      "desc": {
+        "en": "When HP is less than or equal to 80% of MAX:\\n• Raises Initial BRV and Attack by 10%",
+        "gl": "While HP less than 80% of MAX:\\n • Raises INT BRV, ATK by 10%",
+        "jp": "自身のHPが最大HPの80％未満の時\\n自身の初期BRVと攻撃力が10％アップ"
+      }
+    }
+  },
+  "zidane": {
+    "id": 132,
+    "category": "A",
+    "passive": {
+      "id": 3021,
+      "name": {
+        "en": "Debuff Boost Up",
+        "gl": "Debuff Boost Up",
+        "jp": "デバフブーストアップ"
+      },
+      "desc": {
+        "en": "While an enemy is debuffed:\\n- Raises Max BRV by 10%",
+        "gl": "While debuffed enemy present:\\n • Raises MAX BRV by 10%",
+        "jp": "弱体効果が付与された敵がいる時\\n自身の最大BRVが10％アップ"
+      }
+    }
+  },
+  "yshtola": {
+    "id": 53,
+    "category": "C",
+    "passive": {
+      "id": 1808,
+      "name": {
+        "en": "Break Hit BRV Gain",
+        "gl": "Bravery Break Hit",
+        "jp": "ブレイクヒットBRVゲイン"
+      },
+      "desc": {
+        "en": "When breaking target or attacking a broken target:\\n- Raises BRV by 30% of Initial BRV\\n※Only once per turn",
+        "gl": "Increases BRV by 30% of INT BRV when inflicting Break or attacking target afflicted with Break once per turn",
+        "jp": "自身が対象をブレイク時 ブレイク中攻撃時\\n自身に自身の初期BRVの30％分のBRVを加算\\n1回の行動での効果発動は1回のみ"
+      }
+    },
+    "refined": {
+      "id": 270,
+      "category": "C",
+      "passive": {
+        "id": 6028,
+        "name": {
+          "en": "Break Hit BRV Gain (RF)",
+          "gl": "",
+          "jp": "ブレイクヒットBRVゲイン【精錬】"
+        },
+        "desc": {
+          "en": "When breaking target or attacking a broken target:\\n• Raises BRV by 12% of Initial BRV\\n* Only once per turn",
+          "gl": "",
+          "jp": "自身が対象をブレイク時 ブレイク中攻撃時\\n自身に自身の初期BRVの12％分のBRVを加算\\n1回の行動での効果発動は1回のみ"
+        }
+      },
+      "source": {
+        "short": "heretic4",
+        "event": "恐怖の機械触手 (Heretic)"
+      }
+    }
+  },
+  "hope": {
+    "id": 112,
+    "category": "D",
+    "passive": {
+      "id": 2481,
+      "name": {
+        "en": "Buff Success Attack Boost All Short",
+        "gl": "Buff Success Attack Boost All Shorter",
+        "jp": "バフサクセスアタックブーストオールショート"
+      },
+      "desc": {
+        "en": "After granting a buff:\\n• Raises party's Max BRV, Attack by 5% for 3 turns\\n* Same Spheres do not stack",
+        "gl": "After granting buff:\\n • Raises party's MAX BRV, ATK by 5% for 3 turns\\n*Does not stack with same sphere",
+        "jp": "自身が対象に強化効果を付与した後\\n味方全員に3ACTION以下の効果が発動\\n最大BRVと攻撃力が5％アップ\\n※同一スフィアの効果は重複しない"
+      }
+    }
+  },
+  "cloud": {
+    "id": 26,
+    "category": "A",
+    "passive": {
+      "id": 1802,
+      "name": {
+        "en": "Critical Power",
+        "gl": "Mighty Critical Hit",
+        "jp": "クリティカルパワー"
+      },
+      "desc": {
+        "en": "Raises critical BRV damage dealt by 10%",
+        "gl": "Raises BRV damage dealt with critical hits by 10%",
+        "jp": "自身がクリティカルヒットで与える\\nBRVダメージを10％アップ"
+      }
+    },
+    "refined": {
+      "id": 247,
+      "category": "A",
+      "passive": {
+        "id": 5628,
+        "name": {
+          "en": "Critical Power (RF)",
+          "gl": "",
+          "jp": "クリティカルパワー【精錬】"
+        },
+        "desc": {
+          "en": "Raises critical BRV damage dealt by 4%",
+          "gl": "",
+          "jp": "自身がクリティカルヒットで与える\\nBRVダメージを4％アップ"
+        }
+      },
+      "source": {
+        "short": "raid4",
+        "event": "Guard Scorpion Raid"
+      }
+    }
+  },
+  "tifa": {
+    "id": 59,
+    "category": "A",
+    "passive": {
+      "id": 2070,
+      "name": {
+        "en": "Critical Attack Up Long",
+        "gl": "Critical Attack Up Longer",
+        "jp": "クリティカルアタックアップロング"
+      },
+      "desc": {
+        "en": "When dealing a critical hit:\\n- Raises Attack by 10% for 6 turns",
+        "gl": "Raises ATK by 10% for 6 turns when dealing critical hit",
+        "jp": "自身が対象にクリティカルヒット発生時\\n6ACTION自身の攻撃力が10％アップ"
+      }
+    }
+  },
+  "sazh": {
+    "id": 144,
+    "category": "D",
+    "passive": {
+      "id": 3326,
+      "name": {
+        "en": "Critical Attack All Long",
+        "gl": "Critical Attack All Longer",
+        "jp": "クリティカルアタックオールロング"
+      },
+      "desc": {
+        "en": "When dealing a critical hit:\\n- Raises party's Attack by 5% for 6 turns",
+        "gl": "When dealing critical hit:\\n • Raises party's ATK by 5% for 6 turns",
+        "jp": "自身が対象にクリティカルヒット発生時\\n6ACTION味方全員の攻撃力が5％アップ"
+      }
+    },
+    "refined": {
+      "id": 245,
+      "category": "D",
+      "passive": {
+        "id": 5430,
+        "name": {
+          "en": "Critical Attack All Long (RF)",
+          "gl": "",
+          "jp": "クリティカルアタックオールロング【精錬】"
+        },
+        "desc": {
+          "en": "When dealing a critical hit:\\n- Raises party's Attack by 2% for 6 turns",
+          "gl": "",
+          "jp": "自身が対象にクリティカルヒット発生時\\n6ACTION味方全員の攻撃力が2％アップ"
+        }
+      },
+      "source": {
+        "short": "heretic2|story2",
+        "event": "嘲笑う悪魔 (Heretic)|Act 3 Chapter 1 Part 1 (Co-op)"
+      }
+    }
+  },
+  "rem": {
+    "id": 49,
+    "category": "C",
+    "passive": {
+      "id": 1809,
+      "name": {
+        "en": "Danger HP Regen Long",
+        "gl": "Low HP Regen Longer",
+        "jp": "デンジャーHPリジェネロング"
+      },
+      "desc": {
+        "en": "After taking an HP attack while HP is less than 50% of MAX:\\n• Restores HP by 5% of Max HP for 6 turns\\n* Same Spheres do not stack",
+        "gl": "Restores 5% of own MAX HP for 6 turns when taking HP attack while HP less than 50% of MAX\\n*Does not stack with same sphere",
+        "jp": "自身がHP攻撃を受けて\\nHPが最大HPの50％未満の時\\n6ACTION自身のHPが最大HPの5％分回復\\n※同一スフィアの効果は重複しない"
+      }
+    },
+    "refined": {
+      "id": 249,
+      "category": "C",
+      "passive": {
+        "id": 5630,
+        "name": {
+          "en": "Danger HP Regen Long (RF)",
+          "gl": "",
+          "jp": "デンジャーHPリジェネロング【精錬】"
+        },
+        "desc": {
+          "en": "After taking an HP attack while HP is less than 50% of MAX:\\n• Restores HP by 2% of Max HP for 6 turns\\n* Same Spheres do not stack",
+          "gl": "",
+          "jp": "自身がHP攻撃を受けて\\nHPが最大HPの50％未満の時\\n6ACTION自身のHPが最大HPの2％分回復\\n※同一スフィアの効果は重複しない"
+        }
+      },
+      "source": {
+        "short": "raid4",
+        "event": "Guard Scorpion Raid"
+      }
+    }
+  },
+  "vivi": {
+    "id": 185,
+    "category": "A",
+    "passive": {
+      "id": 4353,
+      "name": {
+        "en": "Weak Raging Boost Up",
+        "gl": "Weak Raging Boost Up",
+        "jp": "ウィークレイジングブーストアップ"
+      },
+      "desc": {
+        "en": "When hitting target's weakness:\\n- Raises Max BRV by 2% up to 5 times",
+        "gl": "When attacking target's weakness:\\n • Raises MAX BRV by 2% up to 5 times, once per turn",
+        "jp": "自身が対象の弱点をついた時\\n自身の最大BRVが最大5回まで2％アップ\\n1回の行動での効果アップは1回のみ"
+      }
+    }
+  },
+  "warrior_of_light": {
+    "id": 30,
+    "category": "B",
+    "passive": {
+      "id": 1804,
+      "name": {
+        "en": "Full HP Resist Up",
+        "gl": "Full HP Resist Up",
+        "jp": "フルHPレジストアップ"
+      },
+      "desc": {
+        "en": "While HP is max:\\n- Reduces BRV damage taken by 10%",
+        "gl": "Reduces BRV damage taken by 10% while HP is MAX",
+        "jp": "自身のHPがMAXの時\\n自身が受けるBRVダメージを10％軽減"
+      }
+    },
+    "refined": {
+      "id": 224,
+      "category": "B",
+      "passive": {
+        "id": 5093,
+        "name": {
+          "en": "Full HP Resist Up (RF)",
+          "gl": "",
+          "jp": "フルHPレジストアップ【精錬】"
+        },
+        "desc": {
+          "en": "While HP is max:\\n- Reduces BRV damage taken by 4%",
+          "gl": "",
+          "jp": "自身のHPがMAXの時\\n自身が受けるBRVダメージを4％軽減"
+        }
+      },
+      "source": {
+        "short": "raid2",
+        "event": "Act 2 Chapter 11 Part 2 (Raid)"
+      }
+    }
+  }
+}

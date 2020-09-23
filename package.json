@@ -1,0 +1,19 @@
+{
+  "name": "dffoo-api",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "start": "json-server --watch db.json",
+    "extract": "node ./scripts/extract.js",
+    "format": "node ./scripts/format.js"
+  },
+  "dependencies": {
+    "json-server": "^0.16.1"
+  },
+  "devDependencies": {
+    "googleapis": "39",
+    "node-fetch": "^2.6.1",
+    "prettier": "^2.1.1",
+    "ramda": "^0.27.1"
+  }
+}
