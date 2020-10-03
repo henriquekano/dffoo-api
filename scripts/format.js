@@ -10,6 +10,7 @@ const missions = require("../missions.json")
 const banners = require("../banners.json")
 const summonBoards = require("../summon_boards.json")
 const enums = require("../enums.json")
+const enemies = require("../enemies.json")
 
 const deindexArray = (indexedObjects, newPropName) => {
   return R.pipe(
@@ -120,7 +121,47 @@ const addKeysToAFieldForQuery = (objects) => {
           }
         })),
         banners,
-        summon_boards: summonBoards
+        summon_boards: summonBoards,
+        enemies: enemies.enemies.map((enemy) => ({
+          ...enemy,
+          traits: {
+            ...enemy.traits,
+            type: enemies.enemyTypes[enemy.traits.type - 1],
+          },
+          resist: {
+            ...enemy.resist,
+            atk: enemy.resist.atk.map((atkResistenceValue, atkTypeIndex) => {
+              const atkType = elementWithId(enums.attackTypes, atkTypeIndex + 1)
+              const resistanceValue = elementWithId(enums.resistanceTypes, atkResistenceValue + 1)
+              return {
+                atk_type: atkType.name,
+                value: resistanceValue.name,
+                symbol: resistanceValue.term,
+              }
+            }),
+            ele: enemy.resist.atk.map((elementResistenceValue, elementypeIndex) => {
+              const element = elementWithId(enums.elements, elementypeIndex + 1)
+              const resistanceValue = elementWithId(enums.resistanceTypes, elementResistenceValue + 1)
+              return {
+                element: element.name,
+                value: resistanceValue.name,
+                symbol: resistanceValue.term,
+              }
+            }),
+            ail: {
+              ...enemy.resist.ail,
+              weak: enemy.resist.ail.weak.map((value) => {
+                return enemies.enemyTypes[value - 1]
+              }),
+              resistant: enemy.resist.ail.resistant.map((value) => {
+                return enemies.enemyTypes[value - 1]
+              }),
+              immune: enemy.resist.ail.immune.map((value) => {
+                return enemies.enemyTypes[value - 1]
+              }),
+            }
+          }
+        }))
       })
     )
   })()
