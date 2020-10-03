@@ -39,6 +39,7 @@ const _getCharactersBoardNodes = (evaledJsFile) =>
 const _getQuests = (evaledJsFile) => _getMinifiedDataKey(evaledJsFile, "wie4")
 const _getSummons = (evaledJsFile) => _getMinifiedDataKey(evaledJsFile, "yBEX")
 const _getEnums = (evaledJsFile) => _getMinifiedDataKey(evaledJsFile, "ryMj")
+const _getEnemies = (evaledJsFile) => _getMinifiedDataKey(evaledJsFile, "eUsF")
 
 const fetchPageAndParse = async () => {
   const res = await fetch("https://dissidiadb.com")
@@ -58,6 +59,10 @@ const fetchPageAndParse = async () => {
   const characterBoards = _getCharactersBoardNodes(evaledJs)
   const characters = _getCharacters(evaledJs)
   const events = _getEvents(evaledJs)
+  const summonBoards = _getSummonBoardNodes(evaledJs)
+  const enums = _getEnums(evaledJs)
+  const quests = _getQuests(evaledJs)
+  const enemies = _getEnemies(evaledJs)
 
   await Promise.all([
     writeFilePromise("gears.json", JSON.stringify(gears, null, 2)),
@@ -78,6 +83,10 @@ const fetchPageAndParse = async () => {
     ),
     writeFilePromise("characters.json", JSON.stringify(characters, null, 2)),
     writeFilePromise("events.json", JSON.stringify(events, null, 2)),
+    writeFilePromise("summon_boards.json", JSON.stringify(summonBoards, null, 2)),
+    writeFilePromise("enums.json", JSON.stringify(enums, null, 2)),
+    writeFilePromise("quests.json", JSON.stringify(quests, null, 2)),
+    writeFilePromise("enemies.json", JSON.stringify(enemies, null, 2)),
   ])
 }
 

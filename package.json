@@ -3,14 +3,18 @@
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
-    "start": "json-server --watch db.json",
+    "start-dev": "json-server --watch db.json --read-only",
+    "start": "node app.js",
     "extract": "node ./scripts/extract.js",
+    "sheets": "node ./scripts/sheets.js",
     "format": "node ./scripts/format.js"
   },
   "dependencies": {
-    "json-server": "^0.16.1"
+    "json-server": "^0.16.1",
+    "json-serverless": "^1.6.2"
   },
   "devDependencies": {
+    "cheerio": "^1.0.0-rc.3",
     "googleapis": "39",
     "node-fetch": "^2.6.1",
     "prettier": "^2.1.1",

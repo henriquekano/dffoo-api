@@ -2,7 +2,7 @@ const fs = require('fs');
 const R = require('ramda')
 const readline = require('readline');
 const { google } = require('googleapis');
-const { writeFilePromise, isNumeric } = require('./helpers')
+const { writeFilePromise, isNumeric, fromNaturalLanguage, toSnakeCase } = require('./helpers')
 
 // If modifying these scopes, delete token.json.
 const SCOPES = ['https://www.googleapis.com/auth/spreadsheets.readonly'];
@@ -80,6 +80,36 @@ function sheetsSpreadsheetsValuesGetPromise(options, auth) {
     });
   })
 }
+const removeEmptyValuePairs = R.map(R.pipe(
+  R.toPairs,
+  R.reject(([_, value]) => value === '' || value === '0'),
+  R.fromPairs,
+))
+const parseNumberValues = R.map(R.pipe(
+  R.toPairs,
+  R.map(([_, value]) => {
+    if (isNumeric(value)) {
+      return [_, parseInt(value)]
+    }
+    return [_, value]
+  }),
+  R.fromPairs,
+))
+const keysToSnakeCase = ["id", "quest name", "location", "difficulty", "waves"]
+const snakeCaseSomeKeys = R.map(R.pipe(
+  R.toPairs,
+  R.map(([key, _]) => {
+    const formatToSnakeCase = R.pipe(
+      fromNaturalLanguage,
+      toSnakeCase
+    )
+    if (keysToSnakeCase.includes(key.toLowerCase())) {
+      return [formatToSnakeCase(key), _]
+    }
+    return [key, _]
+  }),
+  R.fromPairs,
+))
 /**
  * Prints the names and majors of students in a sample spreadsheet:
  * @see https://docs.google.com/spreadsheets/d/1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms/edit
@@ -96,25 +126,13 @@ async function listMajors(auth) {
     if (rows.length) {
       const [keys, ...actualDataRows] = rows
       const jsonObject = actualDataRows.map(R.zipObj(keys))
-      const removeEmptyValuePairs =
-        R.map(R.pipe(
-          R.toPairs,
-          R.reject(([_, value]) => value === '' || value === '0'),
-          R.fromPairs,
-        ))
-      const parseNumberValues = R.map(R.pipe(
-        R.toPairs,
-        R.map(([_, value]) => {
-          if (isNumeric(value)) {
-            return [_, parseInt(value)]
-          }
-          return [_, value]
-        }),
-        R.fromPairs,
-      ))
       writeFilePromise(
         'missions.json',
-        JSON.stringify(parseNumberValues(removeEmptyValuePairs(jsonObject)), null, 2)
+        JSON.stringify(R.pipe(
+          removeEmptyValuePairs,
+          parseNumberValues,
+          snakeCaseSomeKeys
+        )(jsonObject), null, 2)
       )
     } else {
       console.log('No data found.');

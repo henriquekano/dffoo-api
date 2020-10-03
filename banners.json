@@ -1,0 +1,937 @@
+[
+  {
+    "id": 390,
+    "title": "シルバーウィークCPガチャ",
+    "featured_characters": [
+      "ignis",
+      "garland"
+    ],
+    "_meta_search": "garland bt;ignis ld;ignis ex",
+    "end_date": "2020-10-01"
+  },
+  {
+    "id": 389,
+    "title": "デッシュ断章ガチャ",
+    "featured_characters": [
+      "desch",
+      "yang",
+      "garland",
+      "onion_knight"
+    ],
+    "_meta_search": "garland bt;yang ld;desch ld;onion_knight ex",
+    "end_date": "2020-10-01"
+  },
+  {
+    "id": 388,
+    "title": "猛る剛剣①ガチャ",
+    "featured_characters": [
+      "garland",
+      "freya",
+      "agrias"
+    ],
+    "_meta_search": "garland bt;garland ld;freya ex;agrias ex",
+    "end_date": "2020-09-28"
+  },
+  {
+    "id": 387,
+    "title": "猛る剛剣②ガチャ",
+    "featured_characters": [
+      "garland",
+      "seven",
+      "yda",
+      "lenna"
+    ],
+    "_meta_search": "garland bt;seven ld;yda ex;lenna ex",
+    "end_date": "2020-09-28"
+  },
+  {
+    "id": 386,
+    "title": "第3部2章前編①ガチャ",
+    "featured_characters": [
+      "terra",
+      "porom",
+      "vanille"
+    ],
+    "_meta_search": "terra bt;terra ld;porom ex;vanille ex",
+    "end_date": "2020-09-14"
+  },
+  {
+    "id": 385,
+    "title": "第3部2章前編②ガチャ",
+    "featured_characters": [
+      "terra",
+      "basch",
+      "rydia",
+      "vayne"
+    ],
+    "_meta_search": "terra bt;basch ld;rydia ex;vayne ex",
+    "end_date": "2020-09-14"
+  },
+  {
+    "id": 384,
+    "title": "深き森からガチャ",
+    "featured_characters": [
+      "yshtola",
+      "wakka",
+      "sherlotta",
+      "setzer"
+    ],
+    "_meta_search": "yshtola bt;wakka ld;sherlotta ex;setzer ex",
+    "end_date": "2020-09-08"
+  },
+  {
+    "id": 383,
+    "title": "トレイ断章ガチャ",
+    "featured_characters": [
+      "yshtola",
+      "trey",
+      "quistis",
+      "fran"
+    ],
+    "_meta_search": "yshtola bt;trey ld;quistis ex;fran ex",
+    "end_date": "2020-09-04"
+  },
+  {
+    "id": 382,
+    "title": "サマーCP②ガチャ",
+    "featured_characters": [
+      "yshtola",
+      "serah"
+    ],
+    "_meta_search": "yshtola bt;serah ld;serah ex",
+    "end_date": "2020-09-01"
+  },
+  {
+    "id": 381,
+    "title": "恐怖の機械触手①ガチャ",
+    "featured_characters": [
+      "yshtola",
+      "fujin",
+      "balthier"
+    ],
+    "_meta_search": "yshtola bt;yshtola ld;fujin ex;balthier ex",
+    "end_date": "2020-09-11"
+  },
+  {
+    "id": 380,
+    "title": "恐怖の機械触手②ガチャ",
+    "featured_characters": [
+      "yshtola",
+      "kuja",
+      "sabin",
+      "lilisette"
+    ],
+    "_meta_search": "yshtola bt;kuja ld;sabin ex;lilisette ex",
+    "end_date": "2020-09-11"
+  },
+  {
+    "id": 379,
+    "title": "アラネアイベントガチャ",
+    "featured_characters": [
+      "aranea",
+      "the_emperor",
+      "prompto",
+      "rem"
+    ],
+    "_meta_search": "the_emperor bt;aranea ld;prompto ex;rem ex",
+    "end_date": "2020-08-25"
+  },
+  {
+    "id": 378,
+    "title": "エルドナーシュ断章ガチャ",
+    "featured_characters": [
+      "ealdenarche",
+      "the_emperor",
+      "garnet",
+      "lann&reynn"
+    ],
+    "_meta_search": "the_emperor bt;ealdenarche ld;garnet ex;lann&reynn ex",
+    "end_date": "2020-08-21"
+  },
+  {
+    "id": 377,
+    "title": "サマーCP①ガチャ",
+    "featured_characters": [
+      "aerith",
+      "the_emperor"
+    ],
+    "_meta_search": "the_emperor bt;aerith ld;aerith ex",
+    "end_date": "2020-08-18"
+  },
+  {
+    "id": 376,
+    "title": "神・幻獣界ラムウ①ガチャ",
+    "featured_characters": [
+      "selphie",
+      "the_emperor",
+      "lulu"
+    ],
+    "_meta_search": "the_emperor bt;the_emperor ld;selphie ex;lulu ex",
+    "end_date": "2020-08-17"
+  },
+  {
+    "id": 375,
+    "title": "神・幻獣界ラムウ②",
+    "featured_characters": [
+      "celes",
+      "the_emperor",
+      "yuffie",
+      "eiko"
+    ],
+    "_meta_search": "the_emperor bt;celes ld;yuffie ex;eiko ex",
+    "end_date": "2020-08-17"
+  },
+  {
+    "id": 374,
+    "title": "次元超越stage1ガチャ",
+    "featured_characters": [
+      "cecil_paladin",
+      "gabranth",
+      "raijin",
+      "king"
+    ],
+    "_meta_search": "cecil_paladin bt;gabranth ld;raijin ex;king ex",
+    "end_date": "2020-08-11"
+  },
+  {
+    "id": 373,
+    "title": "クァイス断章ガチャ",
+    "featured_characters": [
+      "cecil_paladin",
+      "keiss",
+      "cloud",
+      "zidane"
+    ],
+    "_meta_search": "cecil_paladin bt;keiss ld;cloud ex;zidane ex",
+    "end_date": "2020-08-04"
+  },
+  {
+    "id": 372,
+    "title": "スタートダッシュガチャ",
+    "featured_characters": [
+      "cloud",
+      "lightning",
+      "squall"
+    ],
+    "_meta_search": "cloud bt;squall bt;lightning bt;cloud ld;squall ld;lightning ld;squall ex;cloud ex;lightning ex",
+    "end_date": ""
+  },
+  {
+    "id": 371,
+    "title": "サマーキャンペーン特別①ガチャ",
+    "featured_characters": [
+      "warrior_of_light",
+      "firion",
+      "onion_knight",
+      "cecil_paladin",
+      "bartz",
+      "terra",
+      "cloud"
+    ],
+    "_meta_search": "ff1 ex;ff2 ex;ff3 ex;ff4 ex;ff5 ex;ff6 ex",
+    "end_date": "2020-09-02"
+  },
+  {
+    "id": 370,
+    "title": "サマーキャンペーン特別②ガチャ",
+    "featured_characters": [
+      "squall",
+      "zidane",
+      "tidus",
+      "shantotto",
+      "vaan",
+      "lightning",
+      "yshtola",
+      "noctis"
+    ],
+    "_meta_search": "ff8 ex;ff9 ex;ff10 ex;ff11 ex;ff12 ex;ff13 ex;ff14 ex;ff15 ex",
+    "end_date": "2020-09-02"
+  },
+  {
+    "id": 369,
+    "title": "サマーキャンペーン特別③ガチャ",
+    "featured_characters": [
+      "ramza",
+      "ace",
+      "ciaran",
+      "yuri",
+      "lann&reynn",
+      "layle"
+    ],
+    "_meta_search": "fft ex;fft0 ex;ffcc ex;woff ex",
+    "end_date": "2020-09-02"
+  },
+  {
+    "id": 368,
+    "title": "光喰らう魔竜の顎①ガチャ",
+    "featured_characters": [
+      "cecil_paladin",
+      "laguna",
+      "jecht"
+    ],
+    "_meta_search": "cecil_paladin bt;cecil_paladin ld;laguna ex;jecht ex",
+    "end_date": "2020-07-28"
+  },
+  {
+    "id": 367,
+    "title": "光喰らう魔竜の顎②ガチャ",
+    "featured_characters": [
+      "cecil_paladin",
+      "barret",
+      "fang",
+      "kamlanaut"
+    ],
+    "_meta_search": "cecil_paladin bt;kamlanaut ld;barret ex;fang ex",
+    "end_date": "2020-07-28"
+  },
+  {
+    "id": 366,
+    "title": "第3部1章後編ガチャ",
+    "featured_characters": [
+      "onion_knight",
+      "ceodore",
+      "cid",
+      "alphinaud"
+    ],
+    "_meta_search": "onion_knight bt;ceodore ld;cid ex;alphinaud ex",
+    "end_date": "2020-07-27"
+  },
+  {
+    "id": 365,
+    "title": "アシェラ断章ガチャ",
+    "featured_characters": [
+      "onion_knight",
+      "rinoa",
+      "arciela",
+      "prishe"
+    ],
+    "_meta_search": "onion_knight bt;arciela ld;prishe ex;rinoa ex",
+    "end_date": "2020-07-20"
+  },
+  {
+    "id": 364,
+    "title": "第3部1章～前編～①ガチャ",
+    "featured_characters": [
+      "onion_knight",
+      "snow",
+      "cater"
+    ],
+    "_meta_search": "onion_knight bt;onion_knight ld;snow ex;cater ex",
+    "end_date": "2020-07-14"
+  },
+  {
+    "id": 363,
+    "title": "第3部1章～前編～②ガチャ",
+    "featured_characters": [
+      "onion_knight",
+      "gau",
+      "sazh",
+      "alisae"
+    ],
+    "_meta_search": "onion_knight bt;gau ld;sazh ex;alisae ex",
+    "end_date": "2020-07-14"
+  },
+  {
+    "id": 362,
+    "title": "絶望の箱庭ガチャ",
+    "featured_characters": [
+      "ultimecia",
+      "hope",
+      "cloud_of_darkness",
+      "shadow"
+    ],
+    "_meta_search": "ultimecia bt;hope ld;cloud_of_darkness ex;shadow ex",
+    "end_date": "2020-07-08"
+  },
+  {
+    "id": 361,
+    "title": "次元の最果て：混沌 完結記念CPガチャ",
+    "featured_characters": [
+      "ultimecia",
+      "relm",
+      "aphmau",
+      "krile"
+    ],
+    "_meta_search": "ultimecia bt;krile ld;aphmau ex;relm ex",
+    "end_date": "2020-07-03"
+  },
+  {
+    "id": 362,
+    "title": "ジャック断章ガチャ",
+    "featured_characters": [
+      "ultimecia",
+      "jack",
+      "ignis",
+      "ramza"
+    ],
+    "_meta_search": "ultimecia bt;jack ld;ignis ex;ramza ex",
+    "end_date": "2020-06-30"
+  },
+  {
+    "id": 361,
+    "title": "機空兵迎撃作戦①ガチャ",
+    "featured_characters": [
+      "ultimecia",
+      "porom",
+      "papalymo"
+    ],
+    "_meta_search": "ultimecia bt;ultimecia ld;porom ex;papalymo ex",
+    "end_date": "2020-06-26"
+  },
+  {
+    "id": 360,
+    "title": "機空兵迎撃作戦②ガチャ",
+    "featured_characters": [
+      "ultimecia",
+      "penelo",
+      "cyan",
+      "thancred"
+    ],
+    "_meta_search": "ultimecia bt;penelo ld;cyan ex;thancred ex",
+    "end_date": "2020-06-26"
+  },
+  {
+    "id": 359,
+    "title": "ガイガチャ",
+    "featured_characters": [
+      "ramza",
+      "guy",
+      "auron",
+      "cinque"
+    ],
+    "_meta_search": "ramza bt;guy ld;auron ex;cinque ex",
+    "end_date": "2020-06-23"
+  },
+  {
+    "id": 358,
+    "title": "カイアス断章ガチャ",
+    "featured_characters": [
+      "ramza",
+      "caius",
+      "noel",
+      "lyse"
+    ],
+    "_meta_search": "ramza bt;caius ld;noel ex;lyse ex",
+    "end_date": "2020-06-16"
+  },
+  {
+    "id": 357,
+    "title": "神・幻獣界～ディアボロス～①ガチャ",
+    "featured_characters": [
+      "ramza",
+      "freya",
+      "yda"
+    ],
+    "_meta_search": "ramza bt;ramza ld;freya ex;yda ex",
+    "end_date": "2020-06-12"
+  },
+  {
+    "id": 356,
+    "title": "神・幻獣界～ディアボロス～②ガチャ",
+    "featured_characters": [
+      "ramza",
+      "machina",
+      "maria",
+      "paine"
+    ],
+    "_meta_search": "ramza bt;machina ld;maria ex;paine ex",
+    "end_date": "2020-06-12"
+  },
+  {
+    "id": 355,
+    "title": "バーストラッシュ第3弾①ガチャ",
+    "featured_characters": [
+      "vaan",
+      "ardyn",
+      "balthier",
+      "gabranth"
+    ],
+    "_meta_search": "vaan bt;vaan ld;ardyn bt;ardyn ld;balthier ex;gabranth ex;vaan ex",
+    "end_date": "2020-06-08"
+  },
+  {
+    "id": 354,
+    "title": "バーストラッシュ第3弾②ガチャ",
+    "featured_characters": [
+      "vaan",
+      "ardyn",
+      "lenna",
+      "locke",
+      "wakka"
+    ],
+    "_meta_search": "vaan bt;vaan ld;ardyn bt;ardyn ld;ardyn ex;locke ex;lenna ex",
+    "end_date": "2020-06-08"
+  },
+  {
+    "id": 353,
+    "title": "バーストラッシュ第2弾①ガチャ",
+    "featured_characters": [
+      "shantotto",
+      "kefka",
+      "shadow",
+      "aerith",
+      "wakka"
+    ],
+    "_meta_search": "shantotto bt;shantotto ld;kefka bt;kefka ld;kefka ex;shantotto ex;shadow ex;aerith ex",
+    "end_date": "2020-06-03"
+  },
+  {
+    "id": 352,
+    "title": "バーストラッシュ第2弾②ガチャ",
+    "featured_characters": [
+      "shantotto",
+      "kefka",
+      "freya",
+      "seymour",
+      "lyse"
+    ],
+    "_meta_search": "shantotto bt;shantotto ld;kefka bt;kefka ld;freya ex;seymour ex;shantotto ex;lyse ex",
+    "end_date": "2020-06-03"
+  },
+  {
+    "id": 351,
+    "title": "バーストラッシュ第1弾①ガチャ",
+    "featured_characters": [
+      "noctis",
+      "squall",
+      "steiner",
+      "auron"
+    ],
+    "_meta_search": "noctis bt;noctis ld;squall bt;squall ld;squall ex;steiner ex;auron ex;noctis ex",
+    "end_date": "2020-05-29"
+  },
+  {
+    "id": 350,
+    "title": "バーストラッシュ第1弾②ガチャ",
+    "featured_characters": [
+      "noctis",
+      "squall",
+      "gilgamesh",
+      "tifa",
+      "cait_sith"
+    ],
+    "_meta_search": "noctis bt;noctis ld;squall bt;squall ld;gilgamesh ex;gilgamesh ex;tifa ex;noctis ex",
+    "end_date": "2020-05-29"
+  },
+  {
+    "id": 349,
+    "title": "翔ける焔ガチャ",
+    "featured_characters": [
+      "firion",
+      "cecil",
+      "leonhart",
+      "kain"
+    ],
+    "_meta_search": "firion bt;cecil ld;leonhart ex;kain ex",
+    "end_date": "2020-05-26"
+  },
+  {
+    "id": 348,
+    "title": "エクスデス断章ガチャ",
+    "featured_characters": [
+      "firion",
+      "exdeath",
+      "warrior_of_light",
+      "gilgamesh"
+    ],
+    "_meta_search": "firion bt;exdeath ld;warrior_of_light ex;gilgamesh ex",
+    "end_date": "2020-05-21"
+  },
+  {
+    "id": 347,
+    "title": "魔城攻略戦線②ガチャ",
+    "featured_characters": [
+      "firion",
+      "lenna",
+      "irvine",
+      "fujin"
+    ],
+    "_meta_search": "firion bt;firion ld;lenna ex;irvine ex;fujin",
+    "end_date": "2020-05-14"
+  },
+  {
+    "id": 346,
+    "title": "魔城攻略戦線①ガチャ",
+    "featured_characters": [
+      "firion",
+      "golbez",
+      "faris"
+    ],
+    "_meta_search": "firion bt;firion ld;golbez ex;faris ex",
+    "end_date": "2020-05-14"
+  },
+  {
+    "id": 345,
+    "title": "アミダテリオン復刻ガチャ",
+    "featured_characters": [
+      "amidatelion",
+      "garland",
+      "deuce",
+      "layle"
+    ],
+    "_meta_search": "amidatelion ld;garland ld;layle ex;deuce ex",
+    "end_date": "2020-05-08"
+  },
+  {
+    "id": 344,
+    "title": "ギルバート復刻ガチャ",
+    "featured_characters": [
+      "edward",
+      "kimahri",
+      "palom",
+      "hope"
+    ],
+    "_meta_search": "edward bt;kimahri ld;palom ex;hope ex",
+    "end_date": "2020-05-07"
+  },
+  {
+    "id": 343,
+    "title": "クラサメ復刻ガチャ",
+    "featured_characters": [
+      "kurasame",
+      "eight",
+      "edgar",
+      "seifer"
+    ],
+    "_meta_search": "kurasame bt;eight ld;edgar ex;seifer ex",
+    "end_date": "2020-04-30"
+  },
+  {
+    "id": 342,
+    "title": "ザンデガチャ",
+    "featured_characters": [
+      "xande",
+      "cloud",
+      "zell",
+      "eiko"
+    ],
+    "_meta_search": "cloud bt;xande ld;zell ex;eiko ex",
+    "end_date": "2020-04-24"
+  },
+  {
+    "id": 341,
+    "title": "ベアトリクス断章ガチャ",
+    "featured_characters": [
+      "beatrix",
+      "cloud",
+      "steiner",
+      "vanille"
+    ],
+    "_meta_search": "cloud bt;beatrix ld;steiner ex;vanille ex",
+    "end_date": "2020-04-20"
+  },
+  {
+    "id": 340,
+    "title": "機械仕掛けの守護者①ガチャ",
+    "featured_characters": [
+      "cloud",
+      "setzer",
+      "rem"
+    ],
+    "_meta_search": "cloud bt;cloud ld;setzer ex;rem ex",
+    "end_date": "2020-04-14"
+  },
+  {
+    "id": 339,
+    "title": "機械仕掛けの守護者②ガチャ",
+    "featured_characters": [
+      "cloud",
+      "celes",
+      "wakka",
+      "yuri"
+    ],
+    "_meta_search": "cloud bt;cloud ld;celes ex;wakka ex;yuri ex",
+    "end_date": "2020-04-14"
+  },
+  {
+    "id": 338,
+    "title": "ルードガチャ",
+    "featured_characters": [
+      "sephiroth",
+      "rude",
+      "yuffie",
+      "lann&reynn"
+    ],
+    "_meta_search": "sephiroth bt;rude ld;yuffie ex;lann&reynn ex",
+    "end_date": "2020-04-08"
+  },
+  {
+    "id": 337,
+    "title": "キアラン断章ガチャ",
+    "featured_characters": [
+      "sephiroth",
+      "ciaran",
+      "krile",
+      "layle"
+    ],
+    "_meta_search": "sephiroth bt;ciaran ld;krile ex;layle ex",
+    "end_date": "2020-04-02"
+  },
+  {
+    "id": 336,
+    "title": "嘲笑う悪魔①ガチャ",
+    "featured_characters": [
+      "sephiroth",
+      "sazh",
+      "snow"
+    ],
+    "_meta_search": "sephiroth bt;sephiroth ld;sazh ex;snow ex",
+    "end_date": "2020-03-27"
+  },
+  {
+    "id": 335,
+    "title": "嘲笑う悪魔②ガチャ",
+    "featured_characters": [
+      "sephiroth",
+      "galuf",
+      "ignis",
+      "jecht"
+    ],
+    "_meta_search": "sephiroth bt;sephiroth ld;galuf ex;jecht ex;ignis ex",
+    "end_date": "2020-03-27"
+  },
+  {
+    "id": 334,
+    "title": "レノガチャ",
+    "featured_characters": [
+      "lightning",
+      "reno",
+      "rosa",
+      "leo"
+    ],
+    "_meta_search": "lightning bt;reno ld;rosa ex;leo ex",
+    "end_date": "2020-03-23"
+  },
+  {
+    "id": 333,
+    "title": "カムラナート断章ガチャ",
+    "featured_characters": [
+      "lightning",
+      "kamlanaut",
+      "rydia",
+      "shantotto"
+    ],
+    "_meta_search": "lightning bt;kamlanaut ld;rydia ex;shantotto ex",
+    "end_date": "2020-03-18"
+  },
+  {
+    "id": 332,
+    "title": "暴虐の鉄騎士①ガチャ",
+    "featured_characters": [
+      "lightning",
+      "edge",
+      "vincent"
+    ],
+    "_meta_search": "lightning bt;lightning ld;edge ex;vincent ex",
+    "end_date": "2020-03-13"
+  },
+  {
+    "id": 331,
+    "title": "暴虐の鉄騎士②ガチャ",
+    "featured_characters": [
+      "lightning",
+      "zack",
+      "raijin",
+      "penelo"
+    ],
+    "_meta_search": "lightning bt;lightning ld;zack ex;raijin ex;penelo ex",
+    "end_date": "2020-03-13"
+  },
+  {
+    "id": 330,
+    "title": "グラディオラスガチャ",
+    "featured_characters": [
+      "kuja",
+      "gladiolus",
+      "sabin",
+      "vayne"
+    ],
+    "_meta_search": "kuja bt;gladiolus ld;sabin ex;vayne ex",
+    "end_date": "2020-03-06"
+  },
+  {
+    "id": 329,
+    "title": "ガウ断章ガチャ",
+    "featured_characters": [
+      "kuja",
+      "gau",
+      "terra",
+      "selphie"
+    ],
+    "_meta_search": "kuja bt;gau ld;terra ex;selphie ex",
+    "end_date": "2020-03-03"
+  },
+  {
+    "id": 328,
+    "title": "幻獣界UMバハムート①ガチャ",
+    "featured_characters": [
+      "kuja",
+      "garnet",
+      "lulu"
+    ],
+    "_meta_search": "kuja bt;kuja ld;garnet ex;lulu ex",
+    "end_date": "2020-02-28"
+  },
+  {
+    "id": 327,
+    "title": "幻獣界UMバハムート②ガチャ",
+    "featured_characters": [
+      "kuja",
+      "rydia",
+      "porom",
+      "papalymo"
+    ],
+    "_meta_search": "kuja bt;kuja ld;rydia ex;porom ex;papalymo ex",
+    "end_date": "2020-02-28"
+  },
+  {
+    "id": 326,
+    "title": "クラサメガチャ",
+    "featured_characters": [
+      "warrior_of_light",
+      "kurasame",
+      "edgar",
+      "seifer"
+    ],
+    "_meta_search": "warrior_of_light bt;kurasame ld;edgar ex;seifer ex",
+    "end_date": "2020-02-25"
+  },
+  {
+    "id": 325,
+    "title": "エイト断章ガチャ",
+    "featured_characters": [
+      "warrior_of_light",
+      "eight",
+      "quistis",
+      "king"
+    ],
+    "_meta_search": "warrior_of_light bt;eight ld;quistis ex;king ex",
+    "end_date": "2020-02-19"
+  },
+  {
+    "id": 324,
+    "title": "3周年CPガチャ",
+    "featured_characters": [
+      "all"
+    ],
+    "_meta_search": "all ex",
+    "end_date": "2020-02-02"
+  },
+  {
+    "id": 323,
+    "title": "第2部最終章～後編～①ガチャ",
+    "featured_characters": [
+      "warrior_of_light",
+      "laguna",
+      "thancred"
+    ],
+    "_meta_search": "warrior_of_light bt;warrior_of_light ld;laguna ex;thancred ex",
+    "end_date": "2020-02-14"
+  },
+  {
+    "id": 322,
+    "title": "第2部最終章～後編～②ガチャ",
+    "featured_characters": [
+      "warrior_of_light",
+      "yda",
+      "agrias",
+      "cinque"
+    ],
+    "_meta_search": "warrior_of_light bt;warrior_of_light ld;yda ex;agrias ex;cinque ex",
+    "end_date": "2020-02-14"
+  },
+  {
+    "id": 321,
+    "title": "ストラゴスガチャ",
+    "featured_characters": [
+      "kefka",
+      "strago",
+      "relm",
+      "ashe"
+    ],
+    "_meta_search": "kefka bt;strago ld;relm ex;ashe ex",
+    "end_date": "2020-02-10"
+  },
+  {
+    "id": 320,
+    "title": "皇帝断章ガチャ",
+    "featured_characters": [
+      "kefka",
+      "the_emperor",
+      "firion",
+      "gilgamesh"
+    ],
+    "_meta_search": "kefka bt;the_emperor ld;firion ex;gilgamesh ex",
+    "end_date": "2020-02-05"
+  },
+  {
+    "id": 319,
+    "title": "魔に捧ぐ祈祷①ガチャ",
+    "featured_characters": [
+      "kefka",
+      "shadow",
+      "aerith"
+    ],
+    "_meta_search": "kefka bt;kefka ld;kefka ex;shadow ex;aerith ex",
+    "end_date": "2020-01-31"
+  },
+  {
+    "id": 318,
+    "title": "魔に捧ぐ祈祷②ガチャ",
+    "featured_characters": [
+      "kefka",
+      "freya",
+      "seymour",
+      "lyse"
+    ],
+    "_meta_search": "kefka bt;kefka ld;seymour ex;freya ex;lyse ex",
+    "end_date": "2020-01-31"
+  },
+  {
+    "id": 317,
+    "title": "ギルバートガチャ",
+    "featured_characters": [
+      "ardyn",
+      "edward",
+      "palom",
+      "hope"
+    ],
+    "_meta_search": "ardyn bt;edward ld;edward ex;palom ex;hope ex",
+    "end_date": "2020-01-24"
+  },
+  {
+    "id": 316,
+    "title": "キマリ断章ガチャ",
+    "featured_characters": [
+      "ardyn",
+      "kimahri",
+      "yuna",
+      "noel"
+    ],
+    "_meta_search": "ardyn bt;kimahri ld;kimahri ex;yuna ex;noel ex",
+    "end_date": "2020-01-21"
+  },
+  {
+    "id": 315,
+    "title": "ニューイヤーガチャ",
+    "featured_characters": [
+      "ardyn",
+      "rinoa",
+      "kain",
+      "alphinaud"
+    ],
+    "_meta_search": "ardyn bt;rinoa ld;rinoa ex;kain ex;alphinaud ex",
+    "end_date": "2020-01-15"
+  },
+  {
+    "id": 314,
+    "title": "第2部最終章～前編～ガチャ",
+    "featured_characters": [
+      "ardyn",
+      "maria",
+      "lilisette"
+    ],
+    "_meta_search": "ardyn bt;ardyn ld;ardyn ex;maria ex;lilisette ex",
+    "end_date": "2020-01-10"
+  }
+]

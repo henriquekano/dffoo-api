@@ -1,3 +1,4 @@
+const R = require('ramda')
 const fs = require('fs')
 
 const writeFilePromise = (fileName, data) =>
@@ -10,10 +11,32 @@ const writeFilePromise = (fileName, data) =>
     })
   })
 
+const readFilePromise = (fileName) =>
+  new Promise((resolve, reject) => {
+    fs.readFile(fileName, function read(err, data) {
+      if (err) {
+        return reject(err)
+      }
+      resolve(data.toString())
+    })
+  })
+
+
 const isNumeric = (something) =>
   !isNaN(something)
 
+const fromNaturalLanguage = (aString) =>
+  aString.split(' ')
+
+const toSnakeCase = R.pipe(
+  R.map(R.toLower),
+  R.join('_')
+)
+
 module.exports = {
   writeFilePromise,
-  isNumeric
+  readFilePromise,
+  isNumeric,
+  fromNaturalLanguage,
+  toSnakeCase,
 }

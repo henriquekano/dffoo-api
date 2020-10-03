@@ -1,5 +1,4 @@
 const R = require("ramda")
-const fs = require("fs")
 const { writeFilePromise } = require('./helpers')
 
 const commands = require("../commands.json")
@@ -8,6 +7,9 @@ const characters = require("../characters.json")
 const passives = require("../passives.json")
 const spheres = require("../spheres.json")
 const missions = require("../missions.json")
+const banners = require("../banners.json")
+const summonBoards = require("../summon_boards.json")
+const enums = require("../enums.json")
 
 const deindexArray = (indexedObjects, newPropName) => {
   return R.pipe(
@@ -46,10 +48,8 @@ const deindexIndexedObjects = (indexedObjects, newPropName) => {
   )(indexedObjects)
 }
 
-const reid = (elements, sortPath) => {
-  return R.pipe(R.sortBy(R.path(sortPath)), (sortedElements) =>
-    sortedElements.map((element, sortIndex) => ({ ...element, id: sortIndex }))
-  )(elements)
+const elementWithId = (collection, id, defaultValue = '') => {
+  return collection.find(R.propEq('id', id)) || defaultValue
 }
 
 const relateCommandToCharacter = (commands, characters) => {
@@ -64,28 +64,63 @@ const relateCommandToCharacter = (commands, characters) => {
   })
 }
 
+const addKeysToAFieldForQuery = (objects) => {
+  return objects.map((object) => ({
+    ...object,
+    _meta_search: Object.keys(object).join(';')
+  }))
+}
+
   ; (async function () {
     await writeFilePromise(
       "db.json",
       JSON.stringify({
         commands: relateCommandToCharacter(
-          reid(deindexArray(commands, "character_slug"), ["name", "en"]),
+          deindexArray(commands, "character_slug").map((passive) => {
+            return {
+              ...passive,
+              id: `${passive.character_slug}-${passive.name.jp}`,
+              attr: {
+                ...passive.attr,
+                atk_attr: elementWithId(enums.attackTypes, passive.attr.atk_attr, { name: 'None' }).name,
+                ele_attr: passive.attr.ele_attr.map((elementAttrIndex) => {
+                  // not sure why, but the index is shifted by one
+                  return elementWithId(enums.elements, elementAttrIndex - 1).name
+                })
+              }
+            }
+          }),
           characters
         ),
-        missions,
+        missions: addKeysToAFieldForQuery(missions),
         passives: relateCommandToCharacter(
-          reid(deindexArray(passives, "character_slug"), ["name", "en"]),
+          deindexArray(passives, "character_slug").map((passive) => {
+            return {
+              ...passive,
+              id: `${passive.character_slug}-${passive.name.jp}`
+            }
+          }),
           characters
         ),
         spheres: relateCommandToCharacter(
-          reid(deindex(spheres, "character_slug"), ["name", "en"]),
+          deindex(spheres, "character_slug"),
           characters
         ),
         gears: relateCommandToCharacter(
-          reid(deindexIndexedObjects(gears, "character_slug"), ["name", "en"]),
+          deindexIndexedObjects(gears, "character_slug"),
           characters
         ),
-        characters: characters,
+        characters: characters.map((character) => ({
+          ...character,
+          profile: {
+            ...character.profile,
+            world: elementWithId(enums.series, character.profile.world).name,
+            crystal: elementWithId(enums.crystals, character.profile.crystal).name,
+            weaponType: elementWithId(enums.weapons, character.profile.weaponType).name,
+          }
+        })),
+        banners,
+        summon_boards: summonBoards
       })
     )
   })()
