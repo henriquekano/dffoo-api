@@ -1,0 +1,42 @@
+diff --git a/node_modules/json-server/lib/server/router/plural.js b/node_modules/json-server/lib/server/router/plural.js
+index c9f6658..d416b25 100644
+--- a/node_modules/json-server/lib/server/router/plural.js
++++ b/node_modules/json-server/lib/server/router/plural.js
+@@ -82,7 +82,7 @@ module.exports = (db, name, opts) => {
+       const arr = db.get(name).value();
+ 
+       for (const i in arr) {
+-        if (_.has(arr[i], query) || query === 'callback' || query === '_' || /_lte$/.test(query) || /_gte$/.test(query) || /_ne$/.test(query) || /_like$/.test(query)) return;
++        if (_.has(arr[i], query) || query === 'callback' || query === '_' || /_lte$/.test(query) || /_gte$/.test(query) || /_ne$/.test(query) || /_like$/.test(query) || /_inc$/.test(query) || /_ninc$/.test(query)) return;
+       }
+ 
+       delete req.query[query];
+@@ -115,14 +115,15 @@ module.exports = (db, name, opts) => {
+         const isDifferent = /_ne$/.test(key);
+         const isRange = /_lte$/.test(key) || /_gte$/.test(key);
+         const isLike = /_like$/.test(key);
+-        const path = key.replace(/(_lte|_gte|_ne|_like)$/, '');
++        const isIncludes = /_inc$/.test(key);
++        const isNotIncludes = /_ninc$/.test(key);
++        const path = key.replace(/(_lte|_gte|_ne|_like|_inc|_ninc)$/, '');
+         chain = chain.filter(element => {
+           return arr.map(function (value) {
+             // get item value based on path
+             // i.e post.title -> 'foo'
+             const elementValue = _.get(element, path); // Prevent toString() failing on undefined or null values
+ 
+-
+             if (elementValue === undefined || elementValue === null) {
+               return;
+             }
+@@ -134,6 +135,10 @@ module.exports = (db, name, opts) => {
+               return value !== elementValue.toString();
+             } else if (isLike) {
+               return new RegExp(value, 'i').test(elementValue.toString());
++            } else if (isIncludes) {
++              return elementValue.includes(value)
++            } else if (isNotIncludes) {
++              return !elementValue.includes(value)
+             } else {
+               return value === elementValue.toString();
+             }

@@ -7,11 +7,13 @@
     "start": "node app.js",
     "extract": "node ./scripts/extract.js",
     "sheets": "node ./scripts/sheets.js",
-    "format": "node ./scripts/format.js"
+    "format": "node ./scripts/format.js",
+    "postinstall": "patch-package"
   },
   "dependencies": {
-    "json-server": "^0.16.1",
-    "json-serverless": "^1.6.2"
+    "json-server": "0.16.1",
+    "patch-package": "^6.2.2",
+    "postinstall-postinstall": "^2.1.0"
   },
   "devDependencies": {
     "cheerio": "^1.0.0-rc.3",

@@ -138,7 +138,13 @@ const addKeysToAFieldForQuery = (objects) => {
                 value: resistanceValue.name,
                 symbol: resistanceValue.term,
               }
-            }),
+            })
+              .reduce((acc, atkType) => {
+                return {
+                  ...acc,
+                  [atkType.atk_type]: atkType.value,
+                }
+              }, {}),
             ele: enemy.resist.ele.map((elementResistenceValue, elementypeIndex) => {
               const element = elementWithId(enums.elements, elementypeIndex + 1)
               const resistanceValue = elementWithId(enums.resistanceTypes, elementResistenceValue)
@@ -147,18 +153,27 @@ const addKeysToAFieldForQuery = (objects) => {
                 value: resistanceValue.name,
                 symbol: resistanceValue.term,
               }
-            }),
+            })
+              .reduce((acc, element) => {
+                return {
+                  ...acc,
+                  [element.element]: element.value,
+                }
+              }, {}),
             ail: {
               ...enemy.resist.ail,
               weak: enemy.resist.ail.weak.map((value) => {
                 return enemies.ailmentResistNames[value - 1]
-              }),
+              }).flatMap((ail) => [ail.en, ail.gl])
+                .filter((e) => e !== ''),
               resistant: enemy.resist.ail.resistant.map((value) => {
                 return enemies.ailmentResistNames[value - 1]
-              }),
+              }).flatMap((ail) => [ail.en, ail.gl])
+                .filter((e) => e !== ''),
               immune: enemy.resist.ail.immune.map((value) => {
                 return enemies.ailmentResistNames[value - 1]
-              }),
+              }).flatMap((ail) => [ail.en, ail.gl])
+                .filter((e) => e !== ''),
             }
           }
         }))

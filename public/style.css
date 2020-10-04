@@ -95,13 +95,7 @@ td:first-child {
   white-space: nowrap;
 }
 
-ul {
-  list-style-position: inside;
-  padding-left: 0;
-}
-
 li {
-  list-style-type: none;
   margin-bottom: 0.2rem;
 }
 
