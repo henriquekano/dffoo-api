@@ -132,16 +132,16 @@ const addKeysToAFieldForQuery = (objects) => {
             ...enemy.resist,
             atk: enemy.resist.atk.map((atkResistenceValue, atkTypeIndex) => {
               const atkType = elementWithId(enums.attackTypes, atkTypeIndex + 1)
-              const resistanceValue = elementWithId(enums.resistanceTypes, atkResistenceValue + 1)
+              const resistanceValue = elementWithId(enums.resistanceTypes, atkResistenceValue)
               return {
                 atk_type: atkType.name,
                 value: resistanceValue.name,
                 symbol: resistanceValue.term,
               }
             }),
-            ele: enemy.resist.atk.map((elementResistenceValue, elementypeIndex) => {
+            ele: enemy.resist.ele.map((elementResistenceValue, elementypeIndex) => {
               const element = elementWithId(enums.elements, elementypeIndex + 1)
-              const resistanceValue = elementWithId(enums.resistanceTypes, elementResistenceValue + 1)
+              const resistanceValue = elementWithId(enums.resistanceTypes, elementResistenceValue)
               return {
                 element: element.name,
                 value: resistanceValue.name,
@@ -151,13 +151,13 @@ const addKeysToAFieldForQuery = (objects) => {
             ail: {
               ...enemy.resist.ail,
               weak: enemy.resist.ail.weak.map((value) => {
-                return enemies.enemyTypes[value - 1]
+                return enemies.ailmentResistNames[value - 1]
               }),
               resistant: enemy.resist.ail.resistant.map((value) => {
-                return enemies.enemyTypes[value - 1]
+                return enemies.ailmentResistNames[value - 1]
               }),
               immune: enemy.resist.ail.immune.map((value) => {
-                return enemies.enemyTypes[value - 1]
+                return enemies.ailmentResistNames[value - 1]
               }),
             }
           }

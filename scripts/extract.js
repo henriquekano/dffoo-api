@@ -40,6 +40,8 @@ const _getQuests = (evaledJsFile) => _getMinifiedDataKey(evaledJsFile, "wie4")
 const _getSummons = (evaledJsFile) => _getMinifiedDataKey(evaledJsFile, "yBEX")
 const _getEnums = (evaledJsFile) => _getMinifiedDataKey(evaledJsFile, "ryMj")
 const _getEnemies = (evaledJsFile) => _getMinifiedDataKey(evaledJsFile, "eUsF")
+const _getHereticEnemies = (evaledJsFile) => _getMinifiedDataKey(evaledJsFile, "Fz9q")
+const _getLunaticEnemies = (evaledJsFile) => _getMinifiedDataKey(evaledJsFile, "E/MV")
 
 const fetchPageAndParse = async () => {
   const res = await fetch("https://dissidiadb.com")
@@ -62,7 +64,14 @@ const fetchPageAndParse = async () => {
   const summonBoards = _getSummonBoardNodes(evaledJs)
   const enums = _getEnums(evaledJs)
   const quests = _getQuests(evaledJs)
-  const enemies = _getEnemies(evaledJs)
+  const enemies = {
+    ..._getEnemies(evaledJs),
+    enemies: [
+      ..._getEnemies(evaledJs).enemies,
+      ..._getLunaticEnemies(evaledJs),
+      ..._getHereticEnemies(evaledJs),
+    ]
+  }
 
   await Promise.all([
     writeFilePromise("gears.json", JSON.stringify(gears, null, 2)),
