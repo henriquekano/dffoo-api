@@ -64,14 +64,6 @@ const relateCommandToCharacter = (commands, characters) => {
     }
   })
 }
-
-const addKeysToAFieldForQuery = (objects) => {
-  return objects.map((object) => ({
-    ...object,
-    _meta_search: Object.keys(object).join(';')
-  }))
-}
-
   ; (async function () {
     await writeFilePromise(
       "db.json",
@@ -93,7 +85,23 @@ const addKeysToAFieldForQuery = (objects) => {
           }),
           characters
         ),
-        missions: addKeysToAFieldForQuery(missions),
+        missions: missions
+          .map((mission) => {
+            const commonKeys = ['id', 'quest_name', 'location', 'difficulty', 'waves']
+            const monsterNames = Object.keys(mission).reduce((acc, missionKey) => {
+              if (!commonKeys.includes(missionKey)) {
+                return [
+                  ...acc,
+                  missionKey
+                ]
+              }
+              return acc
+            }, [])
+            return {
+              ...mission,
+              monsters: monsterNames,
+            }
+          }),
         passives: relateCommandToCharacter(
           deindexArray(passives, "character_slug").map((passive) => {
             return {
