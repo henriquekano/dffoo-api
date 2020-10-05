@@ -10,7 +10,27 @@ const missions = require("../missions.json")
 const banners = require("../banners.json")
 const summonBoards = require("../summon_boards.json")
 const enums = require("../enums.json")
+const events = require("../events.json")
 const enemies = require("../enemies.json")
+
+const addKey = R.curry((keyName, valueOrFunction, object) => {
+  if (R.type(valueOrFunction) === 'Function') {
+    return ({ ...object, [keyName]: valueOrFunction(object) })
+  }
+  return ({ ...object, [keyName]: valueOrFunction })
+})
+
+const renameKeys = R.curry((keysMap, obj) =>
+  R.reduce((acc, key) =>
+    R.assoc(R.type(keysMap[key]) === 'Function'
+      ? keysMap[key](key, obj)
+      : (keysMap[key] || key),
+      obj[key],
+      acc),
+    {},
+    R.keys(obj)
+  )
+)
 
 const deindexArray = (indexedObjects, newPropName) => {
   return R.pipe(
@@ -129,6 +149,28 @@ const relateCommandToCharacter = (commands, characters) => {
           }
         })),
         banners,
+        events: Object.keys(events).reduce((acc, eventType) => {
+          if (eventType === 'burstSynergy') {
+            return acc
+          }
+          const eventsOfType = events[eventType]
+            .map(R.pipe(
+              addKey('type', eventType),
+              renameKeys({
+                id: (key, object) => {
+                  if ('id' in object) {
+                    return object.type + 'Id'
+                  }
+                  return key
+                }
+              }),
+              addKey('id', (object) =>
+                `${object.type}-${object.name || object.title.jp}`
+              ),
+              renameKeys({ chara: 'synergy_characters', glChara: 'gl_synergy_characters' })
+            ))
+          return [...acc, ...eventsOfType]
+        }, []),
         summon_boards: summonBoards,
         enemies: enemies.enemies.map((enemy) => ({
           ...enemy,
@@ -184,7 +226,7 @@ const relateCommandToCharacter = (commands, characters) => {
                 .filter((e) => e !== ''),
             }
           }
-        }))
+        })),
       })
     )
   })()
