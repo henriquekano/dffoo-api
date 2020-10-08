@@ -16,3 +16,6 @@ passives.json
 quests.json
 spheres.json
 summon_boards.json
+artifact_passives.json
+character_board_passives.json
+genericStatus.json
