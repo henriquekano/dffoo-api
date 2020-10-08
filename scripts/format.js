@@ -5,6 +5,9 @@ const commands = require("../commands.json")
 const gears = require("../gears.json")
 const characters = require("../characters.json")
 const passives = require("../passives.json")
+const bloomPassives = require('../bloomPassives.json')
+const characterBoardPassives = require("../character_board_passives.json")
+const artifactPassives = require("../artifact_passives.json")
 const spheres = require("../spheres.json")
 const missions = require("../missions.json")
 const banners = require("../banners.json")
@@ -32,7 +35,7 @@ const renameKeys = R.curry((keysMap, obj) =>
   )
 )
 
-const deindexArray = (indexedObjects, newPropName) => {
+const deindexArray = R.curry((indexedObjects, newPropName) => {
   return R.pipe(
     R.toPairs,
     R.map(([index, elements]) =>
@@ -42,9 +45,9 @@ const deindexArray = (indexedObjects, newPropName) => {
     ),
     R.flatten
   )(indexedObjects)
-}
+})
 
-const deindex = (indexedObjects, newPropName) => {
+const deindex = R.curry((indexedObjects, newPropName) => {
   return R.pipe(
     R.toPairs,
     R.map(([index, element]) => ({
@@ -53,7 +56,7 @@ const deindex = (indexedObjects, newPropName) => {
     })),
     R.flatten
   )(indexedObjects)
-}
+})
 
 const deindexIndexedObjects = (indexedObjects, newPropName) => {
   return R.pipe(
@@ -69,11 +72,10 @@ const deindexIndexedObjects = (indexedObjects, newPropName) => {
   )(indexedObjects)
 }
 
-const elementWithId = (collection, id, defaultValue = '') => {
-  return collection.find(R.propEq('id', id)) || defaultValue
-}
+const elementWithId = (collection, id, defaultValue = '') =>
+  collection.find(R.propEq('id', id)) || defaultValue
 
-const relateCommandToCharacter = (commands, characters) => {
+const relateCommandToCharacter = R.curry((commands, characters) => {
   return commands.map((command) => {
     const character = R.filter(R.propEq("slug", command.character_slug))(
       characters
@@ -83,7 +85,7 @@ const relateCommandToCharacter = (commands, characters) => {
       characterId: character.id,
     }
   })
-}
+})
   ; (async function () {
     await writeFilePromise(
       "db.json",
@@ -122,15 +124,81 @@ const relateCommandToCharacter = (commands, characters) => {
               monsters: monsterNames,
             }
           }),
-        passives: relateCommandToCharacter(
-          deindexArray(passives, "character_slug").map((passive) => {
-            return {
-              ...passive,
-              id: `${passive.character_slug}-${passive.name.jp}`
-            }
-          }),
-          characters
-        ),
+        passives: [
+          ...R.pipe(
+            deindexArray(R.__, "character_slug"),
+            relateCommandToCharacter(R.__, characters),
+            R.map(
+              addKey('type', 'crystal_level')
+            )
+          )(passives),
+          ...R.pipe(
+            deindexArray(R.__, 'character_slug'),
+            relateCommandToCharacter(R.__, characters),
+            R.map(
+              addKey('type', 'character_board')
+            ),
+          )(characterBoardPassives),
+          ...R.pipe(
+            deindex(R.__, 'character_slug'),
+            relateCommandToCharacter(R.__, characters),
+            R.map(R.pipe(
+              (originalBloomObject) => ({
+                ...originalBloomObject.bloomStone.passive,
+                id: originalBloomObject.id,
+                character_slug: originalBloomObject.character_slug,
+              }),
+              addKey('type', 'bloom_stone')
+            ))
+          )(bloomPassives),
+          ...R.pipe(
+            R.toPairs,
+            R.map(R.pipe(
+              R.prop(1),
+              (artifactPassive) => {
+                const deindexedPassives = deindex(
+                  artifactPassives.characterPassives,
+                  'character_slug'
+                )
+                // console.log({ deindexedPassives: deindexedPassives[0], artifactPassive })
+                const charactersRelated = deindexedPassives
+                  .filter((character) =>
+                    character[5].includes(artifactPassive.id)
+                  )
+                  .map(R.prop('character_slug'))
+
+                return {
+                  ...artifactPassive,
+                  type: 'artifact',
+                  ...(charactersRelated.length === 1
+                    ? {
+                      character_slug: charactersRelated[0]
+                    }
+                    : {})
+                }
+              },
+            )),
+            (artifactPassives) => {
+              /** work wround for single star untagged artifacts */
+              return artifactPassives.map((artifactPassive) => {
+                if (!artifactPassive.character_slug) {
+                  const similarArtifact = artifactPassives.find((filteredArtPass) =>
+                    filteredArtPass.name.jp.startsWith(artifactPassive.name.jp)
+                    && filteredArtPass.character_slug)
+                  if (similarArtifact) {
+                    return {
+                      ...artifactPassive,
+                      character_slug: similarArtifact.character_slug
+                    }
+                  }
+                }
+                return artifactPassive
+              })
+            },
+            R.filter(R.prop('character_slug')),
+            relateCommandToCharacter(R.__, characters),
+          )(artifactPassives.passivesList)
+        ],
         spheres: relateCommandToCharacter(
           deindex(spheres, "character_slug"),
           characters
@@ -139,23 +207,21 @@ const relateCommandToCharacter = (commands, characters) => {
           deindexIndexedObjects(gears, "character_slug"),
           characters
         ),
-        characters: characters.map((character) => ({
-          ...character,
-          profile: {
-            ...character.profile,
-            world: elementWithId(enums.series, character.profile.world).name,
-            crystal: elementWithId(enums.crystals, character.profile.crystal).name,
-            weaponType: elementWithId(enums.weapons, character.profile.weaponType).name,
-          }
-        })),
+        characters: characters
+          .map((character) => ({
+            ...character,
+            profile: {
+              ...character.profile,
+              world: elementWithId(enums.series, character.profile.world).name,
+              crystal: elementWithId(enums.crystals, character.profile.crystal).name,
+              weaponType: elementWithId(enums.weapons, character.profile.weaponType).name,
+            }
+          })),
         banners,
-        events: Object.keys(events).reduce((acc, eventType) => {
-          if (eventType === 'burstSynergy') {
-            return acc
-          }
-          const eventsOfType = events[eventType]
-            .map(R.pipe(
-              addKey('type', eventType),
+        events: R.pipe(
+          R.reject(R.propEq('type', 'burstSynergy')),
+          R.map(
+            R.pipe(
               renameKeys({
                 id: (key, object) => {
                   if ('id' in object) {
@@ -168,9 +234,9 @@ const relateCommandToCharacter = (commands, characters) => {
                 `${object.type}-${object.name || object.title.jp}`
               ),
               renameKeys({ chara: 'synergy_characters', glChara: 'gl_synergy_characters' })
-            ))
-          return [...acc, ...eventsOfType]
-        }, []),
+            )
+          )
+        )(deindexArray(events, 'type')),
         summon_boards: summonBoards,
         enemies: enemies.enemies.map((enemy) => ({
           ...enemy,

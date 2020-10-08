@@ -20,7 +20,10 @@ const _getMinifiedDataKey = (evaledJsFile, key) => {
 const _getRawGears = (evaledJsFile) => _getMinifiedDataKey(evaledJsFile, "pZ10")
 const _getCurrentEvents = (evaledJsFile) =>
   _getMinifiedDataKey(evaledJsFile, "pZ10")
-const _getPassives = (evaledJsFile) => _getMinifiedDataKey(evaledJsFile, "1JuO")
+const _getCrystalPassives = (evaledJsFile) => _getMinifiedDataKey(evaledJsFile, "1JuO")
+const _getArtifactPassives = (evaledJsFile) => _getMinifiedDataKey(evaledJsFile, "O4Qb")
+const _getCharacterBoardPassives = (evaledJsFile) =>
+  _getMinifiedDataKey(evaledJsFile, "vsua")
 const _getItems = (evaledJsFile) => _getMinifiedDataKey(evaledJsFile, "2ANq")
 const _getEvents = (evaledJsFile) => _getMinifiedDataKey(evaledJsFile, "AMku")
 const _getCommandAbilities = (evaledJsFile) =>
@@ -53,7 +56,9 @@ const fetchPageAndParse = async () => {
   const evaledJs = eval(jsResText)
 
   const gears = _getRawGears(evaledJs)
-  const passives = _getPassives(evaledJs)
+  const passives = _getCrystalPassives(evaledJs)
+  const characterBoardPassives = _getCharacterBoardPassives(evaledJs)
+  const artifactPassives = _getArtifactPassives(evaledJs)
   const commands = _getCommandAbilities(evaledJs)
   const genericStatus = _getGenericStatus(evaledJs)
   const spheres = _getSpheres(evaledJs)
@@ -76,6 +81,14 @@ const fetchPageAndParse = async () => {
   await Promise.all([
     writeFilePromise("gears.json", JSON.stringify(gears, null, 2)),
     writeFilePromise("passives.json", JSON.stringify(passives, null, 2)),
+    writeFilePromise(
+      "artifact_passives.json",
+      JSON.stringify(artifactPassives, null, 2)
+    ),
+    writeFilePromise(
+      "character_board_passives.json",
+      JSON.stringify(characterBoardPassives, null, 2)
+    ),
     writeFilePromise("commands.json", JSON.stringify(commands, null, 2)),
     writeFilePromise(
       "genericStatus.json",
