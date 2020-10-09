@@ -115,6 +115,10 @@ code {
   overflow: hidden;
 }
 
+#footer {
+  color: grey
+}
+
 /*
  * absolutely not cpoied from https://nzbin.github.io/three-dots/
  */

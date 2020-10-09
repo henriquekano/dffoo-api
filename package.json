@@ -13,13 +13,13 @@
   "dependencies": {
     "json-server": "0.16.1",
     "patch-package": "^6.2.2",
-    "postinstall-postinstall": "^2.1.0"
+    "postinstall-postinstall": "^2.1.0",
+    "ramda": "^0.27.1"
   },
   "devDependencies": {
     "cheerio": "^1.0.0-rc.3",
     "googleapis": "39",
     "node-fetch": "^2.6.1",
-    "prettier": "^2.1.1",
-    "ramda": "^0.27.1"
+    "prettier": "^2.1.1"
   }
 }

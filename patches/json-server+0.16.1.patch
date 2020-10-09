@@ -1,35 +1,102 @@
+diff --git a/node_modules/json-server/lib/server/router/index.js b/node_modules/json-server/lib/server/router/index.js
+index 16af6db..cc0ac96 100644
+--- a/node_modules/json-server/lib/server/router/index.js
++++ b/node_modules/json-server/lib/server/router/index.js
+@@ -58,8 +58,9 @@ module.exports = (db, opts) => {
+   }; // GET /db
+ 
+ 
+-  router.get('/db', (req, res) => {
++  router.get('/db', (req, res, next) => {
+     res.jsonp(db.getState());
++    next();
+   }); // Handle /:parent/:parentId/:resource
+ 
+   router.use(nested(opts)); // Create routes
+@@ -82,13 +83,14 @@ module.exports = (db, opts) => {
+     const msg = `Type of "${key}" (${typeof value}) ${sourceMessage} is not supported. ` + `Use objects or arrays of objects.`;
+     throw new Error(msg);
+   }).value();
+-  router.use((req, res) => {
++  router.use((req, res, next) => {
+     if (!res.locals.data) {
+       res.status(404);
+       res.locals.data = {};
+     }
+ 
+     router.render(req, res);
++    next();
+   });
+   router.use((err, req, res, next) => {
+     console.error(err.stack);
 diff --git a/node_modules/json-server/lib/server/router/plural.js b/node_modules/json-server/lib/server/router/plural.js
-index c9f6658..d416b25 100644
+index c9f6658..a30a571 100644
 --- a/node_modules/json-server/lib/server/router/plural.js
 +++ b/node_modules/json-server/lib/server/router/plural.js
-@@ -82,7 +82,7 @@ module.exports = (db, name, opts) => {
+@@ -20,7 +20,27 @@ const utils = require('../utils');
+ 
+ const delay = require('./delay');
+ 
++const R = require('ramda')
++
++const defaultQueryParameterSuffixes = [
++  '_lte',
++  '_gte',
++  '_ne',
++  '_like'
++];
++
+ module.exports = (db, name, opts) => {
++  const possibleSuffixes = [...defaultQueryParameterSuffixes, ...(opts.customSuffixes || [])]
++  function endsWithAPossibleSuffix(queryParameter) {
++    return !!possibleSuffixes.some((suffix) => {
++      return new RegExp(`${suffix}$`).test(queryParameter)
++    });
++  };
++  function endsWithDefaultSuffix(queryParameter) {
++    return !!defaultQueryParameterSuffixes.some((suffix) => {
++      return new RegExp(`${suffix}$`).test(queryParameter)
++    });
++  };
+   // Create router
+   const router = express.Router();
+   router.use(delay); // Embed function used in GET /name and GET /name/id
+@@ -82,7 +102,7 @@ module.exports = (db, name, opts) => {
        const arr = db.get(name).value();
  
        for (const i in arr) {
 -        if (_.has(arr[i], query) || query === 'callback' || query === '_' || /_lte$/.test(query) || /_gte$/.test(query) || /_ne$/.test(query) || /_like$/.test(query)) return;
-+        if (_.has(arr[i], query) || query === 'callback' || query === '_' || /_lte$/.test(query) || /_gte$/.test(query) || /_ne$/.test(query) || /_like$/.test(query) || /_inc$/.test(query) || /_ninc$/.test(query)) return;
++        if (_.has(arr[i], query) || query === 'callback' || query === '_' || endsWithAPossibleSuffix(query)) return;
        }
  
        delete req.query[query];
-@@ -115,14 +115,15 @@ module.exports = (db, name, opts) => {
+@@ -106,7 +126,7 @@ module.exports = (db, name, opts) => {
+       });
+     }
+ 
+-    Object.keys(req.query).forEach(key => {
++    Object.keys(req.query).filter(endsWithDefaultSuffix).forEach(key => {
+       // Don't take into account JSONP query parameters
+       // jQuery adds a '_' query parameter too
+       if (key !== 'callback' && key !== '_') {
+@@ -115,13 +135,14 @@ module.exports = (db, name, opts) => {
          const isDifferent = /_ne$/.test(key);
          const isRange = /_lte$/.test(key) || /_gte$/.test(key);
          const isLike = /_like$/.test(key);
 -        const path = key.replace(/(_lte|_gte|_ne|_like)$/, '');
-+        const isIncludes = /_inc$/.test(key);
-+        const isNotIncludes = /_ninc$/.test(key);
 +        const path = key.replace(/(_lte|_gte|_ne|_like|_inc|_ninc)$/, '');
          chain = chain.filter(element => {
            return arr.map(function (value) {
              // get item value based on path
              // i.e post.title -> 'foo'
              const elementValue = _.get(element, path); // Prevent toString() failing on undefined or null values
- 
 -
++            const isIncludes = /_inc$/.test(key) && Array.isArray(elementValue);
++            const isNotIncludes = /_ninc$/.test(key) && Array.isArray(elementValue);
+ 
              if (elementValue === undefined || elementValue === null) {
                return;
-             }
-@@ -134,6 +135,10 @@ module.exports = (db, name, opts) => {
+@@ -134,6 +155,10 @@ module.exports = (db, name, opts) => {
                return value !== elementValue.toString();
              } else if (isLike) {
                return new RegExp(value, 'i').test(elementValue.toString());
@@ -40,3 +107,36 @@ index c9f6658..d416b25 100644
              } else {
                return value === elementValue.toString();
              }
+@@ -197,6 +222,32 @@ module.exports = (db, name, opts) => {
+       embed(element, _embed);
+       expand(element, _expand);
+     });
++
++    if (Object.keys(req.query).some((queryParameter) => queryParameter.endsWith('_distinct'))) {
++      const distinctQueryParameters = Object
++        .keys(req.query)
++        .filter((queryParameter) =>
++          queryParameter.endsWith('_distinct'))
++        .map((queryParameter) =>
++          queryParameter.replace(/_distinct$/, ''))
++      res.locals.data = distinctQueryParameters
++        .reduce((acc, distinctQueryParameter) => {
++          const path = distinctQueryParameter.split('.')
++          const distinctValues = R.pipe(
++            R.map(R.path(path)),
++            R.flatten,
++            R.reject(R.isNil),
++            R.uniqBy(R.toString),
++          )(chain.value())
++          if (distinctValues.length > 0) {
++            return R.set(R.lensPath(path), distinctValues, acc)
++          }
++          return acc
++        }, {})
++      next()
++      return
++    }
++
+     res.locals.data = chain.value();
+     next();
+   } // GET /name/:id

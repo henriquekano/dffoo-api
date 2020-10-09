@@ -37,6 +37,13 @@
             README
           </a>
         </p>
+        <h3>Default parameters</h3>
+        <ul>
+          <li>
+            <code>_limit=20 or _limit={_start} + 20 or _end={_start} + 20</code>
+            <span>Pagination will be limited to 20 entities by default. Max is 50.</span>
+          </li>
+        </ul>
         <h3>Custom query parameters</h3>
         <ul>
           <li>
@@ -47,23 +54,25 @@
             <code>{field_name}_inc=Value</code>
             <span>For array fields. Stands for "includes". Only supports single values</span>
           </li>
+          <li>
+            <code>{field_name}_distinct</code>
+            <span>Returns all the distincts values of 'field_name' across all entities</span>
+          </li>
         </ul>
       </div>
     </main>
 
-    <footer>
+    <footer id="footer">
       <div class="container">
-        <ul>
-          <li>
-            This site uses data extracted from u/phantasmage's dissidiadb and u/marvan09's monster locator spreadsheet
-          </li>
-          <li>
-            Created with
-            <a href="https://my-json-server.typicode.com">
-              <i class="fas fa-burn"></i>JSON Server
-            </a>
-          </li>
-        </ul>
+        <p>
+          This site uses data extracted from u/phantasmage's dissidiadb and u/marvan09's monster locator spreadsheet
+        </p>
+        <p>
+          Created with
+          <a href="https://my-json-server.typicode.com">
+            <i class="fas fa-burn"></i>JSON Server
+          </a>
+        </p>
       </div>
     </footer>
 

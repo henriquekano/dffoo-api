@@ -7,14 +7,14 @@ function ResourceItem({ name, length }) {
   `
 }
 
-function ResourceList({ db }) {
+function ResourceList({ endpoints }) {
   return `
     <ul>
-      ${Object.keys(db)
+      ${Object.keys(endpoints)
       .map(name =>
         ResourceItem({
           name,
-          length: Array.isArray(db[name]) && db[name].length
+          length: endpoints[name]
         })
       )
       .join('')}
@@ -26,20 +26,20 @@ function NoResources() {
   return `<p>No resources found</p>`
 }
 
-function ResourcesBlock({ db }) {
+function ResourcesBlock({ endpoints }) {
   return `
     <div>
-      ${Object.keys(db).length ? ResourceList({ db }) : NoResources()}
+      ${Object.keys(endpoints).length ? ResourceList({ endpoints }) : NoResources()}
     </div>
   `
 }
 
 window
-  .fetch('db')
+  .fetch('endpoints')
   .then(response => response.json())
   .then(
-    db =>
-      (document.getElementById('resources').innerHTML = ResourcesBlock({ db }))
+    endpoints =>
+      (document.getElementById('resources').innerHTML = ResourcesBlock({ endpoints }))
   )
 
 function CustomRoutesBlock({ customRoutes }) {
