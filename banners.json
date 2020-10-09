@@ -1,5 +1,50 @@
 [
   {
+    "id": 395,
+    "title": "カダージュイベントガチャ",
+    "featured_characters": [
+      "golbez",
+      "kadaj",
+      "maria",
+      "alisae"
+    ],
+    "end_date": "2020-10-22",
+    "bt": [
+      "golbez"
+    ],
+    "ld": [
+      "kadaj"
+    ],
+    "ex": [
+      "kadaj",
+      "maria",
+      "alisae"
+    ]
+  },
+  {
+    "id": 394,
+    "title": "ナイン断章ガチャ",
+    "featured_characters": [
+      "golbez",
+      "fujin",
+      "nine",
+      "barret"
+    ],
+    "end_date": "2020-10-19",
+    "bt": [
+      "golbez"
+    ],
+    "ld": [
+      "fujin"
+    ],
+    "ex": [
+      "golbez",
+      "fujin",
+      "nine",
+      "barret"
+    ]
+  },
+  {
     "id": 393,
     "title": "神幻獣界アレクサンダー①ガチャ",
     "featured_characters": [
@@ -7,8 +52,18 @@
       "shadow",
       "laguna"
     ],
-    "_meta_search": "golbez bt;golbez ld;golbez ex;shadow ex;laguna ex",
-    "end_date": "2020-10-08"
+    "end_date": "2020-10-08",
+    "bt": [
+      "golbez"
+    ],
+    "ld": [
+      "golbez"
+    ],
+    "ex": [
+      "golbez",
+      "shadow",
+      "laguna"
+    ]
   },
   {
     "id": 392,
@@ -19,8 +74,18 @@
       "vivi",
       "thancres"
     ],
-    "_meta_search": "golbez bt;hope ld;vivi ex;hope ex;thancred ex",
-    "end_date": "2020-10-08"
+    "end_date": "2020-10-08",
+    "bt": [
+      "golbez"
+    ],
+    "ld": [
+      "hope"
+    ],
+    "ex": [
+      "hope",
+      "vivi",
+      "thancres"
+    ]
   },
   {
     "id": 391,
@@ -31,8 +96,18 @@
       "gilgamesh",
       "locke"
     ],
-    "_meta_search": "garland bt;faris ld;faris ex;gilgamesh ex;locke ex",
-    "end_date": "2020-10-08"
+    "end_date": "2020-10-08",
+    "bt": [
+      "garland"
+    ],
+    "ld": [
+      "faris"
+    ],
+    "ex": [
+      "faris",
+      "gilgamesh",
+      "locke"
+    ]
   },
   {
     "id": 390,
@@ -41,8 +116,18 @@
       "ignis",
       "garland"
     ],
-    "_meta_search": "garland bt;ignis ld;ignis ex",
-    "end_date": "2020-10-01"
+    "end_date": "2020-10-01",
+    "bt": [
+      "garland"
+    ],
+    "ld": [
+      "ignis"
+    ],
+    "ex": [
+      "ignis",
+      "garland",
+      "all the others"
+    ]
   },
   {
     "id": 389,
@@ -53,8 +138,18 @@
       "garland",
       "onion_knight"
     ],
-    "_meta_search": "garland bt;yang ld;desch ld;onion_knight ex",
-    "end_date": "2020-10-01"
+    "end_date": "2020-10-01",
+    "bt": [
+      "garland"
+    ],
+    "ld": [
+      "yang"
+    ],
+    "ex": [
+      "desch",
+      "yang",
+      "onion_knight"
+    ]
   },
   {
     "id": 388,
@@ -64,8 +159,18 @@
       "freya",
       "agrias"
     ],
-    "_meta_search": "garland bt;garland ld;freya ex;agrias ex",
-    "end_date": "2020-09-28"
+    "end_date": "2020-09-28",
+    "bt": [
+      "garland"
+    ],
+    "ld": [
+      "garland"
+    ],
+    "ex": [
+      "garland",
+      "freya",
+      "agrias"
+    ]
   },
   {
     "id": 387,
@@ -76,8 +181,18 @@
       "yda",
       "lenna"
     ],
-    "_meta_search": "garland bt;seven ld;yda ex;lenna ex",
-    "end_date": "2020-09-28"
+    "end_date": "2020-09-28",
+    "bt": [
+      "garland"
+    ],
+    "ld": [
+      "seven"
+    ],
+    "ex": [
+      "seven",
+      "yda",
+      "lenna"
+    ]
   },
   {
     "id": 386,
@@ -87,8 +202,18 @@
       "porom",
       "vanille"
     ],
-    "_meta_search": "terra bt;terra ld;porom ex;vanille ex",
-    "end_date": "2020-09-14"
+    "end_date": "2020-09-14",
+    "bt": [
+      "terra"
+    ],
+    "ld": [
+      "terra"
+    ],
+    "ex": [
+      "terra",
+      "porom",
+      "vanille"
+    ]
   },
   {
     "id": 385,
@@ -99,8 +224,18 @@
       "rydia",
       "vayne"
     ],
-    "_meta_search": "terra bt;basch ld;rydia ex;vayne ex",
-    "end_date": "2020-09-14"
+    "end_date": "2020-09-14",
+    "bt": [
+      "terra"
+    ],
+    "ld": [
+      "basch"
+    ],
+    "ex": [
+      "basch",
+      "rydia",
+      "vayne"
+    ]
   },
   {
     "id": 384,
@@ -111,8 +246,18 @@
       "sherlotta",
       "setzer"
     ],
-    "_meta_search": "yshtola bt;wakka ld;sherlotta ex;setzer ex",
-    "end_date": "2020-09-08"
+    "end_date": "2020-09-08",
+    "bt": [
+      "yshtola"
+    ],
+    "ld": [
+      "wakka"
+    ],
+    "ex": [
+      "wakka",
+      "sherlotta",
+      "setzer"
+    ]
   },
   {
     "id": 383,
@@ -123,8 +268,18 @@
       "quistis",
       "fran"
     ],
-    "_meta_search": "yshtola bt;trey ld;quistis ex;fran ex",
-    "end_date": "2020-09-04"
+    "end_date": "2020-09-04",
+    "bt": [
+      "yshtola"
+    ],
+    "ld": [
+      "trey"
+    ],
+    "ex": [
+      "trey",
+      "quistis",
+      "fran"
+    ]
   },
   {
     "id": 382,
@@ -133,8 +288,18 @@
       "yshtola",
       "serah"
     ],
-    "_meta_search": "yshtola bt;serah ld;serah ex",
-    "end_date": "2020-09-01"
+    "end_date": "2020-09-01",
+    "bt": [
+      "yshtola"
+    ],
+    "ld": [
+      "serah"
+    ],
+    "ex": [
+      "yshtola",
+      "serah",
+      "all the others"
+    ]
   },
   {
     "id": 381,
@@ -144,8 +309,18 @@
       "fujin",
       "balthier"
     ],
-    "_meta_search": "yshtola bt;yshtola ld;fujin ex;balthier ex",
-    "end_date": "2020-09-11"
+    "end_date": "2020-09-11",
+    "bt": [
+      "yshtola"
+    ],
+    "ld": [
+      "yshtola"
+    ],
+    "ex": [
+      "yshtola",
+      "fujin",
+      "balthier"
+    ]
   },
   {
     "id": 380,
@@ -156,8 +331,18 @@
       "sabin",
       "lilisette"
     ],
-    "_meta_search": "yshtola bt;kuja ld;sabin ex;lilisette ex",
-    "end_date": "2020-09-11"
+    "end_date": "2020-09-11",
+    "bt": [
+      "yshtola"
+    ],
+    "ld": [
+      "kuja"
+    ],
+    "ex": [
+      "kuja",
+      "sabin",
+      "lilisette"
+    ]
   },
   {
     "id": 379,
@@ -168,8 +353,18 @@
       "prompto",
       "rem"
     ],
-    "_meta_search": "the_emperor bt;aranea ld;prompto ex;rem ex",
-    "end_date": "2020-08-25"
+    "end_date": "2020-08-25",
+    "bt": [
+      "the_emperor"
+    ],
+    "ld": [
+      "aranea"
+    ],
+    "ex": [
+      "aranea",
+      "prompto",
+      "rem"
+    ]
   },
   {
     "id": 378,
@@ -180,8 +375,18 @@
       "garnet",
       "lann&reynn"
     ],
-    "_meta_search": "the_emperor bt;ealdenarche ld;garnet ex;lann&reynn ex",
-    "end_date": "2020-08-21"
+    "end_date": "2020-08-21",
+    "bt": [
+      "the_emperor"
+    ],
+    "ld": [
+      "ealdenarche"
+    ],
+    "ex": [
+      "ealdenarche",
+      "garnet",
+      "lann&reynn"
+    ]
   },
   {
     "id": 377,
@@ -191,7 +396,18 @@
       "the_emperor"
     ],
     "_meta_search": "the_emperor bt;aerith ld;aerith ex",
-    "end_date": "2020-08-18"
+    "end_date": "2020-08-18",
+    "bt": [
+      "the_emperor"
+    ],
+    "ld": [
+      "aerith"
+    ],
+    "ex": [
+      "aerith",
+      "the_emperor",
+      "all the others"
+    ]
   },
   {
     "id": 376,
@@ -201,8 +417,18 @@
       "the_emperor",
       "lulu"
     ],
-    "_meta_search": "the_emperor bt;the_emperor ld;selphie ex;lulu ex",
-    "end_date": "2020-08-17"
+    "end_date": "2020-08-17",
+    "bt": [
+      "the_emperor"
+    ],
+    "ld": [
+      "the_emperor"
+    ],
+    "ex": [
+      "selphie",
+      "the_emperor",
+      "lulu"
+    ]
   },
   {
     "id": 375,
@@ -213,8 +439,18 @@
       "yuffie",
       "eiko"
     ],
-    "_meta_search": "the_emperor bt;celes ld;yuffie ex;eiko ex",
-    "end_date": "2020-08-17"
+    "end_date": "2020-08-17",
+    "bt": [
+      "the_emperor"
+    ],
+    "ld": [
+      "celes"
+    ],
+    "ex": [
+      "celes",
+      "yuffie",
+      "eiko"
+    ]
   },
   {
     "id": 374,
@@ -225,8 +461,18 @@
       "raijin",
       "king"
     ],
-    "_meta_search": "cecil_paladin bt;gabranth ld;raijin ex;king ex",
-    "end_date": "2020-08-11"
+    "end_date": "2020-08-11",
+    "bt": [
+      "cecil_paladin"
+    ],
+    "ld": [
+      "gabranth"
+    ],
+    "ex": [
+      "gabranth",
+      "raijin",
+      "king"
+    ]
   },
   {
     "id": 373,
@@ -237,8 +483,18 @@
       "cloud",
       "zidane"
     ],
-    "_meta_search": "cecil_paladin bt;keiss ld;cloud ex;zidane ex",
-    "end_date": "2020-08-04"
+    "end_date": "2020-08-04",
+    "bt": [
+      "cecil_paladin"
+    ],
+    "ld": [
+      "keiss"
+    ],
+    "ex": [
+      "keiss",
+      "cloud",
+      "zidane"
+    ]
   },
   {
     "id": 372,
@@ -248,8 +504,22 @@
       "lightning",
       "squall"
     ],
-    "_meta_search": "cloud bt;squall bt;lightning bt;cloud ld;squall ld;lightning ld;squall ex;cloud ex;lightning ex",
-    "end_date": ""
+    "end_date": "",
+    "bt": [
+      "cloud",
+      "lightning",
+      "squall"
+    ],
+    "ld": [
+      "cloud",
+      "lightning",
+      "squall"
+    ],
+    "ex": [
+      "cloud",
+      "lightning",
+      "squall"
+    ]
   },
   {
     "id": 371,
@@ -264,7 +534,21 @@
       "cloud"
     ],
     "_meta_search": "ff1 ex;ff2 ex;ff3 ex;ff4 ex;ff5 ex;ff6 ex",
-    "end_date": "2020-09-02"
+    "end_date": "2020-09-02",
+    "bt": [
+    ],
+    "ld": [
+    ],
+    "ex": [
+      "warrior_of_light",
+      "firion",
+      "onion_knight",
+      "cecil_paladin",
+      "bartz",
+      "terra",
+      "cloud",
+      "and all the others in ff1 ex;ff2 ex;ff3 ex;ff4 ex;ff5 ex;ff6 ex;ff7"
+    ]
   },
   {
     "id": 370,
@@ -279,8 +563,22 @@
       "yshtola",
       "noctis"
     ],
-    "_meta_search": "ff8 ex;ff9 ex;ff10 ex;ff11 ex;ff12 ex;ff13 ex;ff14 ex;ff15 ex",
-    "end_date": "2020-09-02"
+    "end_date": "2020-09-02",
+    "bt": [
+    ],
+    "ld": [
+    ],
+    "ex": [
+      "squall",
+      "zidane",
+      "tidus",
+      "shantotto",
+      "vaan",
+      "lightning",
+      "yshtola",
+      "noctis",
+      "and all the others in ff8 ex;ff9 ex;ff10 ex;ff11 ex;ff12 ex;ff13 ex;ff14 ex;ff15 ex"
+    ]
   },
   {
     "id": 369,
@@ -293,8 +591,20 @@
       "lann&reynn",
       "layle"
     ],
-    "_meta_search": "fft ex;fft0 ex;ffcc ex;woff ex",
-    "end_date": "2020-09-02"
+    "end_date": "2020-09-02",
+    "bt": [
+    ],
+    "ld": [
+    ],
+    "ex": [
+      "ramza",
+      "ace",
+      "ciaran",
+      "yuri",
+      "lann&reynn",
+      "layle",
+      "and all the others in fft ex;fft0 ex;ffcc ex;woff ex"
+    ]
   },
   {
     "id": 368,
@@ -304,8 +614,18 @@
       "laguna",
       "jecht"
     ],
-    "_meta_search": "cecil_paladin bt;cecil_paladin ld;laguna ex;jecht ex",
-    "end_date": "2020-07-28"
+    "end_date": "2020-07-28",
+    "bt": [
+      "cecil_paladin"
+    ],
+    "ld": [
+      "cecil_paladin"
+    ],
+    "ex": [
+      "cecil_paladin",
+      "laguna",
+      "jecht"
+    ]
   },
   {
     "id": 367,
@@ -316,8 +636,18 @@
       "fang",
       "kamlanaut"
     ],
-    "_meta_search": "cecil_paladin bt;kamlanaut ld;barret ex;fang ex",
-    "end_date": "2020-07-28"
+    "end_date": "2020-07-28",
+    "bt": [
+      "cecil_paladin"
+    ],
+    "ld": [
+      "kamlanaut"
+    ],
+    "ex": [
+      "barret",
+      "fang",
+      "kamlanaut"
+    ]
   },
   {
     "id": 366,
@@ -328,8 +658,18 @@
       "cid",
       "alphinaud"
     ],
-    "_meta_search": "onion_knight bt;ceodore ld;cid ex;alphinaud ex",
-    "end_date": "2020-07-27"
+    "end_date": "2020-07-27",
+    "bt": [
+      "onion_knight"
+    ],
+    "ld": [
+      "ceodore"
+    ],
+    "ex": [
+      "ceodore",
+      "cid",
+      "alphinaud"
+    ]
   },
   {
     "id": 365,
@@ -340,8 +680,18 @@
       "arciela",
       "prishe"
     ],
-    "_meta_search": "onion_knight bt;arciela ld;prishe ex;rinoa ex",
-    "end_date": "2020-07-20"
+    "end_date": "2020-07-20",
+    "bt": [
+      "onion_knight"
+    ],
+    "ld": [
+      "arciela"
+    ],
+    "ex": [
+      "rinoa",
+      "arciela",
+      "prishe"
+    ]
   },
   {
     "id": 364,
@@ -351,8 +701,18 @@
       "snow",
       "cater"
     ],
-    "_meta_search": "onion_knight bt;onion_knight ld;snow ex;cater ex",
-    "end_date": "2020-07-14"
+    "end_date": "2020-07-14",
+    "bt": [
+      "onion_knight"
+    ],
+    "ld": [
+      "onion_knight"
+    ],
+    "ex": [
+      "onion_knight",
+      "snow",
+      "cater"
+    ]
   },
   {
     "id": 363,
@@ -363,8 +723,18 @@
       "sazh",
       "alisae"
     ],
-    "_meta_search": "onion_knight bt;gau ld;sazh ex;alisae ex",
-    "end_date": "2020-07-14"
+    "end_date": "2020-07-14",
+    "bt": [
+      "onion_knight"
+    ],
+    "ld": [
+      "gau"
+    ],
+    "ex": [
+      "gau",
+      "sazh",
+      "alisae"
+    ]
   },
   {
     "id": 362,
@@ -375,8 +745,18 @@
       "cloud_of_darkness",
       "shadow"
     ],
-    "_meta_search": "ultimecia bt;hope ld;cloud_of_darkness ex;shadow ex",
-    "end_date": "2020-07-08"
+    "end_date": "2020-07-08",
+    "bt": [
+      "ultimecia"
+    ],
+    "ld": [
+      "hope"
+    ],
+    "ex": [
+      "hope",
+      "cloud_of_darkness",
+      "shadow"
+    ]
   },
   {
     "id": 361,
@@ -387,8 +767,18 @@
       "aphmau",
       "krile"
     ],
-    "_meta_search": "ultimecia bt;krile ld;aphmau ex;relm ex",
-    "end_date": "2020-07-03"
+    "end_date": "2020-07-03",
+    "bt": [
+      "ultimecia"
+    ],
+    "ld": [
+      "krile"
+    ],
+    "ex": [
+      "relm",
+      "aphmau",
+      "krile"
+    ]
   },
   {
     "id": 362,
@@ -399,8 +789,18 @@
       "ignis",
       "ramza"
     ],
-    "_meta_search": "ultimecia bt;jack ld;ignis ex;ramza ex",
-    "end_date": "2020-06-30"
+    "end_date": "2020-06-30",
+    "bt": [
+      "ultimecia"
+    ],
+    "ld": [
+      "jack"
+    ],
+    "ex": [
+      "jack",
+      "ignis",
+      "ramza"
+    ]
   },
   {
     "id": 361,
@@ -410,8 +810,18 @@
       "porom",
       "papalymo"
     ],
-    "_meta_search": "ultimecia bt;ultimecia ld;porom ex;papalymo ex",
-    "end_date": "2020-06-26"
+    "end_date": "2020-06-26",
+    "bt": [
+      "ultimecia"
+    ],
+    "ld": [
+      "ultimecia"
+    ],
+    "ex": [
+      "ultimecia",
+      "porom",
+      "papalymo"
+    ]
   },
   {
     "id": 360,
@@ -422,8 +832,18 @@
       "cyan",
       "thancred"
     ],
-    "_meta_search": "ultimecia bt;penelo ld;cyan ex;thancred ex",
-    "end_date": "2020-06-26"
+    "end_date": "2020-06-26",
+    "bt": [
+      "ultimecia"
+    ],
+    "ld": [
+      "penelo"
+    ],
+    "ex": [
+      "penelo",
+      "cyan",
+      "thancred"
+    ]
   },
   {
     "id": 359,
@@ -434,8 +854,18 @@
       "auron",
       "cinque"
     ],
-    "_meta_search": "ramza bt;guy ld;auron ex;cinque ex",
-    "end_date": "2020-06-23"
+    "end_date": "2020-06-23",
+    "bt": [
+      "ramza"
+    ],
+    "ld": [
+      "guy"
+    ],
+    "ex": [
+      "guy",
+      "auron",
+      "cinque"
+    ]
   },
   {
     "id": 358,
@@ -446,8 +876,18 @@
       "noel",
       "lyse"
     ],
-    "_meta_search": "ramza bt;caius ld;noel ex;lyse ex",
-    "end_date": "2020-06-16"
+    "end_date": "2020-06-16",
+    "bt": [
+      "ramza"
+    ],
+    "ld": [
+      "caius"
+    ],
+    "ex": [
+      "caius",
+      "noel",
+      "lyse"
+    ]
   },
   {
     "id": 357,
@@ -458,7 +898,18 @@
       "yda"
     ],
     "_meta_search": "ramza bt;ramza ld;freya ex;yda ex",
-    "end_date": "2020-06-12"
+    "end_date": "2020-06-12",
+    "bt": [
+      "ramza"
+    ],
+    "ld": [
+      "ramza"
+    ],
+    "ex": [
+      "ramza",
+      "freya",
+      "yda"
+    ]
   },
   {
     "id": 356,
@@ -470,7 +921,18 @@
       "paine"
     ],
     "_meta_search": "ramza bt;machina ld;maria ex;paine ex",
-    "end_date": "2020-06-12"
+    "end_date": "2020-06-12",
+    "bt": [
+      "ramza"
+    ],
+    "ld": [
+      "machina"
+    ],
+    "ex": [
+      "machina",
+      "maria",
+      "paine"
+    ]
   },
   {
     "id": 355,
@@ -481,8 +943,21 @@
       "balthier",
       "gabranth"
     ],
-    "_meta_search": "vaan bt;vaan ld;ardyn bt;ardyn ld;balthier ex;gabranth ex;vaan ex",
-    "end_date": "2020-06-08"
+    "end_date": "2020-06-08",
+    "bt": [
+      "vaan",
+      "ardyn"
+    ],
+    "ld": [
+      "vaan",
+      "ardyn"
+    ],
+    "ex": [
+      "vaan",
+      "ardyn",
+      "balthier",
+      "gabranth"
+    ]
   },
   {
     "id": 354,
@@ -494,8 +969,21 @@
       "locke",
       "wakka"
     ],
-    "_meta_search": "vaan bt;vaan ld;ardyn bt;ardyn ld;ardyn ex;locke ex;lenna ex",
-    "end_date": "2020-06-08"
+    "end_date": "2020-06-08",
+    "bt": [
+      "vaan",
+      "ardyn"
+    ],
+    "ld": [
+      "vaan",
+      "ardyn"
+    ],
+    "ex": [
+      "ardyn",
+      "lenna",
+      "locke",
+      "wakka"
+    ]
   },
   {
     "id": 353,
@@ -504,11 +992,23 @@
       "shantotto",
       "kefka",
       "shadow",
-      "aerith",
-      "wakka"
+      "aerith"
     ],
-    "_meta_search": "shantotto bt;shantotto ld;kefka bt;kefka ld;kefka ex;shantotto ex;shadow ex;aerith ex",
-    "end_date": "2020-06-03"
+    "end_date": "2020-06-03",
+    "bt": [
+      "shantotto",
+      "kefka"
+    ],
+    "ld": [
+      "shantotto",
+      "kefka"
+    ],
+    "ex": [
+      "shantotto",
+      "kefka",
+      "shadow",
+      "aerith"
+    ]
   },
   {
     "id": 352,
@@ -520,8 +1020,21 @@
       "seymour",
       "lyse"
     ],
-    "_meta_search": "shantotto bt;shantotto ld;kefka bt;kefka ld;freya ex;seymour ex;shantotto ex;lyse ex",
-    "end_date": "2020-06-03"
+    "end_date": "2020-06-03",
+    "bt": [
+      "shantotto",
+      "kefka"
+    ],
+    "ld": [
+      "shantotto",
+      "kefka"
+    ],
+    "ex": [
+      "shantotto",
+      "freya",
+      "seymour",
+      "lyse"
+    ]
   },
   {
     "id": 351,
@@ -532,8 +1045,21 @@
       "steiner",
       "auron"
     ],
-    "_meta_search": "noctis bt;noctis ld;squall bt;squall ld;squall ex;steiner ex;auron ex;noctis ex",
-    "end_date": "2020-05-29"
+    "end_date": "2020-05-29",
+    "bt": [
+      "noctis",
+      "squall"
+    ],
+    "ld": [
+      "noctis",
+      "squall"
+    ],
+    "ex": [
+      "noctis",
+      "squall",
+      "steiner",
+      "auron"
+    ]
   },
   {
     "id": 350,
@@ -545,8 +1071,21 @@
       "tifa",
       "cait_sith"
     ],
-    "_meta_search": "noctis bt;noctis ld;squall bt;squall ld;gilgamesh ex;gilgamesh ex;tifa ex;noctis ex",
-    "end_date": "2020-05-29"
+    "end_date": "2020-05-29",
+    "bt": [
+      "noctis",
+      "squall"
+    ],
+    "ld": [
+      "noctis",
+      "squall"
+    ],
+    "ex": [
+      "noctis",
+      "gilgamesh",
+      "tifa",
+      "cait_sith"
+    ]
   },
   {
     "id": 349,
@@ -557,8 +1096,18 @@
       "leonhart",
       "kain"
     ],
-    "_meta_search": "firion bt;cecil ld;leonhart ex;kain ex",
-    "end_date": "2020-05-26"
+    "end_date": "2020-05-26",
+    "bt": [
+      "firion"
+    ],
+    "ld": [
+      "cecil"
+    ],
+    "ex": [
+      "cecil",
+      "leonhart",
+      "kain"
+    ]
   },
   {
     "id": 348,
@@ -569,8 +1118,18 @@
       "warrior_of_light",
       "gilgamesh"
     ],
-    "_meta_search": "firion bt;exdeath ld;warrior_of_light ex;gilgamesh ex",
-    "end_date": "2020-05-21"
+    "end_date": "2020-05-21",
+    "bt": [
+      "firion"
+    ],
+    "ld": [
+      "exdeath"
+    ],
+    "ex": [
+      "exdeath",
+      "warrior_of_light",
+      "gilgamesh"
+    ]
   },
   {
     "id": 347,
@@ -581,8 +1140,18 @@
       "irvine",
       "fujin"
     ],
-    "_meta_search": "firion bt;firion ld;lenna ex;irvine ex;fujin",
-    "end_date": "2020-05-14"
+    "end_date": "2020-05-14",
+    "bt": [
+      "firion"
+    ],
+    "ld": [
+      "firion"
+    ],
+    "ex": [
+      "lenna",
+      "irvine",
+      "fujin"
+    ]
   },
   {
     "id": 346,
@@ -593,7 +1162,18 @@
       "faris"
     ],
     "_meta_search": "firion bt;firion ld;golbez ex;faris ex",
-    "end_date": "2020-05-14"
+    "end_date": "2020-05-14",
+    "bt": [
+      "firion"
+    ],
+    "ld": [
+      "firion"
+    ],
+    "ex": [
+      "firion",
+      "golbez",
+      "faris"
+    ]
   },
   {
     "id": 345,
@@ -604,8 +1184,19 @@
       "deuce",
       "layle"
     ],
-    "_meta_search": "amidatelion ld;garland ld;layle ex;deuce ex",
-    "end_date": "2020-05-08"
+    "end_date": "2020-05-08",
+    "bt": [
+    ],
+    "ld": [
+      "amidatelion",
+      "garland"
+    ],
+    "ex": [
+      "amidatelion",
+      "garland",
+      "deuce",
+      "layle"
+    ]
   },
   {
     "id": 344,
@@ -616,8 +1207,19 @@
       "palom",
       "hope"
     ],
-    "_meta_search": "edward bt;kimahri ld;palom ex;hope ex",
-    "end_date": "2020-05-07"
+    "end_date": "2020-05-07",
+    "bt": [
+    ],
+    "ld": [
+      "edward",
+      "kimahri"
+    ],
+    "ex": [
+      "edward",
+      "kimahri",
+      "palom",
+      "hope"
+    ]
   },
   {
     "id": 343,
@@ -628,8 +1230,19 @@
       "edgar",
       "seifer"
     ],
-    "_meta_search": "kurasame bt;eight ld;edgar ex;seifer ex",
-    "end_date": "2020-04-30"
+    "end_date": "2020-04-30",
+    "bt": [
+    ],
+    "ld": [
+      "kurasame",
+      "eight"
+    ],
+    "ex": [
+      "kurasame",
+      "eight",
+      "edgar",
+      "seifer"
+    ]
   },
   {
     "id": 342,
@@ -640,8 +1253,18 @@
       "zell",
       "eiko"
     ],
-    "_meta_search": "cloud bt;xande ld;zell ex;eiko ex",
-    "end_date": "2020-04-24"
+    "end_date": "2020-04-24",
+    "bt": [
+      "cloud"
+    ],
+    "ld": [
+      "xande"
+    ],
+    "ex": [
+      "xande",
+      "zell",
+      "eiko"
+    ]
   },
   {
     "id": 341,
@@ -652,8 +1275,18 @@
       "steiner",
       "vanille"
     ],
-    "_meta_search": "cloud bt;beatrix ld;steiner ex;vanille ex",
-    "end_date": "2020-04-20"
+    "end_date": "2020-04-20",
+    "bt": [
+      "cloud"
+    ],
+    "ld": [
+      "beatrix"
+    ],
+    "ex": [
+      "beatrix",
+      "steiner",
+      "vanille"
+    ]
   },
   {
     "id": 340,
@@ -663,8 +1296,18 @@
       "setzer",
       "rem"
     ],
-    "_meta_search": "cloud bt;cloud ld;setzer ex;rem ex",
-    "end_date": "2020-04-14"
+    "end_date": "2020-04-14",
+    "bt": [
+      "cloud"
+    ],
+    "ld": [
+      "cloud"
+    ],
+    "ex": [
+      "cloud",
+      "setzer",
+      "rem"
+    ]
   },
   {
     "id": 339,
@@ -675,8 +1318,18 @@
       "wakka",
       "yuri"
     ],
-    "_meta_search": "cloud bt;cloud ld;celes ex;wakka ex;yuri ex",
-    "end_date": "2020-04-14"
+    "end_date": "2020-04-14",
+    "bt": [
+      "cloud"
+    ],
+    "ld": [
+      "cloud"
+    ],
+    "ex": [
+      "celes",
+      "wakka",
+      "yuri"
+    ]
   },
   {
     "id": 338,
@@ -687,8 +1340,18 @@
       "yuffie",
       "lann&reynn"
     ],
-    "_meta_search": "sephiroth bt;rude ld;yuffie ex;lann&reynn ex",
-    "end_date": "2020-04-08"
+    "end_date": "2020-04-08",
+    "bt": [
+      "sephiroth"
+    ],
+    "ld": [
+      "rude"
+    ],
+    "ex": [
+      "rude",
+      "yuffie",
+      "lann&reynn"
+    ]
   },
   {
     "id": 337,
@@ -699,8 +1362,18 @@
       "krile",
       "layle"
     ],
-    "_meta_search": "sephiroth bt;ciaran ld;krile ex;layle ex",
-    "end_date": "2020-04-02"
+    "end_date": "2020-04-02",
+    "bt": [
+      "sephiroth"
+    ],
+    "ld": [
+      "ciaran"
+    ],
+    "ex": [
+      "ciaran",
+      "krile",
+      "layle"
+    ]
   },
   {
     "id": 336,
@@ -710,8 +1383,18 @@
       "sazh",
       "snow"
     ],
-    "_meta_search": "sephiroth bt;sephiroth ld;sazh ex;snow ex",
-    "end_date": "2020-03-27"
+    "end_date": "2020-03-27",
+    "bt": [
+      "sephiroth"
+    ],
+    "ld": [
+      "sephiroth"
+    ],
+    "ex": [
+      "sephiroth",
+      "sazh",
+      "snow"
+    ]
   },
   {
     "id": 335,
@@ -722,8 +1405,18 @@
       "ignis",
       "jecht"
     ],
-    "_meta_search": "sephiroth bt;sephiroth ld;galuf ex;jecht ex;ignis ex",
-    "end_date": "2020-03-27"
+    "end_date": "2020-03-27",
+    "bt": [
+      "sephiroth"
+    ],
+    "ld": [
+      "sephiroth"
+    ],
+    "ex": [
+      "galuf",
+      "ignis",
+      "jecht"
+    ]
   },
   {
     "id": 334,
@@ -734,8 +1427,18 @@
       "rosa",
       "leo"
     ],
-    "_meta_search": "lightning bt;reno ld;rosa ex;leo ex",
-    "end_date": "2020-03-23"
+    "end_date": "2020-03-23",
+    "bt": [
+      "lightning"
+    ],
+    "ld": [
+      "reno"
+    ],
+    "ex": [
+      "reno",
+      "rosa",
+      "leo"
+    ]
   },
   {
     "id": 333,
@@ -746,8 +1449,18 @@
       "rydia",
       "shantotto"
     ],
-    "_meta_search": "lightning bt;kamlanaut ld;rydia ex;shantotto ex",
-    "end_date": "2020-03-18"
+    "end_date": "2020-03-18",
+    "bt": [
+      "lightning"
+    ],
+    "ld": [
+      "kamlanaut"
+    ],
+    "ex": [
+      "kamlanaut",
+      "rydia",
+      "shantotto"
+    ]
   },
   {
     "id": 332,
@@ -757,8 +1470,18 @@
       "edge",
       "vincent"
     ],
-    "_meta_search": "lightning bt;lightning ld;edge ex;vincent ex",
-    "end_date": "2020-03-13"
+    "end_date": "2020-03-13",
+    "bt": [
+      "lightning"
+    ],
+    "ld": [
+      "lightning"
+    ],
+    "ex": [
+      "lightning",
+      "edge",
+      "vincent"
+    ]
   },
   {
     "id": 331,
@@ -769,8 +1492,18 @@
       "raijin",
       "penelo"
     ],
-    "_meta_search": "lightning bt;lightning ld;zack ex;raijin ex;penelo ex",
-    "end_date": "2020-03-13"
+    "end_date": "2020-03-13",
+    "bt": [
+      "lightning"
+    ],
+    "ld": [
+      "lightning"
+    ],
+    "ex": [
+      "zack",
+      "raijin",
+      "penelo"
+    ]
   },
   {
     "id": 330,
@@ -781,8 +1514,18 @@
       "sabin",
       "vayne"
     ],
-    "_meta_search": "kuja bt;gladiolus ld;sabin ex;vayne ex",
-    "end_date": "2020-03-06"
+    "end_date": "2020-03-06",
+    "bt": [
+      "kuja"
+    ],
+    "ld": [
+      "gladiolus"
+    ],
+    "ex": [
+      "gladiolus",
+      "sabin",
+      "vayne"
+    ]
   },
   {
     "id": 329,
@@ -793,8 +1536,18 @@
       "terra",
       "selphie"
     ],
-    "_meta_search": "kuja bt;gau ld;terra ex;selphie ex",
-    "end_date": "2020-03-03"
+    "end_date": "2020-03-03",
+    "bt": [
+      "kuja"
+    ],
+    "ld": [
+      "gau"
+    ],
+    "ex": [
+      "gau",
+      "terra",
+      "selphie"
+    ]
   },
   {
     "id": 328,
@@ -804,8 +1557,18 @@
       "garnet",
       "lulu"
     ],
-    "_meta_search": "kuja bt;kuja ld;garnet ex;lulu ex",
-    "end_date": "2020-02-28"
+    "end_date": "2020-02-28",
+    "bt": [
+      "kuja"
+    ],
+    "ld": [
+      "kuja"
+    ],
+    "ex": [
+      "kuja",
+      "garnet",
+      "lulu"
+    ]
   },
   {
     "id": 327,
@@ -816,8 +1579,18 @@
       "porom",
       "papalymo"
     ],
-    "_meta_search": "kuja bt;kuja ld;rydia ex;porom ex;papalymo ex",
-    "end_date": "2020-02-28"
+    "end_date": "2020-02-28",
+    "bt": [
+      "kuja"
+    ],
+    "ld": [
+      "kuja"
+    ],
+    "ex": [
+      "rydia",
+      "porom",
+      "papalymo"
+    ]
   },
   {
     "id": 326,
@@ -828,8 +1601,18 @@
       "edgar",
       "seifer"
     ],
-    "_meta_search": "warrior_of_light bt;kurasame ld;edgar ex;seifer ex",
-    "end_date": "2020-02-25"
+    "end_date": "2020-02-25",
+    "bt": [
+      "warrior_of_light"
+    ],
+    "ld": [
+      "kurasame"
+    ],
+    "ex": [
+      "kurasame",
+      "edgar",
+      "seifer"
+    ]
   },
   {
     "id": 325,
@@ -840,17 +1623,33 @@
       "quistis",
       "king"
     ],
-    "_meta_search": "warrior_of_light bt;eight ld;quistis ex;king ex",
-    "end_date": "2020-02-19"
+    "end_date": "2020-02-19",
+    "bt": [
+      "warrior_of_light"
+    ],
+    "ld": [
+      "eight"
+    ],
+    "ex": [
+      "eight",
+      "quistis",
+      "king"
+    ]
   },
   {
     "id": 324,
     "title": "3周年CPガチャ",
     "featured_characters": [
-      "all"
+      "everybody until ardyn"
     ],
-    "_meta_search": "all ex",
-    "end_date": "2020-02-02"
+    "end_date": "2020-02-02",
+    "bt": [],
+    "ld": [],
+    "ex": [
+      "warrior_of_light",
+      "laguna",
+      "thancred"
+    ]
   },
   {
     "id": 323,
@@ -860,8 +1659,18 @@
       "laguna",
       "thancred"
     ],
-    "_meta_search": "warrior_of_light bt;warrior_of_light ld;laguna ex;thancred ex",
-    "end_date": "2020-02-14"
+    "end_date": "2020-02-14",
+    "bt": [
+      "warrior_of_light"
+    ],
+    "ld": [
+      "warrior_of_light"
+    ],
+    "ex": [
+      "warrior_of_light",
+      "laguna",
+      "thancred"
+    ]
   },
   {
     "id": 322,
@@ -872,8 +1681,18 @@
       "agrias",
       "cinque"
     ],
-    "_meta_search": "warrior_of_light bt;warrior_of_light ld;yda ex;agrias ex;cinque ex",
-    "end_date": "2020-02-14"
+    "end_date": "2020-02-14",
+    "bt": [
+      "warrior_of_light"
+    ],
+    "ld": [
+      "warrior_of_light"
+    ],
+    "ex": [
+      "yda",
+      "agrias",
+      "cinque"
+    ]
   },
   {
     "id": 321,
@@ -884,8 +1703,18 @@
       "relm",
       "ashe"
     ],
-    "_meta_search": "kefka bt;strago ld;relm ex;ashe ex",
-    "end_date": "2020-02-10"
+    "end_date": "2020-02-10",
+    "bt": [
+      "kefka"
+    ],
+    "ld": [
+      "strago"
+    ],
+    "ex": [
+      "strago",
+      "relm",
+      "ashe"
+    ]
   },
   {
     "id": 320,
@@ -896,8 +1725,18 @@
       "firion",
       "gilgamesh"
     ],
-    "_meta_search": "kefka bt;the_emperor ld;firion ex;gilgamesh ex",
-    "end_date": "2020-02-05"
+    "end_date": "2020-02-05",
+    "bt": [
+      "kefka"
+    ],
+    "ld": [
+      "the_emperor"
+    ],
+    "ex": [
+      "the_emperor",
+      "firion",
+      "gilgamesh"
+    ]
   },
   {
     "id": 319,
@@ -907,8 +1746,18 @@
       "shadow",
       "aerith"
     ],
-    "_meta_search": "kefka bt;kefka ld;kefka ex;shadow ex;aerith ex",
-    "end_date": "2020-01-31"
+    "end_date": "2020-01-31",
+    "bt": [
+      "kefka"
+    ],
+    "ld": [
+      "kefka"
+    ],
+    "ex": [
+      "kefka",
+      "shadow",
+      "aerith"
+    ]
   },
   {
     "id": 318,
@@ -919,8 +1768,18 @@
       "seymour",
       "lyse"
     ],
-    "_meta_search": "kefka bt;kefka ld;seymour ex;freya ex;lyse ex",
-    "end_date": "2020-01-31"
+    "end_date": "2020-01-31",
+    "bt": [
+      "kefka"
+    ],
+    "ld": [
+      "kefka"
+    ],
+    "ex": [
+      "freya",
+      "seymour",
+      "lyse"
+    ]
   },
   {
     "id": 317,
@@ -931,8 +1790,18 @@
       "palom",
       "hope"
     ],
-    "_meta_search": "ardyn bt;edward ld;edward ex;palom ex;hope ex",
-    "end_date": "2020-01-24"
+    "end_date": "2020-01-24",
+    "bt": [
+      "ardyn"
+    ],
+    "ld": [
+      "edward"
+    ],
+    "ex": [
+      "palom",
+      "edward",
+      "hope"
+    ]
   },
   {
     "id": 316,
@@ -943,8 +1812,18 @@
       "yuna",
       "noel"
     ],
-    "_meta_search": "ardyn bt;kimahri ld;kimahri ex;yuna ex;noel ex",
-    "end_date": "2020-01-21"
+    "end_date": "2020-01-21",
+    "bt": [
+      "ardyn"
+    ],
+    "ld": [
+      "kimahri"
+    ],
+    "ex": [
+      "yuna",
+      "kimahri",
+      "noel"
+    ]
   },
   {
     "id": 315,
@@ -955,8 +1834,18 @@
       "kain",
       "alphinaud"
     ],
-    "_meta_search": "ardyn bt;rinoa ld;rinoa ex;kain ex;alphinaud ex",
-    "end_date": "2020-01-15"
+    "end_date": "2020-01-15",
+    "bt": [
+      "ardyn"
+    ],
+    "ld": [
+      "rinoa"
+    ],
+    "ex": [
+      "kain",
+      "alphinaud",
+      "rinoa"
+    ]
   },
   {
     "id": 314,
@@ -966,7 +1855,17 @@
       "maria",
       "lilisette"
     ],
-    "_meta_search": "ardyn bt;ardyn ld;ardyn ex;maria ex;lilisette ex",
-    "end_date": "2020-01-10"
+    "end_date": "2020-01-10",
+    "bt": [
+      "ardyn"
+    ],
+    "ld": [
+      "ardyn"
+    ],
+    "ex": [
+      "ardyn",
+      "maria",
+      "lilisette"
+    ]
   }
 ]
