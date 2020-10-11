@@ -30,20 +30,23 @@ index 16af6db..cc0ac96 100644
    router.use((err, req, res, next) => {
      console.error(err.stack);
 diff --git a/node_modules/json-server/lib/server/router/plural.js b/node_modules/json-server/lib/server/router/plural.js
-index c9f6658..a30a571 100644
+index c9f6658..f3c0949 100644
 --- a/node_modules/json-server/lib/server/router/plural.js
 +++ b/node_modules/json-server/lib/server/router/plural.js
-@@ -20,7 +20,27 @@ const utils = require('../utils');
+@@ -20,7 +20,35 @@ const utils = require('../utils');
  
  const delay = require('./delay');
  
-+const R = require('ramda')
++const R = require('ramda');
++const { endsWith } = require('lodash');
 +
 +const defaultQueryParameterSuffixes = [
 +  '_lte',
 +  '_gte',
 +  '_ne',
-+  '_like'
++  '_like',
++  '_inc',
++  '_ninc'
 +];
 +
  module.exports = (db, name, opts) => {
@@ -58,10 +61,15 @@ index c9f6658..a30a571 100644
 +      return new RegExp(`${suffix}$`).test(queryParameter)
 +    });
 +  };
++  function endsWithCustomSuffix(queryParameter) {
++    return !!(opts.customSuffixes || []).some((suffix) => {
++      return new RegExp(`${suffix}$`).test(queryParameter)
++    });
++  };
    // Create router
    const router = express.Router();
    router.use(delay); // Embed function used in GET /name and GET /name/id
-@@ -82,7 +102,7 @@ module.exports = (db, name, opts) => {
+@@ -82,7 +110,7 @@ module.exports = (db, name, opts) => {
        const arr = db.get(name).value();
  
        for (const i in arr) {
@@ -70,16 +78,16 @@ index c9f6658..a30a571 100644
        }
  
        delete req.query[query];
-@@ -106,7 +126,7 @@ module.exports = (db, name, opts) => {
+@@ -106,7 +134,7 @@ module.exports = (db, name, opts) => {
        });
      }
  
 -    Object.keys(req.query).forEach(key => {
-+    Object.keys(req.query).filter(endsWithDefaultSuffix).forEach(key => {
++    Object.keys(req.query).filter((qp) => !endsWithCustomSuffix(qp)).forEach(key => {
        // Don't take into account JSONP query parameters
        // jQuery adds a '_' query parameter too
        if (key !== 'callback' && key !== '_') {
-@@ -115,13 +135,14 @@ module.exports = (db, name, opts) => {
+@@ -115,13 +143,14 @@ module.exports = (db, name, opts) => {
          const isDifferent = /_ne$/.test(key);
          const isRange = /_lte$/.test(key) || /_gte$/.test(key);
          const isLike = /_like$/.test(key);
@@ -96,7 +104,7 @@ index c9f6658..a30a571 100644
  
              if (elementValue === undefined || elementValue === null) {
                return;
-@@ -134,6 +155,10 @@ module.exports = (db, name, opts) => {
+@@ -134,6 +163,10 @@ module.exports = (db, name, opts) => {
                return value !== elementValue.toString();
              } else if (isLike) {
                return new RegExp(value, 'i').test(elementValue.toString());
@@ -107,7 +115,7 @@ index c9f6658..a30a571 100644
              } else {
                return value === elementValue.toString();
              }
-@@ -197,6 +222,32 @@ module.exports = (db, name, opts) => {
+@@ -197,6 +230,32 @@ module.exports = (db, name, opts) => {
        embed(element, _embed);
        expand(element, _expand);
      });

@@ -4,7 +4,7 @@ const db = require('./db.json')
 
 const server = jsonServer.create()
 const router = jsonServer.router('db.json', {
-  customSuffixes: ['_ninc', '_inc', '_distinct']
+  customSuffixes: ['_distinct']
 })
 const middlewares = jsonServer.defaults({
   readOnly: true,
