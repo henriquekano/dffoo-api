@@ -1,14 +1,21 @@
 [
   {
     "id": 395,
-    "title": "カダージュイベントガチャ",
+    "title": {
+      "jp": "カダージュイベントガチャ",
+      "gl": "",
+      "en": "Event Draw (Kadaj)"
+    },
     "featured_characters": [
       "golbez",
       "kadaj",
       "maria",
       "alisae"
     ],
-    "end_date": "2020-10-22",
+    "dates": {
+      "jp": ["", "2020-10-22"],
+      "gl": [""]
+    },
     "bt": [
       "golbez"
     ],
@@ -23,14 +30,21 @@
   },
   {
     "id": 394,
-    "title": "ナイン断章ガチャ",
+    "title": {
+      "jp": "ナイン断章ガチャ",
+      "gl": "",
+      "en": "Story Draw (Lost Chapter: Nine)"
+    },
     "featured_characters": [
       "golbez",
       "fujin",
       "nine",
       "barret"
     ],
-    "end_date": "2020-10-19",
+    "dates": {
+      "jp": ["", "2020-10-19"],
+      "gl": [""]
+    },
     "bt": [
       "golbez"
     ],
@@ -46,13 +60,20 @@
   },
   {
     "id": 393,
-    "title": "神幻獣界アレクサンダー①ガチャ",
+    "title": {
+      "jp": "神幻獣界アレクサンダー①ガチャ",
+      "gl": "",
+      "en": "Event Draw 1 (Divine Alexander)"
+    },
     "featured_characters": [
       "golbez",
       "shadow",
       "laguna"
     ],
-    "end_date": "2020-10-08",
+    "dates": {
+      "jp": ["", "2020-10-08"],
+      "gl": [""]
+    },
     "bt": [
       "golbez"
     ],
@@ -67,14 +88,21 @@
   },
   {
     "id": 392,
-    "title": "神幻獣界アレクサンダー②ガチャ",
+    "title": {
+      "jp": "神幻獣界アレクサンダー②ガチャ",
+      "gl": "",
+      "en": "Event Draw 2 (Divine Alexander)"
+    },
     "featured_characters": [
       "hope",
       "golbez",
       "vivi",
       "thancres"
     ],
-    "end_date": "2020-10-08",
+    "dates": {
+      "jp": ["", "2020-10-08"],
+      "gl": [""]
+    },
     "bt": [
       "golbez"
     ],
@@ -89,14 +117,21 @@
   },
   {
     "id": 391,
-    "title": "次元超越Stage2ガチャ",
+    "title": {
+      "jp": "次元超越Stage2ガチャ",
+      "gl": "",
+      "en": "Event Draw (Dimensions End: Transcendence 2)"
+    },
     "featured_characters": [
       "faris",
       "garland",
       "gilgamesh",
       "locke"
     ],
-    "end_date": "2020-10-08",
+    "dates": {
+      "jp": ["", "2020-10-08"],
+      "gl": [""]
+    },
     "bt": [
       "garland"
     ],
@@ -111,12 +146,19 @@
   },
   {
     "id": 390,
-    "title": "シルバーウィークCPガチャ",
+    "title": {
+      "jp": "シルバーウィークCPガチャ",
+      "gl": "",
+      "en": "Event Draw (Silver Week)"
+    },
     "featured_characters": [
       "ignis",
       "garland"
     ],
-    "end_date": "2020-10-01",
+    "dates": {
+      "jp": ["", "2020-10-01"],
+      "gl": [""]
+    },
     "bt": [
       "garland"
     ],
@@ -131,14 +173,21 @@
   },
   {
     "id": 389,
-    "title": "デッシュ断章ガチャ",
+    "title": {
+      "jp": "デッシュ断章ガチャ",
+      "gl": "",
+      "en": "Story Draw (Lost Chapter: Desch)"
+    },
     "featured_characters": [
       "desch",
       "yang",
       "garland",
       "onion_knight"
     ],
-    "end_date": "2020-10-01",
+    "dates": {
+      "jp": ["", "2020-10-01"],
+      "gl": [""]
+    },
     "bt": [
       "garland"
     ],
@@ -153,13 +202,20 @@
   },
   {
     "id": 388,
-    "title": "猛る剛剣①ガチャ",
+    "title": {
+      "jp": "猛る剛剣①ガチャ",
+      "gl": "",
+      "en": "Event Draw (Raid: Rage Sword)"
+    },
     "featured_characters": [
       "garland",
       "freya",
       "agrias"
     ],
-    "end_date": "2020-09-28",
+    "dates": {
+      "jp": ["", "2020-09-28"],
+      "gl": [""]
+    },
     "bt": [
       "garland"
     ],
@@ -174,14 +230,21 @@
   },
   {
     "id": 387,
-    "title": "猛る剛剣②ガチャ",
+    "title": {
+      "jp": "猛る剛剣②ガチャ",
+      "gl": "",
+      "en": "Event Draw 1 (Raid: Divine Diabolos)"
+    },
     "featured_characters": [
       "garland",
       "seven",
       "yda",
       "lenna"
     ],
-    "end_date": "2020-09-28",
+    "dates": {
+      "jp": ["", "2020-09-28"],
+      "gl": [""]
+    },
     "bt": [
       "garland"
     ],
@@ -196,13 +259,20 @@
   },
   {
     "id": 386,
-    "title": "第3部2章前編①ガチャ",
+    "title": {
+      "jp": "第3部2章前編①ガチャ",
+      "gl": "",
+      "en": "Story Draw 1 (Act 3, Pt. 2)"
+    },
     "featured_characters": [
       "terra",
       "porom",
       "vanille"
     ],
-    "end_date": "2020-09-14",
+    "dates": {
+      "jp": ["", "2020-09-14"],
+      "gl": [""]
+    },
     "bt": [
       "terra"
     ],
@@ -217,14 +287,21 @@
   },
   {
     "id": 385,
-    "title": "第3部2章前編②ガチャ",
+    "title": {
+      "jp": "第3部2章前編②ガチャ",
+      "gl": "",
+      "en": "Story Draw 2 (Act 3, Pt. 2)"
+    },
     "featured_characters": [
       "terra",
       "basch",
       "rydia",
       "vayne"
     ],
-    "end_date": "2020-09-14",
+    "dates": {
+      "jp": ["", "2020-09-14"],
+      "gl": [""]
+    },
     "bt": [
       "terra"
     ],
@@ -239,14 +316,21 @@
   },
   {
     "id": 384,
-    "title": "深き森からガチャ",
+    "title": {
+      "jp": "深き森からガチャ",
+      "gl": "",
+      "en": "Event Draw (Boss Rush: From the Deep Forrest)"
+    },
     "featured_characters": [
       "yshtola",
       "wakka",
       "sherlotta",
       "setzer"
     ],
-    "end_date": "2020-09-08",
+    "dates": {
+      "jp": ["", "2020-09-08"],
+      "gl": [""]
+    },
     "bt": [
       "yshtola"
     ],
@@ -261,14 +345,21 @@
   },
   {
     "id": 383,
-    "title": "トレイ断章ガチャ",
+    "title": {
+      "jp": "トレイ断章ガチャ",
+      "gl": "",
+      "en": "Story Draw (Lost Chapter: Trey)"
+    },
     "featured_characters": [
       "yshtola",
       "trey",
       "quistis",
       "fran"
     ],
-    "end_date": "2020-09-04",
+    "dates": {
+      "jp": ["", "2020-09-04"],
+      "gl": [""]
+    },
     "bt": [
       "yshtola"
     ],
@@ -283,12 +374,19 @@
   },
   {
     "id": 382,
-    "title": "サマーCP②ガチャ",
+    "title": {
+      "jp": "サマーCP②ガチャ",
+      "gl": "",
+      "en": "Event Draw 2 (Summer Campaing)"
+    },
     "featured_characters": [
       "yshtola",
       "serah"
     ],
-    "end_date": "2020-09-01",
+    "dates": {
+      "jp": ["", "2020-09-01"],
+      "gl": [""]
+    },
     "bt": [
       "yshtola"
     ],
@@ -303,13 +401,20 @@
   },
   {
     "id": 381,
-    "title": "恐怖の機械触手①ガチャ",
+    "title": {
+      "jp": "恐怖の機械触手①ガチャ",
+      "gl": "",
+      "en": "Event Draw 1 (Horrific Mechanical Tentacles)"
+    },
     "featured_characters": [
       "yshtola",
       "fujin",
       "balthier"
     ],
-    "end_date": "2020-09-11",
+    "dates": {
+      "jp": ["", "2020-09-11"],
+      "gl": [""]
+    },
     "bt": [
       "yshtola"
     ],
@@ -324,14 +429,21 @@
   },
   {
     "id": 380,
-    "title": "恐怖の機械触手②ガチャ",
+    "title": {
+      "jp": "恐怖の機械触手②ガチャ",
+      "gl": "",
+      "en": "Event Draw 2 (Horrific Mechanical Tentacles)"
+    },
     "featured_characters": [
       "yshtola",
       "kuja",
       "sabin",
       "lilisette"
     ],
-    "end_date": "2020-09-11",
+    "dates": {
+      "jp": ["", "2020-09-11"],
+      "gl": [""]
+    },
     "bt": [
       "yshtola"
     ],
@@ -346,14 +458,21 @@
   },
   {
     "id": 379,
-    "title": "アラネアイベントガチャ",
+    "title": {
+      "jp": "アラネアイベントガチャ",
+      "gl": "",
+      "en": "Event Draw (Aranea)"
+    },
     "featured_characters": [
       "aranea",
       "the_emperor",
       "prompto",
       "rem"
     ],
-    "end_date": "2020-08-25",
+    "dates": {
+      "jp": ["", "2020-08-25"],
+      "gl": [""]
+    },
     "bt": [
       "the_emperor"
     ],
@@ -368,14 +487,21 @@
   },
   {
     "id": 378,
-    "title": "エルドナーシュ断章ガチャ",
+    "title": {
+      "jp": "エルドナーシュ断章ガチャ",
+      "gl": "",
+      "en": "Story Draw (Lost Chapter: Eald'narche)"
+    },
     "featured_characters": [
       "ealdenarche",
       "the_emperor",
       "garnet",
       "lann&reynn"
     ],
-    "end_date": "2020-08-21",
+    "dates": {
+      "jp": ["", "2020-08-21"],
+      "gl": [""]
+    },
     "bt": [
       "the_emperor"
     ],
@@ -390,13 +516,20 @@
   },
   {
     "id": 377,
-    "title": "サマーCP①ガチャ",
+    "title": {
+      "jp": "サマーCP①ガチャ",
+      "gl": "",
+      "en": "Event Draw 1 (Summer Campaing)"
+    },
     "featured_characters": [
       "aerith",
       "the_emperor"
     ],
     "_meta_search": "the_emperor bt;aerith ld;aerith ex",
-    "end_date": "2020-08-18",
+    "dates": {
+      "jp": ["", "2020-08-18"],
+      "gl": [""]
+    },
     "bt": [
       "the_emperor"
     ],
@@ -411,13 +544,20 @@
   },
   {
     "id": 376,
-    "title": "神・幻獣界ラムウ①ガチャ",
+    "title": {
+      "jp": "神・幻獣界ラムウ①ガチャ",
+      "gl": "",
+      "en": "Event Draw 1 (Divine Ramuh)"
+    },
     "featured_characters": [
       "selphie",
       "the_emperor",
       "lulu"
     ],
-    "end_date": "2020-08-17",
+    "dates": {
+      "jp": ["", "2020-08-17"],
+      "gl": [""]
+    },
     "bt": [
       "the_emperor"
     ],
@@ -432,14 +572,21 @@
   },
   {
     "id": 375,
-    "title": "神・幻獣界ラムウ②",
+    "title": {
+      "jp": "神・幻獣界ラムウ②",
+      "gl": "",
+      "en": "Event Draw 2 (Divine Ramuh)"
+    },
     "featured_characters": [
       "celes",
       "the_emperor",
       "yuffie",
       "eiko"
     ],
-    "end_date": "2020-08-17",
+    "dates": {
+      "jp": ["", "2020-08-17"],
+      "gl": [""]
+    },
     "bt": [
       "the_emperor"
     ],
@@ -454,14 +601,21 @@
   },
   {
     "id": 374,
-    "title": "次元超越stage1ガチャ",
+    "title": {
+      "jp": "次元超越stage1ガチャ",
+      "gl": "",
+      "en": "Event Draw (Dimensions End: Transcendence 1)"
+    },
     "featured_characters": [
       "cecil_paladin",
       "gabranth",
       "raijin",
       "king"
     ],
-    "end_date": "2020-08-11",
+    "dates": {
+      "jp": ["", "2020-08-11"],
+      "gl": [""]
+    },
     "bt": [
       "cecil_paladin"
     ],
@@ -476,14 +630,21 @@
   },
   {
     "id": 373,
-    "title": "クァイス断章ガチャ",
+    "title": {
+      "jp": "クァイス断章ガチャ",
+      "gl": "",
+      "en": "Story Draw (Lost Chapter: Keiss)"
+    },
     "featured_characters": [
       "cecil_paladin",
       "keiss",
       "cloud",
       "zidane"
     ],
-    "end_date": "2020-08-04",
+    "dates": {
+      "jp": ["", "2020-08-04"],
+      "gl": [""]
+    },
     "bt": [
       "cecil_paladin"
     ],
@@ -498,13 +659,20 @@
   },
   {
     "id": 372,
-    "title": "スタートダッシュガチャ",
+    "title": {
+      "jp": "スタートダッシュガチャ",
+      "gl": "",
+      "en": "Starter Draw"
+    },
     "featured_characters": [
       "cloud",
       "lightning",
       "squall"
     ],
-    "end_date": "",
+    "dates": {
+      "jp": "",
+      "gl": ""
+    },
     "bt": [
       "cloud",
       "lightning",
@@ -523,7 +691,11 @@
   },
   {
     "id": 371,
-    "title": "サマーキャンペーン特別①ガチャ",
+    "title": {
+      "jp": "サマーキャンペーン特別①ガチャ",
+      "gl": "",
+      "en": "Event Draw 1 (Summer Campaing)"
+    },
     "featured_characters": [
       "warrior_of_light",
       "firion",
@@ -534,7 +706,10 @@
       "cloud"
     ],
     "_meta_search": "ff1 ex;ff2 ex;ff3 ex;ff4 ex;ff5 ex;ff6 ex",
-    "end_date": "2020-09-02",
+    "dates": {
+      "jp": ["", "2020-09-02"],
+      "gl": [""]
+    },
     "bt": [
     ],
     "ld": [
@@ -552,7 +727,11 @@
   },
   {
     "id": 370,
-    "title": "サマーキャンペーン特別②ガチャ",
+    "title": {
+      "jp": "サマーキャンペーン特別②ガチャ",
+      "gl": "",
+      "en": "Event Draw 2 (Summer Campaing)"
+    },
     "featured_characters": [
       "squall",
       "zidane",
@@ -563,7 +742,10 @@
       "yshtola",
       "noctis"
     ],
-    "end_date": "2020-09-02",
+    "dates": {
+      "jp": ["", "2020-09-02"],
+      "gl": [""]
+    },
     "bt": [
     ],
     "ld": [
@@ -582,7 +764,11 @@
   },
   {
     "id": 369,
-    "title": "サマーキャンペーン特別③ガチャ",
+    "title": {
+      "jp": "サマーキャンペーン特別③ガチャ",
+      "gl": "",
+      "en": "Event Draw 3 (Summer Campaing)"
+    },
     "featured_characters": [
       "ramza",
       "ace",
@@ -591,7 +777,10 @@
       "lann&reynn",
       "layle"
     ],
-    "end_date": "2020-09-02",
+    "dates": {
+      "jp": ["", "2020-09-02"],
+      "gl": [""]
+    },
     "bt": [
     ],
     "ld": [
@@ -608,13 +797,20 @@
   },
   {
     "id": 368,
-    "title": "光喰らう魔竜の顎①ガチャ",
+    "title": {
+      "jp": "光喰らう魔竜の顎①ガチャ",
+      "gl": "",
+      "en": "Event Draw 1 (Light Eating Dragon's Jaw)"
+    },
     "featured_characters": [
       "cecil_paladin",
       "laguna",
       "jecht"
     ],
-    "end_date": "2020-07-28",
+    "dates": {
+      "jp": ["", "2020-07-28"],
+      "gl": [""]
+    },
     "bt": [
       "cecil_paladin"
     ],
@@ -629,14 +825,21 @@
   },
   {
     "id": 367,
-    "title": "光喰らう魔竜の顎②ガチャ",
+    "title": {
+      "jp": "光喰らう魔竜の顎②ガチャ",
+      "gl": "",
+      "en": "Event Draw 2 (Light Eating Dragon's Jaw)"
+    },
     "featured_characters": [
       "cecil_paladin",
       "barret",
       "fang",
       "kamlanaut"
     ],
-    "end_date": "2020-07-28",
+    "dates": {
+      "jp": ["", "2020-07-28"],
+      "gl": [""]
+    },
     "bt": [
       "cecil_paladin"
     ],
@@ -651,14 +854,21 @@
   },
   {
     "id": 366,
-    "title": "第3部1章後編ガチャ",
+    "title": {
+      "jp": "第3部1章後編ガチャ",
+      "gl": "",
+      "en": "Story Draw 1 (Act 3, Pt. 1 finale)"
+    },
     "featured_characters": [
       "onion_knight",
       "ceodore",
       "cid",
       "alphinaud"
     ],
-    "end_date": "2020-07-27",
+    "dates": {
+      "jp": ["", "2020-07-27"],
+      "gl": [""]
+    },
     "bt": [
       "onion_knight"
     ],
@@ -673,14 +883,21 @@
   },
   {
     "id": 365,
-    "title": "アシェラ断章ガチャ",
+    "title": {
+      "jp": "アシェラ断章ガチャ",
+      "gl": "",
+      "en": "Story Draw (Lost Chapter: Arciela)"
+    },
     "featured_characters": [
       "onion_knight",
       "rinoa",
       "arciela",
       "prishe"
     ],
-    "end_date": "2020-07-20",
+    "dates": {
+      "jp": ["", "2020-07-20"],
+      "gl": [""]
+    },
     "bt": [
       "onion_knight"
     ],
@@ -695,13 +912,20 @@
   },
   {
     "id": 364,
-    "title": "第3部1章～前編～①ガチャ",
+    "title": {
+      "jp": "第3部1章～前編～①ガチャ",
+      "gl": "",
+      "en": "Story Draw 1 (Act 3, Pt. 1)"
+    },
     "featured_characters": [
       "onion_knight",
       "snow",
       "cater"
     ],
-    "end_date": "2020-07-14",
+    "dates": {
+      "jp": ["", "2020-07-14"],
+      "gl": [""]
+    },
     "bt": [
       "onion_knight"
     ],
@@ -716,14 +940,21 @@
   },
   {
     "id": 363,
-    "title": "第3部1章～前編～②ガチャ",
+    "title": {
+      "jp": "第3部1章～前編～②ガチャ",
+      "gl": "",
+      "en": "Story Draw 2 (Act 3, Pt. 1)"
+    },
     "featured_characters": [
       "onion_knight",
       "gau",
       "sazh",
       "alisae"
     ],
-    "end_date": "2020-07-14",
+    "dates": {
+      "jp": ["", "2020-07-14"],
+      "gl": [""]
+    },
     "bt": [
       "onion_knight"
     ],
@@ -738,14 +969,21 @@
   },
   {
     "id": 362,
-    "title": "絶望の箱庭ガチャ",
+    "title": {
+      "jp": "絶望の箱庭ガチャ",
+      "gl": "",
+      "en": "Event Draw (Sandbox of despair)"
+    },
     "featured_characters": [
       "ultimecia",
       "hope",
       "cloud_of_darkness",
       "shadow"
     ],
-    "end_date": "2020-07-08",
+    "dates": {
+      "jp": ["", "2020-07-08"],
+      "gl": [""]
+    },
     "bt": [
       "ultimecia"
     ],
@@ -760,14 +998,21 @@
   },
   {
     "id": 361,
-    "title": "次元の最果て：混沌 完結記念CPガチャ",
+    "title": {
+      "jp": "次元の最果て：混沌 完結記念CPガチャ",
+      "gl": "",
+      "en": "Event Draw (Final Dimensions End celebration)"
+    },
     "featured_characters": [
       "ultimecia",
       "relm",
       "aphmau",
       "krile"
     ],
-    "end_date": "2020-07-03",
+    "dates": {
+      "jp": ["", "2020-07-03"],
+      "gl": [""]
+    },
     "bt": [
       "ultimecia"
     ],
@@ -782,14 +1027,21 @@
   },
   {
     "id": 362,
-    "title": "ジャック断章ガチャ",
+    "title": {
+      "jp": "ジャック断章ガチャ",
+      "gl": "",
+      "en": "Story Draw (Lost Chapter: Jack)"
+    },
     "featured_characters": [
       "ultimecia",
       "jack",
       "ignis",
       "ramza"
     ],
-    "end_date": "2020-06-30",
+    "dates": {
+      "jp": ["", "2020-06-30"],
+      "gl": [""]
+    },
     "bt": [
       "ultimecia"
     ],
@@ -804,13 +1056,20 @@
   },
   {
     "id": 361,
-    "title": "機空兵迎撃作戦①ガチャ",
+    "title": {
+      "jp": "機空兵迎撃作戦①ガチャ",
+      "gl": "",
+      "en": ""
+    },
     "featured_characters": [
       "ultimecia",
       "porom",
       "papalymo"
     ],
-    "end_date": "2020-06-26",
+    "dates": {
+      "jp": ["", "2020-06-26"],
+      "gl": [""]
+    },
     "bt": [
       "ultimecia"
     ],
@@ -825,14 +1084,21 @@
   },
   {
     "id": 360,
-    "title": "機空兵迎撃作戦②ガチャ",
+    "title": {
+      "jp": "機空兵迎撃作戦②ガチャ",
+      "gl": "",
+      "en": ""
+    },
     "featured_characters": [
       "ultimecia",
       "penelo",
       "cyan",
       "thancred"
     ],
-    "end_date": "2020-06-26",
+    "dates": {
+      "jp": ["", "2020-06-26"],
+      "gl": [""]
+    },
     "bt": [
       "ultimecia"
     ],
@@ -847,14 +1113,21 @@
   },
   {
     "id": 359,
-    "title": "ガイガチャ",
+    "title": {
+      "jp": "ガイガチャ",
+      "gl": "",
+      "en": "Event Draw (Guy)"
+    },
     "featured_characters": [
       "ramza",
       "guy",
       "auron",
       "cinque"
     ],
-    "end_date": "2020-06-23",
+    "dates": {
+      "jp": ["", "2020-06-23"],
+      "gl": [""]
+    },
     "bt": [
       "ramza"
     ],
@@ -869,14 +1142,21 @@
   },
   {
     "id": 358,
-    "title": "カイアス断章ガチャ",
+    "title": {
+      "jp": "カイアス断章ガチャ",
+      "gl": "",
+      "en": "Story Draw (Lost Chapter: Caius)"
+    },
     "featured_characters": [
       "ramza",
       "caius",
       "noel",
       "lyse"
     ],
-    "end_date": "2020-06-16",
+    "dates": {
+      "jp": ["", "2020-06-16"],
+      "gl": [""]
+    },
     "bt": [
       "ramza"
     ],
@@ -891,14 +1171,21 @@
   },
   {
     "id": 357,
-    "title": "神・幻獣界～ディアボロス～①ガチャ",
+    "title": {
+      "jp": "神・幻獣界～ディアボロス～①ガチャ",
+      "gl": "",
+      "en": "Event Draw 1 (Divine Diabolos)"
+    },
     "featured_characters": [
       "ramza",
       "freya",
       "yda"
     ],
     "_meta_search": "ramza bt;ramza ld;freya ex;yda ex",
-    "end_date": "2020-06-12",
+    "dates": {
+      "jp": ["", "2020-06-12"],
+      "gl": [""]
+    },
     "bt": [
       "ramza"
     ],
@@ -913,7 +1200,11 @@
   },
   {
     "id": 356,
-    "title": "神・幻獣界～ディアボロス～②ガチャ",
+    "title": {
+      "jp": "神・幻獣界～ディアボロス～②ガチャ",
+      "gl": "",
+      "en": "Event Draw 2 (Divine Diabolos)"
+    },
     "featured_characters": [
       "ramza",
       "machina",
@@ -921,7 +1212,10 @@
       "paine"
     ],
     "_meta_search": "ramza bt;machina ld;maria ex;paine ex",
-    "end_date": "2020-06-12",
+    "dates": {
+      "jp": ["", "2020-06-12"],
+      "gl": [""]
+    },
     "bt": [
       "ramza"
     ],
@@ -936,14 +1230,21 @@
   },
   {
     "id": 355,
-    "title": "バーストラッシュ第3弾①ガチャ",
+    "title": {
+      "jp": "バーストラッシュ第3弾①ガチャ",
+      "gl": "",
+      "en": "Event Draw Rerun 1 (Burst Rush 3)"
+    },
     "featured_characters": [
       "vaan",
       "ardyn",
       "balthier",
       "gabranth"
     ],
-    "end_date": "2020-06-08",
+    "dates": {
+      "jp": ["", "2020-06-08"],
+      "gl": [""]
+    },
     "bt": [
       "vaan",
       "ardyn"
@@ -961,7 +1262,11 @@
   },
   {
     "id": 354,
-    "title": "バーストラッシュ第3弾②ガチャ",
+    "title": {
+      "jp": "バーストラッシュ第3弾②ガチャ",
+      "gl": "",
+      "en": "Event Draw Rerun 2 (Burst Rush 3)"
+    },
     "featured_characters": [
       "vaan",
       "ardyn",
@@ -969,7 +1274,10 @@
       "locke",
       "wakka"
     ],
-    "end_date": "2020-06-08",
+    "dates": {
+      "jp": ["", "2020-06-08"],
+      "gl": [""]
+    },
     "bt": [
       "vaan",
       "ardyn"
@@ -987,14 +1295,21 @@
   },
   {
     "id": 353,
-    "title": "バーストラッシュ第2弾①ガチャ",
+    "title": {
+      "jp": "バーストラッシュ第2弾①ガチャ",
+      "gl": "",
+      "en": "Event Draw Rerun 1 (Burst Rush 2)"
+    },
     "featured_characters": [
       "shantotto",
       "kefka",
       "shadow",
       "aerith"
     ],
-    "end_date": "2020-06-03",
+    "dates": {
+      "jp": ["", "2020-06-03"],
+      "gl": [""]
+    },
     "bt": [
       "shantotto",
       "kefka"
@@ -1012,7 +1327,11 @@
   },
   {
     "id": 352,
-    "title": "バーストラッシュ第2弾②ガチャ",
+    "title": {
+      "jp": "バーストラッシュ第2弾②ガチャ",
+      "gl": "",
+      "en": "Event Draw Rerun 2 (Burst Rush 2)"
+    },
     "featured_characters": [
       "shantotto",
       "kefka",
@@ -1020,7 +1339,10 @@
       "seymour",
       "lyse"
     ],
-    "end_date": "2020-06-03",
+    "dates": {
+      "jp": ["", "2020-06-03"],
+      "gl": [""]
+    },
     "bt": [
       "shantotto",
       "kefka"
@@ -1038,14 +1360,21 @@
   },
   {
     "id": 351,
-    "title": "バーストラッシュ第1弾①ガチャ",
+    "title": {
+      "jp": "バーストラッシュ第1弾①ガチャ",
+      "gl": "",
+      "en": "Event Draw Rerun 1 (Burst Rush 1)"
+    },
     "featured_characters": [
       "noctis",
       "squall",
       "steiner",
       "auron"
     ],
-    "end_date": "2020-05-29",
+    "dates": {
+      "jp": ["", "2020-05-29"],
+      "gl": [""]
+    },
     "bt": [
       "noctis",
       "squall"
@@ -1063,7 +1392,11 @@
   },
   {
     "id": 350,
-    "title": "バーストラッシュ第1弾②ガチャ",
+    "title": {
+      "jp": "バーストラッシュ第1弾②ガチャ",
+      "gl": "",
+      "en": "Event Draw Rerun 2 (Burst Rush 1)"
+    },
     "featured_characters": [
       "noctis",
       "squall",
@@ -1071,7 +1404,10 @@
       "tifa",
       "cait_sith"
     ],
-    "end_date": "2020-05-29",
+    "dates": {
+      "jp": ["", "2020-05-29"],
+      "gl": [""]
+    },
     "bt": [
       "noctis",
       "squall"
@@ -1089,14 +1425,21 @@
   },
   {
     "id": 349,
-    "title": "翔ける焔ガチャ",
+    "title": {
+      "jp": "翔ける焔ガチャ",
+      "gl": "",
+      "en": "Event Draw (Boss Rush: Flying Blaze)"
+    },
     "featured_characters": [
       "firion",
       "cecil",
       "leonhart",
       "kain"
     ],
-    "end_date": "2020-05-26",
+    "dates": {
+      "jp": ["", "2020-05-26"],
+      "gl": [""]
+    },
     "bt": [
       "firion"
     ],
@@ -1111,14 +1454,21 @@
   },
   {
     "id": 348,
-    "title": "エクスデス断章ガチャ",
+    "title": {
+      "jp": "エクスデス断章ガチャ",
+      "gl": "",
+      "en": "Story Draw (Lost Chapter: Exdeath)"
+    },
     "featured_characters": [
       "firion",
       "exdeath",
       "warrior_of_light",
       "gilgamesh"
     ],
-    "end_date": "2020-05-21",
+    "dates": {
+      "jp": ["", "2020-05-21"],
+      "gl": [""]
+    },
     "bt": [
       "firion"
     ],
@@ -1133,14 +1483,21 @@
   },
   {
     "id": 347,
-    "title": "魔城攻略戦線②ガチャ",
+    "title": {
+      "jp": "魔城攻略戦線②ガチャ",
+      "gl": "",
+      "en": "Event Draw 2 (Devil Capturing Front)"
+    },
     "featured_characters": [
       "firion",
       "lenna",
       "irvine",
       "fujin"
     ],
-    "end_date": "2020-05-14",
+    "dates": {
+      "jp": ["", "2020-05-14"],
+      "gl": [""]
+    },
     "bt": [
       "firion"
     ],
@@ -1155,14 +1512,21 @@
   },
   {
     "id": 346,
-    "title": "魔城攻略戦線①ガチャ",
+    "title": {
+      "jp": "魔城攻略戦線①ガチャ",
+      "gl": "",
+      "en": "Event Draw 1 (Devil Capturing Front)"
+    },
     "featured_characters": [
       "firion",
       "golbez",
       "faris"
     ],
     "_meta_search": "firion bt;firion ld;golbez ex;faris ex",
-    "end_date": "2020-05-14",
+    "dates": {
+      "jp": ["", "2020-05-14"],
+      "gl": [""]
+    },
     "bt": [
       "firion"
     ],
@@ -1177,14 +1541,21 @@
   },
   {
     "id": 345,
-    "title": "アミダテリオン復刻ガチャ",
+    "title": {
+      "jp": "アミダテリオン復刻ガチャ",
+      "gl": "",
+      "en": "Event Draw Rerun (Amidatelion)"
+    },
     "featured_characters": [
       "amidatelion",
       "garland",
       "deuce",
       "layle"
     ],
-    "end_date": "2020-05-08",
+    "dates": {
+      "jp": ["", "2020-05-08"],
+      "gl": [""]
+    },
     "bt": [
     ],
     "ld": [
@@ -1200,14 +1571,21 @@
   },
   {
     "id": 344,
-    "title": "ギルバート復刻ガチャ",
+    "title": {
+      "jp": "ギルバート復刻ガチャ",
+      "gl": "",
+      "en": "Event Draw Rerun (Edward)"
+    },
     "featured_characters": [
       "edward",
       "kimahri",
       "palom",
       "hope"
     ],
-    "end_date": "2020-05-07",
+    "dates": {
+      "jp": ["", "2020-05-07"],
+      "gl": [""]
+    },
     "bt": [
     ],
     "ld": [
@@ -1223,14 +1601,21 @@
   },
   {
     "id": 343,
-    "title": "クラサメ復刻ガチャ",
+    "title": {
+      "jp": "クラサメ復刻ガチャ",
+      "gl": "",
+      "en": "Event Draw Rerun (Kurasame)"
+    },
     "featured_characters": [
       "kurasame",
       "eight",
       "edgar",
       "seifer"
     ],
-    "end_date": "2020-04-30",
+    "dates": {
+      "jp": ["", "2020-04-30"],
+      "gl": [""]
+    },
     "bt": [
     ],
     "ld": [
@@ -1246,14 +1631,21 @@
   },
   {
     "id": 342,
-    "title": "ザンデガチャ",
+    "title": {
+      "jp": "ザンデガチャ",
+      "gl": "",
+      "en": "Event Draw (Xande)"
+    },
     "featured_characters": [
       "xande",
       "cloud",
       "zell",
       "eiko"
     ],
-    "end_date": "2020-04-24",
+    "dates": {
+      "jp": ["", "2020-04-24"],
+      "gl": [""]
+    },
     "bt": [
       "cloud"
     ],
@@ -1268,14 +1660,21 @@
   },
   {
     "id": 341,
-    "title": "ベアトリクス断章ガチャ",
+    "title": {
+      "jp": "ベアトリクス断章ガチャ",
+      "gl": "",
+      "en": "Event Draw (Beatrix)"
+    },
     "featured_characters": [
       "beatrix",
       "cloud",
       "steiner",
       "vanille"
     ],
-    "end_date": "2020-04-20",
+    "dates": {
+      "jp": ["", "2020-04-20"],
+      "gl": [""]
+    },
     "bt": [
       "cloud"
     ],
@@ -1290,13 +1689,20 @@
   },
   {
     "id": 340,
-    "title": "機械仕掛けの守護者①ガチャ",
+    "title": {
+      "jp": "機械仕掛けの守護者①ガチャ",
+      "gl": "",
+      "en": "Event Draw 1 (The Sackled Soldier)"
+    },
     "featured_characters": [
       "cloud",
       "setzer",
       "rem"
     ],
-    "end_date": "2020-04-14",
+    "dates": {
+      "jp": ["", "2020-04-14"],
+      "gl": [""]
+    },
     "bt": [
       "cloud"
     ],
@@ -1311,14 +1717,21 @@
   },
   {
     "id": 339,
-    "title": "機械仕掛けの守護者②ガチャ",
+    "title": {
+      "jp": "機械仕掛けの守護者②ガチャ",
+      "gl": "",
+      "en": "Event Draw 2 (The Sackled Soldier)"
+    },
     "featured_characters": [
       "cloud",
       "celes",
       "wakka",
       "yuri"
     ],
-    "end_date": "2020-04-14",
+    "dates": {
+      "jp": ["", "2020-04-14"],
+      "gl": [""]
+    },
     "bt": [
       "cloud"
     ],
@@ -1333,14 +1746,21 @@
   },
   {
     "id": 338,
-    "title": "ルードガチャ",
+    "title": {
+      "jp": "ルードガチャ",
+      "gl": "",
+      "en": "Event Draw (Rude)"
+    },
     "featured_characters": [
       "sephiroth",
       "rude",
       "yuffie",
       "lann&reynn"
     ],
-    "end_date": "2020-04-08",
+    "dates": {
+      "jp": ["", "2020-04-08"],
+      "gl": [""]
+    },
     "bt": [
       "sephiroth"
     ],
@@ -1355,14 +1775,21 @@
   },
   {
     "id": 337,
-    "title": "キアラン断章ガチャ",
+    "title": {
+      "jp": "キアラン断章ガチャ",
+      "gl": "",
+      "en": "Event Draw (Ciaran)"
+    },
     "featured_characters": [
       "sephiroth",
       "ciaran",
       "krile",
       "layle"
     ],
-    "end_date": "2020-04-02",
+    "dates": {
+      "jp": ["", "2020-04-02"],
+      "gl": [""]
+    },
     "bt": [
       "sephiroth"
     ],
@@ -1377,13 +1804,20 @@
   },
   {
     "id": 336,
-    "title": "嘲笑う悪魔①ガチャ",
+    "title": {
+      "jp": "嘲笑う悪魔①ガチャ",
+      "gl": "",
+      "en": "Event Draw 1 (The Smiling Devil)"
+    },
     "featured_characters": [
       "sephiroth",
       "sazh",
       "snow"
     ],
-    "end_date": "2020-03-27",
+    "dates": {
+      "jp": ["", "2020-03-27"],
+      "gl": [""]
+    },
     "bt": [
       "sephiroth"
     ],
@@ -1398,14 +1832,21 @@
   },
   {
     "id": 335,
-    "title": "嘲笑う悪魔②ガチャ",
+    "title": {
+      "jp": "嘲笑う悪魔②ガチャ",
+      "gl": "",
+      "en": "Event Draw 2 (The Smiling Devil)"
+    },
     "featured_characters": [
       "sephiroth",
       "galuf",
       "ignis",
       "jecht"
     ],
-    "end_date": "2020-03-27",
+    "dates": {
+      "jp": ["", "2020-03-27"],
+      "gl": [""]
+    },
     "bt": [
       "sephiroth"
     ],
@@ -1420,14 +1861,21 @@
   },
   {
     "id": 334,
-    "title": "レノガチャ",
+    "title": {
+      "jp": "レノガチャ",
+      "gl": "",
+      "en": "Event Draw (Reno)"
+    },
     "featured_characters": [
       "lightning",
       "reno",
       "rosa",
       "leo"
     ],
-    "end_date": "2020-03-23",
+    "dates": {
+      "jp": ["", "2020-03-23"],
+      "gl": [""]
+    },
     "bt": [
       "lightning"
     ],
@@ -1442,14 +1890,21 @@
   },
   {
     "id": 333,
-    "title": "カムラナート断章ガチャ",
+    "title": {
+      "jp": "カムラナート断章ガチャ",
+      "gl": "",
+      "en": "Event Draw (Kam'lanaut)"
+    },
     "featured_characters": [
       "lightning",
       "kamlanaut",
       "rydia",
       "shantotto"
     ],
-    "end_date": "2020-03-18",
+    "dates": {
+      "jp": ["", "2020-03-18"],
+      "gl": [""]
+    },
     "bt": [
       "lightning"
     ],
@@ -1464,13 +1919,20 @@
   },
   {
     "id": 332,
-    "title": "暴虐の鉄騎士①ガチャ",
+    "title": {
+      "jp": "暴虐の鉄騎士①ガチャ",
+      "gl": "",
+      "en": "Event Draw 1 (The Iron Knight)"
+    },
     "featured_characters": [
       "lightning",
       "edge",
       "vincent"
     ],
-    "end_date": "2020-03-13",
+    "dates": {
+      "jp": ["", "2020-03-13"],
+      "gl": [""]
+    },
     "bt": [
       "lightning"
     ],
@@ -1485,14 +1947,21 @@
   },
   {
     "id": 331,
-    "title": "暴虐の鉄騎士②ガチャ",
+    "title": {
+      "jp": "暴虐の鉄騎士②ガチャ",
+      "gl": "",
+      "en": "Event Draw 2 (The Iron Knight)"
+    },
     "featured_characters": [
       "lightning",
       "zack",
       "raijin",
       "penelo"
     ],
-    "end_date": "2020-03-13",
+    "dates": {
+      "jp": ["", "2020-03-13"],
+      "gl": [""]
+    },
     "bt": [
       "lightning"
     ],
@@ -1507,14 +1976,21 @@
   },
   {
     "id": 330,
-    "title": "グラディオラスガチャ",
+    "title": {
+      "jp": "グラディオラスガチャ",
+      "gl": "",
+      "en": "Event Draw (Gladiolus)"
+    },
     "featured_characters": [
       "kuja",
       "gladiolus",
       "sabin",
       "vayne"
     ],
-    "end_date": "2020-03-06",
+    "dates": {
+      "jp": ["", "2020-03-06"],
+      "gl": [""]
+    },
     "bt": [
       "kuja"
     ],
@@ -1529,14 +2005,21 @@
   },
   {
     "id": 329,
-    "title": "ガウ断章ガチャ",
+    "title": {
+      "jp": "ガウ断章ガチャ",
+      "gl": "",
+      "en": "Story Draw (Lost Chapter: Gau)"
+    },
     "featured_characters": [
       "kuja",
       "gau",
       "terra",
       "selphie"
     ],
-    "end_date": "2020-03-03",
+    "dates": {
+      "jp": ["", "2020-03-03"],
+      "gl": [""]
+    },
     "bt": [
       "kuja"
     ],
@@ -1551,13 +2034,20 @@
   },
   {
     "id": 328,
-    "title": "幻獣界UMバハムート①ガチャ",
+    "title": {
+      "jp": "幻獣界UMバハムート①ガチャ",
+      "gl": "",
+      "en": "Event Draw 1 (Ultimate Bahamut)"
+    },
     "featured_characters": [
       "kuja",
       "garnet",
       "lulu"
     ],
-    "end_date": "2020-02-28",
+    "dates": {
+      "jp": ["", "2020-02-28"],
+      "gl": [""]
+    },
     "bt": [
       "kuja"
     ],
@@ -1572,14 +2062,21 @@
   },
   {
     "id": 327,
-    "title": "幻獣界UMバハムート②ガチャ",
+    "title": {
+      "jp": "幻獣界UMバハムート②ガチャ",
+      "gl": "",
+      "en": "Event Draw 2 (Ultimate Bahamut)"
+    },
     "featured_characters": [
       "kuja",
       "rydia",
       "porom",
       "papalymo"
     ],
-    "end_date": "2020-02-28",
+    "dates": {
+      "jp": ["", "2020-02-28"],
+      "gl": [""]
+    },
     "bt": [
       "kuja"
     ],
@@ -1594,14 +2091,21 @@
   },
   {
     "id": 326,
-    "title": "クラサメガチャ",
+    "title": {
+      "jp": "クラサメガチャ",
+      "gl": "",
+      "en": "Event Draw (Kurasame)"
+    },
     "featured_characters": [
       "warrior_of_light",
       "kurasame",
       "edgar",
       "seifer"
     ],
-    "end_date": "2020-02-25",
+    "dates": {
+      "jp": ["", "2020-02-25"],
+      "gl": [""]
+    },
     "bt": [
       "warrior_of_light"
     ],
@@ -1616,14 +2120,21 @@
   },
   {
     "id": 325,
-    "title": "エイト断章ガチャ",
+    "title": {
+      "jp": "エイト断章ガチャ",
+      "gl": "",
+      "en": "Story Draw (Lost Chapter: Eight)"
+    },
     "featured_characters": [
       "warrior_of_light",
       "eight",
       "quistis",
       "king"
     ],
-    "end_date": "2020-02-19",
+    "dates": {
+      "jp": ["", "2020-02-19"],
+      "gl": [""]
+    },
     "bt": [
       "warrior_of_light"
     ],
@@ -1638,11 +2149,18 @@
   },
   {
     "id": 324,
-    "title": "3周年CPガチャ",
+    "title": {
+      "jp": "3周年CPガチャ",
+      "gl": "",
+      "en": "Event Draw (3rd Anniversary)"
+    },
     "featured_characters": [
       "everybody until ardyn"
     ],
-    "end_date": "2020-02-02",
+    "dates": {
+      "jp": ["", "2020-02-02"],
+      "gl": [""]
+    },
     "bt": [],
     "ld": [],
     "ex": [
@@ -1653,13 +2171,20 @@
   },
   {
     "id": 323,
-    "title": "第2部最終章～後編～①ガチャ",
+    "title": {
+      "jp": "第2部最終章～後編～①ガチャ",
+      "gl": "",
+      "en": "Story Draw 2 (Act 2 Finale, Pt. 2)"
+    },
     "featured_characters": [
       "warrior_of_light",
       "laguna",
       "thancred"
     ],
-    "end_date": "2020-02-14",
+    "dates": {
+      "jp": ["", "2020-02-14"],
+      "gl": [""]
+    },
     "bt": [
       "warrior_of_light"
     ],
@@ -1674,14 +2199,21 @@
   },
   {
     "id": 322,
-    "title": "第2部最終章～後編～②ガチャ",
+    "title": {
+      "jp": "第2部最終章～後編～②ガチャ",
+      "gl": "",
+      "en": "Story Draw 2 (Act 2 Finale, Pt. 2)"
+    },
     "featured_characters": [
       "warrior_of_light",
       "yda",
       "agrias",
       "cinque"
     ],
-    "end_date": "2020-02-14",
+    "dates": {
+      "jp": ["", "2020-02-14"],
+      "gl": [""]
+    },
     "bt": [
       "warrior_of_light"
     ],
@@ -1696,14 +2228,21 @@
   },
   {
     "id": 321,
-    "title": "ストラゴスガチャ",
+    "title": {
+      "jp": "ストラゴスガチャ",
+      "gl": "",
+      "en": "Event Draw (Strago)"
+    },
     "featured_characters": [
       "kefka",
       "strago",
       "relm",
       "ashe"
     ],
-    "end_date": "2020-02-10",
+    "dates": {
+      "jp": ["", "2020-02-10"],
+      "gl": [""]
+    },
     "bt": [
       "kefka"
     ],
@@ -1718,14 +2257,21 @@
   },
   {
     "id": 320,
-    "title": "皇帝断章ガチャ",
+    "title": {
+      "jp": "皇帝断章ガチャ",
+      "gl": "",
+      "en": "Story Draw (Lost Chapter: The Emperor)"
+    },
     "featured_characters": [
       "kefka",
       "the_emperor",
       "firion",
       "gilgamesh"
     ],
-    "end_date": "2020-02-05",
+    "dates": {
+      "jp": ["", "2020-02-05"],
+      "gl": [""]
+    },
     "bt": [
       "kefka"
     ],
@@ -1740,13 +2286,20 @@
   },
   {
     "id": 319,
-    "title": "魔に捧ぐ祈祷①ガチャ",
+    "title": {
+      "jp": "魔に捧ぐ祈祷①ガチャ",
+      "gl": "",
+      "en": "Devil Pray Draw 1"
+    },
     "featured_characters": [
       "kefka",
       "shadow",
       "aerith"
     ],
-    "end_date": "2020-01-31",
+    "dates": {
+      "jp": ["", "2020-01-31"],
+      "gl": [""]
+    },
     "bt": [
       "kefka"
     ],
@@ -1761,14 +2314,21 @@
   },
   {
     "id": 318,
-    "title": "魔に捧ぐ祈祷②ガチャ",
+    "title": {
+      "jp": "魔に捧ぐ祈祷②ガチャ",
+      "gl": "",
+      "en": "Devil Pray Draw 2"
+    },
     "featured_characters": [
       "kefka",
       "freya",
       "seymour",
       "lyse"
     ],
-    "end_date": "2020-01-31",
+    "dates": {
+      "jp": ["", "2020-01-31"],
+      "gl": [""]
+    },
     "bt": [
       "kefka"
     ],
@@ -1783,14 +2343,21 @@
   },
   {
     "id": 317,
-    "title": "ギルバートガチャ",
+    "title": {
+      "jp": "ギルバートガチャ",
+      "gl": "Event Draw (Edward)",
+      "en": "Event Draw (Edward)"
+    },
     "featured_characters": [
       "ardyn",
       "edward",
       "palom",
       "hope"
     ],
-    "end_date": "2020-01-24",
+    "dates": {
+      "jp": ["", "2020-01-24"],
+      "gl": ["2020-10-09T02:00Z", "2020-10-23T01:59Z"]
+    },
     "bt": [
       "ardyn"
     ],
@@ -1805,14 +2372,21 @@
   },
   {
     "id": 316,
-    "title": "キマリ断章ガチャ",
+    "title": {
+      "jp": "キマリ断章ガチャ",
+      "gl": "Story Draw (Lost Chapter: Kimahri)",
+      "en": "Story Draw (Lost Chapter: Kimahri)"
+    },
     "featured_characters": [
       "ardyn",
       "kimahri",
       "yuna",
       "noel"
     ],
-    "end_date": "2020-01-21",
+    "dates": {
+      "jp": ["", "2020-01-21"],
+      "gl": ["2020-10-05T02:00Z", "2020-10-19T01:59Z"]
+    },
     "bt": [
       "ardyn"
     ],
@@ -1827,14 +2401,21 @@
   },
   {
     "id": 315,
-    "title": "ニューイヤーガチャ",
+    "title": {
+      "jp": "ニューイヤーガチャ",
+      "gl": "Event Draw (Despair from the Abyss)",
+      "en": "Event Draw (New Year)"
+    },
     "featured_characters": [
       "ardyn",
       "rinoa",
       "kain",
       "alphinaud"
     ],
-    "end_date": "2020-01-15",
+    "dates": {
+      "jp": ["", "2020-01-15"],
+      "gl": ["2020-09-30T02:00Z", "2020-09-30T02:00Z"]
+    },
     "bt": [
       "ardyn"
     ],
@@ -1849,13 +2430,20 @@
   },
   {
     "id": 314,
-    "title": "第2部最終章～前編～ガチャ",
+    "title": {
+      "jp": "第2部最終章～前編～ガチャ",
+      "gl": "Story Draw (Act 2 Finale, Pt. 1)",
+      "en": "Story Draw (Act 2 Finale, Pt. 1)"
+    },
     "featured_characters": [
       "ardyn",
       "maria",
       "lilisette"
     ],
-    "end_date": "2020-01-10",
+    "dates": {
+      "jp": ["", "2020-01-10"],
+      "gl": ["2020-09-24T02:00Z", "2020-10-08T01:59Z"]
+    },
     "bt": [
       "ardyn"
     ],
