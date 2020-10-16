@@ -1,0 +1,18 @@
+{
+    "baseWeapon": "cp15",
+    "exclusiveWeapon": "cp35",
+    "abilityWeapon": "ex",
+    "exWeapon": "ex+",
+    "limitedWeapon": "ld",
+    "exclusiveArmor": "",
+    "secondArmor": "",
+    "stArmor": "",
+    "highArmor": "",
+    "rzHighArmor": "",
+    "burstWeapon": "bt",
+    "manikinWeapon": "manikin_weapon",
+    "fourStarArmor": "four_star_armor",
+    "summonWeapon": "woi_weapon",
+    "fourStarWeapon": "four_star",
+    "exclusiveWeapon2": "exclusive_weapon"
+}

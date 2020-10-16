@@ -1,5 +1,5 @@
 const R = require("ramda")
-const { writeFilePromise } = require('./helpers')
+const { writeFilePromise, relateCommandToCharacter, deindexIndexedObjects } = require('./helpers')
 
 const commands = require("../commands.json")
 const gears = require("../gears.json")
@@ -58,34 +58,9 @@ const deindex = R.curry((indexedObjects, newPropName) => {
   )(indexedObjects)
 })
 
-const deindexIndexedObjects = (indexedObjects, newPropName) => {
-  return R.pipe(
-    R.toPairs,
-    R.map(([index, elements]) =>
-      R.toPairs(elements).map(([type, element]) => ({
-        ...element,
-        type,
-        [newPropName]: index,
-      }))
-    ),
-    R.flatten
-  )(indexedObjects)
-}
-
 const elementWithId = (collection, id, defaultValue = '') =>
   collection.find(R.propEq('id', id)) || defaultValue
 
-const relateCommandToCharacter = R.curry((commands, characters) => {
-  return commands.map((command) => {
-    const character = R.filter(R.propEq("slug", command.character_slug))(
-      characters
-    )[0]
-    return {
-      ...command,
-      characterId: character.id,
-    }
-  })
-})
   ; (async function () {
     await writeFilePromise(
       "db.json",

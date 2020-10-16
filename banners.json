@@ -1,78 +1,202 @@
 [
   {
-    "id": 395,
+    "id": "440",
+    "title": {
+      "jp": "オータムCPガチャ",
+      "gl": "",
+      "en": "Event Draw (Autumn Draw)"
+    },
+    "dates": {
+      "jp": [
+        "",
+        "2020-10-30"
+      ],
+      "gl": [
+        ""
+      ]
+    },
+    "limitedWeapon": [
+      "bartz",
+      "galuf"
+    ],
+    "ex": [
+      "galuf"
+    ],
+    "cp35": [
+      "galuf"
+    ],
+    "cp15": [
+      "galuf"
+    ]
+  },
+  {
+    "id": "438",
+    "title": {
+      "jp": "紅蓮の巨腕①ガチャ",
+      "gl": "",
+      "en": "Event Draw 1 (Gigantic Crimson Arm)"
+    },
+    "dates": {
+      "jp": [
+        "",
+        "2020-10-27"
+      ],
+      "gl": [
+        ""
+      ]
+    },
+    "limitedWeapon": [
+      "bartz"
+    ],
+    "burstWeapon": [
+      "bartz"
+    ],
+    "ex": [
+      "bartz",
+      "steiner",
+      "seymour"
+    ],
+    "cp35": [
+      "bartz",
+      "steiner",
+      "seymour"
+    ],
+    "cp15": [
+      "bartz",
+      "steiner",
+      "seymour"
+    ]
+  },
+  {
+    "id": "439",
+    "title": {
+      "jp": "紅蓮の巨腕②ガチャ",
+      "gl": "",
+      "en": "Event Draw 2 (Gigantic Crimson Arm)"
+    },
+    "dates": {
+      "jp": [
+        "",
+        "2020-10-27"
+      ],
+      "gl": [
+        ""
+      ]
+    },
+    "limitedWeapon": [
+      "bartz"
+    ],
+    "ld": [
+      "penelo"
+    ],
+    "ex": [
+      "penelo",
+      "cyan",
+      "zell"
+    ],
+    "cp35": [
+      "penelo",
+      "cyan",
+      "zell"
+    ],
+    "cp15": [
+      "penelo",
+      "cyan",
+      "zell"
+    ]
+  },
+  {
+    "id": "437",
     "title": {
       "jp": "カダージュイベントガチャ",
       "gl": "",
       "en": "Event Draw (Kadaj)"
     },
-    "featured_characters": [
-      "golbez",
-      "kadaj",
-      "maria",
-      "alisae"
-    ],
     "dates": {
-      "jp": ["", "2020-10-22"],
-      "gl": [""]
+      "jp": [
+        "",
+        "2020-10-22"
+      ],
+      "gl": [
+        ""
+      ]
     },
-    "bt": [
-      "golbez"
-    ],
     "ld": [
       "kadaj"
     ],
     "ex": [
       "kadaj",
       "maria",
-      "alisae"
+      "alisaie"
+    ],
+    "cp35": [
+      "kadaj",
+      "maria",
+      "alisaie"
+    ],
+    "cp15": [
+      "kadaj",
+      "maria",
+      "alisaie"
+    ],
+    "bt": [
+      "golbez"
     ]
   },
   {
-    "id": 394,
+    "id": "436",
     "title": {
       "jp": "ナイン断章ガチャ",
       "gl": "",
       "en": "Story Draw (Lost Chapter: Nine)"
     },
-    "featured_characters": [
-      "golbez",
-      "fujin",
-      "nine",
-      "barret"
-    ],
     "dates": {
-      "jp": ["", "2020-10-19"],
-      "gl": [""]
+      "jp": [
+        "",
+        "2020-10-19"
+      ],
+      "gl": [
+        ""
+      ]
     },
-    "bt": [
-      "golbez"
-    ],
     "ld": [
-      "fujin"
+      "fujin",
+      "nine"
     ],
     "ex": [
-      "golbez",
       "fujin",
       "nine",
       "barret"
+    ],
+    "cp35": [
+      "fujin",
+      "nine",
+      "barret"
+    ],
+    "cp15": [
+      "fujin",
+      "nine",
+      "barret"
+    ],
+    "bt": [
+      "golbez"
     ]
   },
   {
-    "id": 393,
+    "id": "434",
     "title": {
       "jp": "神幻獣界アレクサンダー①ガチャ",
       "gl": "",
       "en": "Event Draw 1 (Divine Alexander)"
     },
-    "featured_characters": [
-      "golbez",
-      "shadow",
-      "laguna"
-    ],
     "dates": {
-      "jp": ["", "2020-10-08"],
-      "gl": [""]
+      "jp": [
+        "",
+        "2020-10-08"
+      ],
+      "gl": [
+        ""
+      ]
     },
     "bt": [
       "golbez"
@@ -84,24 +208,33 @@
       "golbez",
       "shadow",
       "laguna"
+    ],
+    "cp35": [
+      "golbez",
+      "shadow",
+      "laguna"
+    ],
+    "cp15": [
+      "golbez",
+      "shadow",
+      "laguna"
     ]
   },
   {
-    "id": 392,
+    "id": "435",
     "title": {
       "jp": "神幻獣界アレクサンダー②ガチャ",
       "gl": "",
       "en": "Event Draw 2 (Divine Alexander)"
     },
-    "featured_characters": [
-      "hope",
-      "golbez",
-      "vivi",
-      "thancres"
-    ],
     "dates": {
-      "jp": ["", "2020-10-08"],
-      "gl": [""]
+      "jp": [
+        "",
+        "2020-10-08"
+      ],
+      "gl": [
+        ""
+      ]
     },
     "bt": [
       "golbez"
@@ -112,29 +245,35 @@
     "ex": [
       "hope",
       "vivi",
-      "thancres"
+      "thancred"
+    ],
+    "cp35": [
+      "hope",
+      "vivi",
+      "thancred"
+    ],
+    "cp15": [
+      "hope",
+      "vivi",
+      "thancred"
     ]
   },
   {
-    "id": 391,
+    "id": "433",
     "title": {
       "jp": "次元超越Stage2ガチャ",
       "gl": "",
       "en": "Event Draw (Dimensions End: Transcendence 2)"
     },
-    "featured_characters": [
-      "faris",
-      "garland",
-      "gilgamesh",
-      "locke"
-    ],
     "dates": {
-      "jp": ["", "2020-10-08"],
-      "gl": [""]
+      "jp": [
+        "",
+        "2020-10-08"
+      ],
+      "gl": [
+        ""
+      ]
     },
-    "bt": [
-      "garland"
-    ],
     "ld": [
       "faris"
     ],
@@ -142,22 +281,36 @@
       "faris",
       "gilgamesh",
       "locke"
+    ],
+    "cp35": [
+      "faris",
+      "gilgamesh",
+      "locke"
+    ],
+    "cp15": [
+      "faris",
+      "gilgamesh",
+      "locke"
+    ],
+    "bt": [
+      "garland"
     ]
   },
   {
-    "id": 390,
+    "id": "432",
     "title": {
       "jp": "シルバーウィークCPガチャ",
       "gl": "",
       "en": "Event Draw (Silver Week)"
     },
-    "featured_characters": [
-      "ignis",
-      "garland"
-    ],
     "dates": {
-      "jp": ["", "2020-10-01"],
-      "gl": [""]
+      "jp": [
+        "",
+        "2020-10-01"
+      ],
+      "gl": [
+        ""
+      ]
     },
     "bt": [
       "garland"
@@ -166,55 +319,69 @@
       "ignis"
     ],
     "ex": [
-      "ignis",
-      "garland",
-      "all the others"
+      "ignis"
+    ],
+    "cp35": [
+      "ignis"
+    ],
+    "cp15": [
+      "ignis"
     ]
   },
   {
-    "id": 389,
+    "id": "431",
     "title": {
       "jp": "デッシュ断章ガチャ",
       "gl": "",
       "en": "Story Draw (Lost Chapter: Desch)"
     },
-    "featured_characters": [
-      "desch",
-      "yang",
-      "garland",
-      "onion_knight"
-    ],
     "dates": {
-      "jp": ["", "2020-10-01"],
-      "gl": [""]
+      "jp": [
+        "",
+        "2020-10-01"
+      ],
+      "gl": [
+        ""
+      ]
     },
-    "bt": [
-      "garland"
-    ],
     "ld": [
-      "yang"
+      "yang",
+      "desch"
     ],
     "ex": [
-      "desch",
       "yang",
+      "desch",
       "onion_knight"
+    ],
+    "cp35": [
+      "yang",
+      "desch",
+      "onion_knight"
+    ],
+    "cp15": [
+      "yang",
+      "desch",
+      "onion_knight"
+    ],
+    "bt": [
+      "garland"
     ]
   },
   {
-    "id": 388,
+    "id": "429",
     "title": {
       "jp": "猛る剛剣①ガチャ",
       "gl": "",
       "en": "Event Draw (Raid: Rage Sword)"
     },
-    "featured_characters": [
-      "garland",
-      "freya",
-      "agrias"
-    ],
     "dates": {
-      "jp": ["", "2020-09-28"],
-      "gl": [""]
+      "jp": [
+        "",
+        "2020-09-28"
+      ],
+      "gl": [
+        ""
+      ]
     },
     "bt": [
       "garland"
@@ -226,52 +393,71 @@
       "garland",
       "freya",
       "agrias"
+    ],
+    "cp35": [
+      "garland",
+      "freya",
+      "agrias"
+    ],
+    "cp15": [
+      "garland",
+      "freya",
+      "agrias"
     ]
   },
   {
-    "id": 387,
+    "id": "430",
     "title": {
       "jp": "猛る剛剣②ガチャ",
       "gl": "",
       "en": "Event Draw 1 (Raid: Divine Diabolos)"
     },
-    "featured_characters": [
-      "garland",
-      "seven",
-      "yda",
-      "lenna"
-    ],
     "dates": {
-      "jp": ["", "2020-09-28"],
-      "gl": [""]
+      "jp": [
+        "",
+        "2020-09-28"
+      ],
+      "gl": [
+        ""
+      ]
     },
-    "bt": [
-      "garland"
-    ],
     "ld": [
       "seven"
     ],
     "ex": [
       "seven",
-      "yda",
-      "lenna"
+      "lenna",
+      "yda"
+    ],
+    "cp35": [
+      "seven",
+      "lenna",
+      "yda"
+    ],
+    "cp15": [
+      "seven",
+      "lenna",
+      "yda"
+    ],
+    "bt": [
+      "garland"
     ]
   },
   {
-    "id": 386,
+    "id": "425",
     "title": {
       "jp": "第3部2章前編①ガチャ",
       "gl": "",
       "en": "Story Draw 1 (Act 3, Pt. 2)"
     },
-    "featured_characters": [
-      "terra",
-      "porom",
-      "vanille"
-    ],
     "dates": {
-      "jp": ["", "2020-09-14"],
-      "gl": [""]
+      "jp": [
+        "",
+        "2020-09-14"
+      ],
+      "gl": [
+        ""
+      ]
     },
     "bt": [
       "terra"
@@ -283,28 +469,34 @@
       "terra",
       "porom",
       "vanille"
+    ],
+    "cp35": [
+      "terra",
+      "porom",
+      "vanille"
+    ],
+    "cp15": [
+      "terra",
+      "porom",
+      "vanille"
     ]
   },
   {
-    "id": 385,
+    "id": "426",
     "title": {
       "jp": "第3部2章前編②ガチャ",
       "gl": "",
       "en": "Story Draw 2 (Act 3, Pt. 2)"
     },
-    "featured_characters": [
-      "terra",
-      "basch",
-      "rydia",
-      "vayne"
-    ],
     "dates": {
-      "jp": ["", "2020-09-14"],
-      "gl": [""]
+      "jp": [
+        "",
+        "2020-09-14"
+      ],
+      "gl": [
+        ""
+      ]
     },
-    "bt": [
-      "terra"
-    ],
     "ld": [
       "basch"
     ],
@@ -312,28 +504,37 @@
       "basch",
       "rydia",
       "vayne"
+    ],
+    "cp35": [
+      "basch",
+      "rydia",
+      "vayne"
+    ],
+    "cp15": [
+      "basch",
+      "rydia",
+      "vayne"
+    ],
+    "bt": [
+      "terra"
     ]
   },
   {
-    "id": 384,
+    "id": "424",
     "title": {
       "jp": "深き森からガチャ",
       "gl": "",
       "en": "Event Draw (Boss Rush: From the Deep Forrest)"
     },
-    "featured_characters": [
-      "yshtola",
-      "wakka",
-      "sherlotta",
-      "setzer"
-    ],
     "dates": {
-      "jp": ["", "2020-09-08"],
-      "gl": [""]
+      "jp": [
+        "",
+        "2020-09-08"
+      ],
+      "gl": [
+        ""
+      ]
     },
-    "bt": [
-      "yshtola"
-    ],
     "ld": [
       "wakka"
     ],
@@ -341,51 +542,73 @@
       "wakka",
       "sherlotta",
       "setzer"
+    ],
+    "cp35": [
+      "wakka",
+      "sherlotta",
+      "setzer"
+    ],
+    "cp15": [
+      "wakka",
+      "sherlotta",
+      "setzer"
+    ],
+    "bt": [
+      "yshtola"
     ]
   },
   {
-    "id": 383,
+    "id": "423",
     "title": {
       "jp": "トレイ断章ガチャ",
       "gl": "",
       "en": "Story Draw (Lost Chapter: Trey)"
     },
-    "featured_characters": [
-      "yshtola",
-      "trey",
-      "quistis",
-      "fran"
-    ],
     "dates": {
-      "jp": ["", "2020-09-04"],
-      "gl": [""]
+      "jp": [
+        "",
+        "2020-09-04"
+      ],
+      "gl": [
+        ""
+      ]
     },
-    "bt": [
-      "yshtola"
-    ],
     "ld": [
       "trey"
     ],
     "ex": [
       "trey",
+      "quistis"
+    ],
+    "cp35": [
+      "trey",
       "quistis",
       "fran"
+    ],
+    "cp15": [
+      "trey",
+      "quistis",
+      "fran"
+    ],
+    "bt": [
+      "yshtola"
     ]
   },
   {
-    "id": 382,
+    "id": "422",
     "title": {
       "jp": "サマーCP②ガチャ",
       "gl": "",
       "en": "Event Draw 2 (Summer Campaing)"
     },
-    "featured_characters": [
-      "yshtola",
-      "serah"
-    ],
     "dates": {
-      "jp": ["", "2020-09-01"],
-      "gl": [""]
+      "jp": [
+        "",
+        "2020-09-01"
+      ],
+      "gl": [
+        ""
+      ]
     },
     "bt": [
       "yshtola"
@@ -394,26 +617,30 @@
       "serah"
     ],
     "ex": [
-      "yshtola",
-      "serah",
-      "all the others"
+      "serah"
+    ],
+    "cp35": [
+      "serah"
+    ],
+    "cp15": [
+      "serah"
     ]
   },
   {
-    "id": 381,
+    "id": "420",
     "title": {
       "jp": "恐怖の機械触手①ガチャ",
       "gl": "",
       "en": "Event Draw 1 (Horrific Mechanical Tentacles)"
     },
-    "featured_characters": [
-      "yshtola",
-      "fujin",
-      "balthier"
-    ],
     "dates": {
-      "jp": ["", "2020-09-11"],
-      "gl": [""]
+      "jp": [
+        "",
+        "2020-09-11"
+      ],
+      "gl": [
+        ""
+      ]
     },
     "bt": [
       "yshtola"
@@ -425,24 +652,33 @@
       "yshtola",
       "fujin",
       "balthier"
+    ],
+    "cp35": [
+      "yshtola",
+      "fujin",
+      "balthier"
+    ],
+    "cp15": [
+      "yshtola",
+      "fujin",
+      "balthier"
     ]
   },
   {
-    "id": 380,
+    "id": "421",
     "title": {
       "jp": "恐怖の機械触手②ガチャ",
       "gl": "",
       "en": "Event Draw 2 (Horrific Mechanical Tentacles)"
     },
-    "featured_characters": [
-      "yshtola",
-      "kuja",
-      "sabin",
-      "lilisette"
-    ],
     "dates": {
-      "jp": ["", "2020-09-11"],
-      "gl": [""]
+      "jp": [
+        "",
+        "2020-09-11"
+      ],
+      "gl": [
+        ""
+      ]
     },
     "bt": [
       "yshtola"
@@ -454,28 +690,34 @@
       "kuja",
       "sabin",
       "lilisette"
+    ],
+    "cp35": [
+      "kuja",
+      "sabin",
+      "lilisette"
+    ],
+    "cp15": [
+      "kuja",
+      "sabin",
+      "lilisette"
     ]
   },
   {
-    "id": 379,
+    "id": "419",
     "title": {
       "jp": "アラネアイベントガチャ",
       "gl": "",
       "en": "Event Draw (Aranea)"
     },
-    "featured_characters": [
-      "aranea",
-      "the_emperor",
-      "prompto",
-      "rem"
-    ],
     "dates": {
-      "jp": ["", "2020-08-25"],
-      "gl": [""]
+      "jp": [
+        "",
+        "2020-08-25"
+      ],
+      "gl": [
+        ""
+      ]
     },
-    "bt": [
-      "the_emperor"
-    ],
     "ld": [
       "aranea"
     ],
@@ -483,52 +725,74 @@
       "aranea",
       "prompto",
       "rem"
+    ],
+    "cp35": [
+      "aranea",
+      "prompto",
+      "rem"
+    ],
+    "cp15": [
+      "aranea",
+      "prompto",
+      "rem"
+    ],
+    "bt": [
+      "the_emperor"
     ]
   },
   {
-    "id": 378,
+    "id": "418",
     "title": {
       "jp": "エルドナーシュ断章ガチャ",
       "gl": "",
       "en": "Story Draw (Lost Chapter: Eald'narche)"
     },
-    "featured_characters": [
-      "ealdenarche",
-      "the_emperor",
-      "garnet",
-      "lann&reynn"
-    ],
     "dates": {
-      "jp": ["", "2020-08-21"],
-      "gl": [""]
+      "jp": [
+        "",
+        "2020-08-21"
+      ],
+      "gl": [
+        ""
+      ]
     },
-    "bt": [
-      "the_emperor"
-    ],
     "ld": [
-      "ealdenarche"
+      "ealdnarche"
     ],
     "ex": [
-      "ealdenarche",
+      "ealdnarche",
       "garnet",
       "lann&reynn"
+    ],
+    "cp35": [
+      "ealdnarche",
+      "garnet",
+      "lann&reynn"
+    ],
+    "cp15": [
+      "ealdnarche",
+      "garnet",
+      "lann&reynn"
+    ],
+    "bt": [
+      "the_emperor"
     ]
   },
   {
-    "id": 377,
+    "id": "417",
     "title": {
       "jp": "サマーCP①ガチャ",
       "gl": "",
       "en": "Event Draw 1 (Summer Campaing)"
     },
-    "featured_characters": [
-      "aerith",
-      "the_emperor"
-    ],
-    "_meta_search": "the_emperor bt;aerith ld;aerith ex",
     "dates": {
-      "jp": ["", "2020-08-18"],
-      "gl": [""]
+      "jp": [
+        "",
+        "2020-08-18"
+      ],
+      "gl": [
+        ""
+      ]
     },
     "bt": [
       "the_emperor"
@@ -537,26 +801,30 @@
       "aerith"
     ],
     "ex": [
-      "aerith",
-      "the_emperor",
-      "all the others"
+      "aerith"
+    ],
+    "cp35": [
+      "aerith"
+    ],
+    "cp15": [
+      "aerith"
     ]
   },
   {
-    "id": 376,
+    "id": "415",
     "title": {
       "jp": "神・幻獣界ラムウ①ガチャ",
       "gl": "",
       "en": "Event Draw 1 (Divine Ramuh)"
     },
-    "featured_characters": [
-      "selphie",
-      "the_emperor",
-      "lulu"
-    ],
     "dates": {
-      "jp": ["", "2020-08-17"],
-      "gl": [""]
+      "jp": [
+        "",
+        "2020-08-17"
+      ],
+      "gl": [
+        ""
+      ]
     },
     "bt": [
       "the_emperor"
@@ -565,31 +833,37 @@
       "the_emperor"
     ],
     "ex": [
-      "selphie",
       "the_emperor",
+      "selphie",
+      "lulu"
+    ],
+    "cp35": [
+      "the_emperor",
+      "selphie",
+      "lulu"
+    ],
+    "cp15": [
+      "the_emperor",
+      "selphie",
       "lulu"
     ]
   },
   {
-    "id": 375,
+    "id": "416",
     "title": {
       "jp": "神・幻獣界ラムウ②",
       "gl": "",
       "en": "Event Draw 2 (Divine Ramuh)"
     },
-    "featured_characters": [
-      "celes",
-      "the_emperor",
-      "yuffie",
-      "eiko"
-    ],
     "dates": {
-      "jp": ["", "2020-08-17"],
-      "gl": [""]
+      "jp": [
+        "",
+        "2020-08-17"
+      ],
+      "gl": [
+        ""
+      ]
     },
-    "bt": [
-      "the_emperor"
-    ],
     "ld": [
       "celes"
     ],
@@ -597,28 +871,37 @@
       "celes",
       "yuffie",
       "eiko"
+    ],
+    "cp35": [
+      "celes",
+      "yuffie",
+      "eiko"
+    ],
+    "cp15": [
+      "celes",
+      "yuffie",
+      "eiko"
+    ],
+    "bt": [
+      "the_emperor"
     ]
   },
   {
-    "id": 374,
+    "id": "414",
     "title": {
       "jp": "次元超越stage1ガチャ",
       "gl": "",
       "en": "Event Draw (Dimensions End: Transcendence 1)"
     },
-    "featured_characters": [
-      "cecil_paladin",
-      "gabranth",
-      "raijin",
-      "king"
-    ],
     "dates": {
-      "jp": ["", "2020-08-11"],
-      "gl": [""]
+      "jp": [
+        "",
+        "2020-08-11"
+      ],
+      "gl": [
+        ""
+      ]
     },
-    "bt": [
-      "cecil_paladin"
-    ],
     "ld": [
       "gabranth"
     ],
@@ -626,24 +909,36 @@
       "gabranth",
       "raijin",
       "king"
+    ],
+    "cp35": [
+      "gabranth",
+      "raijin",
+      "king"
+    ],
+    "cp15": [
+      "gabranth",
+      "raijin",
+      "king"
+    ],
+    "bt": [
+      "cecil_paladin"
     ]
   },
   {
-    "id": 373,
+    "id": "413",
     "title": {
       "jp": "クァイス断章ガチャ",
       "gl": "",
       "en": "Story Draw (Lost Chapter: Keiss)"
     },
-    "featured_characters": [
-      "cecil_paladin",
-      "keiss",
-      "cloud",
-      "zidane"
-    ],
     "dates": {
-      "jp": ["", "2020-08-04"],
-      "gl": [""]
+      "jp": [
+        "",
+        "2020-08-04"
+      ],
+      "gl": [
+        ""
+      ]
     },
     "bt": [
       "cecil_paladin"
@@ -653,163 +948,568 @@
     ],
     "ex": [
       "keiss",
-      "cloud",
-      "zidane"
+      "zidane",
+      "cloud"
+    ],
+    "cp35": [
+      "keiss",
+      "zidane",
+      "cloud"
+    ],
+    "cp15": [
+      "keiss",
+      "zidane",
+      "cloud"
     ]
   },
   {
-    "id": 372,
+    "id": "409",
     "title": {
       "jp": "スタートダッシュガチャ",
       "gl": "",
       "en": "Starter Draw"
     },
-    "featured_characters": [
-      "cloud",
-      "lightning",
-      "squall"
-    ],
     "dates": {
-      "jp": "",
-      "gl": ""
+      "jp": [
+        ""
+      ],
+      "gl": [
+        ""
+      ]
     },
     "bt": [
-      "cloud",
+      "squall",
       "lightning",
-      "squall"
+      "cloud"
     ],
     "ld": [
-      "cloud",
+      "squall",
       "lightning",
-      "squall"
+      "cloud"
     ],
     "ex": [
-      "cloud",
+      "squall",
       "lightning",
-      "squall"
+      "cloud"
+    ],
+    "cp35": [
+      "squall",
+      "lightning",
+      "cloud"
+    ],
+    "cp15": [
+      "squall",
+      "lightning",
+      "cloud"
     ]
   },
   {
-    "id": 371,
+    "id": "410",
     "title": {
       "jp": "サマーキャンペーン特別①ガチャ",
       "gl": "",
       "en": "Event Draw 1 (Summer Campaing)"
     },
-    "featured_characters": [
-      "warrior_of_light",
-      "firion",
-      "onion_knight",
-      "cecil_paladin",
-      "bartz",
-      "terra",
-      "cloud"
-    ],
-    "_meta_search": "ff1 ex;ff2 ex;ff3 ex;ff4 ex;ff5 ex;ff6 ex",
     "dates": {
-      "jp": ["", "2020-09-02"],
-      "gl": [""]
+      "jp": [
+        "",
+        "2020-09-02"
+      ],
+      "gl": [
+        ""
+      ]
     },
-    "bt": [
-    ],
-    "ld": [
-    ],
     "ex": [
-      "warrior_of_light",
-      "firion",
-      "onion_knight",
-      "cecil_paladin",
-      "bartz",
-      "terra",
+      "rude",
+      "reno",
+      "barret",
+      "cait_sith",
+      "zack",
+      "cid",
+      "sephiroth",
+      "aerith",
+      "vincent",
+      "yuffie",
       "cloud",
-      "and all the others in ff1 ex;ff2 ex;ff3 ex;ff4 ex;ff5 ex;ff6 ex;ff7"
+      "tifa",
+      "strago",
+      "leo",
+      "gau",
+      "locke",
+      "relm",
+      "kefka",
+      "celes",
+      "edgar",
+      "cyan",
+      "sabin",
+      "setzer",
+      "shadow",
+      "terra",
+      "edward",
+      "porom",
+      "golbez",
+      "rosa",
+      "cecil_paladin",
+      "rydia",
+      "palom",
+      "kain",
+      "yang",
+      "edge",
+      "cecil",
+      "guy",
+      "the_emperor",
+      "leonhart",
+      "maria",
+      "firion",
+      "xande",
+      "desch",
+      "cloud_of_darkness",
+      "onion_knight",
+      "exdeath",
+      "gilgamesh",
+      "lenna",
+      "krile",
+      "faris",
+      "galuf",
+      "bartz",
+      "warrior_of_light",
+      "garland"
+    ],
+    "cp35": [
+      "rude",
+      "reno",
+      "barret",
+      "cait_sith",
+      "zack",
+      "cid",
+      "sephiroth",
+      "aerith",
+      "vincent",
+      "yuffie",
+      "cloud",
+      "tifa",
+      "strago",
+      "leo",
+      "gau",
+      "locke",
+      "relm",
+      "kefka",
+      "celes",
+      "edgar",
+      "cyan",
+      "sabin",
+      "setzer",
+      "shadow",
+      "terra",
+      "edward",
+      "porom",
+      "golbez",
+      "rosa",
+      "cecil_paladin",
+      "rydia",
+      "palom",
+      "kain",
+      "yang",
+      "edge",
+      "cecil",
+      "guy",
+      "the_emperor",
+      "leonhart",
+      "maria",
+      "firion",
+      "xande",
+      "desch",
+      "cloud_of_darkness",
+      "onion_knight",
+      "exdeath",
+      "gilgamesh",
+      "lenna",
+      "krile",
+      "faris",
+      "galuf",
+      "bartz",
+      "warrior_of_light",
+      "garland"
+    ],
+    "cp15": [
+      "rude",
+      "reno",
+      "barret",
+      "cait_sith",
+      "zack",
+      "cid",
+      "sephiroth",
+      "aerith",
+      "vincent",
+      "yuffie",
+      "cloud",
+      "tifa",
+      "strago",
+      "leo",
+      "gau",
+      "locke",
+      "relm",
+      "kefka",
+      "celes",
+      "edgar",
+      "cyan",
+      "sabin",
+      "setzer",
+      "shadow",
+      "terra",
+      "edward",
+      "porom",
+      "golbez",
+      "rosa",
+      "cecil_paladin",
+      "rydia",
+      "palom",
+      "kain",
+      "yang",
+      "edge",
+      "cecil",
+      "guy",
+      "the_emperor",
+      "leonhart",
+      "maria",
+      "firion",
+      "xande",
+      "desch",
+      "cloud_of_darkness",
+      "onion_knight",
+      "exdeath",
+      "gilgamesh",
+      "lenna",
+      "krile",
+      "faris",
+      "galuf",
+      "bartz",
+      "warrior_of_light",
+      "garland"
     ]
   },
   {
-    "id": 370,
+    "id": "411",
     "title": {
       "jp": "サマーキャンペーン特別②ガチャ",
       "gl": "",
       "en": "Event Draw 2 (Summer Campaing)"
     },
-    "featured_characters": [
-      "squall",
-      "zidane",
-      "tidus",
-      "shantotto",
-      "vaan",
-      "lightning",
-      "yshtola",
-      "noctis"
-    ],
     "dates": {
-      "jp": ["", "2020-09-02"],
-      "gl": [""]
+      "jp": [
+        "",
+        "2020-09-02"
+      ],
+      "gl": [
+        ""
+      ]
     },
-    "bt": [
-    ],
-    "ld": [
-    ],
     "ex": [
-      "squall",
-      "zidane",
-      "tidus",
-      "shantotto",
-      "vaan",
-      "lightning",
-      "yshtola",
+      "gladiolus",
+      "ardyn",
+      "ignis",
+      "prompto",
       "noctis",
-      "and all the others in ff8 ex;ff9 ex;ff10 ex;ff11 ex;ff12 ex;ff13 ex;ff14 ex;ff15 ex"
+      "gabranth",
+      "basch",
+      "fran",
+      "vayne",
+      "ashe",
+      "balthier",
+      "penelo",
+      "vaan",
+      "ealdnarche",
+      "arciela",
+      "kamlanaut",
+      "aphmau",
+      "lilisette",
+      "lion",
+      "prishe",
+      "shantotto",
+      "caius",
+      "noel",
+      "fang",
+      "serah",
+      "lightning",
+      "snow",
+      "vanille",
+      "hope",
+      "sazh",
+      "beatrix",
+      "freya",
+      "kuja",
+      "garnet",
+      "eiko",
+      "steiner",
+      "zidane",
+      "vivi",
+      "kimahri",
+      "paine",
+      "lulu",
+      "jecht",
+      "auron",
+      "seymour",
+      "tidus",
+      "wakka",
+      "yuna",
+      "lyse",
+      "alphinaud",
+      "alisaie",
+      "papalymo",
+      "thancred",
+      "yda",
+      "yshtola",
+      "ultimecia",
+      "rinoa",
+      "selphie",
+      "seifer",
+      "fujin",
+      "raijin",
+      "quistis",
+      "irvine",
+      "zell",
+      "squall",
+      "laguna"
+    ],
+    "cp35": [
+      "gladiolus",
+      "ardyn",
+      "ignis",
+      "prompto",
+      "noctis",
+      "gabranth",
+      "basch",
+      "fran",
+      "vayne",
+      "ashe",
+      "balthier",
+      "penelo",
+      "vaan",
+      "ealdnarche",
+      "arciela",
+      "kamlanaut",
+      "aphmau",
+      "lilisette",
+      "lion",
+      "prishe",
+      "shantotto",
+      "caius",
+      "noel",
+      "fang",
+      "serah",
+      "lightning",
+      "snow",
+      "vanille",
+      "hope",
+      "sazh",
+      "beatrix",
+      "freya",
+      "kuja",
+      "garnet",
+      "eiko",
+      "steiner",
+      "zidane",
+      "vivi",
+      "kimahri",
+      "paine",
+      "lulu",
+      "jecht",
+      "auron",
+      "seymour",
+      "tidus",
+      "wakka",
+      "yuna",
+      "lyse",
+      "alphinaud",
+      "alisaie",
+      "papalymo",
+      "thancred",
+      "yda",
+      "yshtola",
+      "ultimecia",
+      "rinoa",
+      "selphie",
+      "seifer",
+      "fujin",
+      "raijin",
+      "quistis",
+      "irvine",
+      "zell",
+      "squall",
+      "laguna"
+    ],
+    "cp15": [
+      "gladiolus",
+      "ardyn",
+      "ignis",
+      "prompto",
+      "noctis",
+      "gabranth",
+      "basch",
+      "fran",
+      "vayne",
+      "ashe",
+      "balthier",
+      "penelo",
+      "vaan",
+      "ealdnarche",
+      "arciela",
+      "kamlanaut",
+      "aphmau",
+      "lilisette",
+      "lion",
+      "prishe",
+      "shantotto",
+      "caius",
+      "noel",
+      "fang",
+      "serah",
+      "lightning",
+      "snow",
+      "vanille",
+      "hope",
+      "sazh",
+      "beatrix",
+      "freya",
+      "kuja",
+      "garnet",
+      "eiko",
+      "steiner",
+      "zidane",
+      "vivi",
+      "kimahri",
+      "paine",
+      "lulu",
+      "jecht",
+      "auron",
+      "seymour",
+      "tidus",
+      "wakka",
+      "yuna",
+      "lyse",
+      "alphinaud",
+      "alisaie",
+      "papalymo",
+      "thancred",
+      "yda",
+      "yshtola",
+      "ultimecia",
+      "rinoa",
+      "selphie",
+      "seifer",
+      "fujin",
+      "raijin",
+      "quistis",
+      "irvine",
+      "zell",
+      "squall",
+      "laguna"
     ]
   },
   {
-    "id": 369,
+    "id": "412",
     "title": {
       "jp": "サマーキャンペーン特別③ガチャ",
       "gl": "",
       "en": "Event Draw 3 (Summer Campaing)"
     },
-    "featured_characters": [
-      "ramza",
-      "ace",
-      "ciaran",
-      "yuri",
-      "lann&reynn",
-      "layle"
-    ],
     "dates": {
-      "jp": ["", "2020-09-02"],
-      "gl": [""]
+      "jp": [
+        "",
+        "2020-09-02"
+      ],
+      "gl": [
+        ""
+      ]
     },
-    "bt": [
-    ],
-    "ld": [
-    ],
     "ex": [
-      "ramza",
+      "kurasame",
+      "nine",
+      "trey",
+      "jack",
+      "eight",
+      "machina",
+      "cinque",
+      "deuce",
+      "seven",
+      "cater",
       "ace",
+      "king",
+      "rem",
+      "amidatelion",
+      "keiss",
       "ciaran",
+      "sherlotta",
       "yuri",
-      "lann&reynn",
       "layle",
-      "and all the others in fft ex;fft0 ex;ffcc ex;woff ex"
+      "lann&reynn",
+      "agrias",
+      "ramza"
+    ],
+    "cp35": [
+      "kurasame",
+      "nine",
+      "trey",
+      "jack",
+      "eight",
+      "machina",
+      "cinque",
+      "deuce",
+      "seven",
+      "cater",
+      "ace",
+      "king",
+      "rem",
+      "amidatelion",
+      "keiss",
+      "ciaran",
+      "sherlotta",
+      "yuri",
+      "layle",
+      "lann&reynn",
+      "agrias",
+      "ramza"
+    ],
+    "cp15": [
+      "kurasame",
+      "nine",
+      "trey",
+      "jack",
+      "eight",
+      "machina",
+      "cinque",
+      "deuce",
+      "seven",
+      "cater",
+      "ace",
+      "king",
+      "rem",
+      "amidatelion",
+      "keiss",
+      "ciaran",
+      "sherlotta",
+      "yuri",
+      "layle",
+      "lann&reynn",
+      "agrias",
+      "ramza"
     ]
   },
   {
-    "id": 368,
+    "id": "407",
     "title": {
       "jp": "光喰らう魔竜の顎①ガチャ",
       "gl": "",
       "en": "Event Draw 1 (Light Eating Dragon's Jaw)"
     },
-    "featured_characters": [
-      "cecil_paladin",
-      "laguna",
-      "jecht"
-    ],
     "dates": {
-      "jp": ["", "2020-07-28"],
-      "gl": [""]
+      "jp": [
+        "",
+        "2020-07-28"
+      ],
+      "gl": [
+        ""
+      ]
     },
     "bt": [
       "cecil_paladin"
@@ -821,24 +1521,33 @@
       "cecil_paladin",
       "laguna",
       "jecht"
+    ],
+    "cp35": [
+      "cecil_paladin",
+      "laguna",
+      "jecht"
+    ],
+    "cp15": [
+      "cecil_paladin",
+      "laguna",
+      "jecht"
     ]
   },
   {
-    "id": 367,
+    "id": "408",
     "title": {
       "jp": "光喰らう魔竜の顎②ガチャ",
       "gl": "",
       "en": "Event Draw 2 (Light Eating Dragon's Jaw)"
     },
-    "featured_characters": [
-      "cecil_paladin",
-      "barret",
-      "fang",
-      "kamlanaut"
-    ],
     "dates": {
-      "jp": ["", "2020-07-28"],
-      "gl": [""]
+      "jp": [
+        "",
+        "2020-07-28"
+      ],
+      "gl": [
+        ""
+      ]
     },
     "bt": [
       "cecil_paladin"
@@ -847,31 +1556,37 @@
       "kamlanaut"
     ],
     "ex": [
-      "barret",
+      "kamlanaut",
       "fang",
-      "kamlanaut"
+      "barret"
+    ],
+    "cp35": [
+      "kamlanaut",
+      "fang",
+      "barret"
+    ],
+    "cp15": [
+      "kamlanaut",
+      "fang",
+      "barret"
     ]
   },
   {
-    "id": 366,
+    "id": "406",
     "title": {
       "jp": "第3部1章後編ガチャ",
       "gl": "",
       "en": "Story Draw 1 (Act 3, Pt. 1 finale)"
     },
-    "featured_characters": [
-      "onion_knight",
-      "ceodore",
-      "cid",
-      "alphinaud"
-    ],
     "dates": {
-      "jp": ["", "2020-07-27"],
-      "gl": [""]
+      "jp": [
+        "",
+        "2020-07-27"
+      ],
+      "gl": [
+        ""
+      ]
     },
-    "bt": [
-      "onion_knight"
-    ],
     "ld": [
       "ceodore"
     ],
@@ -879,52 +1594,74 @@
       "ceodore",
       "cid",
       "alphinaud"
+    ],
+    "cp35": [
+      "ceodore",
+      "cid",
+      "alphinaud"
+    ],
+    "cp15": [
+      "ceodore",
+      "cid",
+      "alphinaud"
+    ],
+    "bt": [
+      "onion_knight"
     ]
   },
   {
-    "id": 365,
+    "id": "405",
     "title": {
       "jp": "アシェラ断章ガチャ",
       "gl": "",
       "en": "Story Draw (Lost Chapter: Arciela)"
     },
-    "featured_characters": [
-      "onion_knight",
-      "rinoa",
-      "arciela",
-      "prishe"
-    ],
     "dates": {
-      "jp": ["", "2020-07-20"],
-      "gl": [""]
+      "jp": [
+        "",
+        "2020-07-20"
+      ],
+      "gl": [
+        ""
+      ]
     },
-    "bt": [
-      "onion_knight"
-    ],
     "ld": [
       "arciela"
     ],
     "ex": [
-      "rinoa",
       "arciela",
+      "rinoa",
       "prishe"
+    ],
+    "cp35": [
+      "arciela",
+      "rinoa",
+      "prishe"
+    ],
+    "cp15": [
+      "arciela",
+      "rinoa",
+      "prishe"
+    ],
+    "bt": [
+      "onion_knight"
     ]
   },
   {
-    "id": 364,
+    "id": "403",
     "title": {
       "jp": "第3部1章～前編～①ガチャ",
       "gl": "",
       "en": "Story Draw 1 (Act 3, Pt. 1)"
     },
-    "featured_characters": [
-      "onion_knight",
-      "snow",
-      "cater"
-    ],
     "dates": {
-      "jp": ["", "2020-07-14"],
-      "gl": [""]
+      "jp": [
+        "",
+        "2020-07-14"
+      ],
+      "gl": [
+        ""
+      ]
     },
     "bt": [
       "onion_knight"
@@ -936,24 +1673,33 @@
       "onion_knight",
       "snow",
       "cater"
+    ],
+    "cp35": [
+      "onion_knight",
+      "snow",
+      "cater"
+    ],
+    "cp15": [
+      "onion_knight",
+      "snow",
+      "cater"
     ]
   },
   {
-    "id": 363,
+    "id": "404",
     "title": {
       "jp": "第3部1章～前編～②ガチャ",
       "gl": "",
       "en": "Story Draw 2 (Act 3, Pt. 1)"
     },
-    "featured_characters": [
-      "onion_knight",
-      "gau",
-      "sazh",
-      "alisae"
-    ],
     "dates": {
-      "jp": ["", "2020-07-14"],
-      "gl": [""]
+      "jp": [
+        "",
+        "2020-07-14"
+      ],
+      "gl": [
+        ""
+      ]
     },
     "bt": [
       "onion_knight"
@@ -964,25 +1710,34 @@
     "ex": [
       "gau",
       "sazh",
-      "alisae"
+      "alisaie"
+    ],
+    "cp35": [
+      "gau",
+      "sazh",
+      "alisaie"
+    ],
+    "cp15": [
+      "gau",
+      "sazh",
+      "alisaie"
     ]
   },
   {
-    "id": 362,
+    "id": "402",
     "title": {
       "jp": "絶望の箱庭ガチャ",
       "gl": "",
       "en": "Event Draw (Sandbox of despair)"
     },
-    "featured_characters": [
-      "ultimecia",
-      "hope",
-      "cloud_of_darkness",
-      "shadow"
-    ],
     "dates": {
-      "jp": ["", "2020-07-08"],
-      "gl": [""]
+      "jp": [
+        "",
+        "2020-07-08"
+      ],
+      "gl": [
+        ""
+      ]
     },
     "bt": [
       "ultimecia"
@@ -994,24 +1749,33 @@
       "hope",
       "cloud_of_darkness",
       "shadow"
+    ],
+    "cp35": [
+      "hope",
+      "cloud_of_darkness",
+      "shadow"
+    ],
+    "cp15": [
+      "hope",
+      "cloud_of_darkness",
+      "shadow"
     ]
   },
   {
-    "id": 361,
+    "id": "401",
     "title": {
       "jp": "次元の最果て：混沌 完結記念CPガチャ",
       "gl": "",
       "en": "Event Draw (Final Dimensions End celebration)"
     },
-    "featured_characters": [
-      "ultimecia",
-      "relm",
-      "aphmau",
-      "krile"
-    ],
     "dates": {
-      "jp": ["", "2020-07-03"],
-      "gl": [""]
+      "jp": [
+        "",
+        "2020-07-03"
+      ],
+      "gl": [
+        ""
+      ]
     },
     "bt": [
       "ultimecia"
@@ -1020,27 +1784,36 @@
       "krile"
     ],
     "ex": [
+      "krile",
       "relm",
-      "aphmau",
-      "krile"
+      "aphmau"
+    ],
+    "cp35": [
+      "krile",
+      "relm",
+      "aphmau"
+    ],
+    "cp15": [
+      "krile",
+      "relm",
+      "aphmau"
     ]
   },
   {
-    "id": 362,
+    "id": "400",
     "title": {
       "jp": "ジャック断章ガチャ",
       "gl": "",
       "en": "Story Draw (Lost Chapter: Jack)"
     },
-    "featured_characters": [
-      "ultimecia",
-      "jack",
-      "ignis",
-      "ramza"
-    ],
     "dates": {
-      "jp": ["", "2020-06-30"],
-      "gl": [""]
+      "jp": [
+        "",
+        "2020-06-30"
+      ],
+      "gl": [
+        ""
+      ]
     },
     "bt": [
       "ultimecia"
@@ -1050,25 +1823,35 @@
     ],
     "ex": [
       "jack",
-      "ignis",
-      "ramza"
+      "ramza",
+      "ignis"
+    ],
+    "cp35": [
+      "jack",
+      "ramza",
+      "ignis"
+    ],
+    "cp15": [
+      "jack",
+      "ramza",
+      "ignis"
     ]
   },
   {
-    "id": 361,
+    "id": "398",
     "title": {
       "jp": "機空兵迎撃作戦①ガチャ",
       "gl": "",
       "en": ""
     },
-    "featured_characters": [
-      "ultimecia",
-      "porom",
-      "papalymo"
-    ],
     "dates": {
-      "jp": ["", "2020-06-26"],
-      "gl": [""]
+      "jp": [
+        "",
+        "2020-06-26"
+      ],
+      "gl": [
+        ""
+      ]
     },
     "bt": [
       "ultimecia"
@@ -1078,26 +1861,35 @@
     ],
     "ex": [
       "ultimecia",
-      "porom",
-      "papalymo"
+      "papalymo",
+      "palom"
+    ],
+    "cp35": [
+      "ultimecia",
+      "papalymo",
+      "palom"
+    ],
+    "cp15": [
+      "ultimecia",
+      "papalymo",
+      "palom"
     ]
   },
   {
-    "id": 360,
+    "id": "399",
     "title": {
       "jp": "機空兵迎撃作戦②ガチャ",
       "gl": "",
       "en": ""
     },
-    "featured_characters": [
-      "ultimecia",
-      "penelo",
-      "cyan",
-      "thancred"
-    ],
     "dates": {
-      "jp": ["", "2020-06-26"],
-      "gl": [""]
+      "jp": [
+        "",
+        "2020-06-26"
+      ],
+      "gl": [
+        ""
+      ]
     },
     "bt": [
       "ultimecia"
@@ -1107,26 +1899,35 @@
     ],
     "ex": [
       "penelo",
-      "cyan",
-      "thancred"
+      "thancred",
+      "cyan"
+    ],
+    "cp35": [
+      "penelo",
+      "thancred",
+      "cyan"
+    ],
+    "cp15": [
+      "penelo",
+      "thancred",
+      "cyan"
     ]
   },
   {
-    "id": 359,
+    "id": "397",
     "title": {
       "jp": "ガイガチャ",
       "gl": "",
       "en": "Event Draw (Guy)"
     },
-    "featured_characters": [
-      "ramza",
-      "guy",
-      "auron",
-      "cinque"
-    ],
     "dates": {
-      "jp": ["", "2020-06-23"],
-      "gl": [""]
+      "jp": [
+        "",
+        "2020-06-23"
+      ],
+      "gl": [
+        ""
+      ]
     },
     "bt": [
       "ramza"
@@ -1138,24 +1939,33 @@
       "guy",
       "auron",
       "cinque"
+    ],
+    "cp35": [
+      "guy",
+      "auron",
+      "cinque"
+    ],
+    "cp15": [
+      "guy",
+      "auron",
+      "cinque"
     ]
   },
   {
-    "id": 358,
+    "id": "396",
     "title": {
       "jp": "カイアス断章ガチャ",
       "gl": "",
       "en": "Story Draw (Lost Chapter: Caius)"
     },
-    "featured_characters": [
-      "ramza",
-      "caius",
-      "noel",
-      "lyse"
-    ],
     "dates": {
-      "jp": ["", "2020-06-16"],
-      "gl": [""]
+      "jp": [
+        "",
+        "2020-06-16"
+      ],
+      "gl": [
+        ""
+      ]
     },
     "bt": [
       "ramza"
@@ -1167,24 +1977,33 @@
       "caius",
       "noel",
       "lyse"
+    ],
+    "cp35": [
+      "caius",
+      "noel",
+      "lyse"
+    ],
+    "cp15": [
+      "caius",
+      "noel",
+      "lyse"
     ]
   },
   {
-    "id": 357,
+    "id": "394",
     "title": {
       "jp": "神・幻獣界～ディアボロス～①ガチャ",
       "gl": "",
       "en": "Event Draw 1 (Divine Diabolos)"
     },
-    "featured_characters": [
-      "ramza",
-      "freya",
-      "yda"
-    ],
-    "_meta_search": "ramza bt;ramza ld;freya ex;yda ex",
     "dates": {
-      "jp": ["", "2020-06-12"],
-      "gl": [""]
+      "jp": [
+        "",
+        "2020-06-12"
+      ],
+      "gl": [
+        ""
+      ]
     },
     "bt": [
       "ramza"
@@ -1196,25 +2015,33 @@
       "ramza",
       "freya",
       "yda"
+    ],
+    "cp35": [
+      "ramza",
+      "freya",
+      "yda"
+    ],
+    "cp15": [
+      "ramza",
+      "freya",
+      "yda"
     ]
   },
   {
-    "id": 356,
+    "id": "395",
     "title": {
       "jp": "神・幻獣界～ディアボロス～②ガチャ",
       "gl": "",
       "en": "Event Draw 2 (Divine Diabolos)"
     },
-    "featured_characters": [
-      "ramza",
-      "machina",
-      "maria",
-      "paine"
-    ],
-    "_meta_search": "ramza bt;machina ld;maria ex;paine ex",
     "dates": {
-      "jp": ["", "2020-06-12"],
-      "gl": [""]
+      "jp": [
+        "",
+        "2020-06-12"
+      ],
+      "gl": [
+        ""
+      ]
     },
     "bt": [
       "ramza"
@@ -1226,67 +2053,98 @@
       "machina",
       "maria",
       "paine"
+    ],
+    "cp35": [
+      "machina",
+      "maria",
+      "paine"
+    ],
+    "cp15": [
+      "machina",
+      "maria",
+      "paine"
     ]
   },
   {
-    "id": 355,
+    "id": "392",
     "title": {
       "jp": "バーストラッシュ第3弾①ガチャ",
       "gl": "",
       "en": "Event Draw Rerun 1 (Burst Rush 3)"
     },
-    "featured_characters": [
-      "vaan",
+    "dates": {
+      "jp": [
+        "",
+        "2020-06-08"
+      ],
+      "gl": [
+        ""
+      ]
+    },
+    "bt": [
       "ardyn",
+      "vaan"
+    ],
+    "ld": [
+      "ardyn",
+      "vaan"
+    ],
+    "ex": [
+      "ardyn",
+      "vaan",
       "balthier",
       "gabranth"
     ],
-    "dates": {
-      "jp": ["", "2020-06-08"],
-      "gl": [""]
-    },
-    "bt": [
-      "vaan",
-      "ardyn"
-    ],
-    "ld": [
-      "vaan",
-      "ardyn"
-    ],
-    "ex": [
-      "vaan",
+    "cp35": [
       "ardyn",
+      "vaan",
+      "balthier",
+      "gabranth"
+    ],
+    "cp15": [
+      "ardyn",
+      "vaan",
       "balthier",
       "gabranth"
     ]
   },
   {
-    "id": 354,
+    "id": "393",
     "title": {
       "jp": "バーストラッシュ第3弾②ガチャ",
       "gl": "",
       "en": "Event Draw Rerun 2 (Burst Rush 3)"
     },
-    "featured_characters": [
-      "vaan",
+    "dates": {
+      "jp": [
+        "",
+        "2020-06-08"
+      ],
+      "gl": [
+        ""
+      ]
+    },
+    "bt": [
+      "ardyn",
+      "vaan"
+    ],
+    "ld": [
+      "ardyn",
+      "vaan"
+    ],
+    "ex": [
       "ardyn",
       "lenna",
       "locke",
       "wakka"
     ],
-    "dates": {
-      "jp": ["", "2020-06-08"],
-      "gl": [""]
-    },
-    "bt": [
-      "vaan",
-      "ardyn"
+    "cp35": [
+      "ardyn",
+      "lenna",
+      "locke",
+      "wakka"
     ],
-    "ld": [
-      "vaan",
-      "ardyn"
-    ],
-    "ex": [
+    "cp15": [
       "ardyn",
       "lenna",
       "locke",
@@ -1294,64 +2152,85 @@
     ]
   },
   {
-    "id": 353,
+    "id": "390",
     "title": {
       "jp": "バーストラッシュ第2弾①ガチャ",
       "gl": "",
       "en": "Event Draw Rerun 1 (Burst Rush 2)"
     },
-    "featured_characters": [
-      "shantotto",
+    "dates": {
+      "jp": [
+        "",
+        "2020-06-03"
+      ],
+      "gl": [
+        ""
+      ]
+    },
+    "bt": [
       "kefka",
+      "shantotto"
+    ],
+    "ld": [
+      "kefka",
+      "shantotto"
+    ],
+    "ex": [
+      "kefka",
+      "shantotto",
       "shadow",
       "aerith"
     ],
-    "dates": {
-      "jp": ["", "2020-06-03"],
-      "gl": [""]
-    },
-    "bt": [
-      "shantotto",
-      "kefka"
-    ],
-    "ld": [
-      "shantotto",
-      "kefka"
-    ],
-    "ex": [
-      "shantotto",
+    "cp35": [
       "kefka",
+      "shantotto",
+      "shadow",
+      "aerith"
+    ],
+    "cp15": [
+      "kefka",
+      "shantotto",
       "shadow",
       "aerith"
     ]
   },
   {
-    "id": 352,
+    "id": "391",
     "title": {
       "jp": "バーストラッシュ第2弾②ガチャ",
       "gl": "",
       "en": "Event Draw Rerun 2 (Burst Rush 2)"
     },
-    "featured_characters": [
-      "shantotto",
+    "dates": {
+      "jp": [
+        "",
+        "2020-06-03"
+      ],
+      "gl": [
+        ""
+      ]
+    },
+    "bt": [
       "kefka",
+      "shantotto"
+    ],
+    "ld": [
+      "kefka",
+      "shantotto"
+    ],
+    "ex": [
+      "shantotto",
       "freya",
       "seymour",
       "lyse"
     ],
-    "dates": {
-      "jp": ["", "2020-06-03"],
-      "gl": [""]
-    },
-    "bt": [
+    "cp35": [
       "shantotto",
-      "kefka"
+      "freya",
+      "seymour",
+      "lyse"
     ],
-    "ld": [
-      "shantotto",
-      "kefka"
-    ],
-    "ex": [
+    "cp15": [
       "shantotto",
       "freya",
       "seymour",
@@ -1359,21 +2238,20 @@
     ]
   },
   {
-    "id": 351,
+    "id": "388",
     "title": {
       "jp": "バーストラッシュ第1弾①ガチャ",
       "gl": "",
       "en": "Event Draw Rerun 1 (Burst Rush 1)"
     },
-    "featured_characters": [
-      "noctis",
-      "squall",
-      "steiner",
-      "auron"
-    ],
     "dates": {
-      "jp": ["", "2020-05-29"],
-      "gl": [""]
+      "jp": [
+        "",
+        "2020-05-29"
+      ],
+      "gl": [
+        ""
+      ]
     },
     "bt": [
       "noctis",
@@ -1386,27 +2264,37 @@
     "ex": [
       "noctis",
       "squall",
-      "steiner",
-      "auron"
+      "auron",
+      "steiner"
+    ],
+    "cp35": [
+      "noctis",
+      "squall",
+      "auron",
+      "steiner"
+    ],
+    "cp15": [
+      "noctis",
+      "squall",
+      "auron",
+      "steiner"
     ]
   },
   {
-    "id": 350,
+    "id": "389",
     "title": {
       "jp": "バーストラッシュ第1弾②ガチャ",
       "gl": "",
       "en": "Event Draw Rerun 2 (Burst Rush 1)"
     },
-    "featured_characters": [
-      "noctis",
-      "squall",
-      "gilgamesh",
-      "tifa",
-      "cait_sith"
-    ],
     "dates": {
-      "jp": ["", "2020-05-29"],
-      "gl": [""]
+      "jp": [
+        "",
+        "2020-05-29"
+      ],
+      "gl": [
+        ""
+      ]
     },
     "bt": [
       "noctis",
@@ -1421,82 +2309,111 @@
       "gilgamesh",
       "tifa",
       "cait_sith"
+    ],
+    "cp35": [
+      "noctis",
+      "gilgamesh",
+      "tifa",
+      "cait_sith"
+    ],
+    "cp15": [
+      "noctis",
+      "gilgamesh",
+      "tifa",
+      "cait_sith"
     ]
   },
   {
-    "id": 349,
+    "id": "387",
     "title": {
       "jp": "翔ける焔ガチャ",
       "gl": "",
       "en": "Event Draw (Boss Rush: Flying Blaze)"
     },
-    "featured_characters": [
-      "firion",
-      "cecil",
-      "leonhart",
-      "kain"
-    ],
     "dates": {
-      "jp": ["", "2020-05-26"],
-      "gl": [""]
+      "jp": [
+        "",
+        "2020-05-26"
+      ],
+      "gl": [
+        ""
+      ]
     },
-    "bt": [
-      "firion"
-    ],
     "ld": [
       "cecil"
     ],
     "ex": [
       "cecil",
-      "leonhart",
-      "kain"
+      "kain",
+      "leonhart"
+    ],
+    "cp35": [
+      "cecil",
+      "kain",
+      "leonhart"
+    ],
+    "cp15": [
+      "cecil",
+      "kain",
+      "leonhart"
+    ],
+    "bt": [
+      "firion"
     ]
   },
   {
-    "id": 348,
+    "id": "386",
     "title": {
       "jp": "エクスデス断章ガチャ",
       "gl": "",
       "en": "Story Draw (Lost Chapter: Exdeath)"
     },
-    "featured_characters": [
-      "firion",
-      "exdeath",
-      "warrior_of_light",
-      "gilgamesh"
-    ],
     "dates": {
-      "jp": ["", "2020-05-21"],
-      "gl": [""]
+      "jp": [
+        "",
+        "2020-05-21"
+      ],
+      "gl": [
+        ""
+      ]
     },
-    "bt": [
-      "firion"
-    ],
     "ld": [
       "exdeath"
     ],
     "ex": [
       "exdeath",
-      "warrior_of_light",
-      "gilgamesh"
+      "gilgamesh",
+      "warrior_of_light"
+    ],
+    "cp35": [
+      "exdeath",
+      "gilgamesh",
+      "warrior_of_light"
+    ],
+    "cp15": [
+      "exdeath",
+      "gilgamesh",
+      "warrior_of_light"
+    ],
+    "bt": [
+      "firion"
     ]
   },
   {
-    "id": 347,
+    "id": "381",
     "title": {
       "jp": "魔城攻略戦線②ガチャ",
       "gl": "",
       "en": "Event Draw 2 (Devil Capturing Front)"
     },
-    "featured_characters": [
-      "firion",
-      "lenna",
-      "irvine",
-      "fujin"
-    ],
     "dates": {
-      "jp": ["", "2020-05-14"],
-      "gl": [""]
+      "jp": [
+        "",
+        "2020-05-14"
+      ],
+      "gl": [
+        ""
+      ]
     },
     "bt": [
       "firion"
@@ -1508,24 +2425,33 @@
       "lenna",
       "irvine",
       "fujin"
+    ],
+    "cp35": [
+      "lenna",
+      "irvine",
+      "fujin"
+    ],
+    "cp15": [
+      "lenna",
+      "irvine",
+      "fujin"
     ]
   },
   {
-    "id": 346,
+    "id": "380",
     "title": {
       "jp": "魔城攻略戦線①ガチャ",
       "gl": "",
       "en": "Event Draw 1 (Devil Capturing Front)"
     },
-    "featured_characters": [
-      "firion",
-      "golbez",
-      "faris"
-    ],
-    "_meta_search": "firion bt;firion ld;golbez ex;faris ex",
     "dates": {
-      "jp": ["", "2020-05-14"],
-      "gl": [""]
+      "jp": [
+        "",
+        "2020-05-14"
+      ],
+      "gl": [
+        ""
+      ]
     },
     "bt": [
       "firion"
@@ -1537,57 +2463,73 @@
       "firion",
       "golbez",
       "faris"
+    ],
+    "cp35": [
+      "firion",
+      "golbez",
+      "faris"
+    ],
+    "cp15": [
+      "firion",
+      "golbez",
+      "faris"
     ]
   },
   {
-    "id": 345,
+    "id": "384",
     "title": {
       "jp": "アミダテリオン復刻ガチャ",
       "gl": "",
       "en": "Event Draw Rerun (Amidatelion)"
     },
-    "featured_characters": [
-      "amidatelion",
-      "garland",
-      "deuce",
-      "layle"
-    ],
     "dates": {
-      "jp": ["", "2020-05-08"],
-      "gl": [""]
+      "jp": [
+        "",
+        "2020-05-08"
+      ],
+      "gl": [
+        ""
+      ]
     },
-    "bt": [
-    ],
     "ld": [
       "amidatelion",
       "garland"
     ],
     "ex": [
       "amidatelion",
-      "garland",
+      "layle",
       "deuce",
-      "layle"
+      "garland"
+    ],
+    "cp35": [
+      "amidatelion",
+      "layle",
+      "deuce",
+      "garland"
+    ],
+    "cp15": [
+      "amidatelion",
+      "layle",
+      "deuce",
+      "garland"
     ]
   },
   {
-    "id": 344,
+    "id": "383",
     "title": {
       "jp": "ギルバート復刻ガチャ",
       "gl": "",
       "en": "Event Draw Rerun (Edward)"
     },
-    "featured_characters": [
-      "edward",
-      "kimahri",
-      "palom",
-      "hope"
-    ],
     "dates": {
-      "jp": ["", "2020-05-07"],
-      "gl": [""]
+      "jp": [
+        "",
+        "2020-05-07"
+      ],
+      "gl": [
+        ""
+      ]
     },
-    "bt": [
-    ],
     "ld": [
       "edward",
       "kimahri"
@@ -1597,27 +2539,36 @@
       "kimahri",
       "palom",
       "hope"
+    ],
+    "cp35": [
+      "edward",
+      "kimahri",
+      "palom",
+      "hope"
+    ],
+    "cp15": [
+      "edward",
+      "kimahri",
+      "palom",
+      "hope"
     ]
   },
   {
-    "id": 343,
+    "id": "382",
     "title": {
       "jp": "クラサメ復刻ガチャ",
       "gl": "",
       "en": "Event Draw Rerun (Kurasame)"
     },
-    "featured_characters": [
-      "kurasame",
-      "eight",
-      "edgar",
-      "seifer"
-    ],
     "dates": {
-      "jp": ["", "2020-04-30"],
-      "gl": [""]
+      "jp": [
+        "",
+        "2020-04-30"
+      ],
+      "gl": [
+        ""
+      ]
     },
-    "bt": [
-    ],
     "ld": [
       "kurasame",
       "eight"
@@ -1627,24 +2578,35 @@
       "eight",
       "edgar",
       "seifer"
+    ],
+    "cp35": [
+      "kurasame",
+      "eight",
+      "edgar",
+      "seifer"
+    ],
+    "cp15": [
+      "kurasame",
+      "eight",
+      "edgar",
+      "seifer"
     ]
   },
   {
-    "id": 342,
+    "id": "379",
     "title": {
       "jp": "ザンデガチャ",
       "gl": "",
       "en": "Event Draw (Xande)"
     },
-    "featured_characters": [
-      "xande",
-      "cloud",
-      "zell",
-      "eiko"
-    ],
     "dates": {
-      "jp": ["", "2020-04-24"],
-      "gl": [""]
+      "jp": [
+        "",
+        "2020-04-24"
+      ],
+      "gl": [
+        ""
+      ]
     },
     "bt": [
       "cloud"
@@ -1656,24 +2618,33 @@
       "xande",
       "zell",
       "eiko"
+    ],
+    "cp35": [
+      "xande",
+      "zell",
+      "eiko"
+    ],
+    "cp15": [
+      "xande",
+      "zell",
+      "eiko"
     ]
   },
   {
-    "id": 341,
+    "id": "378",
     "title": {
       "jp": "ベアトリクス断章ガチャ",
       "gl": "",
       "en": "Event Draw (Beatrix)"
     },
-    "featured_characters": [
-      "beatrix",
-      "cloud",
-      "steiner",
-      "vanille"
-    ],
     "dates": {
-      "jp": ["", "2020-04-20"],
-      "gl": [""]
+      "jp": [
+        "",
+        "2020-04-20"
+      ],
+      "gl": [
+        ""
+      ]
     },
     "bt": [
       "cloud"
@@ -1685,23 +2656,33 @@
       "beatrix",
       "steiner",
       "vanille"
+    ],
+    "cp35": [
+      "beatrix",
+      "steiner",
+      "vanille"
+    ],
+    "cp15": [
+      "beatrix",
+      "steiner",
+      "vanille"
     ]
   },
   {
-    "id": 340,
+    "id": "376",
     "title": {
       "jp": "機械仕掛けの守護者①ガチャ",
       "gl": "",
       "en": "Event Draw 1 (The Sackled Soldier)"
     },
-    "featured_characters": [
-      "cloud",
-      "setzer",
-      "rem"
-    ],
     "dates": {
-      "jp": ["", "2020-04-14"],
-      "gl": [""]
+      "jp": [
+        "",
+        "2020-04-14"
+      ],
+      "gl": [
+        ""
+      ]
     },
     "bt": [
       "cloud"
@@ -1713,24 +2694,33 @@
       "cloud",
       "setzer",
       "rem"
+    ],
+    "cp35": [
+      "cloud",
+      "setzer",
+      "rem"
+    ],
+    "cp15": [
+      "cloud",
+      "setzer",
+      "rem"
     ]
   },
   {
-    "id": 339,
+    "id": "377",
     "title": {
       "jp": "機械仕掛けの守護者②ガチャ",
       "gl": "",
       "en": "Event Draw 2 (The Sackled Soldier)"
     },
-    "featured_characters": [
-      "cloud",
-      "celes",
-      "wakka",
-      "yuri"
-    ],
     "dates": {
-      "jp": ["", "2020-04-14"],
-      "gl": [""]
+      "jp": [
+        "",
+        "2020-04-14"
+      ],
+      "gl": [
+        ""
+      ]
     },
     "bt": [
       "cloud"
@@ -1739,31 +2729,37 @@
       "cloud"
     ],
     "ex": [
+      "yuri",
       "celes",
-      "wakka",
-      "yuri"
+      "wakka"
+    ],
+    "cp35": [
+      "yuri",
+      "celes",
+      "wakka"
+    ],
+    "cp15": [
+      "yuri",
+      "celes",
+      "wakka"
     ]
   },
   {
-    "id": 338,
+    "id": "375",
     "title": {
       "jp": "ルードガチャ",
       "gl": "",
       "en": "Event Draw (Rude)"
     },
-    "featured_characters": [
-      "sephiroth",
-      "rude",
-      "yuffie",
-      "lann&reynn"
-    ],
     "dates": {
-      "jp": ["", "2020-04-08"],
-      "gl": [""]
+      "jp": [
+        "",
+        "2020-04-08"
+      ],
+      "gl": [
+        ""
+      ]
     },
-    "bt": [
-      "sephiroth"
-    ],
     "ld": [
       "rude"
     ],
@@ -1771,28 +2767,37 @@
       "rude",
       "yuffie",
       "lann&reynn"
+    ],
+    "cp35": [
+      "rude",
+      "yuffie",
+      "lann&reynn"
+    ],
+    "cp15": [
+      "rude",
+      "yuffie",
+      "lann&reynn"
+    ],
+    "bt": [
+      "sephiroth"
     ]
   },
   {
-    "id": 337,
+    "id": "374",
     "title": {
       "jp": "キアラン断章ガチャ",
       "gl": "",
       "en": "Event Draw (Ciaran)"
     },
-    "featured_characters": [
-      "sephiroth",
-      "ciaran",
-      "krile",
-      "layle"
-    ],
     "dates": {
-      "jp": ["", "2020-04-02"],
-      "gl": [""]
+      "jp": [
+        "",
+        "2020-04-02"
+      ],
+      "gl": [
+        ""
+      ]
     },
-    "bt": [
-      "sephiroth"
-    ],
     "ld": [
       "ciaran"
     ],
@@ -1800,23 +2805,36 @@
       "ciaran",
       "krile",
       "layle"
+    ],
+    "cp35": [
+      "ciaran",
+      "krile",
+      "layle"
+    ],
+    "cp15": [
+      "ciaran",
+      "krile",
+      "layle"
+    ],
+    "bt": [
+      "sephiroth"
     ]
   },
   {
-    "id": 336,
+    "id": "372",
     "title": {
       "jp": "嘲笑う悪魔①ガチャ",
       "gl": "",
       "en": "Event Draw 1 (The Smiling Devil)"
     },
-    "featured_characters": [
-      "sephiroth",
-      "sazh",
-      "snow"
-    ],
     "dates": {
-      "jp": ["", "2020-03-27"],
-      "gl": [""]
+      "jp": [
+        "",
+        "2020-03-27"
+      ],
+      "gl": [
+        ""
+      ]
     },
     "bt": [
       "sephiroth"
@@ -1826,26 +2844,35 @@
     ],
     "ex": [
       "sephiroth",
-      "sazh",
-      "snow"
+      "snow",
+      "sazh"
+    ],
+    "cp35": [
+      "sephiroth",
+      "snow",
+      "sazh"
+    ],
+    "cp15": [
+      "sephiroth",
+      "snow",
+      "sazh"
     ]
   },
   {
-    "id": 335,
+    "id": "373",
     "title": {
       "jp": "嘲笑う悪魔②ガチャ",
       "gl": "",
       "en": "Event Draw 2 (The Smiling Devil)"
     },
-    "featured_characters": [
-      "sephiroth",
-      "galuf",
-      "ignis",
-      "jecht"
-    ],
     "dates": {
-      "jp": ["", "2020-03-27"],
-      "gl": [""]
+      "jp": [
+        "",
+        "2020-03-27"
+      ],
+      "gl": [
+        ""
+      ]
     },
     "bt": [
       "sephiroth"
@@ -1855,83 +2882,105 @@
     ],
     "ex": [
       "galuf",
-      "ignis",
-      "jecht"
+      "jecht",
+      "ignis"
+    ],
+    "cp35": [
+      "galuf",
+      "jecht",
+      "ignis"
+    ],
+    "cp15": [
+      "galuf",
+      "jecht",
+      "ignis"
     ]
   },
   {
-    "id": 334,
+    "id": "371",
     "title": {
       "jp": "レノガチャ",
       "gl": "",
       "en": "Event Draw (Reno)"
     },
-    "featured_characters": [
-      "lightning",
-      "reno",
+    "dates": {
+      "jp": [
+        "",
+        "2020-03-23"
+      ],
+      "gl": [
+        ""
+      ]
+    },
+    "ex": [
       "rosa",
       "leo"
     ],
-    "dates": {
-      "jp": ["", "2020-03-23"],
-      "gl": [""]
-    },
+    "cp35": [
+      "rosa",
+      "leo"
+    ],
+    "cp15": [
+      "rosa",
+      "leo"
+    ],
     "bt": [
       "lightning"
-    ],
-    "ld": [
-      "reno"
-    ],
-    "ex": [
-      "reno",
-      "rosa",
-      "leo"
     ]
   },
   {
-    "id": 333,
+    "id": "370",
     "title": {
       "jp": "カムラナート断章ガチャ",
       "gl": "",
       "en": "Event Draw (Kam'lanaut)"
     },
-    "featured_characters": [
-      "lightning",
-      "kamlanaut",
-      "rydia",
-      "shantotto"
-    ],
     "dates": {
-      "jp": ["", "2020-03-18"],
-      "gl": [""]
+      "jp": [
+        "",
+        "2020-03-18"
+      ],
+      "gl": [
+        ""
+      ]
     },
-    "bt": [
-      "lightning"
-    ],
     "ld": [
       "kamlanaut"
     ],
     "ex": [
       "kamlanaut",
-      "rydia",
-      "shantotto"
+      "shantotto",
+      "rydia"
+    ],
+    "cp35": [
+      "kamlanaut",
+      "shantotto",
+      "rydia"
+    ],
+    "cp15": [
+      "kamlanaut",
+      "shantotto",
+      "rydia"
+    ],
+    "bt": [
+      "lightning"
     ]
   },
   {
-    "id": 332,
+    "id": "368",
     "title": {
       "jp": "暴虐の鉄騎士①ガチャ",
       "gl": "",
       "en": "Event Draw 1 (The Iron Knight)"
     },
-    "featured_characters": [
-      "lightning",
-      "edge",
-      "vincent"
-    ],
     "dates": {
-      "jp": ["", "2020-03-13"],
-      "gl": [""]
+      "jp": [
+        "",
+        "2020-03-13"
+      ],
+      "gl": [
+        ""
+      ]
     },
     "bt": [
       "lightning"
@@ -1943,24 +2992,33 @@
       "lightning",
       "edge",
       "vincent"
+    ],
+    "cp35": [
+      "lightning",
+      "edge",
+      "vincent"
+    ],
+    "cp15": [
+      "lightning",
+      "edge",
+      "vincent"
     ]
   },
   {
-    "id": 331,
+    "id": "369",
     "title": {
       "jp": "暴虐の鉄騎士②ガチャ",
       "gl": "",
       "en": "Event Draw 2 (The Iron Knight)"
     },
-    "featured_characters": [
-      "lightning",
-      "zack",
-      "raijin",
-      "penelo"
-    ],
     "dates": {
-      "jp": ["", "2020-03-13"],
-      "gl": [""]
+      "jp": [
+        "",
+        "2020-03-13"
+      ],
+      "gl": [
+        ""
+      ]
     },
     "bt": [
       "lightning"
@@ -1972,57 +3030,72 @@
       "zack",
       "raijin",
       "penelo"
+    ],
+    "cp35": [
+      "zack",
+      "raijin",
+      "penelo"
+    ],
+    "cp15": [
+      "zack",
+      "raijin",
+      "penelo"
     ]
   },
   {
-    "id": 330,
+    "id": "367",
     "title": {
       "jp": "グラディオラスガチャ",
       "gl": "",
       "en": "Event Draw (Gladiolus)"
     },
-    "featured_characters": [
-      "kuja",
-      "gladiolus",
-      "sabin",
-      "vayne"
-    ],
     "dates": {
-      "jp": ["", "2020-03-06"],
-      "gl": [""]
+      "jp": [
+        "",
+        "2020-03-06"
+      ],
+      "gl": [
+        ""
+      ]
     },
-    "bt": [
-      "kuja"
-    ],
     "ld": [
       "gladiolus"
     ],
     "ex": [
       "gladiolus",
-      "sabin",
-      "vayne"
+      "vayne",
+      "sabin"
+    ],
+    "cp35": [
+      "gladiolus",
+      "vayne",
+      "sabin"
+    ],
+    "cp15": [
+      "gladiolus",
+      "vayne",
+      "sabin"
+    ],
+    "bt": [
+      "kuja"
     ]
   },
   {
-    "id": 329,
+    "id": "366",
     "title": {
       "jp": "ガウ断章ガチャ",
       "gl": "",
       "en": "Story Draw (Lost Chapter: Gau)"
     },
-    "featured_characters": [
-      "kuja",
-      "gau",
-      "terra",
-      "selphie"
-    ],
     "dates": {
-      "jp": ["", "2020-03-03"],
-      "gl": [""]
+      "jp": [
+        "",
+        "2020-03-03"
+      ],
+      "gl": [
+        ""
+      ]
     },
-    "bt": [
-      "kuja"
-    ],
     "ld": [
       "gau"
     ],
@@ -2030,23 +3103,36 @@
       "gau",
       "terra",
       "selphie"
+    ],
+    "cp35": [
+      "gau",
+      "terra",
+      "selphie"
+    ],
+    "cp15": [
+      "gau",
+      "terra",
+      "selphie"
+    ],
+    "bt": [
+      "kuja"
     ]
   },
   {
-    "id": 328,
+    "id": "364",
     "title": {
       "jp": "幻獣界UMバハムート①ガチャ",
       "gl": "",
       "en": "Event Draw 1 (Ultimate Bahamut)"
     },
-    "featured_characters": [
-      "kuja",
-      "garnet",
-      "lulu"
-    ],
     "dates": {
-      "jp": ["", "2020-02-28"],
-      "gl": [""]
+      "jp": [
+        "",
+        "2020-02-28"
+      ],
+      "gl": [
+        ""
+      ]
     },
     "bt": [
       "kuja"
@@ -2058,24 +3144,33 @@
       "kuja",
       "garnet",
       "lulu"
+    ],
+    "cp35": [
+      "kuja",
+      "garnet",
+      "lulu"
+    ],
+    "cp15": [
+      "kuja",
+      "garnet",
+      "lulu"
     ]
   },
   {
-    "id": 327,
+    "id": "365",
     "title": {
       "jp": "幻獣界UMバハムート②ガチャ",
       "gl": "",
       "en": "Event Draw 2 (Ultimate Bahamut)"
     },
-    "featured_characters": [
-      "kuja",
-      "rydia",
-      "porom",
-      "papalymo"
-    ],
     "dates": {
-      "jp": ["", "2020-02-28"],
-      "gl": [""]
+      "jp": [
+        "",
+        "2020-02-28"
+      ],
+      "gl": [
+        ""
+      ]
     },
     "bt": [
       "kuja"
@@ -2087,28 +3182,34 @@
       "rydia",
       "porom",
       "papalymo"
+    ],
+    "cp35": [
+      "rydia",
+      "porom",
+      "papalymo"
+    ],
+    "cp15": [
+      "rydia",
+      "porom",
+      "papalymo"
     ]
   },
   {
-    "id": 326,
+    "id": "363",
     "title": {
       "jp": "クラサメガチャ",
       "gl": "",
       "en": "Event Draw (Kurasame)"
     },
-    "featured_characters": [
-      "warrior_of_light",
-      "kurasame",
-      "edgar",
-      "seifer"
-    ],
     "dates": {
-      "jp": ["", "2020-02-25"],
-      "gl": [""]
+      "jp": [
+        "",
+        "2020-02-25"
+      ],
+      "gl": [
+        ""
+      ]
     },
-    "bt": [
-      "warrior_of_light"
-    ],
     "ld": [
       "kurasame"
     ],
@@ -2116,74 +3217,158 @@
       "kurasame",
       "edgar",
       "seifer"
+    ],
+    "cp35": [
+      "kurasame",
+      "edgar",
+      "seifer"
+    ],
+    "cp15": [
+      "kurasame",
+      "edgar",
+      "seifer"
+    ],
+    "bt": [
+      "warrior_of_light"
     ]
   },
   {
-    "id": 325,
+    "id": "362",
     "title": {
       "jp": "エイト断章ガチャ",
       "gl": "",
       "en": "Story Draw (Lost Chapter: Eight)"
     },
-    "featured_characters": [
-      "warrior_of_light",
-      "eight",
-      "quistis",
-      "king"
-    ],
     "dates": {
-      "jp": ["", "2020-02-19"],
-      "gl": [""]
+      "jp": [
+        "",
+        "2020-02-19"
+      ],
+      "gl": [
+        ""
+      ]
     },
-    "bt": [
-      "warrior_of_light"
-    ],
     "ld": [
       "eight"
     ],
     "ex": [
       "eight",
-      "quistis",
-      "king"
+      "king",
+      "quistis"
+    ],
+    "cp35": [
+      "eight",
+      "king",
+      "quistis"
+    ],
+    "cp15": [
+      "eight",
+      "king",
+      "quistis"
+    ],
+    "bt": [
+      "warrior_of_light"
     ]
   },
   {
-    "id": 324,
+    "id": "361",
     "title": {
       "jp": "3周年CPガチャ",
-      "gl": "",
+      "gl": "Campaign Draw (All-Star)",
       "en": "Event Draw (3rd Anniversary)"
     },
-    "featured_characters": [
-      "everybody until ardyn"
-    ],
     "dates": {
-      "jp": ["", "2020-02-02"],
-      "gl": [""]
+      "jp": [
+        "",
+        "2020-02-02"
+      ],
+      "gl": [
+        "2020-10-13T02:00Z",
+        "2020-10-31T01:59Z"
+      ]
     },
-    "bt": [],
-    "ld": [],
     "ex": [
-      "warrior_of_light",
-      "laguna",
-      "thancred"
+      "vaan",
+      "ramza",
+      "lightning",
+      "layle",
+      "lann&reynn",
+      "ace",
+      "yshtola",
+      "noctis",
+      "bartz",
+      "cloud",
+      "tidus",
+      "onion_knight",
+      "firion",
+      "terra",
+      "zidane",
+      "cecil",
+      "cecil_paladin",
+      "squall",
+      "shantotto",
+      "warrior_of_light"
+    ],
+    "cp15": [
+      "vaan",
+      "ramza",
+      "lightning",
+      "layle",
+      "lann&reynn",
+      "ace",
+      "yshtola",
+      "noctis",
+      "bartz",
+      "cloud",
+      "tidus",
+      "onion_knight",
+      "firion",
+      "terra",
+      "zidane",
+      "cecil",
+      "cecil_paladin",
+      "squall",
+      "shantotto",
+      "warrior_of_light"
+    ],
+    "cp35": [
+      "vaan",
+      "ramza",
+      "lightning",
+      "layle",
+      "lann&reynn",
+      "ace",
+      "yshtola",
+      "noctis",
+      "bartz",
+      "cloud",
+      "tidus",
+      "onion_knight",
+      "firion",
+      "terra",
+      "zidane",
+      "cecil",
+      "cecil_paladin",
+      "squall",
+      "shantotto",
+      "warrior_of_light"
     ]
   },
   {
-    "id": 323,
+    "id": "359",
     "title": {
       "jp": "第2部最終章～後編～①ガチャ",
       "gl": "",
       "en": "Story Draw 2 (Act 2 Finale, Pt. 2)"
     },
-    "featured_characters": [
-      "warrior_of_light",
-      "laguna",
-      "thancred"
-    ],
     "dates": {
-      "jp": ["", "2020-02-14"],
-      "gl": [""]
+      "jp": [
+        "",
+        "2020-02-14"
+      ],
+      "gl": [
+        ""
+      ]
     },
     "bt": [
       "warrior_of_light"
@@ -2195,24 +3380,33 @@
       "warrior_of_light",
       "laguna",
       "thancred"
+    ],
+    "cp35": [
+      "warrior_of_light",
+      "laguna",
+      "thancred"
+    ],
+    "cp15": [
+      "warrior_of_light",
+      "laguna",
+      "thancred"
     ]
   },
   {
-    "id": 322,
+    "id": "360",
     "title": {
       "jp": "第2部最終章～後編～②ガチャ",
       "gl": "",
       "en": "Story Draw 2 (Act 2 Finale, Pt. 2)"
     },
-    "featured_characters": [
-      "warrior_of_light",
-      "yda",
-      "agrias",
-      "cinque"
-    ],
     "dates": {
-      "jp": ["", "2020-02-14"],
-      "gl": [""]
+      "jp": [
+        "",
+        "2020-02-14"
+      ],
+      "gl": [
+        ""
+      ]
     },
     "bt": [
       "warrior_of_light"
@@ -2221,31 +3415,38 @@
       "warrior_of_light"
     ],
     "ex": [
-      "yda",
       "agrias",
-      "cinque"
+      "cinque",
+      "yda"
+    ],
+    "cp35": [
+      "agrias",
+      "cinque",
+      "yda"
+    ],
+    "cp15": [
+      "agrias",
+      "cinque",
+      "yda"
     ]
   },
   {
-    "id": 321,
+    "id": "358",
     "title": {
       "jp": "ストラゴスガチャ",
       "gl": "",
       "en": "Event Draw (Strago)"
     },
-    "featured_characters": [
-      "kefka",
-      "strago",
-      "relm",
-      "ashe"
-    ],
     "dates": {
-      "jp": ["", "2020-02-10"],
-      "gl": [""]
+      "jp": [
+        "",
+        "2020-02-10"
+      ],
+      "gl": [
+        "2020-10-23T02:00Z",
+        "2020-11-05T01:59Z"
+      ]
     },
-    "bt": [
-      "kefka"
-    ],
     "ld": [
       "strago"
     ],
@@ -2253,28 +3454,38 @@
       "strago",
       "relm",
       "ashe"
+    ],
+    "cp35": [
+      "strago",
+      "relm",
+      "ashe"
+    ],
+    "cp15": [
+      "strago",
+      "relm",
+      "ashe"
+    ],
+    "bt": [
+      "kefka"
     ]
   },
   {
-    "id": 320,
+    "id": "357",
     "title": {
       "jp": "皇帝断章ガチャ",
       "gl": "",
       "en": "Story Draw (Lost Chapter: The Emperor)"
     },
-    "featured_characters": [
-      "kefka",
-      "the_emperor",
-      "firion",
-      "gilgamesh"
-    ],
     "dates": {
-      "jp": ["", "2020-02-05"],
-      "gl": [""]
+      "jp": [
+        "",
+        "2020-02-05"
+      ],
+      "gl": [
+        "2020-10-19T02:00Z",
+        "2020-11-02T01:59Z"
+      ]
     },
-    "bt": [
-      "kefka"
-    ],
     "ld": [
       "the_emperor"
     ],
@@ -2282,23 +3493,34 @@
       "the_emperor",
       "firion",
       "gilgamesh"
+    ],
+    "cp35": [
+      "the_emperor",
+      "firion",
+      "gilgamesh"
+    ],
+    "cp15": [
+      "the_emperor",
+      "firion",
+      "gilgamesh"
     ]
   },
   {
-    "id": 319,
+    "id": "355",
     "title": {
       "jp": "魔に捧ぐ祈祷①ガチャ",
-      "gl": "",
+      "gl": "Event Draw 1 (Heretic: Intercession of the Wicked)",
       "en": "Devil Pray Draw 1"
     },
-    "featured_characters": [
-      "kefka",
-      "shadow",
-      "aerith"
-    ],
     "dates": {
-      "jp": ["", "2020-01-31"],
-      "gl": [""]
+      "jp": [
+        "",
+        "2020-01-31"
+      ],
+      "gl": [
+        "2020-10-13T02:00Z",
+        "2020-10-27T01:59Z"
+      ]
     },
     "bt": [
       "kefka"
@@ -2310,24 +3532,34 @@
       "kefka",
       "shadow",
       "aerith"
+    ],
+    "cp35": [
+      "kefka",
+      "shadow",
+      "aerith"
+    ],
+    "cp15": [
+      "kefka",
+      "shadow",
+      "aerith"
     ]
   },
   {
-    "id": 318,
+    "id": "356",
     "title": {
       "jp": "魔に捧ぐ祈祷②ガチャ",
-      "gl": "",
+      "gl": "Event Draw 2 (Heretic: Intercession of the Wicked)",
       "en": "Devil Pray Draw 2"
     },
-    "featured_characters": [
-      "kefka",
-      "freya",
-      "seymour",
-      "lyse"
-    ],
     "dates": {
-      "jp": ["", "2020-01-31"],
-      "gl": [""]
+      "jp": [
+        "",
+        "2020-01-31"
+      ],
+      "gl": [
+        "2020-10-13T02:00Z",
+        "2020-10-27T01:59Z"
+      ]
     },
     "bt": [
       "kefka"
@@ -2339,121 +3571,130 @@
       "freya",
       "seymour",
       "lyse"
+    ],
+    "cp35": [
+      "freya",
+      "seymour",
+      "lyse"
+    ],
+    "cp15": [
+      "freya",
+      "seymour",
+      "lyse"
     ]
   },
   {
-    "id": 317,
+    "id": "354",
     "title": {
       "jp": "ギルバートガチャ",
       "gl": "Event Draw (Edward)",
       "en": "Event Draw (Edward)"
     },
-    "featured_characters": [
-      "ardyn",
-      "edward",
-      "palom",
-      "hope"
-    ],
     "dates": {
-      "jp": ["", "2020-01-24"],
-      "gl": ["2020-10-09T02:00Z", "2020-10-23T01:59Z"]
+      "jp": [
+        "",
+        "2020-01-24"
+      ],
+      "gl": [
+        "2020-10-09T02:00Z",
+        "2020-10-23T01:59Z"
+      ]
     },
-    "bt": [
-      "ardyn"
-    ],
     "ld": [
       "edward"
     ],
     "ex": [
-      "palom",
       "edward",
+      "palom",
       "hope"
+    ],
+    "cp35": [
+      "edward",
+      "palom",
+      "hope"
+    ],
+    "cp15": [
+      "edward",
+      "palom",
+      "hope"
+    ],
+    "bt": [
+      "ardyn"
     ]
   },
   {
-    "id": 316,
+    "id": "353",
     "title": {
       "jp": "キマリ断章ガチャ",
       "gl": "Story Draw (Lost Chapter: Kimahri)",
       "en": "Story Draw (Lost Chapter: Kimahri)"
     },
-    "featured_characters": [
-      "ardyn",
-      "kimahri",
-      "yuna",
-      "noel"
-    ],
     "dates": {
-      "jp": ["", "2020-01-21"],
-      "gl": ["2020-10-05T02:00Z", "2020-10-19T01:59Z"]
+      "jp": [
+        "",
+        "2020-01-21"
+      ],
+      "gl": [
+        "2020-10-05T02:00Z",
+        "2020-10-19T01:59Z"
+      ]
     },
-    "bt": [
-      "ardyn"
-    ],
     "ld": [
       "kimahri"
     ],
     "ex": [
-      "yuna",
       "kimahri",
+      "yuna",
       "noel"
+    ],
+    "cp35": [
+      "kimahri",
+      "yuna",
+      "noel"
+    ],
+    "cp15": [
+      "kimahri",
+      "yuna",
+      "noel"
+    ],
+    "bt": [
+      "ardyn"
     ]
   },
   {
-    "id": 315,
+    "id": "352",
     "title": {
       "jp": "ニューイヤーガチャ",
       "gl": "Event Draw (Despair from the Abyss)",
       "en": "Event Draw (New Year)"
     },
-    "featured_characters": [
-      "ardyn",
+    "dates": {
+      "jp": [
+        "",
+        "2020-01-15"
+      ],
+      "gl": [
+        "2020-09-30T02:00Z",
+        "2020-09-30T02:00Z"
+      ]
+    },
+    "ld": [
+      "rinoa"
+    ],
+    "ex": [
       "rinoa",
       "kain",
       "alphinaud"
     ],
-    "dates": {
-      "jp": ["", "2020-01-15"],
-      "gl": ["2020-09-30T02:00Z", "2020-09-30T02:00Z"]
-    },
-    "bt": [
-      "ardyn"
-    ],
-    "ld": [
-      "rinoa"
-    ],
-    "ex": [
+    "cp35": [
+      "rinoa",
       "kain",
-      "alphinaud",
-      "rinoa"
-    ]
-  },
-  {
-    "id": 314,
-    "title": {
-      "jp": "第2部最終章～前編～ガチャ",
-      "gl": "Story Draw (Act 2 Finale, Pt. 1)",
-      "en": "Story Draw (Act 2 Finale, Pt. 1)"
-    },
-    "featured_characters": [
-      "ardyn",
-      "maria",
-      "lilisette"
+      "alphinaud"
     ],
-    "dates": {
-      "jp": ["", "2020-01-10"],
-      "gl": ["2020-09-24T02:00Z", "2020-10-08T01:59Z"]
-    },
-    "bt": [
-      "ardyn"
-    ],
-    "ld": [
-      "ardyn"
-    ],
-    "ex": [
-      "ardyn",
-      "maria",
-      "lilisette"
+    "cp15": [
+      "rinoa",
+      "kain",
+      "alphinaud"
     ]
   }
 ]

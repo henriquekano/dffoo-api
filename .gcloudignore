@@ -12,6 +12,7 @@
 # below:
 .git
 .gitignore
+.eslintrc.json
 
 # Node.js dependencies:
 node_modules/
@@ -39,3 +40,5 @@ summon_boards.json
 character_board_passives.json
 genericStatus.json
 artifact_passives.json
+mst_battle_enemy.json
+altema_banners.json

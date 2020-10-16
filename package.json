@@ -8,18 +8,23 @@
     "extract": "node ./scripts/extract.js",
     "sheets": "node ./scripts/sheets.js",
     "format": "node ./scripts/format.js",
+    "build_db": "node ./scripts/extract.js && node ./scripts/sheets.js && node ./scripts/extractAltema.js && node ./scripts/alterBanners.js && node ./scripts/format.js",
     "postinstall": "patch-package"
   },
   "dependencies": {
     "json-server": "0.16.1",
     "patch-package": "^6.2.2",
     "postinstall-postinstall": "^2.1.0",
-    "ramda": "^0.27.1"
+    "ramda": "^0.27.1",
+    "cheerio": "^1.0.0-rc.3",
+    "node-fetch": "^2.6.1"
   },
   "devDependencies": {
-    "cheerio": "^1.0.0-rc.3",
+    "date-fns": "^2.16.1",
+    "eslint": "^7.11.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.1",
     "googleapis": "39",
-    "node-fetch": "^2.6.1",
     "prettier": "^2.1.1"
   }
 }
