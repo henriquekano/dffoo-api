@@ -41,7 +41,7 @@ const readFilePromise = (fileName) =>
   })
 
 const isNumeric = (something) =>
-  !Number.isNaN(something)
+  /^\d+$/.test(String(something))
 
 const fromNaturalLanguage = (aString) =>
   aString.split(' ')

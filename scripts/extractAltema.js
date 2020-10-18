@@ -1,9 +1,9 @@
 const R = require('ramda')
 const fetch = require('node-fetch')
 const cheerio = require('cheerio')
-const { writeFilePromise } = require('./helpers');
+// const { writeFilePromise } = require('./helpers');
 
-(async function main() {
+module.exports = async function extractAltema() {
   let idNotFoundIndex = 0
   const altemaBannersPage = await fetch('https://altema.jp/dffoo/gachamemorialhall-2-7012')
   const banners = await altemaBannersPage.text()
@@ -96,8 +96,12 @@ const { writeFilePromise } = require('./helpers');
       }
     }).get()
 
-  await writeFilePromise('altema_banners.json', JSON.stringify({
+  return {
     banners: bannerNames,
     weapons: weaponCharacterTables,
-  }, null, 2))
-}())
+  }
+  // await writeFilePromise('altema_banners.json', JSON.stringify({
+  //   banners: bannerNames,
+  //   weapons: weaponCharacterTables,
+  // }, null, 2))
+}

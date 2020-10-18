@@ -1,16 +1,15 @@
 const R = require('ramda')
 const {
-  writeFilePromise,
   relateCommandToCharacter,
   deindexIndexedObjects,
   mapMultiple,
   hasDuplicates,
 } = require('./helpers')
-const prodBanners = require('../banners.json')
-const banners = require('../altema_banners.json')
-const gears = require('../gears.json')
-const characters = require('../characters.json')
-const weaponLevels = require('../dictionaries/weaponLevels.json')
+// const prodBanners = require('../banners.json')
+// const banners = require('../altema_banners.json')
+// const gears = require('../gears.json')
+// const characters = require('../characters.json')
+// const weaponLevels = require('../dictionaries/weaponLevels.json')
 
 /** constants { */
 const altemaNameVsDbName = {
@@ -62,16 +61,6 @@ const altemaWeaponIdVsDbWeapon = {
     type: 'limitedWeapon',
   },
 }
-
-const formattedGears = relateCommandToCharacter(
-  deindexIndexedObjects(gears, 'character_slug'),
-  characters,
-)
-
-const gearsJoinedWithCharacter = formattedGears.map(gear => ({
-  ...gear,
-  character: characters.find(R.propEq('slug', gear.character_slug)),
-}))
 /** } */
 
 /** Helpers { */
@@ -88,85 +77,103 @@ const weaponNamesMatches = R.curry((dbName, altemaName) =>
 )
 /** } */
 
-// 2
-const formattedBAnners = banners.banners
-  .map((banner) => ({
-    ...banner,
-    characters: R.pipe(
-      // map to "altema weapons"
-      R.map((weaponId) => banners
-        .weapons.filter(R.propEq('weaponId', weaponId))),
-      R.flatten,
-      R.map((altemaWeapon) => {
-        const dbGearFound = gearsJoinedWithCharacter.find((dbGear) =>
-          characterNamesMatches(dbGear.character.profile.fullName.jp, altemaWeapon.characterName)
-          && weaponNamesMatches(dbGear.name.jp, altemaWeapon.weaponName),
-        )
-        if (dbGearFound) {
-          return {
-            character: dbGearFound.character_slug,
-            type: weaponLevels[dbGearFound.type],
+module.exports = async ({
+  prodBanners,
+  banners,
+  gears,
+  characters,
+  weaponLevels,
+}) => {
+  const formattedGears = relateCommandToCharacter(
+    deindexIndexedObjects(gears, 'character_slug'),
+    characters,
+  )
+
+  const gearsJoinedWithCharacter = formattedGears.map(gear => ({
+    ...gear,
+    character: characters.find(R.propEq('slug', gear.character_slug)),
+  }))
+
+  const formattedBAnners = banners.banners
+    .map((banner) => ({
+      ...banner,
+      characters: R.pipe(
+        // map to "altema weapons"
+        R.map((weaponId) => banners
+          .weapons.filter(R.propEq('weaponId', weaponId))),
+        R.flatten,
+        R.map((altemaWeapon) => {
+          const dbGearFound = gearsJoinedWithCharacter.find((dbGear) =>
+            characterNamesMatches(dbGear.character.profile.fullName.jp, altemaWeapon.characterName)
+            && weaponNamesMatches(dbGear.name.jp, altemaWeapon.weaponName),
+          )
+          if (dbGearFound) {
+            return {
+              character: dbGearFound.character_slug,
+              type: weaponLevels[dbGearFound.type],
+            }
           }
-        }
 
-        const manualSettedGears = altemaWeaponIdVsDbWeapon[altemaWeapon.weaponId]
-        if (manualSettedGears) {
-          return manualSettedGears
-        }
+          const manualSettedGears = altemaWeaponIdVsDbWeapon[altemaWeapon.weaponId]
+          if (manualSettedGears) {
+            return manualSettedGears
+          }
 
-        console.warn('weapon not found:', altemaWeapon)
-        const character = characters.find(aCharacter =>
-          characterNamesMatches(
-            aCharacter.profile.fullName.jp,
-            altemaWeapon.characterName,
-          ),
-        )
-        return {
-          character: character.slug,
-          type: '???',
-        }
-      }),
-      R.groupBy(R.prop('type')),
-      R.toPairs,
-      R.map(
-        R.over(
-          R.lensIndex(1),
-          R.pipe(
-            R.map(R.prop('character')),
-            R.uniq,
+          console.warn('weapon not found:', altemaWeapon)
+          const character = characters.find(aCharacter =>
+            characterNamesMatches(
+              aCharacter.profile.fullName.jp,
+              altemaWeapon.characterName,
+            ),
+          )
+          return {
+            character: character.slug,
+            type: '???',
+          }
+        }),
+        R.groupBy(R.prop('type')),
+        R.toPairs,
+        R.map(
+          R.over(
+            R.lensIndex(1),
+            R.pipe(
+              R.map(R.prop('character')),
+              R.uniq,
+            ),
           ),
         ),
-      ),
-      R.fromPairs,
-    )(banner.weaponIds),
-  }))
-  // TODO - gonna take into consideration only the first ardyn banner forward
-  // * avoid banner duplication by name
-  .filter(R.pipe(
-    R.prop('id'),
-    Number,
-    id => id > 351,
-  ))
+        R.fromPairs,
+      )(banner.weaponIds),
+    }))
+    // TODO - gonna take into consideration only the first ardyn banner forward
+    // * avoid banner duplication by name
+    .filter(R.pipe(
+      R.prop('id'),
+      Number,
+      id => id > 351,
+    ))
 
-const prodHasDuplicateBanners = hasDuplicates(prodBanners.map(R.path(['title', 'jp'])))
-const extractedBannersHasDuplicates = hasDuplicates(formattedBAnners.map(R.prop('title')))
-if (prodHasDuplicateBanners) {
-  throw new Error('Duplicate Banners in prod :(')
-}
-if (extractedBannersHasDuplicates) {
-  throw new Error('Duplicate Banners in altema :(')
-}
+  const prodHasDuplicateBanners = hasDuplicates(prodBanners.map(R.path(['title', 'jp'])))
+  const extractedBannersHasDuplicates = hasDuplicates(formattedBAnners.map(R.prop('title')))
+  if (prodHasDuplicateBanners) {
+    throw new Error('Duplicate Banners in prod :(')
+  }
+  if (extractedBannersHasDuplicates) {
+    throw new Error('Duplicate Banners in altema :(')
+  }
 
-const includeExtractedBannerData = (aBannerArray) =>
-  mapMultiple(
-    // matcher
-    ([extractedBanner, prodBanner]) =>
-      extractedBanner.id === prodBanner.id,
-    ([extractedBanner, prodBanner]) => ({
-      ...prodBanner,
-      id: extractedBanner.id,
-      ...extractedBanner.characters,
-    }),
-    [formattedBAnners, aBannerArray],
-  )
-writeFilePromise('banners.json', JSON.stringify(includeExtractedBannerData(prodBanners), null, 2))
+  const includeExtractedBannerData = (aBannerArray) =>
+    mapMultiple(
+      // matcher
+      ([extractedBanner, prodBanner]) =>
+        extractedBanner.id === prodBanner.id,
+      ([extractedBanner, prodBanner]) => ({
+        ...prodBanner,
+        id: extractedBanner.id,
+        ...extractedBanner.characters,
+      }),
+      [formattedBAnners, aBannerArray],
+    )
+
+  return includeExtractedBannerData(prodBanners)
+}
