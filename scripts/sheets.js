@@ -3,7 +3,9 @@ const fs = require('fs')
 const R = require('ramda')
 const readline = require('readline')
 const { google } = require('googleapis')
-const { isNumeric, fromNaturalLanguage, toSnakeCase } = require('./helpers')
+const {
+  isNumeric, fromNaturalLanguage, toSnakeCase, hashCode,
+} = require('./helpers')
 
 // If modifying these scopes, delete token.json.
 const SCOPES = ['https://www.googleapis.com/auth/spreadsheets.readonly'];
@@ -125,11 +127,15 @@ module.exports = () =>
         if (rows.length) {
           const [keys, ...actualDataRows] = rows
           const jsonObject = actualDataRows.map(R.zipObj(keys))
-          resolve(R.pipe(
+          const result = R.applyTo(jsonObject)(R.pipe(
             removeEmptyValuePairs,
             parseNumberValues,
             snakeCaseSomeKeys,
-          )(jsonObject))
+          ))
+          resolve({
+            result,
+            version: hashCode(JSON.stringify(result)),
+          })
         } else {
           console.log('No data found.');
           reject()

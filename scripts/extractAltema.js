@@ -1,7 +1,7 @@
 const R = require('ramda')
 const fetch = require('node-fetch')
 const cheerio = require('cheerio')
-// const { writeFilePromise } = require('./helpers');
+const { hashCode } = require('./helpers');
 
 module.exports = async function extractAltema() {
   let idNotFoundIndex = 0
@@ -96,9 +96,13 @@ module.exports = async function extractAltema() {
       }
     }).get()
 
-  return {
+  const result = {
     banners: bannerNames,
     weapons: weaponCharacterTables,
+  }
+  return {
+    result,
+    version: hashCode(JSON.stringify(result)),
   }
   // await writeFilePromise('altema_banners.json', JSON.stringify({
   //   banners: bannerNames,

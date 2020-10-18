@@ -61,6 +61,7 @@ const elementWithId = (collection, id, defaultValue = '') =>
   collection.find(R.propEq('id', id)) || defaultValue
 
 module.exports = async ({
+  currentDb,
   commands,
   gears,
   characters,
@@ -75,6 +76,7 @@ module.exports = async ({
   enums,
   events,
   enemies,
+  versions,
 }) => ({
   commands: relateCommandToCharacter(
     deindexArray(commands, 'character_slug').map((passive) => ({
@@ -273,4 +275,23 @@ module.exports = async ({
       },
     },
   })),
+  versions: [{
+    source: 'altema',
+    version: versions.altema,
+    last_update: !R.pathEq(['versions', 0, 'version'], versions.altema)(currentDb)
+      ? new Date().toISOString()
+      : currentDb.versions[0].last_update,
+  }, {
+    source: 'monster locator sheet',
+    version: versions.monsterLocator,
+    last_update: !R.pathEq(['versions', 1, 'version'], versions.monsterLocator)(currentDb)
+      ? new Date().toISOString()
+      : currentDb.versions[1].last_update,
+  }, {
+    source: 'DissidiaDB',
+    version: versions.db,
+    last_update: !R.pathEq(['versions', 2, 'version'], versions.db)(currentDb)
+      ? new Date().toISOString()
+      : currentDb.versions[2].last_update,
+  }],
 })
