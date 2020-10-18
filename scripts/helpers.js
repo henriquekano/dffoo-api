@@ -103,6 +103,23 @@ const mapMultiple = (matcherFunction, mapper, arrayOfCollections) => {
 const hasDuplicates = (aArray) =>
   aArray.length !== R.uniq(aArray).length
 
+function hashCode(s) {
+  let hash = 0;
+  const strlen = s.length;
+  let i;
+  let c;
+  if (strlen === 0) {
+    return hash;
+  }
+  for (i = 0; i < strlen; i++) {
+    c = s.charCodeAt(i);
+    // eslint-disable-next-line no-bitwise
+    hash = ((hash << 5) - hash) + c;
+    hash = hash & hash; // Convert to 32bit integer
+  }
+  return hash;
+}
+
 module.exports = {
   writeFilePromise,
   readFilePromise,
@@ -114,4 +131,5 @@ module.exports = {
   deindexIndexedObjects,
   mapMultiple,
   hasDuplicates,
+  hashCode,
 }

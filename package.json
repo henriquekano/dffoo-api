@@ -5,10 +5,7 @@
   "scripts": {
     "start-dev": "json-server --watch db.json --read-only",
     "start": "node app.js",
-    "extract": "node ./scripts/extract.js",
-    "sheets": "node ./scripts/sheets.js",
-    "format": "node ./scripts/format.js",
-    "build_db": "node ./scripts/extract.js && node ./scripts/sheets.js && node ./scripts/extractAltema.js && node ./scripts/alterBanners.js && node ./scripts/format.js",
+    "build_db": "node ./scripts/buildDb.js",
     "postinstall": "patch-package"
   },
   "dependencies": {

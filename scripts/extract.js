@@ -50,7 +50,7 @@ const _getLunaticEnemies = (evaledJsFile) => _getMinifiedDataKey(evaledJsFile, '
 module.exports = async () => {
   const res = await fetch('https://dissidiadb.com')
   const resText = await res.text()
-  const appJsEndpoint = resText.match(/\/static\/js\/app[^>]+/)
+  const appJsEndpoint = resText.match(/\/static\/js\/app[^>]+/)[0]
 
   const jsRes = await fetch(`https://dissidiadb.com${appJsEndpoint}`)
   const jsResText = await jsRes.text()
@@ -81,6 +81,7 @@ module.exports = async () => {
   }
 
   return {
+    version: appJsEndpoint.match(/(?:\.)([^.]+)(?:)/)[1],
     gears,
     passives,
     artifactPassives,
