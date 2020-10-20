@@ -1,0 +1,18 @@
+name: Deploy to gcloud when db.json changes
+on:
+  push:
+    paths:
+      - "db.json"
+jobs:
+  deploy:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: GoogleCloudPlatform/github-actions/setup-gcloud@master
+        with:
+          version: "311.0.0"
+          project_id: ${{ secrets.GCLOUD_PROJECT_ID }}
+          service_account_key: ${{ secrets.GCLOUD_SERVICE_ACCOUNT_KEY }}
+          export_default_credentials: true
+      - run: gcloud app deploy --no-cache
