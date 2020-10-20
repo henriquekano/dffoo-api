@@ -1,7 +1,11 @@
 name: Build and commit new db.json
 on:
+  push:
+    paths:
+      - "banners.json"
   schedule:
-    - cron: "0 * * * 0-6"
+    - cron: "0 */12 * * 0-6"
+  workflow_dispatch:
 jobs:
   build_db:
     name: Build
@@ -12,7 +16,9 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: "14.14.0"
-      - run: yarn install
+      - name: Install node dependencies
+        if: steps.cache.outputs.cache-hit != 'true'
+        run: yarn install
       - name: Build json
         run: yarn build_db
         env:
