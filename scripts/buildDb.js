@@ -15,38 +15,43 @@ const alterBanners = require('./alterBanners')
 const format = require('./format');
 
 (async () => {
-  const [
-    { version: altemaVersion, result: altemaStuff },
-    { version: dbVersion, ...dbStuff },
-    { version: monsterLocatorVersion, result: monsterLocatorStuff },
-  ] = await Promise.all([
-    extractAltema(),
-    extract(),
-    sheets(),
-  ])
-  const formattedBanners = await alterBanners({
-    banners: altemaStuff,
-    characters: dbStuff.characters,
-    gears: dbStuff.gears,
-    prodBanners: banners,
-    weaponLevels,
-  })
+  try {
+    const [
+      { version: altemaVersion, result: altemaStuff },
+      { version: dbVersion, ...dbStuff },
+      { version: monsterLocatorVersion, result: monsterLocatorStuff },
+    ] = await Promise.all([
+      extractAltema(),
+      extract(),
+      sheets(),
+    ])
+    const formattedBanners = await alterBanners({
+      banners: altemaStuff,
+      characters: dbStuff.characters,
+      gears: dbStuff.gears,
+      prodBanners: banners,
+      weaponLevels,
+    })
 
-  // await writeFilePromise('db2.json', JSON.stringify({
-  //   missions: monsterLocatorStuff,
-  //   banners: formattedBanners,
-  //   ...dbStuff,
-  // }, null, 2))
-  const db = await format({
-    currentDb,
-    missions: monsterLocatorStuff,
-    banners: formattedBanners,
-    ...dbStuff,
-    versions: {
-      db: dbVersion,
-      altema: altemaVersion,
-      monsterLocator: monsterLocatorVersion,
-    },
-  })
-  await writeFilePromise('db.json', JSON.stringify(db))
+    // await writeFilePromise('db2.json', JSON.stringify({
+    //   missions: monsterLocatorStuff,
+    //   banners: formattedBanners,
+    //   ...dbStuff,
+    // }, null, 2))
+    const db = await format({
+      currentDb,
+      missions: monsterLocatorStuff,
+      banners: formattedBanners,
+      ...dbStuff,
+      versions: {
+        db: dbVersion,
+        altema: altemaVersion,
+        monsterLocator: monsterLocatorVersion,
+      },
+    })
+    await writeFilePromise('db.json', JSON.stringify(db))
+  } catch (err) {
+    console.error('Something wrong', err.stack)
+    process.exit(1)
+  }
 })()

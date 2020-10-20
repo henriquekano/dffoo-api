@@ -103,12 +103,24 @@ module.exports = () =>
       const oAuth2Client = new google.auth.OAuth2(
         client_id, client_secret, redirect_uris[0]);
 
-      // Check if we have previously stored a token.
-      fs.readFile(TOKEN_PATH, (err, token) => {
-        if (err) return getNewToken(oAuth2Client, callback);
-        oAuth2Client.setCredentials(JSON.parse(token));
+      // more of a CI workaround
+      if (!process.env.GOOGLE_API_TOKEN) {
+        // Check if we have previously stored a token.
+        fs.readFile(TOKEN_PATH, (err, token) => {
+          if (err) {
+            getNewToken(oAuth2Client, callback);
+          }
+          oAuth2Client.setCredentials(JSON.parse(token));
+          return callback(oAuth2Client);
+        });
+      }
+      try {
+        oAuth2Client.setCredentials(JSON.parse(process.env.GOOGLE_API_TOKEN));
         return callback(oAuth2Client);
-      });
+      } catch (err) {
+        console.error('Something', err.stack)
+        process.exit(1)
+      }
     }
 
     /**
@@ -146,10 +158,21 @@ module.exports = () =>
       }
     }
 
-    // Load client secrets from a local file.
-    fs.readFile('credentials.json', (err, content) => {
-      if (err) return console.log('Error loading client secret file:', err);
-      // Authorize a client with credentials, then call the Google Sheets API.
-      return authorize(JSON.parse(content), listMajors);
-    });
+    if (!process.env.GOOGLE_API_CREDENTIALS_JSON) {
+      // Load client secrets from a local file.
+      fs.readFile('credentials.json', (err, content) => {
+        if (err) {
+          console.log('Error loading client secret file:', err);
+          process.exit(1)
+        }
+        // Authorize a client with credentials, then call the Google Sheets API.
+        return authorize(JSON.parse(content), listMajors);
+      });
+    }
+    try {
+      return authorize(JSON.parse(process.env.GOOGLE_API_CREDENTIALS_JSON), listMajors);
+    } catch (err) {
+      console.log('Authorizing token:', err.stack);
+      process.exit(1)
+    }
   })
