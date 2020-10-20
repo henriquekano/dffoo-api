@@ -1,5 +1,7 @@
 name: Build and commit new db.json
-on: workflow_dispatch
+on:
+  schedule:
+    - cron: "0 * * * 0-6"
 jobs:
   build_db:
     name: Build
