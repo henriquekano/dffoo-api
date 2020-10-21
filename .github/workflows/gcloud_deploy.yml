@@ -3,6 +3,8 @@ on:
   push:
     paths:
       - "db.json"
+    branches:
+      - "master"
 jobs:
   deploy:
     name: Build
@@ -15,4 +17,4 @@ jobs:
           project_id: ${{ secrets.GCLOUD_PROJECT_ID }}
           service_account_key: ${{ secrets.GCLOUD_SERVICE_ACCOUNT_KEY }}
           export_default_credentials: true
-      - run: gcloud app deploy --no-cache
+      - run: y | gcloud app deploy --no-cache
