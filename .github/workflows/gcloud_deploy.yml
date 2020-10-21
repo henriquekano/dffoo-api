@@ -5,6 +5,8 @@ on:
       - "db.json"
     branches:
       - "master"
+  repository_dispatch:
+    types: [gcloud-deploy-event]
 jobs:
   deploy:
     name: Build
