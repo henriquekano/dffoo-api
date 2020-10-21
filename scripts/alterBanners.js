@@ -60,6 +60,10 @@ const altemaWeaponIdVsDbWeapon = {
     character: 'galuf',
     type: 'limitedWeapon',
   },
+  637: {
+    character: 'palom',
+    type: 'limitedWeapon',
+  },
 }
 /** } */
 
@@ -120,16 +124,17 @@ module.exports = async ({
           }
 
           console.warn('weapon not found:', altemaWeapon)
-          const character = characters.find(aCharacter =>
-            characterNamesMatches(
-              aCharacter.profile.fullName.jp,
-              altemaWeapon.characterName,
-            ),
-          )
-          return {
-            character: character.slug,
-            type: '???',
-          }
+          process.exit(1)
+          // const character = characters.find(aCharacter =>
+          //   characterNamesMatches(
+          //     aCharacter.profile.fullName.jp,
+          //     altemaWeapon.characterName,
+          //   ),
+          // )
+          // return {
+          //   character: character.slug,
+          //   type: '???',
+          // }
         }),
         R.groupBy(R.prop('type')),
         R.toPairs,
