@@ -64,6 +64,10 @@ const altemaWeaponIdVsDbWeapon = {
     character: 'palom',
     type: 'limitedWeapon',
   },
+  638: {
+    character: 'tifa',
+    type: 'limitedWeapon',
+  },
 }
 /** } */
 
