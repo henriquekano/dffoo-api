@@ -48,11 +48,11 @@ const altemaCharacterNameVsDbName = {
 }
 
 const altemaWeaponIdVsDbWeapon = {
-  635: {
+  634: {
     character: 'bartz',
     type: 'burstWeapon',
   },
-  634: {
+  635: {
     character: 'bartz',
     type: 'limitedWeapon',
   },
@@ -124,7 +124,10 @@ module.exports = async ({
 
           const manualSettedGears = altemaWeaponIdVsDbWeapon[altemaWeapon.weaponId]
           if (manualSettedGears) {
-            return manualSettedGears
+            return {
+              character: manualSettedGears.character,
+              type: altemaWeaponIdVsDbWeapon[manualSettedGears.type],
+            }
           }
 
           console.warn('weapon not found:', altemaWeapon)
