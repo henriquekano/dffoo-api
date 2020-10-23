@@ -106,7 +106,7 @@ module.exports = () =>
       // more of a CI workaround
       if (!process.env.GOOGLE_API_TOKEN) {
         // Check if we have previously stored a token.
-        fs.readFile(TOKEN_PATH, (err, token) => {
+        return fs.readFile(TOKEN_PATH, (err, token) => {
           if (err) {
             getNewToken(oAuth2Client, callback);
           }
@@ -160,7 +160,7 @@ module.exports = () =>
 
     if (!process.env.GOOGLE_API_CREDENTIALS_JSON) {
       // Load client secrets from a local file.
-      fs.readFile('credentials.json', (err, content) => {
+      return fs.readFile('credentials.json', (err, content) => {
         if (err) {
           console.log('Error loading client secret file:', err);
           process.exit(1)

@@ -126,7 +126,7 @@ module.exports = async ({
           if (manualSettedGears) {
             return {
               character: manualSettedGears.character,
-              type: altemaWeaponIdVsDbWeapon[manualSettedGears.type],
+              type: weaponLevels[manualSettedGears.type],
             }
           }
 
