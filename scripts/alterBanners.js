@@ -48,11 +48,11 @@ const altemaCharacterNameVsDbName = {
 }
 
 const altemaWeaponIdVsDbWeapon = {
-  635: {
+  634: {
     character: 'bartz',
     type: 'burstWeapon',
   },
-  634: {
+  635: {
     character: 'bartz',
     type: 'limitedWeapon',
   },
