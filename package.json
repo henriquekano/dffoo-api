@@ -10,11 +10,10 @@
   },
   "dependencies": {
     "json-server": "0.16.1",
+    "node-fetch": "^2.6.1",
     "patch-package": "^6.2.2",
     "postinstall-postinstall": "^2.1.0",
-    "ramda": "^0.27.1",
-    "cheerio": "^1.0.0-rc.3",
-    "node-fetch": "^2.6.1"
+    "ramda": "^0.27.1"
   },
   "devDependencies": {
     "date-fns": "^2.16.1",
@@ -22,6 +21,8 @@
     "eslint-config-airbnb-base": "^14.2.0",
     "eslint-plugin-import": "^2.22.1",
     "googleapis": "39",
+    "puppeteer": "^5.4.0",
+    "cheerio": "^1.0.0-rc.3",
     "prettier": "^2.1.1"
   }
 }

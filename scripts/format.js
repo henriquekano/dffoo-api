@@ -293,5 +293,11 @@ module.exports = async ({
     last_update: !R.pathEq(['versions', 2, 'version'], versions.db)(currentDb)
       ? new Date().toISOString()
       : currentDb.versions[2].last_update,
+  }, {
+    source: 'LufeniaDb',
+    version: versions.lufeniaDb,
+    last_update: !R.pathEq(['versions', 3, 'version'], versions.lufeniaDb)(currentDb)
+      ? new Date().toISOString()
+      : currentDb.versions[3].last_update,
   }],
 })

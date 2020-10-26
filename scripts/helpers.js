@@ -120,6 +120,14 @@ function hashCode(s) {
   return hash;
 }
 
+const propsEq = R.curry((propName, object1, object2) =>
+  object1[propName] === object2[propName],
+)
+
+const renameKeys = R.curry((keysMap, obj) =>
+  R.reduce((acc, key) => R.assoc(keysMap[key] || key, obj[key], acc), {}, R.keys(obj)),
+)
+
 module.exports = {
   writeFilePromise,
   readFilePromise,
@@ -132,4 +140,6 @@ module.exports = {
   mapMultiple,
   hasDuplicates,
   hashCode,
+  propsEq,
+  renameKeys,
 }

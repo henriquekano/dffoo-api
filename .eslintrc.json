@@ -17,6 +17,12 @@
         "implicit-arrow-linebreak": "off",
         "no-plusplus": "off",
         "for-direction": "off",
-        "no-underscore-dangle": "off"
+        "no-underscore-dangle": "off",
+        "import/no-extraneous-dependencies": [
+            "error",
+            {
+                "devDependencies": false
+            }
+        ]
     }
 }
