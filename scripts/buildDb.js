@@ -14,6 +14,9 @@ const lufeniaExtract = require('./lufeniaExtract')
 const alterBanners = require('./alterBanners')
 const formatLufenia = require('./formatLufenia')
 
+// Phase 3 - Format from the previous formatted
+const formatPassives = require('./formatPassives')
+
 // Final Phase - write db.json
 const format = require('./format');
 
@@ -51,10 +54,12 @@ const format = require('./format');
         lufeniaDb: lufeniaDbVersion,
       },
     })
+    const formattedPassives = await formatPassives(formattedDb.passives, formattedDb.gears)
 
     const db = {
       ...formattedDb,
       lufenia_enemies: formattedLufeniaStuff,
+      passives: formattedPassives,
     }
     await writeFilePromise('db.json', JSON.stringify(db))
   } catch (err) {
