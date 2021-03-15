@@ -1,5 +1,776 @@
 [
   {
+    "id": "473",
+    "title": {
+      "jp": "4周年SPガチャ",
+      "gl": "",
+      "en": ""
+    },
+    "dates": {
+      "jp": [
+        "",
+        "2020-03-01T14:59Z"
+      ],
+      "gl": [
+        ""
+      ]
+    },
+    "bt": [
+    ],
+    "ld": [
+    ],
+    "ex": [
+    ]
+  },
+  {
+    "id": "472",
+    "title": {
+      "jp": "第3部4章後編ガチャ",
+      "gl": "",
+      "en": "Story Draw 1 (Act 3, Pt. 4 finale)"
+    },
+    "dates": {
+      "jp": [
+        "",
+        "2020-02-08T14:59Z"
+      ],
+      "gl": [
+        ""
+      ]
+    },
+    "bt": [
+      "exdeath"
+    ],
+    "ld": [
+      "vivi",
+      "deuce"
+    ],
+    "ex": [
+      "vivi",
+      "deuce",
+      "rydia"
+    ]
+  },
+  {
+    "id": "471",
+    "title": {
+      "jp": "ザンデ断章ガチャ",
+      "gl": "",
+      "en": "Story Draw (Lost Chapter: Xande)"
+    },
+    "dates": {
+      "jp": [
+        "",
+        "2020-02-03T14:59Z"
+      ],
+      "gl": [
+        ""
+      ]
+    },
+    "bt": [
+      "exdeath"
+    ],
+    "ld": [
+      "zell",
+      "xande"
+    ],
+    "ex": [
+      "zell",
+      "xande",
+      "eiko"
+    ]
+  },
+  {
+    "id": "470",
+    "title": {
+      "jp": "宵闇の宴①ガチャ",
+      "gl": "",
+      "en": ""
+    },
+    "dates": {
+      "jp": [
+        "",
+        "2020-01-29T14:59Z"
+      ],
+      "gl": [
+        ""
+      ]
+    },
+    "bt": [
+      "exdeath"
+    ],
+    "ld": [
+      "exdeath",
+      "ciaran"
+    ],
+    "ex": [
+      "exdeath",
+      "ciaran",
+      "thancred"
+    ]
+  },
+  {
+    "id": "469",
+    "title": {
+      "jp": "宵闇の宴②ガチャ",
+      "gl": "",
+      "en": ""
+    },
+    "dates": {
+      "jp": [
+        "",
+        "2020-01-29T14:59Z"
+      ],
+      "gl": [
+        ""
+      ]
+    },
+    "bt": [
+      "yuna"
+    ],
+    "ld": [
+      "lion",
+      "ignis"
+    ],
+    "ex": [
+      "lion",
+      "ignis",
+      "edge"
+    ]
+  },
+  {
+    "id": "468",
+    "title": {
+      "jp": "次元超越Stage4ガチャ",
+      "gl": "",
+      "en": "Event Draw (Dimensions End: Transcendence 4)"
+    },
+    "dates": {
+      "jp": [
+        "",
+        "2020-01-26T14:59Z"
+      ],
+      "gl": [
+        ""
+      ]
+    },
+    "bt": [
+      "yuna"
+    ],
+    "ld": [
+      "barret",
+      "yang"
+    ],
+    "ex": [
+      "barret",
+      "yang",
+      "snow"
+    ]
+  },
+  {
+    "id": "467",
+    "title": {
+      "jp": "ルード断章ガチャ",
+      "gl": "",
+      "en": "Story Draw (Lost Chapter: Rude)"
+    },
+    "dates": {
+      "jp": [
+        "",
+        "2020-01-20T14:59Z"
+      ],
+      "gl": [
+        ""
+      ]
+    },
+    "bt": [
+      "yuna"
+    ],
+    "ld": [
+      "yuffie",
+      "rude"
+    ],
+    "ex": [
+      "yuffie",
+      "rude",
+      "lann&reynn"
+    ]
+  },
+  {
+    "id": "466",
+    "title": {
+      "jp": "LD武器時確定ガチャ",
+      "gl": "",
+      "en": ""
+    },
+    "dates": {
+      "jp": [
+        "",
+        "2020-01-12T14:59Z"
+      ],
+      "gl": [
+        ""
+      ]
+    },
+    "bt": [
+    ],
+    "ld": [
+      "golbez",
+      "kuja",
+      "onion_knight"
+    ],
+    "ex": [
+    ]
+  },
+  {
+    "id": "465",
+    "title": {
+      "jp": "ニューイヤーCP①ガチャ",
+      "gl": "",
+      "en": "Special Draw 1 (New Year 2021)"
+    },
+    "dates": {
+      "jp": [
+        "",
+        "2020-01-12T14:59Z"
+      ],
+      "gl": [
+        ""
+      ]
+    },
+    "bt": [
+      "yuna"
+    ],
+    "ld": [
+      "agrias",
+      "ceodore"
+    ],
+    "ex": [
+      "agrias",
+      "ceodore"
+    ]
+  },
+  {
+    "id": "464",
+    "title": {
+      "jp": "ニューイヤーCP②ガチャ",
+      "gl": "",
+      "en": "Special Draw 2 (New Year 2021)"
+    },
+    "dates": {
+      "jp": [
+        "",
+        "2020-01-12T14:59Z"
+      ],
+      "gl": [
+        ""
+      ]
+    },
+    "bt": [
+      "shantotto",
+      "terra",
+      "noctis"
+    ],
+    "ld": [
+      "shantotto",
+      "terra",
+      "noctis"
+    ],
+    "ex": [
+      "shantotto",
+      "terra",
+      "noctis"
+    ]
+  },
+  {
+    "id": "463",
+    "title": {
+      "jp": "第3部4章1前編①ガチャ",
+      "gl": "",
+      "en": "Story Draw 1 (Act 3, Pt. 4)"
+    },
+    "dates": {
+      "jp": [
+        "",
+        "2020-01-12T14:59Z"
+      ],
+      "gl": [
+        ""
+      ]
+    },
+    "bt": [
+      "yuna"
+    ],
+    "ld": [
+      "yuna",
+      "trey"
+    ],
+    "ex": [
+      "yuna",
+      "trey",
+      "locke"
+    ]
+  },
+  {
+    "id": "462",
+    "title": {
+      "jp": "第3部4章前編②ガチャ",
+      "gl": "",
+      "en": "Story Draw 2 (Act 3, Pt. 4)"
+    },
+    "dates": {
+      "jp": [
+        "",
+        "2020-01-12T14:59Z"
+      ],
+      "gl": [
+        ""
+      ]
+    },
+    "bt": [
+      "yuna"
+    ],
+    "ld": [
+      "desch",
+      "gau"
+    ],
+    "ex": [
+      "desch",
+      "gau",
+      "gilgamesh"
+    ]
+  },
+  {
+    "id": "461",
+    "title": {
+      "jp": "クリスマスSPガチャ",
+      "gl": "",
+      "en": "Special Draw (Christmas)"
+    },
+    "dates": {
+      "jp": [
+        "",
+        "2020-01-08T14:59Z"
+      ],
+      "gl": [
+        ""
+      ]
+    },
+    "bt": [
+      "vaan",
+      "kefka",
+      "ardyn"
+    ],
+    "ld": [
+      "vaan",
+      "kefka",
+      "ardyn"
+    ],
+    "ex": [
+      "vaan",
+      "kefka",
+      "ardyn"
+    ]
+  },
+  {
+    "id": "460",
+    "title": {
+      "jp": "禁断の台地ガチャ",
+      "gl": "",
+      "en": ""
+    },
+    "dates": {
+      "jp": [
+        "",
+        "2020-01-06T14:59Z"
+      ],
+      "gl": [
+        ""
+      ]
+    },
+    "bt": [
+      "tidus"
+    ],
+    "ld": [
+      "leonhart",
+      "jack"
+    ],
+    "ex": [
+      "leonhart",
+      "jack",
+      "lilisette"
+    ]
+  },
+  {
+    "id": "459",
+    "title": {
+      "jp": "ウィンターCPガチャ",
+      "gl": "",
+      "en": "Event Draw (Winter 2020)"
+    },
+    "dates": {
+      "jp": [
+        "",
+        "2020-12-28T14:59Z"
+      ],
+      "gl": [
+        ""
+      ]
+    },
+    "bt": [
+      "tidus"
+    ],
+    "ld": [
+      "setzer",
+      "wakka"
+    ],
+    "ex": [
+      "setzer",
+      "wakka"
+    ]
+  },
+  {
+    "id": "458",
+    "title": {
+      "jp": "レノ断章ガチャ",
+      "gl": "",
+      "en": "Story Draw (Lost Chapter: Rude)"
+    },
+    "dates": {
+      "jp": [
+        "",
+        "2020-12-30T14:59Z"
+      ],
+      "gl": [
+        ""
+      ]
+    },
+    "bt": [
+      "tidus"
+    ],
+    "ld": [
+      "rosa",
+      "reno"
+    ],
+    "ex": [
+      "rosa",
+      "reno",
+      "leo"
+    ]
+  },
+  {
+    "id": "457",
+    "title": {
+      "jp": "崩落の主①ガチャ",
+      "gl": "",
+      "en": ""
+    },
+    "dates": {
+      "jp": [
+        "",
+        "2020-12-25T14:59Z"
+      ],
+      "gl": [
+        ""
+      ]
+    },
+    "bt": [
+      "tidus"
+    ],
+    "ld": [
+      "tidus",
+      "aerith"
+    ],
+    "ex": [
+      "tidus",
+      "aerith",
+      "selphie"
+    ]
+  },
+  {
+    "id": "456",
+    "title": {
+      "jp": "崩落の主②ガチャ",
+      "gl": "",
+      "en": ""
+    },
+    "dates": {
+      "jp": [
+        "",
+        "2020-12-25T14:59Z"
+      ],
+      "gl": [
+        ""
+      ]
+    },
+    "bt": [
+      "tidus"
+    ],
+    "ld": [
+      "arciela",
+      "seven"
+    ],
+    "ex": [
+      "arciela",
+      "seven",
+      "fang"
+    ]
+  },
+  {
+    "id": "455",
+    "title": {
+      "jp": "クイーンガチャ",
+      "gl": "",
+      "en": "Event Draw (Queen)"
+    },
+    "dates": {
+      "jp": [
+        "",
+        "2020-12-22T14:59Z"
+      ],
+      "gl": [
+        ""
+      ]
+    },
+    "bt": [
+      "cloud_of_darkness"
+    ],
+    "ld": [
+      "queen"
+    ],
+    "ex": [
+      "queen",
+      "fran",
+      "cater"
+    ]
+  },
+  {
+    "id": "454",
+    "title": {
+      "jp": "グラディオラス断章ガチャ",
+      "gl": "",
+      "en": "Story Draw (Lost Chapter: Gladioulos)"
+    },
+    "dates": {
+      "jp": [
+        "",
+        "2020-12-17T14:59Z"
+      ],
+      "gl": [
+        ""
+      ]
+    },
+    "bt": [
+      "cloud_of_darkness"
+    ],
+    "ld": [
+      "sabin",
+      "gladiolus"
+    ],
+    "ex": [
+      "sabin",
+      "gladiolus",
+      "vayne"
+    ]
+  },
+  {
+    "id": "453",
+    "title": {
+      "jp": "神・幻獣界ブラザーズ①ガチャ",
+      "gl": "",
+      "en": ""
+    },
+    "dates": {
+      "jp": [
+        "",
+        "2020-12-14T14:59Z"
+      ],
+      "gl": [
+        ""
+      ]
+    },
+    "bt": [
+      "cloud_of_darkness"
+    ],
+    "ld": [
+      "cloud_of_darkness"
+    ],
+    "ex": [
+      "cloud_of_darkness",
+      "raijin",
+      "balthier"
+    ]
+  },
+  {
+    "id": "452",
+    "title": {
+      "jp": "神・幻獣界ブラザーズ②ガチャ",
+      "gl": "",
+      "en": ""
+    },
+    "dates": {
+      "jp": [
+        "",
+        "2020-12-14T14:59Z"
+      ],
+      "gl": [
+        ""
+      ]
+    },
+    "bt": [
+      "cloud_of_darkness"
+    ],
+    "ld": [
+      "gabranth"
+    ],
+    "ex": [
+      "gabranth",
+      "sherlotta",
+      "yuri"
+    ]
+  },
+  {
+    "id": "451",
+    "title": {
+      "jp": "次元の最果て超越Stage3ガチャ",
+      "gl": "",
+      "en": "Event Draw (Dimensions End: Transcendence 3)"
+    },
+    "dates": {
+      "jp": [
+        "",
+        "2020-12-09T14:59Z"
+      ],
+      "gl": [
+        ""
+      ]
+    },
+    "bt": [
+      "layle"
+    ],
+    "ld": [
+      "porom"
+    ],
+    "ex": [
+      "porom",
+      "lulu",
+      "king"
+    ]
+  },
+  {
+    "id": "450",
+    "title": {
+      "jp": "次元超越応援CPガチャ",
+      "gl": "",
+      "en": ""
+    },
+    "dates": {
+      "jp": [
+        "",
+        "2020-12-04T14:59Z"
+      ],
+      "gl": [
+        ""
+      ]
+    },
+    "bt": [
+      "cecil_paladin",
+      "warrior_of_light",
+      "sephiroth"
+    ],
+    "ld": [
+      "cecil_paladin",
+      "warrior_of_light",
+      "sephiroth"
+    ],
+    "ex": [
+      "cecil_paladin",
+      "warrior_of_light",
+      "sephiroth"
+    ]
+  },
+  {
+    "id": "449",
+    "title": {
+      "jp": "クラサメ断章ガチャ",
+      "gl": "",
+      "en": "Story Draw (Lost Chapter: Kurasame)"
+    },
+    "dates": {
+      "jp": [
+        "",
+        "2020-12-02T14:59Z"
+      ],
+      "gl": [
+        ""
+      ]
+    },
+    "bt": [
+      "layle"
+    ],
+    "ld": [
+      "kurasame",
+      "seifer"
+    ],
+    "ex": [
+      "edgar"
+    ]
+  },
+  {
+    "id": "448",
+    "title": {
+      "jp": "絶海よりの侵略者①ガチャ",
+      "gl": "",
+      "en": ""
+    },
+    "dates": {
+      "jp": [
+        "",
+        "2020-11-27T14:59Z"
+      ],
+      "gl": [
+        ""
+      ]
+    },
+    "bt": [
+      "layle"
+    ],
+    "ld": [
+      "layle",
+      "keiss"
+    ],
+    "ex": [
+      "alphinaud"
+    ]
+  },
+  {
+    "id": "447",
+    "title": {
+      "jp": "絶海よりの侵略者②ガチャ",
+      "gl": "",
+      "en": ""
+    },
+    "dates": {
+      "jp": [
+        "",
+        "2020-11-27T14:59Z"
+      ],
+      "gl": [
+        ""
+      ]
+    },
+    "bt": [
+      "layle"
+    ],
+    "ld": [
+      "krile",
+      "celes"
+    ],
+    "ex": [
+      "prishe"
+    ]
+  },
+  {
     "id": "446",
     "title": {
       "jp": "第3部3章～後編～ガチャ",
@@ -14,7 +785,18 @@
       "gl": [
         ""
       ]
-    }
+    },
+    "bt": [
+      "ealdnarche"
+    ],
+    "ld": [
+      "iroha"
+    ],
+    "ex": [
+      "iroha",
+      "sazh",
+      "papalymo"
+    ]
   },
   {
     "id": "445",
@@ -31,7 +813,17 @@
       "gl": [
         ""
       ]
-    }
+    },
+    "bt": [
+      "ealdnarche"
+    ],
+    "ld": [
+      "ashe",
+      "strago"
+    ],
+    "ex": [
+      "relm"
+    ]
   },
   {
     "id": "443",
@@ -48,7 +840,18 @@
       "gl": [
         ""
       ]
-    }
+    },
+    "bt": [
+      "ealdnarche"
+    ],
+    "ld": [
+      "ealdnarche"
+    ],
+    "ex": [
+      "cid",
+      "irvine",
+      "ealdnarche"
+    ]
   },
   {
     "id": "444",
@@ -65,7 +868,18 @@
       "gl": [
         ""
       ]
-    }
+    },
+    "bt": [
+      "ealdnarche"
+    ],
+    "ld": [
+      "noel"
+    ],
+    "ex": [
+      "noel",
+      "cait_sith",
+      "lyse"
+    ]
   },
   {
     "id": "442",
@@ -82,7 +896,18 @@
       "gl": [
         ""
       ]
-    }
+    },
+    "bt": [
+      "bartz"
+    ],
+    "ld": [
+      "tifa"
+    ],
+    "ex": [
+      "tifa",
+      "paine",
+      "snow"
+    ]
   },
   {
     "id": "441",
@@ -99,7 +924,17 @@
       "gl": [
         ""
       ]
-    }
+    },
+    "bt": [
+      "bartz"
+    ],
+    "ld": [
+      "palom",
+      "edward"
+    ],
+    "ex": [
+      "hope"
+    ]
   },
   {
     "id": "440",
@@ -117,6 +952,9 @@
         ""
       ]
     },
+    "bt": [
+      "bartz"
+    ],
     "ld": [
       "bartz",
       "galuf"

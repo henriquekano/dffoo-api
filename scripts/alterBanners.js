@@ -68,6 +68,38 @@ const altemaWeaponIdVsDbWeapon = {
     character: 'tifa',
     type: 'limitedWeapon',
   },
+  691: {
+    character: 'lann&reynn',
+    type: 'burstWeapon'
+  },
+  692: {
+    character: 'lann&reynn',
+    type: 'limitedWeapon'
+  },
+  687: {
+    character: 'shelke',
+    type: 'limitedWeapon'
+  },
+  688: {
+    character: 'shelke',
+    type: 'exWeapon'
+  },
+  689: {
+    character: 'shelke',
+    type: 'exclusiveWeapon'
+  },
+  690: {
+    character: 'shelke',
+    type: 'baseWeapon'
+  },
+  686: {
+    character: 'cait_sith',
+    type: 'limitedWeapon'
+  },
+  681: {
+    character: 'prompto',
+    type: 'limitedWeapon'
+  },
 }
 /** } */
 
